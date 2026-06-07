@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Intento de cuestionario</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="app">
+    <section id="configView" class="card config-card">
+      <h1>Intento de cuestionario</h1>
+      <p class="muted">
+        Elige un banco de preguntas, cantidad y seed numérica. Si dos personas usan el mismo
+        archivo, cantidad y seed, obtendrán el mismo orden de preguntas.
+      </p>
+
+      <div class="grid">
+        <label>
+          Archivo de preguntas
+          <select id="questionFileSelect"></select>
+        </label>
+
+        <label>
+          Total de preguntas
+          <input id="questionCountInput" type="number" min="1" value="3" />
+        </label>
+
+        <label>
+          Seed numérica
+          <input
+            id="seedInput"
+            type="number"
+            min="1"
+            max="999999"
+            step="1"
+            placeholder="Ej: 12345"
+          />
+        </label>
+      </div>
+
+      <div class="actions">
+        <button id="randomSeedBtn" type="button" class="secondary">Generar seed aleatoria</button>
+        <button id="startBtn" type="button">Iniciar intento</button>
+      </div>
+
+      <div id="configMessage" class="message"></div>
+    </section>
+
+    <section id="quizView" class="quiz-layout hidden">
+      <aside class="sidebar card">
+        <h2>Intento</h2>
+
+        <dl class="attempt-info">
+          <div>
+            <dt>Seed</dt>
+            <dd id="sidebarSeed">-</dd>
+          </div>
+          <div>
+            <dt>Archivo</dt>
+            <dd id="sidebarFile">-</dd>
+          </div>
+          <div>
+            <dt>Puntaje</dt>
+            <dd id="sidebarScore">0 / 0</dd>
+          </div>
+          <div>
+            <dt>Progreso</dt>
+            <dd id="sidebarProgress">0 / 0</dd>
+          </div>
+        </dl>
+
+        <h3>Preguntas</h3>
+        <ol id="questionNav" class="question-nav"></ol>
+      </aside>
+
+      <section class="card question-card">
+        <div class="topbar">
+          <div>
+            <strong id="progressText"></strong>
+            <span id="unitText" class="badge"></span>
+          </div>
+          <button id="exitBtn" type="button" class="ghost">Salir</button>
+        </div>
+
+        <h2 id="questionText"></h2>
+        <p id="questionType" class="muted"></p>
+
+        <form id="answerForm" class="answers"></form>
+
+        <div id="feedbackBox" class="feedback hidden"></div>
+
+        <div class="actions">
+          <button id="submitAnswerBtn" type="button">Responder</button>
+          <button id="nextBtn" type="button" class="hidden">Siguiente</button>
+        </div>
+      </section>
+    </section>
+
+    <section id="resultView" class="card hidden">
+      <h1>Resultado</h1>
+      <p id="scoreText" class="score"></p>
+      <p id="resultDetail" class="muted"></p>
+
+      <div id="reviewList" class="review"></div>
+
+      <div class="actions">
+        <button id="restartBtn" type="button">Nuevo intento</button>
+      </div>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,212 @@
+[
+  {
+    "id": 1,
+    "unidad": 2,
+    "tipo": "desarrollo",
+    "pregunta": "Explica qué es Scrum y por qué se considera una metodología ágil.",
+    "respuesta_esperada": "Scrum es un marco de trabajo ágil basado en iteraciones cortas llamadas sprints. Se considera ágil porque permite adaptación al cambio, entregas incrementales, colaboración continua y revisión frecuente del producto."
+  },
+  {
+    "id": 2,
+    "unidad": 2,
+    "tipo": "desarrollo",
+    "pregunta": "Describe las responsabilidades del Product Owner en Scrum.",
+    "respuesta_esperada": "El Product Owner representa las necesidades del cliente o negocio, prioriza el Product Backlog y busca maximizar el valor del producto desarrollado."
+  },
+  {
+    "id": 3,
+    "unidad": 2,
+    "tipo": "desarrollo",
+    "pregunta": "Explica la función del Scrum Master dentro de un equipo Scrum.",
+    "respuesta_esperada": "El Scrum Master facilita el uso correcto de Scrum, ayuda a eliminar impedimentos, promueve buenas prácticas ágiles y apoya al equipo para que trabaje de forma organizada."
+  },
+  {
+    "id": 4,
+    "unidad": 2,
+    "tipo": "desarrollo",
+    "pregunta": "Compara brevemente el modelo en cascada con una metodología ágil.",
+    "respuesta_esperada": "El modelo en cascada sigue fases secuenciales y es más rígido ante cambios. Las metodologías ágiles trabajan de forma iterativa, permiten retroalimentación frecuente y se adaptan mejor a requisitos cambiantes."
+  },
+  {
+    "id": 5,
+    "unidad": 2,
+    "tipo": "desarrollo",
+    "pregunta": "Explica qué es el Product Backlog y por qué es importante.",
+    "respuesta_esperada": "El Product Backlog es una lista priorizada de requisitos, tareas o funcionalidades. Es importante porque guía el trabajo del equipo y permite organizar el desarrollo según el valor para el producto."
+  },
+  {
+    "id": 6,
+    "unidad": 2,
+    "tipo": "desarrollo",
+    "pregunta": "Describe la importancia de la Daily Scrum.",
+    "respuesta_esperada": "La Daily Scrum permite que el equipo revise el progreso, identifique obstáculos, coordine tareas y ajuste el trabajo diario para cumplir el objetivo del sprint."
+  },
+  {
+    "id": 7,
+    "unidad": 2,
+    "tipo": "desarrollo",
+    "pregunta": "Explica qué ocurre durante una Sprint Retrospective.",
+    "respuesta_esperada": "En la Sprint Retrospective el equipo analiza qué funcionó bien, qué problemas hubo y qué mejoras pueden aplicarse en futuros sprints."
+  },
+  {
+    "id": 8,
+    "unidad": 3,
+    "tipo": "desarrollo",
+    "pregunta": "Explica por qué los productos de software necesitan evolucionar.",
+    "respuesta_esperada": "El software evoluciona porque cambian los requisitos del usuario, el entorno tecnológico, las reglas del negocio y pueden aparecer errores o nuevas oportunidades de mejora."
+  },
+  {
+    "id": 9,
+    "unidad": 3,
+    "tipo": "desarrollo",
+    "pregunta": "Describe el mantenimiento correctivo de software.",
+    "respuesta_esperada": "El mantenimiento correctivo consiste en corregir errores o fallas detectadas después de que el software ha sido desarrollado o entregado."
+  },
+  {
+    "id": 10,
+    "unidad": 3,
+    "tipo": "desarrollo",
+    "pregunta": "Explica el mantenimiento adaptativo y da un ejemplo.",
+    "respuesta_esperada": "El mantenimiento adaptativo permite que el software siga funcionando cuando cambia su entorno. Por ejemplo, adaptar una aplicación a una nueva versión del sistema operativo."
+  },
+  {
+    "id": 11,
+    "unidad": 3,
+    "tipo": "desarrollo",
+    "pregunta": "Explica qué es la deuda técnica.",
+    "respuesta_esperada": "La deuda técnica es el costo futuro generado por decisiones rápidas o deficientes en el desarrollo, como código poco claro, falta de pruebas o soluciones temporales."
+  },
+  {
+    "id": 12,
+    "unidad": 3,
+    "tipo": "desarrollo",
+    "pregunta": "Describe qué es la refactorización y cuál es su objetivo.",
+    "respuesta_esperada": "La refactorización consiste en mejorar la estructura interna del código sin cambiar su comportamiento externo. Su objetivo es facilitar la comprensión, mantenimiento y evolución del sistema."
+  },
+  {
+    "id": 13,
+    "unidad": 3,
+    "tipo": "desarrollo",
+    "pregunta": "Explica qué riesgos puede tener mantener un sistema legado.",
+    "respuesta_esperada": "Un sistema legado puede ser difícil de modificar, depender de tecnologías antiguas, tener poca documentación y generar altos costos de mantenimiento."
+  },
+  {
+    "id": 14,
+    "unidad": 3,
+    "tipo": "desarrollo",
+    "pregunta": "Explica la diferencia entre mantenimiento perfectivo y preventivo.",
+    "respuesta_esperada": "El mantenimiento perfectivo mejora funcionalidades, rendimiento o experiencia del usuario. El preventivo busca evitar problemas futuros mediante mejoras internas, limpieza de código o actualización de componentes."
+  },
+  {
+    "id": 15,
+    "unidad": 4,
+    "tipo": "desarrollo",
+    "pregunta": "Explica la triada CIA en seguridad de software.",
+    "respuesta_esperada": "La triada CIA está formada por confidencialidad, integridad y disponibilidad. La confidencialidad evita accesos no autorizados, la integridad protege contra modificaciones indebidas y la disponibilidad asegura que el sistema esté accesible cuando se necesita."
+  },
+  {
+    "id": 16,
+    "unidad": 4,
+    "tipo": "desarrollo",
+    "pregunta": "Diferencia autenticación y autorización.",
+    "respuesta_esperada": "La autenticación verifica quién es el usuario. La autorización determina qué permisos o acciones puede realizar ese usuario dentro del sistema."
+  },
+  {
+    "id": 17,
+    "unidad": 4,
+    "tipo": "desarrollo",
+    "pregunta": "Explica el principio de mínimo privilegio.",
+    "respuesta_esperada": "El principio de mínimo privilegio indica que cada usuario, proceso o sistema debe tener solo los permisos necesarios para cumplir su función, reduciendo el impacto de errores o ataques."
+  },
+  {
+    "id": 18,
+    "unidad": 4,
+    "tipo": "desarrollo",
+    "pregunta": "Explica por qué es importante validar las entradas de usuario.",
+    "respuesta_esperada": "Validar entradas ayuda a evitar datos maliciosos o incorrectos, reduciendo vulnerabilidades como inyección SQL, ejecución de código o errores de procesamiento."
+  },
+  {
+    "id": 19,
+    "unidad": 4,
+    "tipo": "desarrollo",
+    "pregunta": "Describe una mala práctica relacionada con contraseñas y cómo corregirla.",
+    "respuesta_esperada": "Una mala práctica es guardar contraseñas en texto plano. Para corregirlo, deben almacenarse usando hash seguro con sal y políticas adecuadas de protección."
+  },
+  {
+    "id": 20,
+    "unidad": 4,
+    "tipo": "desarrollo",
+    "pregunta": "Explica por qué la seguridad debe considerarse desde el diseño.",
+    "respuesta_esperada": "Considerar la seguridad desde el diseño permite prevenir vulnerabilidades antes de que sean costosas de corregir, incorporando controles, validaciones y buenas prácticas desde el inicio."
+  },
+  {
+    "id": 21,
+    "unidad": 4,
+    "tipo": "desarrollo",
+    "pregunta": "Explica qué consecuencias puede tener una vulnerabilidad en un sistema.",
+    "respuesta_esperada": "Una vulnerabilidad puede permitir robo de información, modificación no autorizada de datos, interrupción del servicio, pérdida económica o daño reputacional."
+  },
+  {
+    "id": 22,
+    "unidad": 5,
+    "tipo": "desarrollo",
+    "pregunta": "Explica qué se entiende por calidad de software.",
+    "respuesta_esperada": "La calidad de software es el grado en que un producto cumple requisitos, satisface necesidades del usuario y posee atributos como fiabilidad, usabilidad, mantenibilidad, seguridad y eficiencia."
+  },
+  {
+    "id": 23,
+    "unidad": 5,
+    "tipo": "desarrollo",
+    "pregunta": "Describe la importancia de las pruebas de software para la calidad.",
+    "respuesta_esperada": "Las pruebas permiten detectar errores, validar requisitos, comprobar el comportamiento esperado y reducir fallas antes de que el producto llegue al usuario final."
+  },
+  {
+    "id": 24,
+    "unidad": 5,
+    "tipo": "desarrollo",
+    "pregunta": "Explica qué es la mantenibilidad como atributo de calidad.",
+    "respuesta_esperada": "La mantenibilidad es la facilidad con que un software puede modificarse, corregirse, adaptarse o mejorarse sin generar nuevos problemas."
+  },
+  {
+    "id": 25,
+    "unidad": 5,
+    "tipo": "desarrollo",
+    "pregunta": "Explica qué es la usabilidad y por qué es importante.",
+    "respuesta_esperada": "La usabilidad indica qué tan fácil, claro y eficiente es usar un software. Es importante porque afecta directamente la experiencia y satisfacción del usuario."
+  },
+  {
+    "id": 26,
+    "unidad": 5,
+    "tipo": "desarrollo",
+    "pregunta": "Describe la fiabilidad como atributo de calidad.",
+    "respuesta_esperada": "La fiabilidad es la capacidad del software para funcionar correctamente y de manera consistente bajo condiciones específicas durante un tiempo determinado."
+  },
+  {
+    "id": 27,
+    "unidad": 5,
+    "tipo": "desarrollo",
+    "pregunta": "Explica cómo la documentación contribuye a la calidad del software.",
+    "respuesta_esperada": "La documentación ayuda a comprender el sistema, facilita el mantenimiento, permite transferir conocimiento y reduce la dependencia de personas específicas."
+  },
+  {
+    "id": 28,
+    "unidad": 5,
+    "tipo": "desarrollo",
+    "pregunta": "Explica la diferencia entre verificación y validación.",
+    "respuesta_esperada": "La verificación revisa si el producto se construyó correctamente según especificaciones. La validación comprueba si el producto satisface las necesidades reales del usuario."
+  },
+  {
+    "id": 29,
+    "unidad": 5,
+    "tipo": "desarrollo",
+    "pregunta": "Explica cómo una mala definición de requisitos puede afectar la calidad.",
+    "respuesta_esperada": "Requisitos ambiguos o incompletos pueden provocar funcionalidades incorrectas, retrabajo, errores, insatisfacción del usuario y problemas durante pruebas o mantenimiento."
+  },
+  {
+    "id": 30,
+    "unidad": 5,
+    "tipo": "desarrollo",
+    "pregunta": "Describe por qué la calidad es responsabilidad de todo el equipo.",
+    "respuesta_esperada": "La calidad depende de decisiones tomadas en análisis, diseño, desarrollo, pruebas y mantenimiento. Por eso no recae solo en testers, sino en todo el equipo."
+  }
+]

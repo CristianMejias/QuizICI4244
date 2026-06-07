@@ -1,0 +1,392 @@
+[
+  {
+    "id": 1,
+    "unidad": 2,
+    "tipo": "alternativas",
+    "pregunta": "¿Cuáles son roles de Scrum?",
+    "alternativas": [
+      "Product Owner",
+      "Scrum Master",
+      "Developers",
+      "Cliente fantasma"
+    ],
+    "correctas": [0, 1, 2]
+  },
+  {
+    "id": 2,
+    "unidad": 2,
+    "tipo": "alternativas",
+    "pregunta": "¿Cuáles son eventos de Scrum?",
+    "alternativas": [
+      "Sprint Planning",
+      "Daily Scrum",
+      "Sprint Review",
+      "Sprint Retrospective"
+    ],
+    "correctas": [0, 1, 2, 3]
+  },
+  {
+    "id": 3,
+    "unidad": 2,
+    "tipo": "alternativas",
+    "pregunta": "¿Qué elementos se asocian al Product Backlog?",
+    "alternativas": [
+      "Lista priorizada",
+      "Requisitos o funcionalidades",
+      "Gestión por parte del Product Owner",
+      "Código compilado final obligatorio"
+    ],
+    "correctas": [0, 1, 2]
+  },
+  {
+    "id": 4,
+    "unidad": 2,
+    "tipo": "alternativas",
+    "pregunta": "¿Qué características suelen asociarse a metodologías ágiles?",
+    "alternativas": [
+      "Iteración",
+      "Adaptación al cambio",
+      "Colaboración con el cliente",
+      "Planificación rígida e inmodificable"
+    ],
+    "correctas": [0, 1, 2]
+  },
+  {
+    "id": 5,
+    "unidad": 2,
+    "tipo": "alternativas",
+    "pregunta": "¿Cuáles son ventajas del modelo en cascada?",
+    "alternativas": [
+      "Estructura clara",
+      "Fases definidas",
+      "Útil cuando los requisitos son estables",
+      "Alta flexibilidad ante cambios constantes"
+    ],
+    "correctas": [0, 1, 2]
+  },
+  {
+    "id": 6,
+    "unidad": 2,
+    "tipo": "alternativas",
+    "pregunta": "¿Qué herramientas o prácticas ayudan a gestionar proyectos de software?",
+    "alternativas": [
+      "Control de versiones",
+      "Tableros de tareas",
+      "Seguimiento de incidencias",
+      "Eliminar toda documentación"
+    ],
+    "correctas": [0, 1, 2]
+  },
+  {
+    "id": 7,
+    "unidad": 2,
+    "tipo": "alternativas",
+    "pregunta": "¿Qué afirmaciones describen correctamente un sprint?",
+    "alternativas": [
+      "Tiene duración limitada",
+      "Busca generar un incremento",
+      "Puede durar entre 1 y 4 semanas",
+      "No tiene objetivo definido"
+    ],
+    "correctas": [0, 1, 2]
+  },
+  {
+    "id": 8,
+    "unidad": 3,
+    "tipo": "alternativas",
+    "pregunta": "¿Por qué evoluciona el software?",
+    "alternativas": [
+      "Cambian las necesidades del usuario",
+      "Aparecen nuevas tecnologías",
+      "Se detectan errores o mejoras",
+      "El software nunca cambia después de entregarse"
+    ],
+    "correctas": [0, 1, 2]
+  },
+  {
+    "id": 9,
+    "unidad": 3,
+    "tipo": "alternativas",
+    "pregunta": "¿Cuáles son tipos de mantenimiento de software?",
+    "alternativas": [
+      "Correctivo",
+      "Adaptativo",
+      "Perfectivo",
+      "Decorativo"
+    ],
+    "correctas": [0, 1, 2]
+  },
+  {
+    "id": 10,
+    "unidad": 3,
+    "tipo": "alternativas",
+    "pregunta": "¿Qué acciones pueden reducir deuda técnica?",
+    "alternativas": [
+      "Refactorizar código",
+      "Mejorar pruebas",
+      "Documentar decisiones importantes",
+      "Ignorar errores conocidos"
+    ],
+    "correctas": [0, 1, 2]
+  },
+  {
+    "id": 11,
+    "unidad": 3,
+    "tipo": "alternativas",
+    "pregunta": "¿Qué puede caracterizar a un sistema legado?",
+    "alternativas": [
+      "Tecnología antigua",
+      "Dificultad de mantenimiento",
+      "Importancia para el negocio",
+      "Ausencia total de utilidad"
+    ],
+    "correctas": [0, 1, 2]
+  },
+  {
+    "id": 12,
+    "unidad": 3,
+    "tipo": "alternativas",
+    "pregunta": "¿Qué beneficios puede tener la refactorización?",
+    "alternativas": [
+      "Mejorar legibilidad",
+      "Reducir complejidad",
+      "Facilitar mantenimiento",
+      "Eliminar la necesidad de pruebas para siempre"
+    ],
+    "correctas": [0, 1, 2]
+  },
+  {
+    "id": 13,
+    "unidad": 3,
+    "tipo": "alternativas",
+    "pregunta": "¿Qué riesgos puede generar una mala evolución del software?",
+    "alternativas": [
+      "Mayor complejidad",
+      "Más errores",
+      "Dificultad de mantenimiento",
+      "Mejor calidad automática"
+    ],
+    "correctas": [0, 1, 2]
+  },
+  {
+    "id": 14,
+    "unidad": 3,
+    "tipo": "alternativas",
+    "pregunta": "¿Qué opciones representan mantenimiento perfectivo?",
+    "alternativas": [
+      "Agregar una nueva funcionalidad",
+      "Mejorar el rendimiento",
+      "Optimizar la experiencia de usuario",
+      "Corregir una vulnerabilidad crítica únicamente"
+    ],
+    "correctas": [0, 1, 2]
+  },
+  {
+    "id": 15,
+    "unidad": 4,
+    "tipo": "alternativas",
+    "pregunta": "¿Cuáles forman parte de la triada CIA de seguridad?",
+    "alternativas": [
+      "Confidencialidad",
+      "Integridad",
+      "Disponibilidad",
+      "Popularidad"
+    ],
+    "correctas": [0, 1, 2]
+  },
+  {
+    "id": 16,
+    "unidad": 4,
+    "tipo": "alternativas",
+    "pregunta": "¿Qué prácticas ayudan a mejorar la seguridad del software?",
+    "alternativas": [
+      "Validar entradas",
+      "Usar autenticación",
+      "Aplicar mínimo privilegio",
+      "Guardar contraseñas en texto plano"
+    ],
+    "correctas": [0, 1, 2]
+  },
+  {
+    "id": 17,
+    "unidad": 4,
+    "tipo": "alternativas",
+    "pregunta": "¿Qué puede causar una vulnerabilidad de inyección?",
+    "alternativas": [
+      "Entradas no validadas",
+      "Consultas construidas de forma insegura",
+      "Falta de sanitización",
+      "Uso exclusivo de pruebas unitarias"
+    ],
+    "correctas": [0, 1, 2]
+  },
+  {
+    "id": 18,
+    "unidad": 4,
+    "tipo": "alternativas",
+    "pregunta": "¿Qué afirmaciones corresponden a autenticación y autorización?",
+    "alternativas": [
+      "La autenticación verifica identidad",
+      "La autorización define permisos",
+      "Un usuario autenticado no siempre tiene acceso a todo",
+      "Autenticación y autorización significan exactamente lo mismo"
+    ],
+    "correctas": [0, 1, 2]
+  },
+  {
+    "id": 19,
+    "unidad": 4,
+    "tipo": "alternativas",
+    "pregunta": "¿Qué medidas ayudan a proteger contraseñas?",
+    "alternativas": [
+      "Hash seguro",
+      "Uso de sal",
+      "Políticas de contraseñas robustas",
+      "Almacenamiento en texto plano"
+    ],
+    "correctas": [0, 1, 2]
+  },
+  {
+    "id": 20,
+    "unidad": 4,
+    "tipo": "alternativas",
+    "pregunta": "¿Qué consecuencias puede tener una falla de seguridad?",
+    "alternativas": [
+      "Pérdida de datos",
+      "Acceso no autorizado",
+      "Daño reputacional",
+      "Mejora automática de disponibilidad"
+    ],
+    "correctas": [0, 1, 2]
+  },
+  {
+    "id": 21,
+    "unidad": 4,
+    "tipo": "alternativas",
+    "pregunta": "¿Qué opciones NO representan buenas prácticas de seguridad?",
+    "alternativas": [
+      "Compartir claves entre usuarios",
+      "No actualizar dependencias",
+      "Desactivar validaciones",
+      "Aplicar mínimo privilegio"
+    ],
+    "correctas": [0, 1, 2]
+  },
+  {
+    "id": 22,
+    "unidad": 5,
+    "tipo": "alternativas",
+    "pregunta": "¿Cuáles son atributos de calidad del software?",
+    "alternativas": [
+      "Usabilidad",
+      "Mantenibilidad",
+      "Fiabilidad",
+      "Color favorito del desarrollador"
+    ],
+    "correctas": [0, 1, 2]
+  },
+  {
+    "id": 23,
+    "unidad": 5,
+    "tipo": "alternativas",
+    "pregunta": "¿Qué actividades ayudan a asegurar la calidad?",
+    "alternativas": [
+      "Pruebas",
+      "Revisiones de código",
+      "Validación de requisitos",
+      "Ignorar defectos menores siempre"
+    ],
+    "correctas": [0, 1, 2]
+  },
+  {
+    "id": 24,
+    "unidad": 5,
+    "tipo": "alternativas",
+    "pregunta": "¿Qué puede evaluarse mediante pruebas de software?",
+    "alternativas": [
+      "Cumplimiento de requisitos",
+      "Presencia de errores",
+      "Comportamiento esperado",
+      "Color exacto del computador usado"
+    ],
+    "correctas": [0, 1, 2]
+  },
+  {
+    "id": 25,
+    "unidad": 5,
+    "tipo": "alternativas",
+    "pregunta": "¿Qué opciones se relacionan con mantenibilidad?",
+    "alternativas": [
+      "Facilidad para modificar",
+      "Código comprensible",
+      "Buena documentación",
+      "Imposibilidad de cambiar el sistema"
+    ],
+    "correctas": [0, 1, 2]
+  },
+  {
+    "id": 26,
+    "unidad": 5,
+    "tipo": "alternativas",
+    "pregunta": "¿Qué factores pueden afectar negativamente la calidad?",
+    "alternativas": [
+      "Requisitos ambiguos",
+      "Falta de pruebas",
+      "Mala comunicación",
+      "Diseño claro y modular"
+    ],
+    "correctas": [0, 1, 2]
+  },
+  {
+    "id": 27,
+    "unidad": 5,
+    "tipo": "alternativas",
+    "pregunta": "¿Qué atributos se relacionan con la experiencia del usuario?",
+    "alternativas": [
+      "Usabilidad",
+      "Accesibilidad",
+      "Claridad de interfaz",
+      "Complejidad innecesaria"
+    ],
+    "correctas": [0, 1, 2]
+  },
+  {
+    "id": 28,
+    "unidad": 5,
+    "tipo": "alternativas",
+    "pregunta": "¿Qué elementos pueden formar parte de una revisión de calidad?",
+    "alternativas": [
+      "Revisión de requisitos",
+      "Revisión de diseño",
+      "Revisión de código",
+      "Adivinación del comportamiento del usuario"
+    ],
+    "correctas": [0, 1, 2]
+  },
+  {
+    "id": 29,
+    "unidad": 5,
+    "tipo": "alternativas",
+    "pregunta": "¿Qué preguntas se relacionan con calidad de software?",
+    "alternativas": [
+      "¿Cumple los requisitos?",
+      "¿Es fácil de mantener?",
+      "¿Es confiable?",
+      "¿Fue desarrollado sin ningún criterio?"
+    ],
+    "correctas": [0, 1, 2]
+  },
+  {
+    "id": 30,
+    "unidad": 5,
+    "tipo": "alternativas",
+    "pregunta": "¿Cuáles de las siguientes alternativas son siempre incorrectas como prácticas de calidad?",
+    "alternativas": [
+      "Probar el software",
+      "Documentar decisiones",
+      "Revisar código",
+      "Validar requisitos"
+    ],
+    "correctas": []
+  }
+]
