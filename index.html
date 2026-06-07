@@ -9,7 +9,7 @@
 <body>
   <main class="app">
     <section id="configView" class="card config-card">
-      <h1>Intento de cuestionario</h1>
+      <h1>Intento de cuestionario (v2.2)</h1>
       <p class="muted">
         Elige un banco de preguntas, cantidad y seed numérica. Si dos personas usan el mismo
         archivo, cantidad y seed, obtendrán el mismo orden de preguntas.
@@ -17,7 +17,7 @@
 
       <div class="grid">
         <label>
-          Archivo de preguntas v1
+          Archivo de preguntas
           <select id="questionFileSelect"></select>
         </label>
 
@@ -32,9 +32,9 @@
             id="seedInput"
             type="number"
             min="1"
-            max="999999"
+            max="9999"
             step="1"
-            placeholder="Ej: 12345"
+            placeholder="Ej: 1234"
           />
         </label>
       </div>

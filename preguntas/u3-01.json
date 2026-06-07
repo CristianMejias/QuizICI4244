@@ -1,0 +1,938 @@
+[
+  {
+    "id": 1,
+    "unidad": 3,
+    "tipo": "verdadero-falso",
+    "pregunta": "Los productos de software evolucionan como respuesta a demandas de cambio.",
+    "respuesta": true,
+    "justificacion": "Correcto"
+  },
+  {
+    "id": 2,
+    "unidad": 3,
+    "tipo": "verdadero-falso",
+    "pregunta": "La evolución del software solo ocurre cuando se agregan nuevas funcionalidades.",
+    "respuesta": false,
+    "justificacion": "Falso, también puede ocurrir para corregir errores, mejorar desempeño o mejorar características no funcionales."
+  },
+  {
+    "id": 3,
+    "unidad": 3,
+    "tipo": "verdadero-falso",
+    "pregunta": "El software es considerado un activo importante para las organizaciones.",
+    "respuesta": true,
+    "justificacion": "Correcto"
+  },
+  {
+    "id": 4,
+    "unidad": 3,
+    "tipo": "verdadero-falso",
+    "pregunta": "Las organizaciones deben invertir en el cambio del software para mantener el valor de sus sistemas.",
+    "respuesta": true,
+    "justificacion": "Correcto"
+  },
+  {
+    "id": 5,
+    "unidad": 3,
+    "tipo": "verdadero-falso",
+    "pregunta": "El mantenimiento de software implica siempre cambios arquitectónicos mayores.",
+    "respuesta": false,
+    "justificacion": "Falso, el mantenimiento modifica componentes o agrega nuevos, pero normalmente mantiene estable la arquitectura."
+  },
+  {
+    "id": 6,
+    "unidad": 3,
+    "tipo": "verdadero-falso",
+    "pregunta": "La transformación arquitectónica es un enfoque más radical que el mantenimiento.",
+    "respuesta": true,
+    "justificacion": "Correcto"
+  },
+  {
+    "id": 7,
+    "unidad": 3,
+    "tipo": "verdadero-falso",
+    "pregunta": "La reingeniería de software busca agregar muchas funcionalidades nuevas al sistema.",
+    "respuesta": false,
+    "justificacion": "Falso, la reingeniería normalmente no agrega funcionalidades nuevas; busca facilitar comprensión, uso y mantenimiento."
+  },
+  {
+    "id": 8,
+    "unidad": 3,
+    "tipo": "verdadero-falso",
+    "pregunta": "Las estrategias de cambio de software son mutuamente excluyentes.",
+    "respuesta": false,
+    "justificacion": "Falso, pueden aplicarse estrategias distintas en distintas partes del mismo sistema."
+  },
+  {
+    "id": 9,
+    "unidad": 3,
+    "tipo": "verdadero-falso",
+    "pregunta": "Cuando ninguna estrategia de cambio es adecuada, puede ser necesario reemplazar el sistema.",
+    "respuesta": true,
+    "justificacion": "Correcto"
+  },
+  {
+    "id": 10,
+    "unidad": 3,
+    "tipo": "verdadero-falso",
+    "pregunta": "Los cambios en el software pueden generar muchas versiones del sistema o de sus componentes.",
+    "respuesta": true,
+    "justificacion": "Correcto"
+  },
+  {
+    "id": 11,
+    "unidad": 3,
+    "tipo": "verdadero-falso",
+    "pregunta": "Registrar versiones es poco importante si el sistema funciona correctamente.",
+    "respuesta": false,
+    "justificacion": "Falso, registrar versiones es fundamental para controlar cambios, entregas, errores y configuraciones."
+  },
+  {
+    "id": 12,
+    "unidad": 3,
+    "tipo": "verdadero-falso",
+    "pregunta": "El mantenimiento de software ocurre después de que el sistema fue entregado.",
+    "respuesta": true,
+    "justificacion": "Correcto"
+  },
+  {
+    "id": 13,
+    "unidad": 3,
+    "tipo": "verdadero-falso",
+    "pregunta": "El mantenimiento para agregar o modificar funcionalidades representa una parte importante del esfuerzo de mantenimiento.",
+    "respuesta": true,
+    "justificacion": "Correcto"
+  },
+  {
+    "id": 14,
+    "unidad": 3,
+    "tipo": "verdadero-falso",
+    "pregunta": "El proceso de mantenimiento es igual para todos los sistemas.",
+    "respuesta": false,
+    "justificacion": "Falso, depende del tipo de software, del proceso de desarrollo utilizado y de las personas involucradas."
+  },
+  {
+    "id": 15,
+    "unidad": 3,
+    "tipo": "verdadero-falso",
+    "pregunta": "La evolución arquitectónica suele ir desde sistemas centralizados hacia sistemas distribuidos.",
+    "respuesta": true,
+    "justificacion": "Correcto"
+  },
+  {
+    "id": 16,
+    "unidad": 3,
+    "tipo": "verdadero-falso",
+    "pregunta": "La reingeniería suele cambiar radicalmente la arquitectura del sistema.",
+    "respuesta": false,
+    "justificacion": "Falso, normalmente mantiene la arquitectura y la funcionalidad del sistema."
+  },
+  {
+    "id": 17,
+    "unidad": 3,
+    "tipo": "verdadero-falso",
+    "pregunta": "La ingeniería inversa consiste en analizar un programa para extraer información que ayude a documentarlo.",
+    "respuesta": true,
+    "justificacion": "Correcto"
+  },
+  {
+    "id": 18,
+    "unidad": 3,
+    "tipo": "verdadero-falso",
+    "pregunta": "La modularización del programa busca agrupar partes relacionadas y eliminar redundancia.",
+    "respuesta": true,
+    "justificacion": "Correcto"
+  },
+  {
+    "id": 19,
+    "unidad": 3,
+    "tipo": "verdadero-falso",
+    "pregunta": "La administración de la configuración solo se aplica al final del desarrollo.",
+    "respuesta": false,
+    "justificacion": "Falso, se aplica durante todo el ciclo de vida del sistema."
+  },
+  {
+    "id": 20,
+    "unidad": 3,
+    "tipo": "verdadero-falso",
+    "pregunta": "Una baseline es un estado aprobado y estable del sistema en un punto de su evolución.",
+    "respuesta": true,
+    "justificacion": "Correcto"
+  },
+  {
+    "id": 21,
+    "unidad": 3,
+    "tipo": "verdadero-falso",
+    "pregunta": "Un lanzamiento corresponde a una versión puesta a disposición de otros desarrolladores.",
+    "respuesta": false,
+    "justificacion": "Falso, una versión puesta a disposición de otros desarrolladores es una promoción; un lanzamiento se entrega a usuarios."
+  },
+  {
+    "id": 22,
+    "unidad": 3,
+    "tipo": "verdadero-falso",
+    "pregunta": "Una variante puede coexistir con otras versiones para distintas plataformas o sistemas operativos.",
+    "respuesta": true,
+    "justificacion": "Correcto"
+  },
+  {
+    "id": 23,
+    "unidad": 3,
+    "tipo": "verdadero-falso",
+    "pregunta": "Un lanzamiento puede incluir documentación, archivos de configuración y programa de instalación.",
+    "respuesta": true,
+    "justificacion": "Correcto"
+  },
+  {
+    "id": 24,
+    "unidad": 3,
+    "tipo": "verdadero-falso",
+    "pregunta": "Siempre se puede obligar a los usuarios a instalar la nueva versión del sistema.",
+    "respuesta": false,
+    "justificacion": "Falso, no siempre se puede obligar a los usuarios a instalar una nueva versión."
+  },
+  {
+    "id": 25,
+    "unidad": 3,
+    "tipo": "alternativas",
+    "pregunta": "¿Cuáles son motivos por los que evoluciona un producto de software?",
+    "opciones": [
+      "Corregir errores encontrados en operación.",
+      "Mejorar el desempeño.",
+      "Mejorar características no funcionales.",
+      "Eliminar toda necesidad de mantenimiento futuro."
+    ],
+    "correctas": [0, 1, 2]
+  },
+  {
+    "id": 26,
+    "unidad": 3,
+    "tipo": "alternativas",
+    "pregunta": "¿Cuáles son estrategias para cambiar software?",
+    "opciones": [
+      "Mantenimiento de software.",
+      "Transformación arquitectónica.",
+      "Reingeniería de software.",
+      "Administración financiera del hardware."
+    ],
+    "correctas": [0, 1, 2]
+  },
+  {
+    "id": 27,
+    "unidad": 3,
+    "tipo": "alternativas",
+    "pregunta": "¿Qué caracteriza al mantenimiento de software?",
+    "opciones": [
+      "Responde a cambios de requerimientos.",
+      "Mantiene estable la estructura del software.",
+      "Es el enfoque más común.",
+      "Siempre reemplaza el sistema completo."
+    ],
+    "correctas": [0, 1, 2]
+  },
+  {
+    "id": 28,
+    "unidad": 3,
+    "tipo": "alternativas",
+    "pregunta": "¿Cuáles son ejemplos de mantenimiento de software?",
+    "opciones": [
+      "Agregar campos a un formulario.",
+      "Modificar una pantalla.",
+      "Actualizar una integración.",
+      "Cambiar de arquitectura monolítica a microservicios."
+    ],
+    "correctas": [0, 1, 2]
+  },
+  {
+    "id": 29,
+    "unidad": 3,
+    "tipo": "alternativas",
+    "pregunta": "¿Qué caracteriza a la transformación arquitectónica?",
+    "opciones": [
+      "Es un cambio más radical.",
+      "Implementa cambios en la arquitectura.",
+      "Puede transformar un sistema centralizado en uno cliente-servidor.",
+      "No altera la estructura general del sistema."
+    ],
+    "correctas": [0, 1, 2]
+  },
+  {
+    "id": 30,
+    "unidad": 3,
+    "tipo": "alternativas",
+    "pregunta": "¿Cuáles son ejemplos de transformación arquitectónica?",
+    "opciones": [
+      "Migrar de escritorio a web.",
+      "Pasar de monolito a microservicios.",
+      "Separar frontend y backend.",
+      "Cambiar el color de un botón."
+    ],
+    "correctas": [0, 1, 2]
+  },
+  {
+    "id": 31,
+    "unidad": 3,
+    "tipo": "alternativas",
+    "pregunta": "¿Qué caracteriza a la reingeniería de software?",
+    "opciones": [
+      "No agrega nuevas funcionalidades normalmente.",
+      "Busca facilitar comprensión y mantención.",
+      "Puede incluir modificaciones estructurales.",
+      "Siempre realiza cambios arquitectónicos mayores."
+    ],
+    "correctas": [0, 1, 2]
+  },
+  {
+    "id": 32,
+    "unidad": 3,
+    "tipo": "alternativas",
+    "pregunta": "¿Cuáles son ejemplos de reingeniería de software?",
+    "opciones": [
+      "Refactorizar código.",
+      "Mejorar documentación.",
+      "Reorganizar módulos.",
+      "Crear un producto totalmente nuevo desde cero sin usar el sistema anterior."
+    ],
+    "correctas": [0, 1, 2]
+  },
+  {
+    "id": 33,
+    "unidad": 3,
+    "tipo": "alternativas",
+    "pregunta": "¿Qué afirmaciones sobre las estrategias de cambio son correctas?",
+    "opciones": [
+      "No son mutuamente excluyentes.",
+      "Pueden aplicarse en distintas partes del mismo sistema.",
+      "A veces ninguna es apropiada y se debe reemplazar el sistema.",
+      "Solo se puede aplicar una estrategia por sistema."
+    ],
+    "correctas": [0, 1, 2]
+  },
+  {
+    "id": 34,
+    "unidad": 3,
+    "tipo": "alternativas",
+    "pregunta": "¿Qué acciones forman parte del mantenimiento del software?",
+    "opciones": [
+      "Reparar fallas.",
+      "Adaptar el software a otros entornos.",
+      "Agregar o modificar funcionalidades.",
+      "Eliminar el control de versiones."
+    ],
+    "correctas": [0, 1, 2]
+  },
+  {
+    "id": 35,
+    "unidad": 3,
+    "tipo": "alternativas",
+    "pregunta": "Según la unidad, ¿qué tipo de mantenimiento consume mayor esfuerzo?",
+    "opciones": [
+      "Agregar o modificar funcionalidades.",
+      "Reparar fallas.",
+      "Adaptar el software a otros sistemas.",
+      "Eliminar documentación."
+    ],
+    "correctas": [0]
+  },
+  {
+    "id": 36,
+    "unidad": 3,
+    "tipo": "alternativas",
+    "pregunta": "¿De qué depende la variabilidad del mantenimiento?",
+    "opciones": [
+      "Del tipo de software.",
+      "Del proceso de desarrollo utilizado.",
+      "De las personas involucradas.",
+      "De que todos los sistemas tengan la misma arquitectura."
+    ],
+    "correctas": [0, 1, 2]
+  },
+  {
+    "id": 37,
+    "unidad": 3,
+    "tipo": "alternativas",
+    "pregunta": "¿Qué factores impulsan la evolución arquitectónica?",
+    "opciones": [
+      "Costos de hardware.",
+      "Expectativas del usuario.",
+      "Acceso distribuido a los sistemas.",
+      "Prohibición de modificar sistemas."
+    ],
+    "correctas": [0, 1, 2]
+  },
+  {
+    "id": 38,
+    "unidad": 3,
+    "tipo": "alternativas",
+    "pregunta": "¿Qué puede incluir la reingeniería de software?",
+    "opciones": [
+      "Redocumentación del sistema.",
+      "Reestructuración del sistema.",
+      "Traducción a un lenguaje más moderno.",
+      "Modificación de la estructura de datos."
+    ],
+    "correctas": [0, 1, 2, 3]
+  },
+  {
+    "id": 39,
+    "unidad": 3,
+    "tipo": "alternativas",
+    "pregunta": "¿Cuáles son problemas o limitaciones de la reingeniería?",
+    "opciones": [
+      "Puede ser difícil distribuir sistemas centralizados si la arquitectura no cambia.",
+      "No siempre permite cambiar radicalmente el lenguaje de programación.",
+      "Al mantener la funcionalidad, pueden mantenerse limitaciones del sistema.",
+      "Siempre elimina todos los problemas del sistema."
+    ],
+    "correctas": [0, 1, 2]
+  },
+  {
+    "id": 40,
+    "unidad": 3,
+    "tipo": "alternativas",
+    "pregunta": "¿Cuáles son ventajas de la reingeniería?",
+    "opciones": [
+      "Riesgo más bajo que desarrollar desde cero.",
+      "Costo generalmente más bajo que reemplazar todo el sistema.",
+      "Permite modernizar partes del sistema existente.",
+      "Siempre elimina la necesidad de futuras versiones."
+    ],
+    "correctas": [0, 1, 2]
+  },
+  {
+    "id": 41,
+    "unidad": 3,
+    "tipo": "alternativas",
+    "pregunta": "¿Qué pertenece a la ingeniería directa?",
+    "opciones": [
+      "Especificación del sistema.",
+      "Diseño e implementación.",
+      "Sistema nuevo.",
+      "Sistema existente como punto de partida obligatorio."
+    ],
+    "correctas": [0, 1, 2]
+  },
+  {
+    "id": 42,
+    "unidad": 3,
+    "tipo": "alternativas",
+    "pregunta": "¿Qué pertenece a la reingeniería de software?",
+    "opciones": [
+      "Sistema existente.",
+      "Comprensión y transformación.",
+      "Sistema con reingeniería.",
+      "Desarrollo desde cero sin considerar el sistema anterior."
+    ],
+    "correctas": [0, 1, 2]
+  },
+  {
+    "id": 43,
+    "unidad": 3,
+    "tipo": "alternativas",
+    "pregunta": "¿Qué actividades forman parte del proceso de reingeniería?",
+    "opciones": [
+      "Traducción del código fuente.",
+      "Ingeniería inversa.",
+      "Mejora de la estructura del programa.",
+      "Modularización del programa."
+    ],
+    "correctas": [0, 1, 2, 3]
+  },
+  {
+    "id": 44,
+    "unidad": 3,
+    "tipo": "alternativas",
+    "pregunta": "¿Qué busca la mejora de la estructura del programa?",
+    "opciones": [
+      "Analizar la estructura de control.",
+      "Modificar condicionales, bucles o funciones para mejorar comprensión.",
+      "Hacer el programa más fácil de leer.",
+      "Eliminar todo registro de cambios."
+    ],
+    "correctas": [0, 1, 2]
+  },
+  {
+    "id": 45,
+    "unidad": 3,
+    "tipo": "alternativas",
+    "pregunta": "¿Qué factores afectan el costo de la reingeniería?",
+    "opciones": [
+      "Calidad del software actual.",
+      "Herramientas de apoyo disponibles.",
+      "Amplitud de conversión de datos requerida.",
+      "Disponibilidad de personal experto."
+    ],
+    "correctas": [0, 1, 2, 3]
+  },
+  {
+    "id": 46,
+    "unidad": 3,
+    "tipo": "alternativas",
+    "pregunta": "¿Cuáles intervenciones aumentan el costo de reingeniería al profundizar el cambio?",
+    "opciones": [
+      "Conversión automatizada de código fuente.",
+      "Reestructuración automatizada con cambios manuales.",
+      "Reestructuración de programas y datos.",
+      "Reestructuración más cambios arquitectónicos."
+    ],
+    "correctas": [0, 1, 2, 3]
+  },
+  {
+    "id": 47,
+    "unidad": 3,
+    "tipo": "alternativas",
+    "pregunta": "¿Qué describe la administración de la configuración?",
+    "opciones": [
+      "Identificar elementos de configuración.",
+      "Controlar entrega y cambio de elementos.",
+      "Almacenar estados de configuración y peticiones de cambio.",
+      "Verificar cumplimiento respecto a requisitos."
+    ],
+    "correctas": [0, 1, 2, 3]
+  },
+  {
+    "id": 48,
+    "unidad": 3,
+    "tipo": "alternativas",
+    "pregunta": "¿Cuáles pueden ser elementos de configuración?",
+    "opciones": [
+      "Código fuente.",
+      "Documentación.",
+      "Diagramas.",
+      "Archivos de configuración."
+    ],
+    "correctas": [0, 1, 2, 3]
+  },
+  {
+    "id": 49,
+    "unidad": 3,
+    "tipo": "alternativas",
+    "pregunta": "¿Qué caracteriza a una baseline?",
+    "opciones": [
+      "Estado aprobado del sistema.",
+      "Punto de referencia en el ciclo de vida.",
+      "Base estable para desarrollo posterior.",
+      "Elemento importante en aseguramiento de calidad."
+    ],
+    "correctas": [0, 1, 2, 3]
+  },
+  {
+    "id": 50,
+    "unidad": 3,
+    "tipo": "alternativas",
+    "pregunta": "¿Para qué sirve una base de datos de configuración?",
+    "opciones": [
+      "Guardar información relevante de configuraciones.",
+      "Ayudar a evaluar el impacto de cambios.",
+      "Apoyar la gestión de configuración.",
+      "Eliminar la necesidad de registrar versiones."
+    ],
+    "correctas": [0, 1, 2]
+  },
+  {
+    "id": 51,
+    "unidad": 3,
+    "tipo": "alternativas",
+    "pregunta": "¿Qué debe definirse para una base de datos de configuración?",
+    "opciones": [
+      "La estructura de la base de datos.",
+      "Los procedimientos para registrar información.",
+      "Los procedimientos para recuperar información.",
+      "La obligación de que todos los clientes actualicen inmediatamente."
+    ],
+    "correctas": [0, 1, 2]
+  },
+  {
+    "id": 52,
+    "unidad": 3,
+    "tipo": "alternativas",
+    "pregunta": "¿Qué consultas puede responder una base de datos de configuración?",
+    "opciones": [
+      "Cuántas versiones del sistema existen.",
+      "A qué clientes se entregó una versión.",
+      "Qué hardware o sistema operativo requiere una versión.",
+      "Qué versiones serán afectadas por el cambio de un componente."
+    ],
+    "correctas": [0, 1, 2, 3]
+  },
+  {
+    "id": 53,
+    "unidad": 3,
+    "tipo": "alternativas",
+    "pregunta": "¿Qué pasos pertenecen a la administración del cambio?",
+    "opciones": [
+      "Completar solicitud de cambios.",
+      "Evaluar posibilidad y costos.",
+      "Registrar la solicitud y la resolución.",
+      "Comprobar la calidad del software cambiado."
+    ],
+    "correctas": [0, 1, 2, 3]
+  },
+  {
+    "id": 54,
+    "unidad": 3,
+    "tipo": "alternativas",
+    "pregunta": "¿Cuál afirmación sobre versiones, promociones, lanzamientos y variantes es correcta?",
+    "opciones": [
+      "Una versión es una instancia del sistema que difiere de otras.",
+      "Una promoción se pone a disposición de otros desarrolladores.",
+      "Un lanzamiento se pone a disposición de usuarios.",
+      "Una variante puede existir para diferentes plataformas."
+    ],
+    "correctas": [0, 1, 2, 3]
+  },
+  {
+    "id": 55,
+    "unidad": 3,
+    "tipo": "alternativas",
+    "pregunta": "¿Qué puede incluir un lanzamiento?",
+    "opciones": [
+      "Versión del sistema.",
+      "Programa de instalación.",
+      "Archivos de configuración.",
+      "Documentación y archivos de datos."
+    ],
+    "correctas": [0, 1, 2, 3]
+  },
+  {
+    "id": 56,
+    "unidad": 3,
+    "tipo": "alternativas",
+    "pregunta": "Selecciona las opciones correctas sobre el control de versiones.",
+    "opciones": [
+      "Ayuda a saber qué versión recibió un cliente.",
+      "Permite vincular cambios con solicitudes registradas.",
+      "Facilita evaluar el impacto de cambios.",
+      "Impide que existan variantes."
+    ],
+    "correctas": [0, 1, 2]
+  },
+  {
+    "id": 57,
+    "unidad": 3,
+    "tipo": "alternativas",
+    "pregunta": "¿Cuáles opciones describen correctamente una variante?",
+    "opciones": [
+      "Puede coexistir con otras versiones.",
+      "Puede tener pequeñas diferencias.",
+      "Puede estar adaptada a distintos sistemas operativos.",
+      "Siempre reemplaza a todas las versiones anteriores."
+    ],
+    "correctas": [0, 1, 2]
+  },
+  {
+    "id": 58,
+    "unidad": 3,
+    "tipo": "alternativas",
+    "pregunta": "¿Cuáles de las siguientes opciones NO corresponden a una estrategia principal de cambio del software vista en la unidad?",
+    "opciones": [
+      "Decoración visual del escritorio del usuario.",
+      "Compra de hardware sin modificar software.",
+      "Eliminación de toda documentación.",
+      "Bloqueo de nuevas versiones."
+    ],
+    "correctas": [0, 1, 2, 3]
+  },
+  {
+    "id": 59,
+    "unidad": 3,
+    "tipo": "alternativas",
+    "pregunta": "¿Cuáles afirmaciones son correctas sobre la relación entre cambio y configuración?",
+    "opciones": [
+      "Los cambios generan versiones.",
+      "Las versiones deben registrarse.",
+      "La administración de configuración controla cambios.",
+      "La configuración solo registra elementos visuales."
+    ],
+    "correctas": [0, 1, 2]
+  },
+  {
+    "id": 60,
+    "unidad": 3,
+    "tipo": "alternativas",
+    "pregunta": "¿Cuáles opciones son correctas sobre una solicitud de cambio?",
+    "opciones": [
+      "Debe registrarse.",
+      "Debe analizarse su validez.",
+      "Debe evaluarse su costo.",
+      "Debe vincularse con los cambios realizados."
+    ],
+    "correctas": [0, 1, 2, 3]
+  },
+  {
+    "id": 61,
+    "unidad": 3,
+    "tipo": "alternativas",
+    "pregunta": "¿Cuáles opciones son correctas sobre características no funcionales?",
+    "opciones": [
+      "Pueden motivar la evolución del software.",
+      "Pueden estar relacionadas con rendimiento.",
+      "Pueden estar relacionadas con mantenibilidad.",
+      "Nunca influyen en cambios del sistema."
+    ],
+    "correctas": [0, 1, 2]
+  },
+  {
+    "id": 62,
+    "unidad": 3,
+    "tipo": "alternativas",
+    "pregunta": "¿Cuáles de estas afirmaciones sobre reingeniería de datos son correctas?",
+    "opciones": [
+      "Puede modificar cómo se procesan los datos.",
+      "Puede modificar cómo se almacenan los datos.",
+      "Puede modificar la estructura de los datos.",
+      "Siempre elimina la necesidad de bases de datos."
+    ],
+    "correctas": [0, 1, 2]
+  },
+  {
+    "id": 63,
+    "unidad": 3,
+    "tipo": "alternativas",
+    "pregunta": "¿Cuáles opciones son correctas sobre una promoción?",
+    "opciones": [
+      "Es una versión disponible para otros desarrolladores.",
+      "Puede usarse antes de un lanzamiento a usuarios.",
+      "Forma parte de la administración de configuración.",
+      "Es obligatoriamente instalada por todos los usuarios finales."
+    ],
+    "correctas": [0, 1, 2]
+  },
+  {
+    "id": 64,
+    "unidad": 3,
+    "tipo": "alternativas",
+    "pregunta": "¿Cuáles afirmaciones son correctas sobre un lanzamiento?",
+    "opciones": [
+      "Se pone a disposición de los usuarios.",
+      "Puede incluir instalador.",
+      "Puede incluir documentación.",
+      "Siempre obliga al usuario a actualizar."
+    ],
+    "correctas": [0, 1, 2]
+  },
+  {
+    "id": 65,
+    "unidad": 3,
+    "tipo": "alternativas",
+    "pregunta": "Selecciona las opciones correctas sobre ingeniería inversa.",
+    "opciones": [
+      "Analiza el programa.",
+      "Extrae información del sistema.",
+      "Ayuda a documentar.",
+      "Desarrolla necesariamente un sistema nuevo desde cero."
+    ],
+    "correctas": [0, 1, 2]
+  },
+  {
+    "id": 66,
+    "unidad": 3,
+    "tipo": "alternativas",
+    "pregunta": "¿Cuáles opciones son correctas sobre la traducción del código fuente?",
+    "opciones": [
+      "Puede convertir el código a una versión moderna del mismo lenguaje.",
+      "Puede convertir el código a otro lenguaje.",
+      "Puede ser parte del proceso de reingeniería.",
+      "Siempre implica cambiar la arquitectura."
+    ],
+    "correctas": [0, 1, 2]
+  },
+  {
+    "id": 67,
+    "unidad": 3,
+    "tipo": "alternativas",
+    "pregunta": "¿Cuáles opciones son correctas sobre la modularización?",
+    "opciones": [
+      "Agrupa partes relacionadas.",
+      "Busca eliminar redundancia.",
+      "Puede mejorar la comprensión del sistema.",
+      "Siempre elimina toda funcionalidad previa."
+    ],
+    "correctas": [0, 1, 2]
+  },
+  {
+    "id": 68,
+    "unidad": 3,
+    "tipo": "alternativas",
+    "pregunta": "¿Cuáles afirmaciones corresponden a la evolución desde sistemas centralizados a distribuidos?",
+    "opciones": [
+      "Puede relacionarse con acceso distribuido.",
+      "Puede relacionarse con expectativas de usuario.",
+      "Puede relacionarse con costos de hardware.",
+      "Es imposible dentro de la evolución arquitectónica."
+    ],
+    "correctas": [0, 1, 2]
+  },
+  {
+    "id": 69,
+    "unidad": 3,
+    "tipo": "alternativas",
+    "pregunta": "Pregunta de control: ¿cuáles opciones son estrategias principales de cambio vistas en la unidad?",
+    "opciones": [
+      "Mantenimiento.",
+      "Transformación arquitectónica.",
+      "Reingeniería.",
+      "Ninguna de las anteriores."
+    ],
+    "correctas": [0, 1, 2]
+  },
+  {
+    "id": 70,
+    "unidad": 3,
+    "tipo": "alternativas",
+    "pregunta": "Pregunta de control: selecciona las afirmaciones correctas sobre un sistema que nunca cambia.",
+    "opciones": [
+      "No se adapta a nuevas demandas.",
+      "Puede perder valor para la organización.",
+      "Puede quedar limitado frente a nuevos entornos.",
+      "Siempre mejora su desempeño sin intervención."
+    ],
+    "correctas": [0, 1, 2]
+  },
+  {
+    "id": 71,
+    "unidad": 3,
+    "tipo": "alternativas",
+    "pregunta": "Pregunta con cero correctas: ¿cuáles afirmaciones son correctas sobre la reingeniería según la unidad?",
+    "opciones": [
+      "Siempre elimina todas las limitaciones funcionales.",
+      "Siempre obliga a cambiar arquitectura.",
+      "Siempre crea un sistema nuevo desde cero.",
+      "Siempre impide futuras versiones."
+    ],
+    "correctas": []
+  },
+  {
+    "id": 72,
+    "unidad": 3,
+    "tipo": "desarrollo",
+    "pregunta": "Explica por qué los productos de software evolucionan.",
+    "pauta": "Debe mencionar que evolucionan por demandas de cambio, corrección de errores, mejora de desempeño, mejora de características no funcionales y mantención del valor del software como activo organizacional."
+  },
+  {
+    "id": 73,
+    "unidad": 3,
+    "tipo": "desarrollo",
+    "pregunta": "Compara mantenimiento de software, transformación arquitectónica y reingeniería de software.",
+    "pauta": "Debe indicar que el mantenimiento cambia componentes manteniendo estable la estructura; la transformación arquitectónica cambia la arquitectura; y la reingeniería mejora comprensión, uso o mantención sin agregar normalmente funcionalidades ni cambiar arquitectura mayor."
+  },
+  {
+    "id": 74,
+    "unidad": 3,
+    "tipo": "desarrollo",
+    "pregunta": "Da un ejemplo para cada estrategia de cambio del software.",
+    "pauta": "Mantenimiento: agregar campo, corregir pantalla o actualizar integración. Transformación arquitectónica: migrar de escritorio a web, monolito a microservicios o cliente-servidor. Reingeniería: refactorizar, redocumentar o reorganizar módulos."
+  },
+  {
+    "id": 75,
+    "unidad": 3,
+    "tipo": "desarrollo",
+    "pregunta": "Explica por qué las estrategias de cambio no son mutuamente excluyentes.",
+    "pauta": "Debe señalar que distintas partes de un sistema pueden requerir estrategias distintas; por ejemplo, una parte puede mantenerse, otra reestructurarse y otra cambiar de arquitectura."
+  },
+  {
+    "id": 76,
+    "unidad": 3,
+    "tipo": "desarrollo",
+    "pregunta": "Describe qué es el mantenimiento de software y cuáles son sus principales tipos de esfuerzo.",
+    "pauta": "Debe mencionar cambios posteriores a la entrega, sin cambios arquitectónicos mayores, y los esfuerzos: reparar fallas, adaptar a entornos y agregar o modificar funcionalidades."
+  },
+  {
+    "id": 77,
+    "unidad": 3,
+    "tipo": "desarrollo",
+    "pregunta": "Explica por qué el mantenimiento del software es un proceso variable.",
+    "pauta": "Debe considerar que depende del tipo de software, del proceso de desarrollo utilizado y de las personas involucradas."
+  },
+  {
+    "id": 78,
+    "unidad": 3,
+    "tipo": "desarrollo",
+    "pregunta": "Explica la tendencia de evolución arquitectónica desde sistemas centralizados hacia sistemas distribuidos.",
+    "pauta": "Debe mencionar que los sistemas evolucionan hacia distribución por factores como costos de hardware, expectativas del usuario y necesidad de acceso distribuido."
+  },
+  {
+    "id": 79,
+    "unidad": 3,
+    "tipo": "desarrollo",
+    "pregunta": "Define reingeniería de software y explica sus objetivos.",
+    "pauta": "Debe definirla como reimplementación o modificación de sistemas existentes para hacerlos más fáciles de usar, comprender y mantener, manteniendo normalmente funcionalidad y arquitectura."
+  },
+  {
+    "id": 80,
+    "unidad": 3,
+    "tipo": "desarrollo",
+    "pregunta": "Describe las actividades principales del proceso de reingeniería.",
+    "pauta": "Debe incluir traducción del código fuente, ingeniería inversa, mejora de estructura, modularización y reingeniería de datos."
+  },
+  {
+    "id": 81,
+    "unidad": 3,
+    "tipo": "desarrollo",
+    "pregunta": "Explica las ventajas y problemas de la reingeniería de software.",
+    "pauta": "Ventajas: menor riesgo y generalmente menor costo. Problemas: puede mantener limitaciones funcionales, no cambiar arquitectura, dificultar distribución y no permitir cambios radicales de lenguaje."
+  },
+  {
+    "id": 82,
+    "unidad": 3,
+    "tipo": "desarrollo",
+    "pregunta": "Compara ingeniería directa y reingeniería de software.",
+    "pauta": "Ingeniería directa parte de especificaciones para diseñar e implementar un sistema nuevo. Reingeniería parte de un sistema existente, lo comprende, transforma y moderniza."
+  },
+  {
+    "id": 83,
+    "unidad": 3,
+    "tipo": "desarrollo",
+    "pregunta": "Explica qué factores afectan el costo de la reingeniería.",
+    "pauta": "Debe mencionar calidad del software actual, herramientas de apoyo, amplitud de conversión de datos y disponibilidad de personal experto."
+  },
+  {
+    "id": 84,
+    "unidad": 3,
+    "tipo": "desarrollo",
+    "pregunta": "Define administración de la configuración y explica por qué es importante.",
+    "pauta": "Debe explicar que identifica elementos de configuración, controla cambios y entregas, registra estados y solicitudes, verifica requisitos y permite trazabilidad durante el ciclo de vida."
+  },
+  {
+    "id": 85,
+    "unidad": 3,
+    "tipo": "desarrollo",
+    "pregunta": "Explica qué es un elemento de configuración y da ejemplos.",
+    "pauta": "Debe definirlo como componente controlado y versionado, por ejemplo código, documentación, diagramas, archivos de configuración, datos o manuales."
+  },
+  {
+    "id": 86,
+    "unidad": 3,
+    "tipo": "desarrollo",
+    "pregunta": "Explica qué es una baseline o configuración de referencia.",
+    "pauta": "Debe indicar que es un estado aprobado y estable del sistema en un punto de su evolución, que sirve como base para desarrollo posterior y aseguramiento de calidad."
+  },
+  {
+    "id": 87,
+    "unidad": 3,
+    "tipo": "desarrollo",
+    "pregunta": "Describe la función de la base de datos de configuración.",
+    "pauta": "Debe mencionar que guarda información sobre configuraciones, versiones y cambios; ayuda a evaluar impacto; y requiere estructura y procedimientos para registrar y recuperar información."
+  },
+  {
+    "id": 88,
+    "unidad": 3,
+    "tipo": "desarrollo",
+    "pregunta": "Explica el proceso de administración del cambio.",
+    "pauta": "Debe incluir solicitud de cambio, análisis de validez, evaluación de posibilidad y costos, registro de solicitud y resolución, implementación, registro de cambios, comprobación de calidad y creación de nueva versión."
+  },
+  {
+    "id": 89,
+    "unidad": 3,
+    "tipo": "desarrollo",
+    "pregunta": "Diferencia versión, promoción, lanzamiento y variante.",
+    "pauta": "Versión: instancia que difiere de otras. Promoción: versión disponible para desarrolladores. Lanzamiento: versión disponible para usuarios. Variante: versión coexistente con pequeñas diferencias para plataformas o sistemas distintos."
+  },
+  {
+    "id": 90,
+    "unidad": 3,
+    "tipo": "desarrollo",
+    "pregunta": "Indica qué puede incluir un lanzamiento de software y por qué no siempre se puede obligar a los usuarios a actualizar.",
+    "pauta": "Debe mencionar versión del sistema, instalador, archivos de configuración, datos, documentación, publicidad o embalaje. También debe señalar que los usuarios pueden no instalar inmediatamente la nueva versión por restricciones, decisión propia o compatibilidad."
+  }
+]

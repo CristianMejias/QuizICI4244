@@ -1,35 +1,7 @@
-# Cuestionario con index.json
-
-## Ejecutar
-
-No abras el HTML directamente con doble clic si vas a cargar JSON desde la carpeta, porque `fetch` puede fallar por seguridad del navegador.
-
-Opción recomendada:
-
-```bash
-cd QuizICI4244
-python -m http.server 5500
-```
-
-Luego abre:
-
-```text
-http://localhost:5500
-```
-
-Para detener:
-```text
-Control + C
-```
-
-
-También puedes usar la extensión Live Server de VSCode.
 
 ## Cómo se cargan los bancos de preguntas
 
-La lista de archivos ya no está dentro de `app.js`.
-
-Ahora está en:
+La lista de archivos está en:
 
 ```text
 preguntas/index.json
@@ -40,13 +12,13 @@ Ejemplo:
 ```json
 [
   {
-    "label": "Unidad 5 - Calidad de software",
-    "path": "preguntas/unidad5.json"
+    "label": "Unidad 2 - Set 1",
+    "path": "preguntas/u2-01.json"
   },
   {
-    "label": "Ejemplo mixto",
-    "path": "preguntas/ejemplo-mixto.json"
-  }
+    "label": "Unidad 3 - Set 1",
+    "path": "preguntas/u3-01.json"
+  },
 ]
 ```
 
@@ -54,24 +26,25 @@ Ejemplo:
 
 1. Crea otro archivo dentro de `preguntas/`, por ejemplo:
 
+- u2 -> Unidad 2
+- -02 -> segundo set de preguntas
 ```text
-preguntas/unidad6.json
+preguntas/u2-02.json
 ```
 
 2. Agrega una entrada en `preguntas/index.json`:
 
 ```json
 {
-  "label": "Unidad 6",
-  "path": "preguntas/unidad6.json"
+  "label": "Unidad 2 - Set 2",
+  "path": "preguntas/u2-02.json"
 }
 ```
 
-No necesitas modificar `app.js`.
 
 ## Reglas de la seed
 
-La seed debe ser un número entero entre `1` y `999999`.
+La seed debe ser un número entero entre `1` y `9999`.
 
 ## Formatos soportados
 

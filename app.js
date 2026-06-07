@@ -149,6 +149,10 @@ async function fetchQuestions(path) {
   return response.json();
 }
 
+function getAlternatives(question) {
+  return question.alternativas ?? question.opciones;
+}
+
 function validateQuestions(questions) {
   if (!Array.isArray(questions)) {
     throw new Error("El JSON debe ser un arreglo de preguntas.");
@@ -168,7 +172,7 @@ function validateQuestions(questions) {
     }
 
     if (q.tipo === "alternativas") {
-      if (!Array.isArray(q.alternativas) || !Array.isArray(q.correctas)) {
+      if (!Array.isArray(getAlternatives(q)) || !Array.isArray(q.correctas)) {
         throw new Error(`La pregunta ${q.id ?? index + 1} debe tener alternativas y correctas.`);
       }
     }
@@ -241,7 +245,7 @@ function renderQuestion() {
   }
 
   if (q.tipo === "alternativas") {
-    answerForm.innerHTML = q.alternativas
+    answerForm.innerHTML = getAlternatives(q)
       .map((alt, index) => `
         <label class="option" data-option-index="${index}">
           <input type="checkbox" name="answer" value="${index}" />
@@ -288,8 +292,9 @@ function submitAnswer() {
 
     paintAlternativeSelections(userIndexes, correctIndexes);
 
-    const userAnswer = userIndexes.map(i => q.alternativas[i]).join(", ");
-    const correctAnswer = correctIndexes.map(i => q.alternativas[i]).join(", ");
+    const alternatives = getAlternatives(q);
+    const userAnswer = userIndexes.map(i => alternatives[i]).join(", ");
+    const correctAnswer = correctIndexes.map(i => alternatives[i]).join(", ");
 
     saveAnswer(q, userAnswer, isCorrect);
     showFeedback(isCorrect, `Respuesta correcta: ${correctAnswer}`);
@@ -339,7 +344,7 @@ function paintAlternativeSelections(userIndexes, correctIndexes) {
   });
 }
 
-window.gradeDevelopment = function(isCorrect) {
+window.gradeDevelopment = function (isCorrect) {
   const pending = state.pendingDevelopmentAnswer;
   if (!pending) return;
 
@@ -375,7 +380,10 @@ function saveAnswer(question, userAnswer, isCorrect) {
 
 function getExpectedAnswer(q) {
   if (q.tipo === "verdadero-falso") return q.respuesta ? "Verdadero" : "Falso";
-  if (q.tipo === "alternativas") return q.correctas.map(i => q.alternativas[i]).join(", ");
+  if (q.tipo === "alternativas") {
+    const alternatives = getAlternatives(q);
+    return q.correctas.map(i => alternatives[i]).join(", ");
+  }
   if (q.tipo === "desarrollo") return q.respuesta_esperada;
   return "";
 }
@@ -470,7 +478,7 @@ function shuffleWithSeed(array, seed) {
 
 // Generador pseudoaleatorio determinista usando seed numérica.
 function mulberry32(seed) {
-  return function() {
+  return function () {
     let t = seed += 0x6D2B79F5;
     t = Math.imul(t ^ (t >>> 15), t | 1);
     t ^= t + Math.imul(t ^ (t >>> 7), t | 61);

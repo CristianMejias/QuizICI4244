@@ -1,0 +1,1021 @@
+[
+  {
+    "id": 1,
+    "unidad": 5,
+    "tipo": "verdadero-falso",
+    "pregunta": "En un mercado competitivo basta con producir y distribuir masivamente productos o servicios para asegurar el éxito.",
+    "respuesta": false,
+    "justificacion": "Falso. En un mercado competitivo no basta con producir y distribuir masivamente; la calidad es un objetivo fundamental."
+  },
+  {
+    "id": 2,
+    "unidad": 5,
+    "tipo": "verdadero-falso",
+    "pregunta": "La calidad está relacionada con la satisfacción de necesidades del cliente o usuario.",
+    "respuesta": true,
+    "justificacion": "Correcto."
+  },
+  {
+    "id": 3,
+    "unidad": 5,
+    "tipo": "verdadero-falso",
+    "pregunta": "La calidad es un concepto absoluto y significa lo mismo para todos los clientes y usuarios.",
+    "respuesta": false,
+    "justificacion": "Falso. La calidad es un concepto relativo, ya que depende de las necesidades y expectativas de distintos clientes o usuarios."
+  },
+  {
+    "id": 4,
+    "unidad": 5,
+    "tipo": "verdadero-falso",
+    "pregunta": "Según ISO 8402, la calidad considera características que permiten satisfacer necesidades expresadas o implícitas.",
+    "respuesta": true,
+    "justificacion": "Correcto."
+  },
+  {
+    "id": 5,
+    "unidad": 5,
+    "tipo": "verdadero-falso",
+    "pregunta": "El software se fabrica de la misma forma que un producto físico, por lo que su calidad se controla igual que en una línea de producción industrial.",
+    "respuesta": false,
+    "justificacion": "Falso. El software se desarrolla, no se fabrica; su valor está en el diseño y no en la repetición física del producto."
+  },
+  {
+    "id": 6,
+    "unidad": 5,
+    "tipo": "verdadero-falso",
+    "pregunta": "El uso del software no degrada físicamente el producto.",
+    "respuesta": true,
+    "justificacion": "Correcto."
+  },
+  {
+    "id": 7,
+    "unidad": 5,
+    "tipo": "verdadero-falso",
+    "pregunta": "La calidad del software, según IEEE 610-1990, se relaciona con el cumplimiento de requisitos especificados y expectativas del cliente o usuario.",
+    "respuesta": true,
+    "justificacion": "Correcto."
+  },
+  {
+    "id": 8,
+    "unidad": 5,
+    "tipo": "verdadero-falso",
+    "pregunta": "Una mala especificación de requisitos no afecta la calidad final del producto software.",
+    "respuesta": false,
+    "justificacion": "Falso. Para que un producto sea conforme a la especificación, primero debe existir una buena especificación."
+  },
+  {
+    "id": 9,
+    "unidad": 5,
+    "tipo": "verdadero-falso",
+    "pregunta": "Un programa puede hacer algo, pero no necesariamente hacer lo que el usuario realmente necesita.",
+    "respuesta": true,
+    "justificacion": "Correcto."
+  },
+  {
+    "id": 10,
+    "unidad": 5,
+    "tipo": "verdadero-falso",
+    "pregunta": "La administración de la calidad corresponde a actividades de evaluación directa del producto ya desarrollado.",
+    "respuesta": false,
+    "justificacion": "Falso. La administración de la calidad determina y aplica la política de calidad a nivel de empresa; la evaluación del producto corresponde al control de calidad."
+  },
+  {
+    "id": 11,
+    "unidad": 5,
+    "tipo": "verdadero-falso",
+    "pregunta": "El aseguramiento de la calidad evalúa el proceso de desarrollo del producto software.",
+    "respuesta": true,
+    "justificacion": "Correcto."
+  },
+  {
+    "id": 12,
+    "unidad": 5,
+    "tipo": "verdadero-falso",
+    "pregunta": "Un proceso software de calidad mejora la probabilidad de obtener productos de calidad.",
+    "respuesta": true,
+    "justificacion": "Correcto."
+  },
+  {
+    "id": 13,
+    "unidad": 5,
+    "tipo": "verdadero-falso",
+    "pregunta": "En software, un proceso de calidad garantiza siempre un producto de calidad.",
+    "respuesta": false,
+    "justificacion": "Falso. En software, un buen proceso mejora la probabilidad de calidad, pero no la garantiza completamente porque el software es un producto lógico y diseñado."
+  },
+  {
+    "id": 14,
+    "unidad": 5,
+    "tipo": "verdadero-falso",
+    "pregunta": "Los niveles de calidad del software pueden analizarse a nivel de empresa, proyecto y producto.",
+    "respuesta": true,
+    "justificacion": "Correcto."
+  },
+  {
+    "id": 15,
+    "unidad": 5,
+    "tipo": "verdadero-falso",
+    "pregunta": "La política de calidad debe ser responsabilidad exclusiva del equipo técnico, sin participación de la dirección.",
+    "respuesta": false,
+    "justificacion": "Falso. La dirección debe expresar explícitamente la política de calidad y contar con el compromiso de toda la organización."
+  },
+  {
+    "id": 16,
+    "unidad": 5,
+    "tipo": "verdadero-falso",
+    "pregunta": "Un sistema de calidad incluye estructura organizacional, responsabilidades, actividades, recursos y procedimientos.",
+    "respuesta": true,
+    "justificacion": "Correcto."
+  },
+  {
+    "id": 17,
+    "unidad": 5,
+    "tipo": "verdadero-falso",
+    "pregunta": "Un sistema de calidad útil debe enfocarse más en prevenir defectos que en detectarlos y corregirlos después.",
+    "respuesta": true,
+    "justificacion": "Correcto."
+  },
+  {
+    "id": 18,
+    "unidad": 5,
+    "tipo": "verdadero-falso",
+    "pregunta": "ISO 9000-3 es una guía para aplicar ISO 9001 al desarrollo, suministro y mantenimiento de software.",
+    "respuesta": true,
+    "justificacion": "Correcto."
+  },
+  {
+    "id": 19,
+    "unidad": 5,
+    "tipo": "verdadero-falso",
+    "pregunta": "La implantación de un sistema de calidad no requiere tiempo, recursos ni formación.",
+    "respuesta": false,
+    "justificacion": "Falso. Su implantación requiere tiempo, trabajo, recursos, formación y gestión de la resistencia al cambio."
+  },
+  {
+    "id": 20,
+    "unidad": 5,
+    "tipo": "verdadero-falso",
+    "pregunta": "El compromiso de la alta dirección es una recomendación importante para implantar un sistema de calidad.",
+    "respuesta": true,
+    "justificacion": "Correcto."
+  },
+  {
+    "id": 21,
+    "unidad": 5,
+    "tipo": "verdadero-falso",
+    "pregunta": "CMM significa Capability Maturity Model.",
+    "respuesta": true,
+    "justificacion": "Correcto."
+  },
+  {
+    "id": 22,
+    "unidad": 5,
+    "tipo": "verdadero-falso",
+    "pregunta": "CMM asume que el proceso software es más predecible cuando usa modelos de ciclo de vida estructurados, visibles y adaptables.",
+    "respuesta": true,
+    "justificacion": "Correcto."
+  },
+  {
+    "id": 23,
+    "unidad": 5,
+    "tipo": "verdadero-falso",
+    "pregunta": "El nivel 1 de CMM se llama Optimizado.",
+    "respuesta": false,
+    "justificacion": "Falso. El nivel 1 de CMM se llama Inicial; Optimizado corresponde al nivel 5."
+  },
+  {
+    "id": 24,
+    "unidad": 5,
+    "tipo": "verdadero-falso",
+    "pregunta": "El nivel 2 de CMM se enfoca en la administración de proyectos.",
+    "respuesta": true,
+    "justificacion": "Correcto."
+  },
+  {
+    "id": 25,
+    "unidad": 5,
+    "tipo": "verdadero-falso",
+    "pregunta": "El nivel 5 de CMM se relaciona con procesos de mejora continua.",
+    "respuesta": true,
+    "justificacion": "Correcto."
+  },
+  {
+    "id": 26,
+    "unidad": 5,
+    "tipo": "verdadero-falso",
+    "pregunta": "Una crítica al CMM es que puede ser demasiado burocrático para empresas pequeñas.",
+    "respuesta": true,
+    "justificacion": "Correcto."
+  },
+  {
+    "id": 27,
+    "unidad": 5,
+    "tipo": "verdadero-falso",
+    "pregunta": "CMMI integra múltiples modelos de madurez CMM en un único modelo.",
+    "respuesta": true,
+    "justificacion": "Correcto."
+  },
+  {
+    "id": 28,
+    "unidad": 5,
+    "tipo": "verdadero-falso",
+    "pregunta": "Los procesos informales son especialmente adecuados para sistemas grandes y de vida larga.",
+    "respuesta": false,
+    "justificacion": "Falso. Los procesos informales son adecuados para prototipos, sistemas pequeños y sistemas de vida corta."
+  },
+  {
+    "id": 29,
+    "unidad": 5,
+    "tipo": "verdadero-falso",
+    "pregunta": "Los procesos administrados tienen un modelo definido, procedimientos definidos y relaciones entre actividades.",
+    "respuesta": true,
+    "justificacion": "Correcto."
+  },
+  {
+    "id": 30,
+    "unidad": 5,
+    "tipo": "verdadero-falso",
+    "pregunta": "Los procesos de mejora introducen mediciones cuantitativas del proceso.",
+    "respuesta": true,
+    "justificacion": "Correcto."
+  },
+  {
+    "id": 31,
+    "unidad": 5,
+    "tipo": "verdadero-falso",
+    "pregunta": "La calidad a nivel de proyecto consiste en aplicar de forma idéntica las directrices generales de la empresa sin adaptarlas.",
+    "respuesta": false,
+    "justificacion": "Falso. La calidad a nivel de proyecto adapta el sistema de calidad de la empresa a proyectos específicos."
+  },
+  {
+    "id": 32,
+    "unidad": 5,
+    "tipo": "verdadero-falso",
+    "pregunta": "Un plan de aseguramiento de calidad de proyecto debe incluir objetivos, responsabilidades, documentación, estándares, revisiones, auditorías y gestión de configuración.",
+    "respuesta": true,
+    "justificacion": "Correcto."
+  },
+  {
+    "id": 33,
+    "unidad": 5,
+    "tipo": "verdadero-falso",
+    "pregunta": "Las métricas del software son absolutas y no están sujetas a discusión.",
+    "respuesta": false,
+    "justificacion": "Falso. Las métricas del software no son absolutas y suelen estar sujetas a debate."
+  },
+  {
+    "id": 34,
+    "unidad": 5,
+    "tipo": "verdadero-falso",
+    "pregunta": "Las métricas estáticas se miden sobre programas en ejecución.",
+    "respuesta": false,
+    "justificacion": "Falso. Las métricas estáticas se miden sobre representaciones del sistema, como análisis, diseño, código o documentación. Las dinámicas se miden en ejecución."
+  },
+  {
+    "id": 35,
+    "unidad": 5,
+    "tipo": "verdadero-falso",
+    "pregunta": "Una buena métrica debería ser simple, intuitiva, consistente, objetiva e independiente del lenguaje de programación.",
+    "respuesta": true,
+    "justificacion": "Correcto."
+  },
+  {
+    "id": 36,
+    "unidad": 5,
+    "tipo": "verdadero-falso",
+    "pregunta": "Las mediciones anómalas se usan para enfocar el esfuerzo en componentes con posibles problemas.",
+    "respuesta": true,
+    "justificacion": "Correcto."
+  },
+  {
+    "id": 37,
+    "unidad": 5,
+    "tipo": "verdadero-falso",
+    "pregunta": "La usabilidad considera usuarios específicos, objetivos específicos y un contexto de uso específico.",
+    "respuesta": true,
+    "justificacion": "Correcto."
+  },
+  {
+    "id": 38,
+    "unidad": 5,
+    "tipo": "verdadero-falso",
+    "pregunta": "Según ISO 9241, la usabilidad solo se mide por la cantidad de funciones que tiene un software.",
+    "respuesta": false,
+    "justificacion": "Falso. La usabilidad se relaciona con efectividad, eficiencia y satisfacción en un contexto de uso específico."
+  },
+  {
+    "id": 39,
+    "unidad": 5,
+    "tipo": "alternativas",
+    "pregunta": "¿Cuáles de las siguientes ideas corresponden al concepto general de calidad?",
+    "opciones": [
+      "La calidad se relaciona con satisfacción de necesidades.",
+      "La calidad puede considerar necesidades expresadas e implícitas.",
+      "La calidad es siempre absoluta e igual para todos los usuarios.",
+      "La calidad puede evaluarse mediante características mensurables."
+    ],
+    "correctas": [0, 1, 3]
+  },
+  {
+    "id": 40,
+    "unidad": 5,
+    "tipo": "alternativas",
+    "pregunta": "¿Cuáles son particularidades del software frente a productos físicos?",
+    "opciones": [
+      "Se desarrolla, no se fabrica.",
+      "Su uso degrada físicamente el producto.",
+      "Es un producto lógico.",
+      "El costo principal está en la elaboración o diseño."
+    ],
+    "correctas": [0, 2, 3]
+  },
+  {
+    "id": 41,
+    "unidad": 5,
+    "tipo": "alternativas",
+    "pregunta": "Según IEEE 610-1990, la calidad del software considera el grado en que se cumplen:",
+    "opciones": [
+      "Los requisitos especificados.",
+      "Las necesidades o expectativas del cliente o usuario.",
+      "Únicamente la velocidad de ejecución.",
+      "Únicamente la estética de la interfaz."
+    ],
+    "correctas": [0, 1]
+  },
+  {
+    "id": 42,
+    "unidad": 5,
+    "tipo": "alternativas",
+    "pregunta": "¿Qué afirmaciones explican la importancia de los requerimientos?",
+    "opciones": [
+      "Una buena especificación ayuda a lograr un producto conforme.",
+      "Objetivos poco claros dificultan alcanzar los resultados esperados.",
+      "Cualquier programa que compile cumple necesariamente las necesidades del usuario.",
+      "Es necesario identificar las necesidades reales del cliente o usuario."
+    ],
+    "correctas": [0, 1, 3]
+  },
+  {
+    "id": 43,
+    "unidad": 5,
+    "tipo": "alternativas",
+    "pregunta": "¿Cuáles corresponden a términos de calidad del software?",
+    "opciones": [
+      "Administración de la calidad.",
+      "Aseguramiento de la calidad.",
+      "Control de calidad del software.",
+      "Improvisación de requisitos sin validación."
+    ],
+    "correctas": [0, 1, 2]
+  },
+  {
+    "id": 44,
+    "unidad": 5,
+    "tipo": "alternativas",
+    "pregunta": "¿Qué describe mejor el aseguramiento de la calidad?",
+    "opciones": [
+      "Actividades para evaluar el proceso de desarrollo.",
+      "Actividades para definir la política de calidad a nivel empresa.",
+      "Actividades destinadas exclusivamente a vender el producto.",
+      "Actividades que reemplazan completamente la necesidad de pruebas."
+    ],
+    "correctas": [0]
+  },
+  {
+    "id": 45,
+    "unidad": 5,
+    "tipo": "alternativas",
+    "pregunta": "¿Qué niveles de calidad del software se mencionan en la unidad?",
+    "opciones": [
+      "Nivel de empresa.",
+      "Nivel de proyecto o proceso.",
+      "Nivel de producto.",
+      "Nivel de publicidad."
+    ],
+    "correctas": [0, 1, 2]
+  },
+  {
+    "id": 46,
+    "unidad": 5,
+    "tipo": "alternativas",
+    "pregunta": "Sobre la calidad a nivel de empresa, ¿cuáles afirmaciones son correctas?",
+    "opciones": [
+      "La política de calidad forma parte de la política general de la empresa.",
+      "La dirección debe expresar explícitamente la política de calidad.",
+      "Solo el área de programación participa en la calidad.",
+      "Requiere compromiso y participación de todos."
+    ],
+    "correctas": [0, 1, 3]
+  },
+  {
+    "id": 47,
+    "unidad": 5,
+    "tipo": "alternativas",
+    "pregunta": "¿Qué elementos forman parte de un sistema de calidad según ISO 9000?",
+    "opciones": [
+      "Estructura de organización.",
+      "Responsabilidades.",
+      "Recursos y procedimientos.",
+      "Preferencias personales no documentadas."
+    ],
+    "correctas": [0, 1, 2]
+  },
+  {
+    "id": 48,
+    "unidad": 5,
+    "tipo": "alternativas",
+    "pregunta": "Un sistema de calidad útil debe:",
+    "opciones": [
+      "Ser eficaz.",
+      "Ser comprendido por todos.",
+      "Ofrecer confianza.",
+      "Poner más énfasis en prevenir que en detectar y corregir."
+    ],
+    "correctas": [0, 1, 2, 3]
+  },
+  {
+    "id": 49,
+    "unidad": 5,
+    "tipo": "alternativas",
+    "pregunta": "Respecto de la normativa ISO, ¿cuáles afirmaciones son correctas?",
+    "opciones": [
+      "ISO 9000 entrega conceptos y directrices generales.",
+      "ISO 9001 abarca el ciclo de vida.",
+      "ISO 9000-3 guía la aplicación de ISO 9001 al software.",
+      "ISO 9000-3 elimina la necesidad de mantenimiento."
+    ],
+    "correctas": [0, 1, 2]
+  },
+  {
+    "id": 50,
+    "unidad": 5,
+    "tipo": "alternativas",
+    "pregunta": "¿Cuáles son dificultades al implantar un sistema de calidad?",
+    "opciones": [
+      "Resistencia al cambio.",
+      "Falta de recursos.",
+      "Falta de formación y educación.",
+      "Exceso garantizado de presupuesto y tiempo."
+    ],
+    "correctas": [0, 1, 2]
+  },
+  {
+    "id": 51,
+    "unidad": 5,
+    "tipo": "alternativas",
+    "pregunta": "¿Cuáles son recomendaciones para implantar un sistema de calidad?",
+    "opciones": [
+      "Asegurar compromiso de la alta dirección.",
+      "Involucrar mandos intermedios.",
+      "Formar e informar al personal.",
+      "Evitar mecanismos de seguimiento."
+    ],
+    "correctas": [0, 1, 2]
+  },
+  {
+    "id": 52,
+    "unidad": 5,
+    "tipo": "alternativas",
+    "pregunta": "¿Qué propone CMM?",
+    "opciones": [
+      "Lineamientos para seleccionar actividades del proceso software.",
+      "Medición de madurez de una organización.",
+      "Áreas de proceso claves para alcanzar niveles.",
+      "Sustituir totalmente la gestión de proyectos por improvisación."
+    ],
+    "correctas": [0, 1, 2]
+  },
+  {
+    "id": 53,
+    "unidad": 5,
+    "tipo": "alternativas",
+    "pregunta": "¿Cuáles son niveles de CMM?",
+    "opciones": [
+      "Inicial.",
+      "Repetible.",
+      "Definido.",
+      "Optimizado."
+    ],
+    "correctas": [0, 1, 2, 3]
+  },
+  {
+    "id": 54,
+    "unidad": 5,
+    "tipo": "alternativas",
+    "pregunta": "¿Qué áreas o enfoques corresponden al nivel 2 de CMM?",
+    "opciones": [
+      "Administración de proyectos.",
+      "Planificación de proyecto de software.",
+      "Gestión de configuración de software.",
+      "Prevención de defectos como enfoque principal del nivel."
+    ],
+    "correctas": [0, 1, 2]
+  },
+  {
+    "id": 55,
+    "unidad": 5,
+    "tipo": "alternativas",
+    "pregunta": "¿Qué áreas corresponden al nivel 3 de CMM?",
+    "opciones": [
+      "Definición de procesos.",
+      "Programas de entrenamiento.",
+      "Revisión de pares.",
+      "Inspección física de materiales."
+    ],
+    "correctas": [0, 1, 2]
+  },
+  {
+    "id": 56,
+    "unidad": 5,
+    "tipo": "alternativas",
+    "pregunta": "¿Qué áreas corresponden al nivel 5 de CMM?",
+    "opciones": [
+      "Prevención de defectos.",
+      "Gestión de cambio de procesos.",
+      "Tecnologías de gestión de cambios.",
+      "Ausencia total de procesos."
+    ],
+    "correctas": [0, 1, 2]
+  },
+  {
+    "id": 57,
+    "unidad": 5,
+    "tipo": "alternativas",
+    "pregunta": "¿Cuáles son problemas o críticas al modelo CMM?",
+    "opciones": [
+      "Se enfoca más en administración del proyecto que en desarrollo del producto.",
+      "No considera suficientemente tecnologías como prototipos, métodos formales o herramientas CASE.",
+      "Puede ser demasiado burocrático para empresas pequeñas.",
+      "No tiene ningún nivel de madurez definido."
+    ],
+    "correctas": [0, 1, 2]
+  },
+  {
+    "id": 58,
+    "unidad": 5,
+    "tipo": "alternativas",
+    "pregunta": "Sobre CMM, ISO 9000 y CMMI, ¿cuáles afirmaciones son correctas?",
+    "opciones": [
+      "CMM se considera más detallado que ISO 9000.",
+      "CMM incluye un marco para mejora de procesos.",
+      "Los niveles 2 y 3 de CMM son compatibles con ISO 9000.",
+      "CMMI integra múltiples modelos de madurez CMM."
+    ],
+    "correctas": [0, 1, 2, 3]
+  },
+  {
+    "id": 59,
+    "unidad": 5,
+    "tipo": "alternativas",
+    "pregunta": "¿Qué caracteriza a los procesos informales?",
+    "opciones": [
+      "No tienen un modelo de proceso estrictamente definido.",
+      "El modelo puede ser elegido por el equipo de desarrolladores.",
+      "Son adecuados para prototipos o sistemas pequeños.",
+      "Exigen siempre métricas cuantitativas avanzadas."
+    ],
+    "correctas": [0, 1, 2]
+  },
+  {
+    "id": 60,
+    "unidad": 5,
+    "tipo": "alternativas",
+    "pregunta": "¿Qué caracteriza a los procesos administrados?",
+    "opciones": [
+      "Existe un modelo definido de procesos.",
+      "Se definen procedimientos, duración y relaciones.",
+      "Son adecuados para sistemas grandes o de vida larga.",
+      "No requieren administración de configuración ni de proyectos."
+    ],
+    "correctas": [0, 1, 2]
+  },
+  {
+    "id": 61,
+    "unidad": 5,
+    "tipo": "alternativas",
+    "pregunta": "¿Qué caracteriza a los procesos metodológicos?",
+    "opciones": [
+      "Usan métodos o modelos de desarrollo definidos.",
+      "Son adecuados para áreas de aplicación bien comprendidas.",
+      "Pueden apoyarse en herramientas CASE para análisis y diseño.",
+      "Solo sirven para sistemas sin requisitos."
+    ],
+    "correctas": [0, 1, 2]
+  },
+  {
+    "id": 62,
+    "unidad": 5,
+    "tipo": "alternativas",
+    "pregunta": "¿Qué caracteriza a los procesos de mejora?",
+    "opciones": [
+      "Tienen objetivos explícitos de mejora.",
+      "Cuentan con presupuesto específico para mejoras.",
+      "Introducen mediciones cuantitativas del proceso.",
+      "Evitan procedimientos para introducir mejoras."
+    ],
+    "correctas": [0, 1, 2]
+  },
+  {
+    "id": 63,
+    "unidad": 5,
+    "tipo": "alternativas",
+    "pregunta": "Al inicio de un proyecto, para gestionar la calidad deben definirse:",
+    "opciones": [
+      "Paradigmas adaptados al proyecto.",
+      "Financiación, disponibilidad y viabilidad de recursos.",
+      "Metodologías, técnicas y herramientas.",
+      "Planificación de la gestión del proyecto."
+    ],
+    "correctas": [0, 1, 2, 3]
+  },
+  {
+    "id": 64,
+    "unidad": 5,
+    "tipo": "alternativas",
+    "pregunta": "¿Qué debe especificar el plan de gestión del proyecto?",
+    "opciones": [
+      "Gestión día a día del proyecto.",
+      "Planificación del aseguramiento de la calidad.",
+      "Planificación de la documentación.",
+      "Eliminación de revisiones y auditorías."
+    ],
+    "correctas": [0, 1, 2]
+  },
+  {
+    "id": 65,
+    "unidad": 5,
+    "tipo": "alternativas",
+    "pregunta": "¿Qué puede incluir un plan de aseguramiento de calidad específico para un proyecto?",
+    "opciones": [
+      "Objetivos de calidad del proyecto.",
+      "Gestión del aseguramiento de la calidad.",
+      "Documentación mínima requerida.",
+      "Estándares, revisiones, auditorías y gestión de configuración."
+    ],
+    "correctas": [0, 1, 2, 3]
+  },
+  {
+    "id": 66,
+    "unidad": 5,
+    "tipo": "alternativas",
+    "pregunta": "¿Cuáles afirmaciones sobre métricas del software son correctas?",
+    "opciones": [
+      "No son absolutas.",
+      "Pueden estar sujetas a debate.",
+      "Permiten obtener medidas indirectas de calidad.",
+      "Siempre miden calidad de forma perfecta y directa."
+    ],
+    "correctas": [0, 1, 2]
+  },
+  {
+    "id": 67,
+    "unidad": 5,
+    "tipo": "alternativas",
+    "pregunta": "¿Qué condiciones debe cumplir una medida interna para ser un indicador útil de un atributo externo?",
+    "opciones": [
+      "El atributo interno debe medirse de forma precisa.",
+      "Debe existir relación entre atributo interno y externo.",
+      "La relación debe comprenderse y validarse.",
+      "La relación puede ser desconocida mientras el valor numérico exista."
+    ],
+    "correctas": [0, 1, 2]
+  },
+  {
+    "id": 68,
+    "unidad": 5,
+    "tipo": "alternativas",
+    "pregunta": "¿Cuáles son ejemplos de atributos externos de calidad mencionados en la relación con atributos internos?",
+    "opciones": [
+      "Mantenibilidad.",
+      "Fiabilidad.",
+      "Portabilidad.",
+      "Usabilidad."
+    ],
+    "correctas": [0, 1, 2, 3]
+  },
+  {
+    "id": 69,
+    "unidad": 5,
+    "tipo": "alternativas",
+    "pregunta": "¿Cuáles son ejemplos de atributos internos o medidas asociadas en la unidad?",
+    "opciones": [
+      "Número de parámetros del procedimiento.",
+      "Complejidad ciclomática.",
+      "Tamaño del programa en líneas de código.",
+      "Número de mensajes de error."
+    ],
+    "correctas": [0, 1, 2, 3]
+  },
+  {
+    "id": 70,
+    "unidad": 5,
+    "tipo": "alternativas",
+    "pregunta": "¿Qué afirmaciones distinguen métricas estáticas y dinámicas?",
+    "opciones": [
+      "Las estáticas se miden en representaciones del sistema.",
+      "Las dinámicas se miden en programas en ejecución.",
+      "Las estáticas pueden aplicarse a código o documentación.",
+      "Las dinámicas se miden exclusivamente en documentos impresos."
+    ],
+    "correctas": [0, 1, 2]
+  },
+  {
+    "id": 71,
+    "unidad": 5,
+    "tipo": "alternativas",
+    "pregunta": "Las métricas y mediciones deberían ser:",
+    "opciones": [
+      "Simples e intuitivas.",
+      "Consistentes y objetivas.",
+      "Consistentes en el uso de unidades.",
+      "Dependientes obligatoriamente de un lenguaje de programación específico."
+    ],
+    "correctas": [0, 1, 2]
+  },
+  {
+    "id": 72,
+    "unidad": 5,
+    "tipo": "alternativas",
+    "pregunta": "¿Qué ocurre en el proceso de medición del producto?",
+    "opciones": [
+      "Se analiza cada componente por separado.",
+      "Los valores se comparan entre componentes y con datos históricos.",
+      "Las medidas anómalas ayudan a enfocar esfuerzos.",
+      "Los datos recolectados se descartan al terminar el proyecto."
+    ],
+    "correctas": [0, 1, 2]
+  },
+  {
+    "id": 73,
+    "unidad": 5,
+    "tipo": "alternativas",
+    "pregunta": "¿Cuáles son etapas del proceso de medición del producto?",
+    "opciones": [
+      "Seleccionar medidas.",
+      "Seleccionar componentes a evaluar.",
+      "Medir características de los componentes.",
+      "Identificar y analizar mediciones anómalas."
+    ],
+    "correctas": [0, 1, 2, 3]
+  },
+  {
+    "id": 74,
+    "unidad": 5,
+    "tipo": "alternativas",
+    "pregunta": "Según ISO 9241, la usabilidad implica que un producto pueda ser usado:",
+    "opciones": [
+      "Por determinados usuarios.",
+      "Para conseguir objetivos específicos.",
+      "Con efectividad, eficiencia y satisfacción.",
+      "En un contexto de uso específico."
+    ],
+    "correctas": [0, 1, 2, 3]
+  },
+  {
+    "id": 75,
+    "unidad": 5,
+    "tipo": "alternativas",
+    "pregunta": "¿Qué preguntas ayudan a evaluar la usabilidad en un proyecto?",
+    "opciones": [
+      "¿Qué usuarios utilizarán el software?",
+      "¿Qué objetivos buscan los usuarios?",
+      "¿Cuál es el contexto de uso?",
+      "¿Cómo se evidencia la efectividad, eficiencia y satisfacción?"
+    ],
+    "correctas": [0, 1, 2, 3]
+  },
+  {
+    "id": 76,
+    "unidad": 5,
+    "tipo": "alternativas",
+    "pregunta": "Selecciona las alternativas correctas sobre ISO/IEC 9126 en la unidad.",
+    "opciones": [
+      "Incluye funcionalidad como atributo de calidad.",
+      "Incluye confiabilidad como atributo de calidad.",
+      "Incluye usabilidad como atributo de calidad.",
+      "Incluye únicamente seguridad y costo."
+    ],
+    "correctas": [0, 1, 2]
+  },
+  {
+    "id": 77,
+    "unidad": 5,
+    "tipo": "alternativas",
+    "pregunta": "¿Cuáles alternativas son incorrectas respecto a la unidad?",
+    "opciones": [
+      "La calidad depende únicamente del programador.",
+      "El software se degrada físicamente por el uso.",
+      "Las métricas del software son siempre absolutas.",
+      "La usabilidad no depende del contexto."
+    ],
+    "correctas": [0, 1, 2, 3]
+  },
+  {
+    "id": 78,
+    "unidad": 5,
+    "tipo": "alternativas",
+    "pregunta": "¿Qué alternativas son correctas sobre control de calidad del software?",
+    "opciones": [
+      "Evalúa la calidad de productos desarrollados.",
+      "Es diferente del aseguramiento de calidad.",
+      "Se relaciona con actividades de evaluación del producto.",
+      "Define exclusivamente la política financiera de la empresa."
+    ],
+    "correctas": [0, 1, 2]
+  },
+  {
+    "id": 79,
+    "unidad": 5,
+    "tipo": "alternativas",
+    "pregunta": "¿Qué alternativas podrían tener cero respuestas correctas según la unidad?",
+    "opciones": [
+      "La calidad del software no depende de requisitos.",
+      "CMM tiene solo dos niveles.",
+      "ISO 9000-3 se aplica exclusivamente a manufactura física.",
+      "La usabilidad ignora la satisfacción del usuario."
+    ],
+    "correctas": []
+  },
+  {
+    "id": 80,
+    "unidad": 5,
+    "tipo": "desarrollo",
+    "pregunta": "Explica por qué la calidad es un objetivo fundamental en Ingeniería de Software.",
+    "respuesta_esperada": "La calidad es fundamental porque en un mercado competitivo no basta con producir y distribuir software; el producto debe satisfacer necesidades reales de clientes y usuarios. Además, la calidad es relativa, por lo que debe evaluarse según expectativas, contexto y requisitos específicos."
+  },
+  {
+    "id": 81,
+    "unidad": 5,
+    "tipo": "desarrollo",
+    "pregunta": "Compara la calidad en productos físicos con la calidad en software.",
+    "respuesta_esperada": "En productos físicos la calidad puede asociarse a fabricación, materiales y desgaste; en software el producto es lógico, se desarrolla y su valor está en el diseño. La copia es trivial y el uso no lo degrada físicamente. Por eso la calidad del software es más difícil de caracterizar y medir."
+  },
+  {
+    "id": 82,
+    "unidad": 5,
+    "tipo": "desarrollo",
+    "pregunta": "Explica la definición de calidad del software según IEEE 610-1990.",
+    "respuesta_esperada": "La calidad del software es el grado en que un sistema, componente o proceso cumple los requisitos especificados y las necesidades o expectativas del cliente o usuario. Esto implica que no basta con que el sistema funcione técnicamente: debe ajustarse a lo requerido y esperado."
+  },
+  {
+    "id": 83,
+    "unidad": 5,
+    "tipo": "desarrollo",
+    "pregunta": "¿Por qué es importante conocer bien los requerimientos para lograr calidad?",
+    "respuesta_esperada": "Porque una buena especificación es necesaria para construir un producto conforme. Si los objetivos son poco claros, el proyecto difícilmente alcanzará lo esperado. Un programa puede ejecutar funciones, pero no necesariamente resolver las necesidades reales del usuario."
+  },
+  {
+    "id": 84,
+    "unidad": 5,
+    "tipo": "desarrollo",
+    "pregunta": "Diferencia administración de la calidad, aseguramiento de la calidad y control de calidad.",
+    "respuesta_esperada": "La administración de la calidad define y aplica la política de calidad a nivel empresa. El aseguramiento de la calidad evalúa el proceso de desarrollo. El control de calidad evalúa directamente los productos desarrollados."
+  },
+  {
+    "id": 85,
+    "unidad": 5,
+    "tipo": "desarrollo",
+    "pregunta": "Explica la relación entre calidad del proceso y calidad del producto en software.",
+    "respuesta_esperada": "La calidad del proceso influye fuertemente en la calidad del producto, pero en software no la garantiza totalmente porque el software no se manufactura, se diseña. Un proceso de calidad mejora la probabilidad de obtener productos de calidad."
+  },
+  {
+    "id": 86,
+    "unidad": 5,
+    "tipo": "desarrollo",
+    "pregunta": "Describe los tres niveles de calidad del software.",
+    "respuesta_esperada": "La calidad puede abordarse a nivel de empresa, donde se definen políticas y estructuras; a nivel de proyecto o proceso, donde se adaptan esas políticas al proyecto específico; y a nivel de producto, donde se evalúan características concretas del software desarrollado."
+  },
+  {
+    "id": 87,
+    "unidad": 5,
+    "tipo": "desarrollo",
+    "pregunta": "Explica qué es un sistema de calidad y qué características debe tener para ser útil.",
+    "respuesta_esperada": "Un sistema de calidad es la estructura de organización, responsabilidades, actividades, recursos y procedimientos para gestionar la calidad. Debe ser eficaz, comprendido por todos, ofrecer confianza y enfocarse más en prevenir problemas que en detectarlos y corregirlos."
+  },
+  {
+    "id": 88,
+    "unidad": 5,
+    "tipo": "desarrollo",
+    "pregunta": "Explica la relación entre ISO 9000, ISO 9001 e ISO 9000-3.",
+    "respuesta_esperada": "ISO 9000 entrega conceptos y directrices generales de calidad. ISO 9001 abarca el ciclo de vida. ISO 9000-3 sirve como guía para aplicar ISO 9001 al desarrollo, suministro y mantenimiento de software."
+  },
+  {
+    "id": 89,
+    "unidad": 5,
+    "tipo": "desarrollo",
+    "pregunta": "Menciona dificultades y recomendaciones para implantar un sistema de calidad.",
+    "respuesta_esperada": "Entre las dificultades están la resistencia al cambio, falta de recursos, falta de formación, necesidad de tiempo y riesgo de desilusión. Se recomienda asegurar compromiso de la alta dirección, involucrar mandos intermedios, delegar decisiones, formar al personal, usar casos reales y realizar seguimiento continuo."
+  },
+  {
+    "id": 90,
+    "unidad": 5,
+    "tipo": "desarrollo",
+    "pregunta": "Explica qué es CMM y cuál es su objetivo.",
+    "respuesta_esperada": "CMM, Capability Maturity Model, es un modelo que ofrece lineamientos para seleccionar actividades del proceso software y medir la madurez de una organización. Busca hacer más predecible el proceso mediante modelos estructurados, visibles y adaptables."
+  },
+  {
+    "id": 91,
+    "unidad": 5,
+    "tipo": "desarrollo",
+    "pregunta": "Describe los cinco niveles de CMM.",
+    "respuesta_esperada": "Nivel 1 Inicial: depende de gente competente y no tiene KPA. Nivel 2 Repetible: se enfoca en administración de proyectos. Nivel 3 Definido: define procesos, entrenamiento y revisión de pares. Nivel 4 Administrado: usa métricas cuantitativas y gestión de calidad. Nivel 5 Optimizado: se orienta a mejora continua, prevención de defectos y gestión de cambios."
+  },
+  {
+    "id": 92,
+    "unidad": 5,
+    "tipo": "desarrollo",
+    "pregunta": "Explica las principales críticas o problemas del modelo CMM.",
+    "respuesta_esperada": "CMM se enfoca más en administración de proyectos que en desarrollo del producto, no considera suficientemente tecnologías como prototipos o herramientas CASE, no incluye análisis y resolución de riesgos como área clave, no es universal para toda área de aplicación y puede ser burocrático para empresas pequeñas."
+  },
+  {
+    "id": 93,
+    "unidad": 5,
+    "tipo": "desarrollo",
+    "pregunta": "Explica qué es CMMI y cómo se relaciona con CMM.",
+    "respuesta_esperada": "CMMI integra múltiples modelos de madurez CMM en un único modelo. Además, puede integrar de forma complementaria ingeniería de sistemas, ingeniería de software y desarrollo integrado de productos y procesos."
+  },
+  {
+    "id": 94,
+    "unidad": 5,
+    "tipo": "desarrollo",
+    "pregunta": "Compara procesos informales, administrados, metodológicos y de mejora.",
+    "respuesta_esperada": "Los informales no tienen modelo estricto y sirven para prototipos o sistemas pequeños. Los administrados tienen modelo, procedimientos y relaciones definidas, útiles en sistemas grandes o de vida larga. Los metodológicos usan métodos o modelos definidos y herramientas CASE. Los de mejora tienen objetivos explícitos, presupuesto, procedimientos de mejora y mediciones cuantitativas."
+  },
+  {
+    "id": 95,
+    "unidad": 5,
+    "tipo": "desarrollo",
+    "pregunta": "Explica qué debe definirse al inicio de un proyecto para asegurar calidad.",
+    "respuesta_esperada": "Deben definirse paradigmas adaptados al proyecto, financiamiento, disponibilidad y viabilidad de recursos, normas contractuales, metodologías, técnicas, herramientas y planificación de la gestión del proyecto."
+  },
+  {
+    "id": 96,
+    "unidad": 5,
+    "tipo": "desarrollo",
+    "pregunta": "Describe qué debe contener un plan de aseguramiento de calidad específico para un proyecto.",
+    "respuesta_esperada": "Debe incluir objetivos de calidad, enfoque para lograrlos, gestión del aseguramiento de calidad, organización, actividades, responsabilidades, documentación mínima, estándares, normas, prácticas, revisiones, auditorías, gestión de configuración, informes de problemas, técnicas y herramientas."
+  },
+  {
+    "id": 97,
+    "unidad": 5,
+    "tipo": "desarrollo",
+    "pregunta": "Explica por qué las métricas del software no son absolutas.",
+    "respuesta_esperada": "Porque el software es un producto lógico y muchas características de calidad no se pueden medir directamente. Por eso se usan medidas indirectas que deben interpretarse, validarse y relacionarse con atributos externos de calidad."
+  },
+  {
+    "id": 98,
+    "unidad": 5,
+    "tipo": "desarrollo",
+    "pregunta": "Diferencia atributos internos y externos en métricas de software.",
+    "respuesta_esperada": "Los atributos internos son características medibles en representaciones del software, como tamaño del código o complejidad. Los atributos externos son cualidades observables en el uso, como mantenibilidad, fiabilidad, portabilidad o usabilidad. Para que una medida interna sea útil debe relacionarse claramente con un atributo externo."
+  },
+  {
+    "id": 99,
+    "unidad": 5,
+    "tipo": "desarrollo",
+    "pregunta": "Compara métricas estáticas y métricas dinámicas.",
+    "respuesta_esperada": "Las métricas estáticas se obtienen desde representaciones del sistema como análisis, diseño, código o documentación. Las métricas dinámicas se obtienen desde programas en ejecución."
+  },
+  {
+    "id": 100,
+    "unidad": 5,
+    "tipo": "desarrollo",
+    "pregunta": "Describe las características que deberían tener las métricas y mediciones del software.",
+    "respuesta_esperada": "Deben ser simples e intuitivas, consistentes y objetivas, consistentes en el uso de unidades, independientes del lenguaje de programación y útiles como mecanismo de retroalimentación para mejorar la calidad."
+  },
+  {
+    "id": 101,
+    "unidad": 5,
+    "tipo": "desarrollo",
+    "pregunta": "Explica el proceso de medición del producto software.",
+    "respuesta_esperada": "El proceso de medición forma parte del control de calidad. Se analizan componentes por separado, se comparan métricas entre ellos y con datos históricos, se identifican medidas anómalas para enfocar esfuerzos y se registran los datos como recurso organizacional."
+  },
+  {
+    "id": 102,
+    "unidad": 5,
+    "tipo": "desarrollo",
+    "pregunta": "Enumera y explica las etapas del proceso de medición del producto.",
+    "respuesta_esperada": "Primero se seleccionan medidas formulando preguntas que las métricas puedan responder. Luego se seleccionan componentes representativos, se miden sus características, se identifican mediciones anómalas y finalmente se analizan los componentes con valores anómalos."
+  },
+  {
+    "id": 103,
+    "unidad": 5,
+    "tipo": "desarrollo",
+    "pregunta": "Explica la definición de usabilidad según ISO 9241.",
+    "respuesta_esperada": "La usabilidad es la medida en que un producto, sistema o servicio puede ser usado por usuarios determinados para lograr objetivos específicos con efectividad, eficiencia y satisfacción dentro de un contexto de uso específico."
+  },
+  {
+    "id": 104,
+    "unidad": 5,
+    "tipo": "desarrollo",
+    "pregunta": "¿Por qué la usabilidad depende del usuario, los objetivos y el contexto?",
+    "respuesta_esperada": "Porque un software puede ser usable para ciertos usuarios y objetivos, pero no para otros. También puede funcionar bien en un contexto y mal en otro. Por eso se deben identificar usuarios, objetivos, condiciones de uso y evidencias de efectividad, eficiencia y satisfacción."
+  },
+  {
+    "id": 105,
+    "unidad": 5,
+    "tipo": "desarrollo",
+    "pregunta": "Aplica el concepto de usabilidad a un proyecto de software: ¿qué aspectos deberías justificar?",
+    "respuesta_esperada": "Se deberían justificar los usuarios que usarán el software, los objetivos que buscan lograr, el contexto de uso y la forma en que se evidenciará la efectividad, eficiencia y satisfacción del uso del sistema."
+  }
+]

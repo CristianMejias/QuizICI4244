@@ -1,0 +1,1284 @@
+[
+    {
+        "id": 1,
+        "unidad": 4,
+        "tipo": "verdadero-falso",
+        "pregunta": "La seguridad de software busca proteger contra ciberataques, evitar accesos no autorizados y garantizar la confidencialidad, integridad y disponibilidad de los datos.",
+        "respuesta": true,
+        "justificacion": "Correcto."
+    },
+    {
+        "id": 2,
+        "unidad": 4,
+        "tipo": "verdadero-falso",
+        "pregunta": "Un software inseguro solo afecta a los usuarios finales, pero no representa riesgos para las empresas.",
+        "respuesta": false,
+        "justificacion": "Falso. Un software inseguro puede afectar a empresas y usuarios mediante pérdida de datos, robos financieros, daño reputacional y problemas legales."
+    },
+    {
+        "id": 3,
+        "unidad": 4,
+        "tipo": "verdadero-falso",
+        "pregunta": "La confidencialidad busca que solo personas o sistemas autorizados accedan a la información.",
+        "respuesta": true,
+        "justificacion": "Correcto."
+    },
+    {
+        "id": 4,
+        "unidad": 4,
+        "tipo": "verdadero-falso",
+        "pregunta": "La integridad se relaciona principalmente con que el sistema esté disponible cuando el usuario lo requiera.",
+        "respuesta": false,
+        "justificacion": "Falso. La integridad se relaciona con evitar modificaciones no autorizadas o accidentales en datos y software. La disponibilidad se relaciona con que el sistema esté accesible cuando se necesite."
+    },
+    {
+        "id": 5,
+        "unidad": 4,
+        "tipo": "verdadero-falso",
+        "pregunta": "Las firmas digitales, el hashing y los controles de integridad de archivos son mecanismos asociados a la integridad.",
+        "respuesta": true,
+        "justificacion": "Correcto."
+    },
+    {
+        "id": 6,
+        "unidad": 4,
+        "tipo": "verdadero-falso",
+        "pregunta": "La disponibilidad es irrelevante en sistemas críticos, porque basta con proteger la confidencialidad de los datos.",
+        "respuesta": false,
+        "justificacion": "Falso. La disponibilidad es clave en sistemas críticos porque evita interrupciones de servicios y permite que usuarios autorizados accedan al sistema cuando lo requieran."
+    },
+    {
+        "id": 7,
+        "unidad": 4,
+        "tipo": "verdadero-falso",
+        "pregunta": "El balanceo de carga, los sistemas de respaldo y la protección contra DDoS ayudan a mejorar la disponibilidad.",
+        "respuesta": true,
+        "justificacion": "Correcto."
+    },
+    {
+        "id": 8,
+        "unidad": 4,
+        "tipo": "verdadero-falso",
+        "pregunta": "La autenticidad garantiza que una entidad sea realmente quien dice ser.",
+        "respuesta": true,
+        "justificacion": "Correcto."
+    },
+    {
+        "id": 9,
+        "unidad": 4,
+        "tipo": "verdadero-falso",
+        "pregunta": "El no repudio permite que un usuario niegue fácilmente una acción realizada.",
+        "respuesta": false,
+        "justificacion": "Falso. El no repudio evita que una entidad pueda negar una acción realizada, como enviar un mensaje o aprobar una transacción."
+    },
+    {
+        "id": 10,
+        "unidad": 4,
+        "tipo": "verdadero-falso",
+        "pregunta": "La auditoría y trazabilidad permiten registrar y seguir acciones realizadas dentro de un sistema.",
+        "respuesta": true,
+        "justificacion": "Correcto."
+    },
+    {
+        "id": 11,
+        "unidad": 4,
+        "tipo": "verdadero-falso",
+        "pregunta": "La resiliencia se refiere a la capacidad del software para seguir funcionando o recuperarse rápidamente frente a fallos o ataques.",
+        "respuesta": true,
+        "justificacion": "Correcto."
+    },
+    {
+        "id": 12,
+        "unidad": 4,
+        "tipo": "verdadero-falso",
+        "pregunta": "La privacidad solo se preocupa por proteger contraseñas, no por datos personales o sensibles.",
+        "respuesta": false,
+        "justificacion": "Falso. La privacidad protege datos personales y sensibles, asegurando su uso adecuado y evitando accesos no autorizados."
+    },
+    {
+        "id": 13,
+        "unidad": 4,
+        "tipo": "verdadero-falso",
+        "pregunta": "La seguridad debe incorporarse durante todo el ciclo de vida del software.",
+        "respuesta": true,
+        "justificacion": "Correcto."
+    },
+    {
+        "id": 14,
+        "unidad": 4,
+        "tipo": "verdadero-falso",
+        "pregunta": "Los servicios de seguridad de la información solo protegen frente a amenazas externas.",
+        "respuesta": false,
+        "justificacion": "Falso. También protegen frente a amenazas internas, como errores, malas prácticas o accesos indebidos dentro de la organización."
+    },
+    {
+        "id": 15,
+        "unidad": 4,
+        "tipo": "verdadero-falso",
+        "pregunta": "La gestión de incidentes incluye detección, análisis, respuesta y recuperación.",
+        "respuesta": true,
+        "justificacion": "Correcto."
+    },
+    {
+        "id": 16,
+        "unidad": 4,
+        "tipo": "verdadero-falso",
+        "pregunta": "El monitoreo de amenazas consiste en revisar sistemas una vez al año para cumplir auditorías.",
+        "respuesta": false,
+        "justificacion": "Falso. El monitoreo de amenazas implica vigilancia continua de sistemas y redes para detectar amenazas o actividades sospechosas."
+    },
+    {
+        "id": 17,
+        "unidad": 4,
+        "tipo": "verdadero-falso",
+        "pregunta": "Las herramientas IDS/IPS pueden utilizarse para identificar comportamientos anómalos.",
+        "respuesta": true,
+        "justificacion": "Correcto."
+    },
+    {
+        "id": 18,
+        "unidad": 4,
+        "tipo": "verdadero-falso",
+        "pregunta": "Las auditorías de seguridad ayudan a detectar vulnerabilidades y verificar cumplimiento normativo.",
+        "respuesta": true,
+        "justificacion": "Correcto."
+    },
+    {
+        "id": 19,
+        "unidad": 4,
+        "tipo": "verdadero-falso",
+        "pregunta": "La gestión de riesgos no se relaciona con la priorización de controles de seguridad.",
+        "respuesta": false,
+        "justificacion": "Falso. La gestión de riesgos identifica y evalúa riesgos para priorizar controles de seguridad y minimizar amenazas."
+    },
+    {
+        "id": 20,
+        "unidad": 4,
+        "tipo": "verdadero-falso",
+        "pregunta": "Las pruebas de penetración simulan ataques para detectar vulnerabilidades.",
+        "respuesta": true,
+        "justificacion": "Correcto."
+    },
+    {
+        "id": 21,
+        "unidad": 4,
+        "tipo": "verdadero-falso",
+        "pregunta": "La gestión de parches busca aplicar actualizaciones para corregir vulnerabilidades.",
+        "respuesta": true,
+        "justificacion": "Correcto."
+    },
+    {
+        "id": 22,
+        "unidad": 4,
+        "tipo": "verdadero-falso",
+        "pregunta": "La seguridad en la nube solo se limita a contratar un proveedor cloud.",
+        "respuesta": false,
+        "justificacion": "Falso. La seguridad en la nube incluye configuraciones seguras, control de accesos, protección de datos y monitoreo de amenazas."
+    },
+    {
+        "id": 23,
+        "unidad": 4,
+        "tipo": "verdadero-falso",
+        "pregunta": "La recuperación ante desastres busca garantizar la rápida recuperación de sistemas y la continuidad del negocio tras incidentes graves.",
+        "respuesta": true,
+        "justificacion": "Correcto."
+    },
+    {
+        "id": 24,
+        "unidad": 4,
+        "tipo": "verdadero-falso",
+        "pregunta": "El control de acceso define quién puede ingresar a un sistema y qué acciones puede realizar dentro.",
+        "respuesta": true,
+        "justificacion": "Correcto."
+    },
+    {
+        "id": 25,
+        "unidad": 4,
+        "tipo": "verdadero-falso",
+        "pregunta": "En el control de acceso discrecional, las políticas siempre son impuestas centralmente y el dueño del recurso no decide nada.",
+        "respuesta": false,
+        "justificacion": "Falso. En DAC, el dueño del recurso decide quién accede y qué permisos se otorgan. Las políticas centralizadas corresponden más al modelo MAC."
+    },
+    {
+        "id": 26,
+        "unidad": 4,
+        "tipo": "verdadero-falso",
+        "pregunta": "En el control de acceso obligatorio, los datos y usuarios pueden clasificarse según niveles de seguridad.",
+        "respuesta": true,
+        "justificacion": "Correcto."
+    },
+    {
+        "id": 27,
+        "unidad": 4,
+        "tipo": "verdadero-falso",
+        "pregunta": "RBAC asigna permisos según atributos como ubicación, horario o dispositivo.",
+        "respuesta": false,
+        "justificacion": "Falso. RBAC asigna permisos según roles. El modelo que considera atributos como ubicación, horario o dispositivo es ABAC."
+    },
+    {
+        "id": 28,
+        "unidad": 4,
+        "tipo": "verdadero-falso",
+        "pregunta": "ABAC puede considerar atributos del usuario, del recurso y del entorno.",
+        "respuesta": true,
+        "justificacion": "Correcto."
+    },
+    {
+        "id": 29,
+        "unidad": 4,
+        "tipo": "verdadero-falso",
+        "pregunta": "El control de acceso solo debe revisarse durante el despliegue del software.",
+        "respuesta": false,
+        "justificacion": "Falso. Debe considerarse en planificación, diseño, desarrollo, pruebas, despliegue y mantenimiento."
+    },
+    {
+        "id": 30,
+        "unidad": 4,
+        "tipo": "verdadero-falso",
+        "pregunta": "En la planificación se pueden definir roles, niveles de acceso y normativas.",
+        "respuesta": true,
+        "justificacion": "Correcto."
+    },
+    {
+        "id": 31,
+        "unidad": 4,
+        "tipo": "verdadero-falso",
+        "pregunta": "En el diseño se eligen mecanismos de autenticación y autorización.",
+        "respuesta": true,
+        "justificacion": "Correcto."
+    },
+    {
+        "id": 32,
+        "unidad": 4,
+        "tipo": "verdadero-falso",
+        "pregunta": "El principio de mínimo privilegio consiste en otorgar a los usuarios todos los permisos posibles para evitar bloqueos.",
+        "respuesta": false,
+        "justificacion": "Falso. El principio de mínimo privilegio consiste en otorgar solo los permisos necesarios para realizar una tarea."
+    },
+    {
+        "id": 33,
+        "unidad": 4,
+        "tipo": "verdadero-falso",
+        "pregunta": "Un SGSI organiza recursos, políticas, responsabilidades, procesos y procedimientos para alcanzar objetivos de seguridad.",
+        "respuesta": true,
+        "justificacion": "Correcto."
+    },
+    {
+        "id": 34,
+        "unidad": 4,
+        "tipo": "verdadero-falso",
+        "pregunta": "Un SGSI no tiene relación con regulaciones, leyes o requisitos de clientes.",
+        "respuesta": false,
+        "justificacion": "Falso. Un SGSI ayuda a satisfacer requisitos de seguridad de clientes, cumplir objetivos, adherirse a regulaciones y gestionar activos de información."
+    },
+    {
+        "id": 35,
+        "unidad": 4,
+        "tipo": "verdadero-falso",
+        "pregunta": "El ciclo PHVA corresponde a Planificar, Hacer, Verificar y Actuar.",
+        "respuesta": true,
+        "justificacion": "Correcto."
+    },
+    {
+        "id": 36,
+        "unidad": 4,
+        "tipo": "verdadero-falso",
+        "pregunta": "El ciclo Deming PHVA es lineal y se ejecuta una sola vez.",
+        "respuesta": false,
+        "justificacion": "Falso. Es un ciclo de mejora continua que se repite constantemente para mejorar procesos."
+    },
+    {
+        "id": 37,
+        "unidad": 4,
+        "tipo": "verdadero-falso",
+        "pregunta": "La implementación de un SGSI puede traducirse en pruebas documentales, prácticas operativas y controles técnicos.",
+        "respuesta": true,
+        "justificacion": "Correcto."
+    },
+    {
+        "id": 38,
+        "unidad": 4,
+        "tipo": "verdadero-falso",
+        "pregunta": "Las pruebas documentales corresponden a herramientas automáticas como firewalls, antivirus y cifrado.",
+        "respuesta": false,
+        "justificacion": "Falso. Las pruebas documentales son documentos que evidencian control y planificación, como políticas, auditorías y planes de gestión de riesgos. Firewalls, antivirus y cifrado son controles técnicos."
+    },
+    {
+        "id": 39,
+        "unidad": 4,
+        "tipo": "verdadero-falso",
+        "pregunta": "Las prácticas operativas son acciones reales realizadas en el trabajo diario, como copias de seguridad o revisión de código.",
+        "respuesta": true,
+        "justificacion": "Correcto."
+    },
+    {
+        "id": 40,
+        "unidad": 4,
+        "tipo": "verdadero-falso",
+        "pregunta": "El análisis de riesgos ayuda a identificar amenazas y vulnerabilidades que pueden afectar seguridad, funcionalidad y disponibilidad.",
+        "respuesta": true,
+        "justificacion": "Correcto."
+    },
+    {
+        "id": 41,
+        "unidad": 4,
+        "tipo": "verdadero-falso",
+        "pregunta": "La gestión del riesgo busca aumentar la probabilidad de ocurrencia de amenazas para probar el sistema.",
+        "respuesta": false,
+        "justificacion": "Falso. Busca reducir la probabilidad de ocurrencia o el impacto de los riesgos."
+    },
+    {
+        "id": 42,
+        "unidad": 4,
+        "tipo": "verdadero-falso",
+        "pregunta": "La mitigación consiste en aplicar controles para reducir la probabilidad o impacto de un riesgo.",
+        "respuesta": true,
+        "justificacion": "Correcto."
+    },
+    {
+        "id": 43,
+        "unidad": 4,
+        "tipo": "verdadero-falso",
+        "pregunta": "La transferencia de riesgo implica eliminar completamente la actividad que genera el riesgo.",
+        "respuesta": false,
+        "justificacion": "Falso. La transferencia traslada la responsabilidad o impacto a un tercero, como un seguro o subcontratación. Eliminar la actividad corresponde a evitación."
+    },
+    {
+        "id": 44,
+        "unidad": 4,
+        "tipo": "verdadero-falso",
+        "pregunta": "La aceptación de riesgo puede ser válida cuando el impacto es bajo o el costo de mitigarlo es mayor que el daño posible.",
+        "respuesta": true,
+        "justificacion": "Correcto."
+    },
+    {
+        "id": 45,
+        "unidad": 4,
+        "tipo": "verdadero-falso",
+        "pregunta": "Aceptar un riesgo significa que no es necesario documentarlo ni generar planes de contingencia.",
+        "respuesta": false,
+        "justificacion": "Falso. La aceptación de riesgos debe documentarse y acompañarse de planes de contingencia."
+    },
+    {
+        "id": 46,
+        "unidad": 4,
+        "tipo": "verdadero-falso",
+        "pregunta": "Compartir el riesgo implica colaborar con otros actores para reducirlo.",
+        "respuesta": true,
+        "justificacion": "Correcto."
+    },
+    {
+        "id": 47,
+        "unidad": 4,
+        "tipo": "verdadero-falso",
+        "pregunta": "El riesgo residual es el riesgo que queda después de aplicar controles.",
+        "respuesta": true,
+        "justificacion": "Correcto."
+    },
+    {
+        "id": 48,
+        "unidad": 4,
+        "tipo": "verdadero-falso",
+        "pregunta": "El monitoreo continuo es innecesario después de seleccionar controles de seguridad.",
+        "respuesta": false,
+        "justificacion": "Falso. Los riesgos deben supervisarse continuamente porque cambian las amenazas, vulnerabilidades, sistemas y condiciones del entorno."
+    },
+    {
+        "id": 49,
+        "unidad": 4,
+        "tipo": "alternativas",
+        "pregunta": "¿Cuáles son dimensiones principales de la seguridad de la información?",
+        "opciones": [
+            "Confidencialidad",
+            "Integridad",
+            "Disponibilidad",
+            "Usabilidad"
+        ],
+        "correctas": [
+            0,
+            1,
+            2
+        ]
+    },
+    {
+        "id": 50,
+        "unidad": 4,
+        "tipo": "alternativas",
+        "pregunta": "¿Cuáles son posibles consecuencias de un software inseguro?",
+        "opciones": [
+            "Pérdida de datos",
+            "Robos financieros",
+            "Daño a la reputación",
+            "Vulnerabilidades legales"
+        ],
+        "correctas": [
+            0,
+            1,
+            2,
+            3
+        ]
+    },
+    {
+        "id": 51,
+        "unidad": 4,
+        "tipo": "alternativas",
+        "pregunta": "¿Qué mecanismos se asocian principalmente con la confidencialidad?",
+        "opciones": [
+            "Autenticación de usuarios",
+            "Control de acceso basado en roles",
+            "Acceso autorizado a información",
+            "Balanceo de carga"
+        ],
+        "correctas": [
+            0,
+            1,
+            2
+        ]
+    },
+    {
+        "id": 52,
+        "unidad": 4,
+        "tipo": "alternativas",
+        "pregunta": "¿Qué mecanismos se asocian principalmente con la integridad?",
+        "opciones": [
+            "Firmas digitales",
+            "Hashing",
+            "Controles de integridad de archivos",
+            "DDoS"
+        ],
+        "correctas": [
+            0,
+            1,
+            2
+        ]
+    },
+    {
+        "id": 53,
+        "unidad": 4,
+        "tipo": "alternativas",
+        "pregunta": "¿Qué mecanismos ayudan a la disponibilidad?",
+        "opciones": [
+            "Balanceo de carga",
+            "Sistemas de respaldo",
+            "Protección contra DDoS",
+            "Clasificación de datos en secreto y confidencial"
+        ],
+        "correctas": [
+            0,
+            1,
+            2
+        ]
+    },
+    {
+        "id": 54,
+        "unidad": 4,
+        "tipo": "alternativas",
+        "pregunta": "¿Qué conceptos complementarios pertenecen a seguridad de software?",
+        "opciones": [
+            "Autenticidad",
+            "No repudio",
+            "Auditoría y trazabilidad",
+            "Resiliencia"
+        ],
+        "correctas": [
+            0,
+            1,
+            2,
+            3
+        ]
+    },
+    {
+        "id": 55,
+        "unidad": 4,
+        "tipo": "alternativas",
+        "pregunta": "¿Qué elementos ayudan a lograr autenticidad?",
+        "opciones": [
+            "Autenticación",
+            "Firmas digitales",
+            "Certificados",
+            "Ignorar registros de auditoría"
+        ],
+        "correctas": [
+            0,
+            1,
+            2
+        ]
+    },
+    {
+        "id": 56,
+        "unidad": 4,
+        "tipo": "alternativas",
+        "pregunta": "¿Qué acciones se relacionan con no repudio?",
+        "opciones": [
+            "Registrar una acción realizada",
+            "Usar firmas digitales",
+            "Evitar que alguien niegue una transacción",
+            "Eliminar toda trazabilidad"
+        ],
+        "correctas": [
+            0,
+            1,
+            2
+        ]
+    },
+    {
+        "id": 57,
+        "unidad": 4,
+        "tipo": "alternativas",
+        "pregunta": "¿Qué servicios pertenecen a la seguridad de la información?",
+        "opciones": [
+            "Gestión de incidentes",
+            "Monitoreo de amenazas",
+            "Pruebas de penetración",
+            "Recuperación ante desastres"
+        ],
+        "correctas": [
+            0,
+            1,
+            2,
+            3
+        ]
+    },
+    {
+        "id": 58,
+        "unidad": 4,
+        "tipo": "alternativas",
+        "pregunta": "¿Qué incluye la gestión de incidentes?",
+        "opciones": [
+            "Detección",
+            "Análisis",
+            "Respuesta",
+            "Recuperación"
+        ],
+        "correctas": [
+            0,
+            1,
+            2,
+            3
+        ]
+    },
+    {
+        "id": 59,
+        "unidad": 4,
+        "tipo": "alternativas",
+        "pregunta": "¿Qué se asocia con monitoreo de amenazas?",
+        "opciones": [
+            "Vigilancia continua de sistemas",
+            "Detección de actividades sospechosas",
+            "Uso de IDS/IPS",
+            "Clasificación de documentos por nivel de secreto"
+        ],
+        "correctas": [
+            0,
+            1,
+            2
+        ]
+    },
+    {
+        "id": 60,
+        "unidad": 4,
+        "tipo": "alternativas",
+        "pregunta": "¿Qué objetivos tienen las auditorías de seguridad?",
+        "opciones": [
+            "Evaluar la seguridad de sistemas y redes",
+            "Detectar vulnerabilidades",
+            "Verificar cumplimiento normativo",
+            "Eliminar la necesidad de monitoreo continuo"
+        ],
+        "correctas": [
+            0,
+            1,
+            2
+        ]
+    },
+    {
+        "id": 61,
+        "unidad": 4,
+        "tipo": "alternativas",
+        "pregunta": "¿Qué normas o marcos pueden relacionarse con seguridad y gestión de controles?",
+        "opciones": [
+            "ISO/IEC 27001",
+            "NIST Cybersecurity Framework",
+            "OWASP",
+            "COBIT"
+        ],
+        "correctas": [
+            0,
+            1,
+            2,
+            3
+        ]
+    },
+    {
+        "id": 62,
+        "unidad": 4,
+        "tipo": "alternativas",
+        "pregunta": "¿Qué busca la consultoría en seguridad?",
+        "opciones": [
+            "Mejorar estrategias de seguridad",
+            "Crear políticas",
+            "Implementar controles",
+            "Eliminar todos los riesgos sin análisis"
+        ],
+        "correctas": [
+            0,
+            1,
+            2
+        ]
+    },
+    {
+        "id": 63,
+        "unidad": 4,
+        "tipo": "alternativas",
+        "pregunta": "¿Qué caracteriza a las pruebas de penetración?",
+        "opciones": [
+            "Simulación de ataques",
+            "Detección de vulnerabilidades",
+            "Evaluación de resistencia frente a amenazas",
+            "Aplicación automática de todos los parches"
+        ],
+        "correctas": [
+            0,
+            1,
+            2
+        ]
+    },
+    {
+        "id": 64,
+        "unidad": 4,
+        "tipo": "alternativas",
+        "pregunta": "¿Qué aspectos considera la seguridad en la nube?",
+        "opciones": [
+            "Configuraciones seguras",
+            "Control de accesos",
+            "Protección de datos",
+            "Monitoreo de amenazas"
+        ],
+        "correctas": [
+            0,
+            1,
+            2,
+            3
+        ]
+    },
+    {
+        "id": 65,
+        "unidad": 4,
+        "tipo": "alternativas",
+        "pregunta": "¿Cuáles son tipos de control de acceso en informática?",
+        "opciones": [
+            "DAC",
+            "MAC",
+            "RBAC",
+            "ABAC"
+        ],
+        "correctas": [
+            0,
+            1,
+            2,
+            3
+        ]
+    },
+    {
+        "id": 66,
+        "unidad": 4,
+        "tipo": "alternativas",
+        "pregunta": "En DAC, ¿qué afirmaciones son correctas?",
+        "opciones": [
+            "El dueño del recurso decide quién accede",
+            "El dueño del recurso define permisos",
+            "Puede otorgar permisos como leer, escribir o ejecutar",
+            "Las reglas siempre son impuestas centralmente"
+        ],
+        "correctas": [
+            0,
+            1,
+            2
+        ]
+    },
+    {
+        "id": 67,
+        "unidad": 4,
+        "tipo": "alternativas",
+        "pregunta": "En MAC, ¿qué afirmaciones son correctas?",
+        "opciones": [
+            "Usa clasificación de datos",
+            "Puede considerar niveles de seguridad de usuarios",
+            "Las políticas son centralizadas",
+            "El dueño del recurso decide libremente todos los accesos"
+        ],
+        "correctas": [
+            0,
+            1,
+            2
+        ]
+    },
+    {
+        "id": 68,
+        "unidad": 4,
+        "tipo": "alternativas",
+        "pregunta": "En RBAC, ¿qué afirmaciones son correctas?",
+        "opciones": [
+            "Los permisos dependen del rol del usuario",
+            "Cada rol tiene permisos específicos",
+            "Es útil en organizaciones con funciones diferenciadas",
+            "El acceso depende exclusivamente de la hora del día"
+        ],
+        "correctas": [
+            0,
+            1,
+            2
+        ]
+    },
+    {
+        "id": 69,
+        "unidad": 4,
+        "tipo": "alternativas",
+        "pregunta": "En ABAC, ¿qué atributos podrían influir en el acceso?",
+        "opciones": [
+            "Ubicación",
+            "Hora del día",
+            "Propiedades del usuario",
+            "Características del recurso"
+        ],
+        "correctas": [
+            0,
+            1,
+            2,
+            3
+        ]
+    },
+    {
+        "id": 70,
+        "unidad": 4,
+        "tipo": "alternativas",
+        "pregunta": "¿Qué etapas del ciclo de vida del software deben considerar control de acceso?",
+        "opciones": [
+            "Planificación",
+            "Diseño",
+            "Desarrollo",
+            "Mantenimiento"
+        ],
+        "correctas": [
+            0,
+            1,
+            2,
+            3
+        ]
+    },
+    {
+        "id": 71,
+        "unidad": 4,
+        "tipo": "alternativas",
+        "pregunta": "¿Qué buenas prácticas se relacionan con control de acceso durante el desarrollo?",
+        "opciones": [
+            "Principio de mínimo privilegio",
+            "Separación de funciones",
+            "Autenticación segura",
+            "Permisos ilimitados por defecto"
+        ],
+        "correctas": [
+            0,
+            1,
+            2
+        ]
+    },
+    {
+        "id": 72,
+        "unidad": 4,
+        "tipo": "alternativas",
+        "pregunta": "¿Qué elementos abarca un SGSI?",
+        "opciones": [
+            "Políticas",
+            "Responsabilidades",
+            "Procesos",
+            "Recursos"
+        ],
+        "correctas": [
+            0,
+            1,
+            2,
+            3
+        ]
+    },
+    {
+        "id": 73,
+        "unidad": 4,
+        "tipo": "alternativas",
+        "pregunta": "¿Qué permite un SGSI a una organización?",
+        "opciones": [
+            "Satisfacer requisitos de seguridad",
+            "Mejorar planes y actividades",
+            "Cumplir objetivos de seguridad de la información",
+            "Gestionar activos de información de manera organizada"
+        ],
+        "correctas": [
+            0,
+            1,
+            2,
+            3
+        ]
+    },
+    {
+        "id": 74,
+        "unidad": 4,
+        "tipo": "alternativas",
+        "pregunta": "¿Cuáles son etapas del ciclo Deming PHVA?",
+        "opciones": [
+            "Planificar",
+            "Hacer",
+            "Verificar",
+            "Actuar"
+        ],
+        "correctas": [
+            0,
+            1,
+            2,
+            3
+        ]
+    },
+    {
+        "id": 75,
+        "unidad": 4,
+        "tipo": "alternativas",
+        "pregunta": "¿Qué acciones corresponden a Planificar en PHVA?",
+        "opciones": [
+            "Identificar el problema",
+            "Analizar causas",
+            "Definir objetivos",
+            "Definir acciones"
+        ],
+        "correctas": [
+            0,
+            1,
+            2,
+            3
+        ]
+    },
+    {
+        "id": 76,
+        "unidad": 4,
+        "tipo": "alternativas",
+        "pregunta": "¿Qué acciones corresponden a Verificar en PHVA?",
+        "opciones": [
+            "Comparar resultados con objetivos",
+            "Medir mejoras",
+            "Evaluar si el plan funcionó",
+            "Eliminar todo registro documental"
+        ],
+        "correctas": [
+            0,
+            1,
+            2
+        ]
+    },
+    {
+        "id": 77,
+        "unidad": 4,
+        "tipo": "alternativas",
+        "pregunta": "¿Cuáles son pilares de implementación de un SGSI en desarrollo y mantenimiento de software?",
+        "opciones": [
+            "Pruebas documentales",
+            "Prácticas operativas",
+            "Controles técnicos",
+            "Improvisación sin documentación"
+        ],
+        "correctas": [
+            0,
+            1,
+            2
+        ]
+    },
+    {
+        "id": 78,
+        "unidad": 4,
+        "tipo": "alternativas",
+        "pregunta": "¿Cuáles son ejemplos de pruebas documentales?",
+        "opciones": [
+            "Políticas de seguridad",
+            "Registros de auditoría",
+            "Planes de gestión de riesgos",
+            "Antivirus"
+        ],
+        "correctas": [
+            0,
+            1,
+            2
+        ]
+    },
+    {
+        "id": 79,
+        "unidad": 4,
+        "tipo": "alternativas",
+        "pregunta": "¿Cuáles son ejemplos de prácticas operativas?",
+        "opciones": [
+            "Copias de seguridad",
+            "Revisión de código",
+            "Metodologías seguras en desarrollo",
+            "Clasificación automática de usuarios por nivel secreto sin reglas"
+        ],
+        "correctas": [
+            0,
+            1,
+            2
+        ]
+    },
+    {
+        "id": 80,
+        "unidad": 4,
+        "tipo": "alternativas",
+        "pregunta": "¿Cuáles son ejemplos de controles técnicos?",
+        "opciones": [
+            "Firewalls",
+            "Antivirus",
+            "Cifrado de datos",
+            "Planes documentales sin mecanismo técnico"
+        ],
+        "correctas": [
+            0,
+            1,
+            2
+        ]
+    },
+    {
+        "id": 81,
+        "unidad": 4,
+        "tipo": "alternativas",
+        "pregunta": "¿Qué problemas pueden considerarse riesgos en software?",
+        "opciones": [
+            "Inyección SQL",
+            "Acceso no autorizado por mala gestión de permisos",
+            "Pérdida de información por fallos en backups",
+            "Ataques DDoS"
+        ],
+        "correctas": [
+            0,
+            1,
+            2,
+            3
+        ]
+    },
+    {
+        "id": 82,
+        "unidad": 4,
+        "tipo": "alternativas",
+        "pregunta": "¿Qué incluye la gestión del riesgo?",
+        "opciones": [
+            "Identificación de amenazas",
+            "Reducción de pérdidas",
+            "Mejora en la toma de decisiones",
+            "Protección de la reputación"
+        ],
+        "correctas": [
+            0,
+            1,
+            2,
+            3
+        ]
+    },
+    {
+        "id": 83,
+        "unidad": 4,
+        "tipo": "alternativas",
+        "pregunta": "¿Qué medidas modifican riesgos?",
+        "opciones": [
+            "Mitigación",
+            "Transferencia",
+            "Evitación",
+            "Aceptación"
+        ],
+        "correctas": [
+            0,
+            1,
+            2,
+            3
+        ]
+    },
+    {
+        "id": 84,
+        "unidad": 4,
+        "tipo": "alternativas",
+        "pregunta": "¿Qué situaciones pueden justificar aceptar un riesgo?",
+        "opciones": [
+            "Impacto bajo o tolerable",
+            "Costo de mitigarlo mayor que el daño posible",
+            "No es posible reducirlo eficientemente",
+            "Es un riesgo conocido y controlado con monitoreo"
+        ],
+        "correctas": [
+            0,
+            1,
+            2,
+            3
+        ]
+    },
+    {
+        "id": 85,
+        "unidad": 4,
+        "tipo": "alternativas",
+        "pregunta": "¿Qué ejemplos corresponden a compartir riesgos?",
+        "opciones": [
+            "Contratar proveedor de ciberseguridad externo",
+            "Usar servicios en la nube donde el proveedor gestiona parte de la seguridad",
+            "Trabajar con una empresa de respaldo de datos",
+            "Eliminar toda actividad riesgosa"
+        ],
+        "correctas": [
+            0,
+            1,
+            2
+        ]
+    },
+    {
+        "id": 86,
+        "unidad": 4,
+        "tipo": "alternativas",
+        "pregunta": "¿Cuáles son etapas del proceso de modificación del riesgo?",
+        "opciones": [
+            "Identificación",
+            "Análisis de impacto",
+            "Selección de controles",
+            "Monitoreo continuo"
+        ],
+        "correctas": [
+            0,
+            1,
+            2,
+            3
+        ]
+    },
+    {
+        "id": 87,
+        "unidad": 4,
+        "tipo": "alternativas",
+        "pregunta": "¿Qué normas o marcos pueden guiar la selección de controles?",
+        "opciones": [
+            "ISO/IEC 27001",
+            "ISO/IEC 27002",
+            "NIST SP 800-53",
+            "OWASP"
+        ],
+        "correctas": [
+            0,
+            1,
+            2,
+            3
+        ]
+    },
+    {
+        "id": 88,
+        "unidad": 4,
+        "tipo": "alternativas",
+        "pregunta": "¿Cuál de las siguientes opciones NO corresponde a una medida de control de riesgos según la unidad?",
+        "opciones": [
+            "Adivinación",
+            "Improvisación",
+            "Negación sin monitoreo",
+            "Desorden documental"
+        ],
+        "correctas": []
+    },
+    {
+        "id": 89,
+        "unidad": 4,
+        "tipo": "desarrollo",
+        "pregunta": "Explica qué es la seguridad de software y por qué es importante para empresas y usuarios.",
+        "respuesta_esperada": "La seguridad de software corresponde al conjunto de prácticas, mecanismos y controles que protegen sistemas y datos contra ciberataques, accesos no autorizados y fallos de seguridad. Es importante porque un software inseguro puede causar pérdida de datos, robos financieros, daño reputacional, problemas legales y pérdida de confianza de los usuarios."
+    },
+    {
+        "id": 90,
+        "unidad": 4,
+        "tipo": "desarrollo",
+        "pregunta": "Compara confidencialidad, integridad y disponibilidad.",
+        "respuesta_esperada": "La confidencialidad asegura que solo usuarios o sistemas autorizados accedan a la información. La integridad asegura que datos y software no sean modificados sin autorización, ya sea de forma accidental o maliciosa. La disponibilidad asegura que el software y sus servicios estén accesibles y utilizables cuando los usuarios autorizados los necesiten."
+    },
+    {
+        "id": 91,
+        "unidad": 4,
+        "tipo": "desarrollo",
+        "pregunta": "Da ejemplos de controles o mecanismos para cada dimensión de seguridad: confidencialidad, integridad y disponibilidad.",
+        "respuesta_esperada": "Para confidencialidad: autenticación de usuarios y RBAC. Para integridad: firmas digitales, hashing y controles de integridad de archivos. Para disponibilidad: balanceo de carga, sistemas de respaldo y protección contra ataques DDoS."
+    },
+    {
+        "id": 92,
+        "unidad": 4,
+        "tipo": "desarrollo",
+        "pregunta": "Explica los conceptos de autenticidad, no repudio, auditoría, trazabilidad, resiliencia y privacidad.",
+        "respuesta_esperada": "La autenticidad garantiza que usuarios, servicios o dispositivos sean quienes dicen ser. El no repudio evita que alguien niegue una acción realizada. La auditoría y trazabilidad registran y permiten seguir acciones en el sistema. La resiliencia es la capacidad del software para seguir funcionando o recuperarse ante fallos o ataques. La privacidad protege datos personales y sensibles, asegurando su uso adecuado."
+    },
+    {
+        "id": 93,
+        "unidad": 4,
+        "tipo": "desarrollo",
+        "pregunta": "Explica por qué la seguridad debe integrarse durante todo el ciclo de vida del software.",
+        "respuesta_esperada": "Porque la seguridad no debe agregarse solo al final. Debe considerarse desde análisis y diseño, implementarse durante el desarrollo, verificarse mediante pruebas, configurarse correctamente en despliegue y actualizarse en mantenimiento frente a nuevas vulnerabilidades, cambios y amenazas."
+    },
+    {
+        "id": 94,
+        "unidad": 4,
+        "tipo": "desarrollo",
+        "pregunta": "Describe qué son los servicios de seguridad de la información y menciona sus principales categorías.",
+        "respuesta_esperada": "Son servicios que protegen la información organizacional frente a amenazas internas y externas. Incluyen gestión de incidentes, monitoreo de amenazas, auditorías de seguridad, gestión de riesgos, consultoría en seguridad, pruebas de penetración, gestión de parches, seguridad en la nube, recuperación ante desastres, IAM, cifrado, cumplimiento normativo, formación y seguridad de aplicaciones."
+    },
+    {
+        "id": 95,
+        "unidad": 4,
+        "tipo": "desarrollo",
+        "pregunta": "Explica la diferencia entre gestión de incidentes y monitoreo de amenazas.",
+        "respuesta_esperada": "La gestión de incidentes se enfoca en responder ante brechas, ciberataques o fallos mediante detección, análisis, respuesta y recuperación. El monitoreo de amenazas consiste en la vigilancia continua de sistemas y redes para detectar actividades sospechosas o comportamientos anómalos, usando herramientas como IDS/IPS."
+    },
+    {
+        "id": 96,
+        "unidad": 4,
+        "tipo": "desarrollo",
+        "pregunta": "Explica la diferencia entre auditoría de seguridad y prueba de penetración.",
+        "respuesta_esperada": "La auditoría de seguridad es una revisión periódica para evaluar sistemas, redes, vulnerabilidades y cumplimiento normativo. La prueba de penetración simula ataques para detectar vulnerabilidades y evaluar la resistencia del sistema o infraestructura frente a amenazas reales."
+    },
+    {
+        "id": 97,
+        "unidad": 4,
+        "tipo": "desarrollo",
+        "pregunta": "Describe la importancia de la gestión de parches.",
+        "respuesta_esperada": "La gestión de parches es importante porque identifica y aplica actualizaciones de seguridad que corrigen vulnerabilidades. Si no se aplican, los sistemas pueden quedar expuestos a ciberataques conocidos."
+    },
+    {
+        "id": 98,
+        "unidad": 4,
+        "tipo": "desarrollo",
+        "pregunta": "Explica qué debe considerar la seguridad en la nube.",
+        "respuesta_esperada": "Debe considerar configuraciones seguras, control de accesos, protección de datos, monitoreo de amenazas y una correcta división de responsabilidades entre la organización y el proveedor cloud."
+    },
+    {
+        "id": 99,
+        "unidad": 4,
+        "tipo": "desarrollo",
+        "pregunta": "Explica qué es la recuperación ante desastres y por qué se relaciona con la continuidad del negocio.",
+        "respuesta_esperada": "La recuperación ante desastres corresponde a estrategias para recuperar sistemas después de incidentes graves. Se relaciona con la continuidad del negocio porque busca que la organización pueda seguir operando o restablecer sus servicios rápidamente después de fallos, ataques o desastres."
+    },
+    {
+        "id": 100,
+        "unidad": 4,
+        "tipo": "desarrollo",
+        "pregunta": "Define control de acceso en informática.",
+        "respuesta_esperada": "El control de acceso corresponde a políticas y mecanismos que definen quién puede entrar a un sistema, red o recurso, y qué actividades puede realizar dentro. Su propósito es proteger datos y recursos para que solo usuarios autorizados interactúen con ellos."
+    },
+    {
+        "id": 101,
+        "unidad": 4,
+        "tipo": "desarrollo",
+        "pregunta": "Compara DAC, MAC, RBAC y ABAC.",
+        "respuesta_esperada": "DAC permite que el dueño del recurso decida quién accede y con qué permisos. MAC usa niveles de seguridad y clasificación de datos con políticas centralizadas. RBAC asigna permisos según roles organizacionales. ABAC define el acceso mediante atributos del usuario, recurso o entorno, como ubicación u horario."
+    },
+    {
+        "id": 102,
+        "unidad": 4,
+        "tipo": "desarrollo",
+        "pregunta": "Explica cómo se aplica el control de acceso en cada etapa del ciclo de vida del software.",
+        "respuesta_esperada": "En planificación se definen roles, niveles de acceso y normativas. En diseño se eligen mecanismos de autenticación y autorización. En desarrollo se implementan buenas prácticas como mínimo privilegio y separación de funciones. En pruebas se verifica la efectividad de controles. En despliegue se configuran controles adecuadamente. En mantenimiento se ajustan según cambios y vulnerabilidades."
+    },
+    {
+        "id": 103,
+        "unidad": 4,
+        "tipo": "desarrollo",
+        "pregunta": "Explica el principio de mínimo privilegio y su importancia.",
+        "respuesta_esperada": "El principio de mínimo privilegio consiste en otorgar a cada usuario, proceso o sistema solo los permisos necesarios para cumplir su función. Es importante porque reduce el impacto de errores, abusos o compromisos de cuentas."
+    },
+    {
+        "id": 104,
+        "unidad": 4,
+        "tipo": "desarrollo",
+        "pregunta": "Define qué es un SGSI.",
+        "respuesta_esperada": "Un SGSI, Sistema de Gestión de Seguridad de la Información, es un marco que organiza recursos, políticas, responsabilidades, prácticas, procedimientos, procesos y estructura organizativa para alcanzar los objetivos de seguridad de una empresa."
+    },
+    {
+        "id": 105,
+        "unidad": 4,
+        "tipo": "desarrollo",
+        "pregunta": "Explica qué beneficios entrega un SGSI a una organización.",
+        "respuesta_esperada": "Un SGSI permite satisfacer requisitos de seguridad de clientes y stakeholders, mejorar planes y actividades, cumplir objetivos de seguridad, adherirse a regulaciones y leyes, gestionar activos de información de manera ordenada y facilitar la mejora continua."
+    },
+    {
+        "id": 106,
+        "unidad": 4,
+        "tipo": "desarrollo",
+        "pregunta": "Describe el ciclo Deming PHVA.",
+        "respuesta_esperada": "El ciclo PHVA es un método de mejora continua compuesto por Planificar, Hacer, Verificar y Actuar. En Planificar se identifican problemas y objetivos; en Hacer se ejecuta el plan; en Verificar se comparan resultados con objetivos; y en Actuar se estandariza lo que funciona o se corrige para reiniciar el ciclo."
+    },
+    {
+        "id": 107,
+        "unidad": 4,
+        "tipo": "desarrollo",
+        "pregunta": "Relaciona el ciclo PHVA con la gestión de la seguridad.",
+        "respuesta_esperada": "En seguridad, PHVA permite establecer, ejecutar, revisar y mejorar continuamente el SGSI. Esto asegura que los controles y procesos de seguridad evolucionen frente a cambios, auditorías, incidentes y nuevas amenazas."
+    },
+    {
+        "id": 108,
+        "unidad": 4,
+        "tipo": "desarrollo",
+        "pregunta": "Explica los tres pilares de implementación de un SGSI en desarrollo y mantenimiento de software.",
+        "respuesta_esperada": "Los tres pilares son pruebas documentales, prácticas operativas y controles técnicos. Las pruebas documentales evidencian planificación y control, como políticas o registros. Las prácticas operativas son acciones reales del trabajo diario, como copias de seguridad o revisión de código. Los controles técnicos son herramientas o mecanismos automáticos como firewalls, antivirus y cifrado."
+    },
+    {
+        "id": 109,
+        "unidad": 4,
+        "tipo": "desarrollo",
+        "pregunta": "Explica qué es el análisis de riesgos en desarrollo y mantenimiento de software.",
+        "respuesta_esperada": "El análisis de riesgos permite identificar y gestionar amenazas y vulnerabilidades que pueden afectar la seguridad, funcionalidad y disponibilidad del sistema. Ayuda a anticipar problemas como inyección SQL, accesos no autorizados, fallos de respaldo, bugs críticos, malware o ataques DDoS."
+    },
+    {
+        "id": 110,
+        "unidad": 4,
+        "tipo": "desarrollo",
+        "pregunta": "Diferencia amenaza, vulnerabilidad y riesgo usando un ejemplo.",
+        "respuesta_esperada": "Una amenaza es un evento o actor que puede causar daño, como un atacante. Una vulnerabilidad es una debilidad explotable, como un formulario sin validación. El riesgo es la posibilidad de que la amenaza explote la vulnerabilidad y cause impacto, por ejemplo, una inyección SQL que exponga datos."
+    },
+    {
+        "id": 111,
+        "unidad": 4,
+        "tipo": "desarrollo",
+        "pregunta": "Explica qué es la gestión del riesgo y qué objetivos tiene.",
+        "respuesta_esperada": "La gestión del riesgo son actividades coordinadas para dirigir y controlar una organización en relación con el riesgo. Busca identificar amenazas, reducir pérdidas, mejorar la toma de decisiones, cumplir normativa, proteger la reputación y favorecer la sostenibilidad a largo plazo."
+    },
+    {
+        "id": 112,
+        "unidad": 4,
+        "tipo": "desarrollo",
+        "pregunta": "Compara mitigación, transferencia y evitación como medidas de control.",
+        "respuesta_esperada": "La mitigación aplica controles para reducir probabilidad o impacto, como firewalls o cifrado. La transferencia traslada responsabilidad o impacto a un tercero, como seguros o subcontrataciones. La evitación elimina la actividad o proceso que genera el riesgo, por ejemplo no lanzar un producto sobre una tecnología insegura."
+    },
+    {
+        "id": 113,
+        "unidad": 4,
+        "tipo": "desarrollo",
+        "pregunta": "Explica cuándo puede aceptarse un riesgo y qué debe hacerse al aceptarlo.",
+        "respuesta_esperada": "Un riesgo puede aceptarse cuando su impacto es bajo o tolerable, cuando mitigarlo cuesta más que el daño posible, cuando no puede reducirse eficientemente o cuando está controlado con monitoreo. Deben documentarse las razones y generar planes de contingencia."
+    },
+    {
+        "id": 114,
+        "unidad": 4,
+        "tipo": "desarrollo",
+        "pregunta": "Explica la diferencia entre compartir riesgo, transferir riesgo y retener riesgo residual.",
+        "respuesta_esperada": "Transferir riesgo implica trasladar responsabilidad o impacto a un tercero. Compartir riesgo implica colaborar con otros actores para reducirlo, por ejemplo un proveedor de ciberseguridad. Retener riesgo residual significa conservar dentro de márgenes aceptables el riesgo que queda después de aplicar controles."
+    },
+    {
+        "id": 115,
+        "unidad": 4,
+        "tipo": "desarrollo",
+        "pregunta": "Describe el proceso de modificación del riesgo.",
+        "respuesta_esperada": "El proceso incluye identificación de amenazas o vulnerabilidades, análisis de impacto y probabilidad, selección de controles adecuados, evaluación del riesgo residual y monitoreo continuo."
+    },
+    {
+        "id": 116,
+        "unidad": 4,
+        "tipo": "desarrollo",
+        "pregunta": "Explica qué rol cumplen normas y marcos como ISO/IEC 27001, ISO/IEC 27002, NIST SP 800-53, COBIT y OWASP en la selección de controles.",
+        "respuesta_esperada": "Estos marcos y normas sirven como referencias o buenas prácticas para guiar la selección, implementación y evaluación de controles de seguridad. ISO/IEC 27001 se relaciona con gestión de seguridad de la información, ISO/IEC 27002 con controles, NIST SP 800-53 con controles de sistemas, COBIT con gobernanza de TI y OWASP con seguridad en aplicaciones web."
+    },
+    {
+        "id": 117,
+        "unidad": 4,
+        "tipo": "desarrollo",
+        "pregunta": "Explica por qué el monitoreo continuo es esencial en la gestión de riesgos.",
+        "respuesta_esperada": "Es esencial porque los riesgos cambian con el tiempo. Aparecen nuevas vulnerabilidades, amenazas, configuraciones, cambios de negocio y actualizaciones tecnológicas. El monitoreo continuo permite detectar desviaciones, evaluar la efectividad de controles y reaccionar oportunamente."
+    }
+]
