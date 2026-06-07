@@ -179,11 +179,6 @@ function validateQuestions(questions) {
   });
 }
 
-// function renderQuestionNav() {
-//   questionNav.innerHTML = state.selectedQuestions
-//     .map((q) => `<li><span>${escapeHtml(shortLabel(q.tipo))}</span></li>`)
-//     .join("");
-// }
 function renderQuestionNav() {
   questionNav.innerHTML = state.selectedQuestions
     .map((_, index) => `
