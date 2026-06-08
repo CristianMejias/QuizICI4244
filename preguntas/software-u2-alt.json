@@ -1,0 +1,849 @@
+[
+    {
+        "ramo": "software",
+        "unidad": 2,
+        "tipo": "alt",
+        "numero": 1,
+        "pregunta": "En un proyecto con requisitos estables, alto énfasis documental y necesidad de estimar costo antes de iniciar, ¿qué afirmaciones son adecuadas?",
+        "opciones": [
+            "Un modelo tradicional puede ser pertinente por su planificación y previsibilidad.",
+            "Kanban es obligatorio porque todo proyecto con documentación alta necesita WIP.",
+            "La documentación a lo largo del ciclo puede facilitar control y seguimiento.",
+            "La metodología ágil debe descartarse siempre que exista documentación."
+        ],
+        "ningunaCorrecta": false,
+        "respuesta": [
+            0,
+            2
+        ],
+        "justificacion": "El escenario favorece modelos tradicionales por estabilidad, documentación y previsibilidad. Kanban no es obligatorio y agilidad no excluye documentación."
+    },
+    {
+        "ramo": "software",
+        "unidad": 2,
+        "tipo": "alt",
+        "numero": 2,
+        "pregunta": "Respecto a metodología, técnica y herramienta, selecciona las afirmaciones correctas.",
+        "opciones": [
+            "La metodología ofrece un marco general de trabajo.",
+            "La técnica indica un procedimiento concreto dentro de una metodología.",
+            "La herramienta apoya o automatiza tareas específicas.",
+            "La herramienta define por sí sola la cultura de trabajo de la organización."
+        ],
+        "ningunaCorrecta": false,
+        "respuesta": [
+            0,
+            1,
+            2
+        ],
+        "justificacion": "Metodología, técnica y herramienta operan en niveles distintos. Una herramienta no define por sí sola la cultura organizacional."
+    },
+    {
+        "ramo": "software",
+        "unidad": 2,
+        "tipo": "alt",
+        "numero": 3,
+        "pregunta": "¿Qué elementos influyen razonablemente en la elección de una metodología de desarrollo?",
+        "opciones": [
+            "Expectativas del cliente.",
+            "Tipo de proyecto.",
+            "Cultura de la organización.",
+            "Color de la interfaz de la herramienta usada."
+        ],
+        "ningunaCorrecta": false,
+        "respuesta": [
+            0,
+            1,
+            2
+        ],
+        "justificacion": "La elección depende de factores del proyecto, entorno, cliente y organización; el color de interfaz no es un criterio metodológico relevante."
+    },
+    {
+        "ramo": "software",
+        "unidad": 2,
+        "tipo": "alt",
+        "numero": 4,
+        "pregunta": "Sobre modelos iterativos o incrementales, ¿qué afirmaciones son correctas?",
+        "opciones": [
+            "Producen versiones parciales que se refinan.",
+            "Pueden facilitar detección temprana de errores.",
+            "Impiden ajustar requisitos durante el desarrollo.",
+            "Son útiles en proyectos largos o complejos."
+        ],
+        "ningunaCorrecta": false,
+        "respuesta": [
+            0,
+            1,
+            3
+        ],
+        "justificacion": "El enfoque iterativo facilita versiones parciales, refinamiento, detección de errores y ajustes de requisitos."
+    },
+    {
+        "ramo": "software",
+        "unidad": 2,
+        "tipo": "alt",
+        "numero": 5,
+        "pregunta": "¿Qué afirmaciones describen correctamente una metodología ágil?",
+        "opciones": [
+            "Favorece flexibilidad y adaptación al cambio.",
+            "Requiere comunicación frecuente entre equipo y cliente.",
+            "Se basa en entregar software funcional de forma progresiva.",
+            "Solo funciona si todos los requisitos quedan cerrados al inicio."
+        ],
+        "ningunaCorrecta": false,
+        "respuesta": [
+            0,
+            1,
+            2
+        ],
+        "justificacion": "La agilidad trabaja con adaptación, colaboración y entregas frecuentes; no exige cerrar todos los requisitos al comienzo."
+    },
+    {
+        "ramo": "software",
+        "unidad": 2,
+        "tipo": "alt",
+        "numero": 6,
+        "pregunta": "En Scrum, ¿qué responsabilidades pertenecen al Product Owner?",
+        "opciones": [
+            "Maximizar el valor del producto.",
+            "Priorizar el Product Backlog.",
+            "Facilitar el cumplimiento de principios Scrum como función principal.",
+            "Alinear prioridades con necesidades del cliente y negocio."
+        ],
+        "ningunaCorrecta": false,
+        "respuesta": [
+            0,
+            1,
+            3
+        ],
+        "justificacion": "El Product Owner maximiza valor y gestiona el Product Backlog. Facilitar Scrum corresponde al Scrum Master."
+    },
+    {
+        "ramo": "software",
+        "unidad": 2,
+        "tipo": "alt",
+        "numero": 7,
+        "pregunta": "¿Qué afirmaciones corresponden al Scrum Master?",
+        "opciones": [
+            "Facilita el proceso Scrum.",
+            "Ayuda a eliminar obstáculos del equipo.",
+            "Prioriza económicamente cada elemento del Product Backlog.",
+            "Promueve que se sigan los principios de Scrum."
+        ],
+        "ningunaCorrecta": false,
+        "respuesta": [
+            0,
+            1,
+            3
+        ],
+        "justificacion": "El Scrum Master facilita, remueve impedimentos y cuida el marco Scrum. La priorización de valor corresponde al Product Owner."
+    },
+    {
+        "ramo": "software",
+        "unidad": 2,
+        "tipo": "alt",
+        "numero": 8,
+        "pregunta": "Selecciona los eventos de Scrum incluidos en la unidad.",
+        "opciones": [
+            "Sprint Planning.",
+            "Daily Scrum.",
+            "Sprint Review.",
+            "Product Backlog."
+        ],
+        "ningunaCorrecta": false,
+        "respuesta": [
+            0,
+            1,
+            2
+        ],
+        "justificacion": "Product Backlog es un artefacto, no un evento. Los otros tres son eventos de Scrum."
+    },
+    {
+        "ramo": "software",
+        "unidad": 2,
+        "tipo": "alt",
+        "numero": 9,
+        "pregunta": "Selecciona los artefactos de Scrum incluidos en la unidad.",
+        "opciones": [
+            "Product Backlog.",
+            "Sprint Backlog.",
+            "Incremento.",
+            "Daily Scrum."
+        ],
+        "ningunaCorrecta": false,
+        "respuesta": [
+            0,
+            1,
+            2
+        ],
+        "justificacion": "Daily Scrum es evento. Product Backlog, Sprint Backlog e Incremento son artefactos."
+    },
+    {
+        "ramo": "software",
+        "unidad": 2,
+        "tipo": "alt",
+        "numero": 10,
+        "pregunta": "¿Qué ocurre correctamente durante el Sprint Planning?",
+        "opciones": [
+            "Se define qué tareas del Product Backlog se abordarán.",
+            "Se establece un objetivo claro para el sprint.",
+            "Se presenta el incremento terminado al cliente.",
+            "Se planifica el Sprint Backlog."
+        ],
+        "ningunaCorrecta": false,
+        "respuesta": [
+            0,
+            1,
+            3
+        ],
+        "justificacion": "El Sprint Planning ocurre al inicio y define objetivo y trabajo del sprint. La presentación del incremento corresponde al Review."
+    },
+    {
+        "ramo": "software",
+        "unidad": 2,
+        "tipo": "alt",
+        "numero": 11,
+        "pregunta": "¿Qué diferencia correctamente Sprint Review y Sprint Retrospective?",
+        "opciones": [
+            "El Review inspecciona lo desarrollado y recoge feedback.",
+            "La Retrospective busca mejorar el proceso del equipo.",
+            "Ambas tienen exactamente el mismo objetivo.",
+            "La Retrospective ocurre después de la revisión."
+        ],
+        "ningunaCorrecta": false,
+        "respuesta": [
+            0,
+            1,
+            3
+        ],
+        "justificacion": "Review mira el incremento; Retrospective mira el proceso. No son equivalentes."
+    },
+    {
+        "ramo": "software",
+        "unidad": 2,
+        "tipo": "alt",
+        "numero": 12,
+        "pregunta": "Sobre Kanban, selecciona las afirmaciones correctas.",
+        "opciones": [
+            "Visualiza el trabajo mediante un tablero.",
+            "Limita el trabajo en progreso para evitar sobrecarga.",
+            "Entrega tareas en flujo continuo.",
+            "Requiere sprints de 1 a 4 semanas."
+        ],
+        "ningunaCorrecta": false,
+        "respuesta": [
+            0,
+            1,
+            2
+        ],
+        "justificacion": "Kanban se basa en tablero, WIP y flujo continuo. No exige sprints."
+    },
+    {
+        "ramo": "software",
+        "unidad": 2,
+        "tipo": "alt",
+        "numero": 13,
+        "pregunta": "¿Qué afirmaciones interpretan correctamente el WIP en Kanban?",
+        "opciones": [
+            "Significa Work in Progress.",
+            "Representa trabajo actualmente en curso.",
+            "Su límite ayuda a evitar sobrecarga.",
+            "Su objetivo es maximizar tareas simultáneas aunque el flujo empeore."
+        ],
+        "ningunaCorrecta": false,
+        "respuesta": [
+            0,
+            1,
+            2
+        ],
+        "justificacion": "WIP es trabajo en progreso y se limita para mantener flujo eficiente, no para saturar al equipo."
+    },
+    {
+        "ramo": "software",
+        "unidad": 2,
+        "tipo": "alt",
+        "numero": 14,
+        "pregunta": "¿Qué afirmaciones distinguen Scrum de Kanban?",
+        "opciones": [
+            "Scrum usa sprints; Kanban se orienta a flujo continuo.",
+            "Kanban usa límites WIP; Scrum usa roles, eventos y artefactos definidos.",
+            "Scrum no permite retrospectivas.",
+            "Kanban necesariamente requiere Product Owner y Scrum Master."
+        ],
+        "ningunaCorrecta": false,
+        "respuesta": [
+            0,
+            1
+        ],
+        "justificacion": "Scrum estructura trabajo en sprints con roles/eventos/artefactos; Kanban prioriza flujo visual y límites WIP."
+    },
+    {
+        "ramo": "software",
+        "unidad": 2,
+        "tipo": "alt",
+        "numero": 15,
+        "pregunta": "¿Qué ventajas se asocian a herramientas CASE?",
+        "opciones": [
+            "Automatización de tareas.",
+            "Apoyo a documentación.",
+            "Visualización mediante modelos o diagramas.",
+            "Eliminación de toda necesidad de gestión humana."
+        ],
+        "ningunaCorrecta": false,
+        "respuesta": [
+            0,
+            1,
+            2
+        ],
+        "justificacion": "CASE apoya y automatiza, pero no elimina la necesidad de criterio y gestión del equipo."
+    },
+    {
+        "ramo": "software",
+        "unidad": 2,
+        "tipo": "alt",
+        "numero": 16,
+        "pregunta": "¿Cuáles son tipos de herramientas CASE mencionados en la unidad?",
+        "opciones": [
+            "Modelado y diseño.",
+            "Control de versiones.",
+            "Documentación.",
+            "Selección automática de cultura organizacional."
+        ],
+        "ningunaCorrecta": false,
+        "respuesta": [
+            0,
+            1,
+            2
+        ],
+        "justificacion": "Modelado, versiones y documentación son tipos de herramientas CASE; cultura organizacional no es tipo de CASE."
+    },
+    {
+        "ramo": "software",
+        "unidad": 2,
+        "tipo": "alt",
+        "numero": 17,
+        "pregunta": "¿Qué herramientas pueden asociarse al control de versiones?",
+        "opciones": [
+            "Git.",
+            "GitHub.",
+            "GitLab.",
+            "Selenium."
+        ],
+        "ningunaCorrecta": false,
+        "respuesta": [
+            0,
+            1,
+            2
+        ],
+        "justificacion": "Git, GitHub y GitLab se asocian a control de versiones. Selenium se asocia a pruebas."
+    },
+    {
+        "ramo": "software",
+        "unidad": 2,
+        "tipo": "alt",
+        "numero": 18,
+        "pregunta": "¿Qué herramientas pueden asociarse a pruebas o verificación del software?",
+        "opciones": [
+            "Selenium.",
+            "Postman.",
+            "Doxygen.",
+            "Git."
+        ],
+        "ningunaCorrecta": false,
+        "respuesta": [
+            0,
+            1
+        ],
+        "justificacion": "Selenium y Postman apoyan pruebas. Doxygen es documentación y Git control de versiones."
+    },
+    {
+        "ramo": "software",
+        "unidad": 2,
+        "tipo": "alt",
+        "numero": 19,
+        "pregunta": "¿Qué afirmaciones describen la estimación por expertos?",
+        "opciones": [
+            "Puede ser individual o grupal.",
+            "Es rápida y adaptable.",
+            "Nunca depende de experiencia previa.",
+            "Puede ser subjetiva."
+        ],
+        "ningunaCorrecta": false,
+        "respuesta": [
+            0,
+            1,
+            3
+        ],
+        "justificacion": "La estimación por expertos depende de juicio y experiencia, lo que la hace rápida pero subjetiva."
+    },
+    {
+        "ramo": "software",
+        "unidad": 2,
+        "tipo": "alt",
+        "numero": 20,
+        "pregunta": "¿Qué afirmaciones describen la estimación por analogía?",
+        "opciones": [
+            "Compara con proyectos anteriores similares.",
+            "Requiere datos históricos útiles.",
+            "Puede ajustar diferencias entre proyectos.",
+            "No depende de la calidad de las referencias usadas."
+        ],
+        "ningunaCorrecta": false,
+        "respuesta": [
+            0,
+            1,
+            2
+        ],
+        "justificacion": "La analogía se apoya en referencias históricas comparables; su calidad depende de esas referencias."
+    },
+    {
+        "ramo": "software",
+        "unidad": 2,
+        "tipo": "alt",
+        "numero": 21,
+        "pregunta": "En una WBS, ¿qué pasos o elementos son coherentes con la técnica?",
+        "opciones": [
+            "Definir objetivos y alcance.",
+            "Descomponer entregables en tareas más pequeñas.",
+            "Asignar estimaciones por tarea.",
+            "Omitir la suma final para evitar sesgos."
+        ],
+        "ningunaCorrecta": false,
+        "respuesta": [
+            0,
+            1,
+            2
+        ],
+        "justificacion": "WBS define alcance, estructura entregables, descompone, estima y suma; no se omite la agregación final."
+    },
+    {
+        "ramo": "software",
+        "unidad": 2,
+        "tipo": "alt",
+        "numero": 22,
+        "pregunta": "¿Qué ventajas se asocian a WBS?",
+        "opciones": [
+            "Claridad del trabajo necesario.",
+            "Mejor seguimiento y control.",
+            "Mayor precisión cuando las tareas están bien definidas.",
+            "Cero costo de preparación incluso en proyectos grandes."
+        ],
+        "ningunaCorrecta": false,
+        "respuesta": [
+            0,
+            1,
+            2
+        ],
+        "justificacion": "WBS mejora claridad, control y precisión, pero puede requerir tiempo y complejidad en proyectos grandes."
+    },
+    {
+        "ramo": "software",
+        "unidad": 2,
+        "tipo": "alt",
+        "numero": 23,
+        "pregunta": "¿Qué desventajas pueden afectar la WBS?",
+        "opciones": [
+            "Complejidad en proyectos grandes.",
+            "Tiempo necesario para desglosar y estimar.",
+            "Dependencia absoluta de un lenguaje de programación.",
+            "Imposibilidad de usarla con entregables."
+        ],
+        "ningunaCorrecta": false,
+        "respuesta": [
+            0,
+            1
+        ],
+        "justificacion": "La WBS puede ser compleja y costosa en tiempo. No depende de lenguaje y justamente trabaja con entregables."
+    },
+    {
+        "ramo": "software",
+        "unidad": 2,
+        "tipo": "alt",
+        "numero": 24,
+        "pregunta": "Sobre el método punto función, selecciona lo correcto.",
+        "opciones": [
+            "Evalúa tamaño según funciones requeridas por el usuario.",
+            "Puede usarse para estimar esfuerzo en HH.",
+            "Es independiente del lenguaje de programación.",
+            "Consiste en contar exclusivamente líneas de código."
+        ],
+        "ningunaCorrecta": false,
+        "respuesta": [
+            0,
+            1,
+            2
+        ],
+        "justificacion": "Punto función mide funcionalidad, no líneas de código, y permite estimar esfuerzo mediante tasas de productividad."
+    },
+    {
+        "ramo": "software",
+        "unidad": 2,
+        "tipo": "alt",
+        "numero": 25,
+        "pregunta": "¿Qué tipos de funciones considera el método punto función en la unidad?",
+        "opciones": [
+            "Entradas externas y salidas externas.",
+            "Consultas.",
+            "Archivos internos y archivos de interfaz externa.",
+            "Sprints y retrospectivas."
+        ],
+        "ningunaCorrecta": false,
+        "respuesta": [
+            0,
+            1,
+            2
+        ],
+        "justificacion": "Sprints y retrospectivas pertenecen a Scrum, no a categorías de punto función."
+    },
+    {
+        "ramo": "software",
+        "unidad": 2,
+        "tipo": "alt",
+        "numero": 26,
+        "pregunta": "¿Qué opciones clasifican correctamente conceptos del método punto función?",
+        "opciones": [
+            "Entradas externas: datos que ingresan al sistema.",
+            "Salidas externas: reportes o resultados emitidos por el sistema.",
+            "Consultas: peticiones de información al sistema.",
+            "Archivos internos: datos usados por el sistema pero provenientes solo de otros sistemas."
+        ],
+        "ningunaCorrecta": false,
+        "respuesta": [
+            0,
+            1,
+            2
+        ],
+        "justificacion": "Los archivos internos son datos almacenados dentro del sistema; los provenientes de otros sistemas son archivos de interfaz externa."
+    },
+    {
+        "ramo": "software",
+        "unidad": 2,
+        "tipo": "alt",
+        "numero": 27,
+        "pregunta": "¿Qué pasos forman parte del cálculo de punto función?",
+        "opciones": [
+            "Identificar funciones.",
+            "Asignar pesos según complejidad.",
+            "Sumar puntos asignados.",
+            "Multiplicar siempre por el número de Developers del equipo Scrum."
+        ],
+        "ningunaCorrecta": false,
+        "respuesta": [
+            0,
+            1,
+            2
+        ],
+        "justificacion": "La estimación usa una tasa de productividad, no una multiplicación obligatoria por número de Developers."
+    },
+    {
+        "ramo": "software",
+        "unidad": 2,
+        "tipo": "alt",
+        "numero": 28,
+        "pregunta": "¿Qué afirmaciones comparan correctamente técnicas de estimación?",
+        "opciones": [
+            "Expertos puede ser rápida, pero subjetiva.",
+            "Analogía mejora si existen proyectos históricos comparables.",
+            "WBS mejora detalle al descomponer el trabajo.",
+            "Punto función depende principalmente de la sintaxis del lenguaje usado."
+        ],
+        "ningunaCorrecta": false,
+        "respuesta": [
+            0,
+            1,
+            2
+        ],
+        "justificacion": "Punto función es independiente del lenguaje y se centra en funciones del sistema."
+    },
+    {
+        "ramo": "software",
+        "unidad": 2,
+        "tipo": "alt",
+        "numero": 29,
+        "pregunta": "¿Qué elementos se relacionan con colaboración y comunicación en la unidad?",
+        "opciones": [
+            "Metodologías ágiles.",
+            "Herramientas de gestión de proyectos.",
+            "Herramientas CASE orientadas a colaboración.",
+            "Método punto función como evento diario de sincronización."
+        ],
+        "ningunaCorrecta": false,
+        "respuesta": [
+            0,
+            1,
+            2
+        ],
+        "justificacion": "La colaboración aparece en ágiles y herramientas; punto función no es un evento de sincronización."
+    },
+    {
+        "ramo": "software",
+        "unidad": 2,
+        "tipo": "alt",
+        "numero": 30,
+        "pregunta": "¿Qué afirmaciones NO son correctas respecto a los temas de la unidad?",
+        "opciones": [
+            "Kanban exige Product Owner y Scrum Master.",
+            "Sprint Backlog es un artefacto de Scrum.",
+            "CASE significa Computer-Aided Software Engineering.",
+            "WBS descompone el proyecto en entregables o paquetes de trabajo."
+        ],
+        "ningunaCorrecta": false,
+        "respuesta": [
+            0
+        ],
+        "justificacion": "Solo la primera es incorrecta: Product Owner y Scrum Master son roles de Scrum, no exigencia de Kanban."
+    },
+    {
+        "ramo": "software",
+        "unidad": 2,
+        "tipo": "alt",
+        "numero": 31,
+        "pregunta": "Selecciona las afirmaciones correctas sobre Product Backlog e Incremento.",
+        "opciones": [
+            "El Product Backlog es priorizado y actualizado por el Product Owner.",
+            "El Incremento corresponde al producto final del sprint.",
+            "El Incremento no debe cumplir criterios de aceptación si el sprint terminó a tiempo.",
+            "El Product Backlog contiene tareas y requisitos del proyecto."
+        ],
+        "ningunaCorrecta": false,
+        "respuesta": [
+            0,
+            1,
+            3
+        ],
+        "justificacion": "El incremento debe cumplir criterios establecidos; terminar a tiempo no basta."
+    },
+    {
+        "ramo": "software",
+        "unidad": 2,
+        "tipo": "alt",
+        "numero": 32,
+        "pregunta": "¿Qué opciones describen situaciones donde una metodología ágil sería razonable?",
+        "opciones": [
+            "Requisitos que evolucionan durante el desarrollo.",
+            "Necesidad de feedback frecuente del cliente.",
+            "Equipo capaz de organizarse y comunicarse constantemente.",
+            "Proyecto donde se prohíbe toda modificación después del análisis inicial."
+        ],
+        "ningunaCorrecta": false,
+        "respuesta": [
+            0,
+            1,
+            2
+        ],
+        "justificacion": "Las ágiles son adecuadas con cambio, feedback y colaboración. Prohibir cambios favorece enfoques más rígidos."
+    },
+    {
+        "ramo": "software",
+        "unidad": 2,
+        "tipo": "alt",
+        "numero": 33,
+        "pregunta": "¿Qué opciones representan correctamente limitaciones o riesgos de técnicas de estimación?",
+        "opciones": [
+            "Expertos: subjetividad.",
+            "Analogía: dependencia de datos históricos.",
+            "WBS: tiempo y complejidad en proyectos grandes.",
+            "Punto función: no puede estimar esfuerzo bajo ninguna condición."
+        ],
+        "ningunaCorrecta": false,
+        "respuesta": [
+            0,
+            1,
+            2
+        ],
+        "justificacion": "Punto función sí puede usarse para estimar esfuerzo mediante productividad, aunque requiere experiencia."
+    },
+    {
+        "ramo": "software",
+        "unidad": 2,
+        "tipo": "alt",
+        "numero": 34,
+        "pregunta": "¿Qué opciones podrían ser herramientas de gestión de proyectos según la unidad?",
+        "opciones": [
+            "Asana.",
+            "Jira.",
+            "Monday.",
+            "COCOMO."
+        ],
+        "ningunaCorrecta": false,
+        "respuesta": [
+            0,
+            1,
+            2
+        ],
+        "justificacion": "Asana, Jira y Monday apoyan gestión. COCOMO es método de estimación de costos/esfuerzo."
+    },
+    {
+        "ramo": "software",
+        "unidad": 2,
+        "tipo": "alt",
+        "numero": 35,
+        "pregunta": "En el ciclo de trabajo Scrum, ¿qué secuencia conceptual es coherente?",
+        "opciones": [
+            "Seleccionar tareas prioritarias y planificar el sprint.",
+            "Desarrollar y coordinar mediante Daily Scrum.",
+            "Presentar incremento y recibir feedback.",
+            "Realizar retrospectiva para mejorar el siguiente ciclo."
+        ],
+        "ningunaCorrecta": false,
+        "respuesta": [
+            0,
+            1,
+            2,
+            3
+        ],
+        "justificacion": "Las cuatro forman parte del ciclo de trabajo Scrum descrito: planificación, desarrollo, revisión y mejora continua."
+    },
+    {
+        "ramo": "software",
+        "unidad": 2,
+        "tipo": "alt",
+        "numero": 36,
+        "pregunta": "¿Cuáles de las siguientes opciones son correctas sobre metodologías tradicionales?",
+        "opciones": [
+            "Favorecen previsibilidad de tiempo, costo y recursos.",
+            "Son adecuadas cuando los requisitos están bien definidos.",
+            "Normalmente priorizan documentación a lo largo del ciclo.",
+            "Su mayor fortaleza es cambiar sin costo en cualquier etapa avanzada."
+        ],
+        "ningunaCorrecta": false,
+        "respuesta": [
+            0,
+            1,
+            2
+        ],
+        "justificacion": "Los modelos tradicionales aportan previsibilidad, estructura y documentación, pero los cambios tardíos suelen ser difíciles."
+    },
+    {
+        "ramo": "software",
+        "unidad": 2,
+        "tipo": "alt",
+        "numero": 37,
+        "pregunta": "¿Qué afirmaciones son correctas sobre herramientas de documentación?",
+        "opciones": [
+            "Apoyan manuales y documentación técnica.",
+            "Pueden incluir herramientas como Doxygen o Sphinx.",
+            "Sustituyen la necesidad de requisitos claros.",
+            "Pueden mantener documentación de código."
+        ],
+        "ningunaCorrecta": false,
+        "respuesta": [
+            0,
+            1,
+            3
+        ],
+        "justificacion": "Las herramientas de documentación ayudan a crear y mantener documentación, pero no sustituyen claridad de requisitos."
+    },
+    {
+        "ramo": "software",
+        "unidad": 2,
+        "tipo": "alt",
+        "numero": 38,
+        "pregunta": "¿Qué opciones son ejemplos de categorías o métodos de estimación mencionados?",
+        "opciones": [
+            "Delphi.",
+            "COCOMO.",
+            "Análisis de costos por tareas.",
+            "Sprint Review."
+        ],
+        "ningunaCorrecta": false,
+        "respuesta": [
+            0,
+            1,
+            2
+        ],
+        "justificacion": "Sprint Review es un evento de Scrum, no un método de estimación."
+    },
+    {
+        "ramo": "software",
+        "unidad": 2,
+        "tipo": "alt",
+        "numero": 39,
+        "pregunta": "¿Qué enunciados integran correctamente varias partes de la unidad?",
+        "opciones": [
+            "Jira puede apoyar gestión de tareas y trabajo ágil.",
+            "Git facilita colaboración al controlar versiones del código.",
+            "WIP se usa en Kanban para limitar trabajo en progreso.",
+            "Product Owner es una categoría de punto función."
+        ],
+        "ningunaCorrecta": false,
+        "respuesta": [
+            0,
+            1,
+            2
+        ],
+        "justificacion": "Product Owner es rol de Scrum, no categoría del método punto función."
+    },
+    {
+        "ramo": "software",
+        "unidad": 2,
+        "tipo": "alt",
+        "numero": 40,
+        "pregunta": "¿Qué afirmaciones serían correctas si se evalúa un sistema por punto función?",
+        "opciones": [
+            "Una pantalla de registro puede ser entrada externa si ingresa datos al sistema.",
+            "Un reporte generado puede ser salida externa.",
+            "Una búsqueda de estado puede ser consulta.",
+            "Una Daily Scrum puede contarse como archivo interno."
+        ],
+        "ningunaCorrecta": false,
+        "respuesta": [
+            0,
+            1,
+            2
+        ],
+        "justificacion": "Los tres primeros son ejemplos funcionales. Daily Scrum es evento de Scrum, no función del sistema."
+    },
+    {
+        "ramo": "software",
+        "unidad": 2,
+        "tipo": "alt",
+        "numero": 41,
+        "pregunta": "¿Qué opciones muestran una comprensión no trivial de CASE?",
+        "opciones": [
+            "Las CASE son apoyo al ciclo de vida, no una metodología por sí mismas.",
+            "Pueden mejorar eficiencia al reducir trabajo manual.",
+            "Pueden apoyar comunicación con stakeholders.",
+            "Siempre garantizan calidad del producto aunque no haya proceso definido."
+        ],
+        "ningunaCorrecta": false,
+        "respuesta": [
+            0,
+            1,
+            2
+        ],
+        "justificacion": "CASE ayuda, pero no garantiza calidad por sí sola sin buen proceso, personas y validación."
+    },
+    {
+        "ramo": "software",
+        "unidad": 2,
+        "tipo": "alt",
+        "numero": 42,
+        "pregunta": "¿Cuáles afirmaciones describen correctamente el rol del Daily Scrum como artefacto de almacenamiento?",
+        "opciones": [
+            "Almacena requisitos priorizados del proyecto.",
+            "Representa el producto final del sprint.",
+            "Contiene datos provenientes de otros sistemas.",
+            "Es una tabla de ponderaciones de punto función."
+        ],
+        "ningunaCorrecta": true,
+        "respuesta": [],
+        "justificacion": "Ninguna es correcta. Daily Scrum es un evento breve de coordinación, no un artefacto ni una tabla de estimación."
+    },
+    {
+        "ramo": "software",
+        "unidad": 2,
+        "tipo": "alt",
+        "numero": 43,
+        "pregunta": "¿Cuáles opciones clasifican correctamente Scrum Master como una herramienta CASE?",
+        "opciones": [
+            "Es una herramienta de documentación.",
+            "Es una herramienta de pruebas automatizadas.",
+            "Es una herramienta de generación de código.",
+            "Es una herramienta de control de versiones."
+        ],
+        "ningunaCorrecta": true,
+        "respuesta": [],
+        "justificacion": "Ninguna es correcta. Scrum Master es un rol dentro de Scrum, no una herramienta CASE."
+    }
+]

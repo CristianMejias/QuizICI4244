@@ -1,0 +1,290 @@
+[
+    {
+        "ramo": "software",
+        "unidad": 2,
+        "tipo": "des",
+        "numero": 1,
+        "pregunta": "Explica la diferencia entre metodología, técnica y herramienta usando un ejemplo de la unidad para cada una.",
+        "respuesta": "Una metodología es el marco general de trabajo para gestionar el desarrollo, por ejemplo Scrum o Kanban. Una técnica es un procedimiento específico para realizar una actividad, por ejemplo WBS o estimación por analogía. Una herramienta es un recurso o software que apoya la aplicación de técnicas o metodologías, por ejemplo Jira, Git, Selenium o Doxygen."
+    },
+    {
+        "ramo": "software",
+        "unidad": 2,
+        "tipo": "des",
+        "numero": 2,
+        "pregunta": "Compara metodologías tradicionales, iterativas/incrementales y ágiles considerando estabilidad de requisitos, forma de entrega y flexibilidad.",
+        "respuesta": "Las tradicionales son más secuenciales, planificadas y adecuadas cuando los requisitos son estables; suelen entregar al final o por fases muy controladas. Las iterativas/incrementales trabajan por ciclos y producen versiones parciales que se refinan, permitiendo detectar errores y ajustar requisitos. Las ágiles trabajan con iteraciones cortas, colaboración y entregas frecuentes de software funcional, por lo que son más flexibles ante cambios."
+    },
+    {
+        "ramo": "software",
+        "unidad": 2,
+        "tipo": "des",
+        "numero": 3,
+        "pregunta": "Justifica por qué la elección de una metodología no debería depender solo del gusto del equipo de desarrollo.",
+        "respuesta": "Porque la metodología debe ajustarse al contexto del proyecto. Influyen el tipo de proyecto, el entorno de trabajo, expectativas del cliente, cultura organizacional, estabilidad de requisitos, necesidad de documentación y capacidad del equipo. Elegir solo por preferencia puede generar problemas de control, comunicación o adaptación."
+    },
+    {
+        "ramo": "software",
+        "unidad": 2,
+        "tipo": "des",
+        "numero": 4,
+        "pregunta": "Describe un caso donde convendría usar un modelo tradicional y explica por qué.",
+        "respuesta": "Convendría en un proyecto con requisitos claros, estables y alta necesidad de documentación, por ejemplo un sistema regulado o contractual donde se requiere previsibilidad de tiempos, costos y recursos. El enfoque tradicional aporta estructura, documentación y control de calidad bien definido."
+    },
+    {
+        "ramo": "software",
+        "unidad": 2,
+        "tipo": "des",
+        "numero": 5,
+        "pregunta": "Describe un caso donde convendría usar una metodología ágil y explica por qué.",
+        "respuesta": "Convendría en un producto digital cuyos requisitos pueden cambiar por feedback de usuarios o del cliente. La metodología ágil permite entregas frecuentes, colaboración continua, adaptación a cambios y mejora progresiva del producto."
+    },
+    {
+        "ramo": "software",
+        "unidad": 2,
+        "tipo": "des",
+        "numero": 6,
+        "pregunta": "Explica por qué Scrum no es solo una lista de reuniones.",
+        "respuesta": "Scrum incluye eventos, pero también roles, artefactos y un ciclo de trabajo orientado a entregar incrementos de valor. Los eventos coordinan inspección y adaptación; los roles distribuyen responsabilidades; los artefactos organizan el trabajo y el producto. Reducirlo a reuniones ignora la lógica de valor, priorización y mejora continua."
+    },
+    {
+        "ramo": "software",
+        "unidad": 2,
+        "tipo": "des",
+        "numero": 7,
+        "pregunta": "Explica las responsabilidades del Product Owner y por qué no deben confundirse con las del Scrum Master.",
+        "respuesta": "El Product Owner maximiza el valor del producto y gestiona/prioriza el Product Backlog según necesidades del negocio y cliente. El Scrum Master facilita el proceso Scrum, ayuda a remover obstáculos y cuida que se apliquen sus principios. Confundirlos mezclaría decisiones de valor del producto con facilitación del proceso."
+    },
+    {
+        "ramo": "software",
+        "unidad": 2,
+        "tipo": "des",
+        "numero": 8,
+        "pregunta": "Diferencia Product Backlog, Sprint Backlog e Incremento con un ejemplo breve.",
+        "respuesta": "El Product Backlog es la lista priorizada general de requisitos o funcionalidades, por ejemplo login, pagos y reportes. El Sprint Backlog es el conjunto seleccionado para un sprint, por ejemplo implementar login y validación. El Incremento es el resultado funcional del sprint, por ejemplo un login terminado que cumple criterios de aceptación."
+    },
+    {
+        "ramo": "software",
+        "unidad": 2,
+        "tipo": "des",
+        "numero": 9,
+        "pregunta": "Explica la diferencia entre Sprint Review y Sprint Retrospective.",
+        "respuesta": "El Sprint Review se enfoca en revisar el incremento desarrollado, presentarlo y recoger feedback del Product Owner y otros interesados. La Sprint Retrospective se enfoca en analizar el proceso del equipo: qué funcionó, qué no y cómo mejorar en el siguiente sprint."
+    },
+    {
+        "ramo": "software",
+        "unidad": 2,
+        "tipo": "des",
+        "numero": 10,
+        "pregunta": "Describe el ciclo de trabajo de Scrum desde la planificación hasta la repetición del ciclo.",
+        "respuesta": "Primero se inicia el sprint seleccionando tareas prioritarias del Product Backlog y creando el Sprint Backlog con un objetivo claro. Luego el equipo desarrolla y se coordina con Daily Scrum. Al final presenta el incremento en Sprint Review para recibir feedback. Después realiza la retrospectiva para mejorar el proceso. Finalmente repite el ciclo incorporando ajustes de requisitos o prioridades."
+    },
+    {
+        "ramo": "software",
+        "unidad": 2,
+        "tipo": "des",
+        "numero": 11,
+        "pregunta": "Explica cómo Kanban gestiona el trabajo sin usar sprints.",
+        "respuesta": "Kanban usa un tablero visual con columnas que representan estados del flujo, como Por hacer, En progreso y Hecho. Las tareas avanzan continuamente entre columnas, sin ciclos fijos. El control se logra limitando el WIP, revisando el flujo y corrigiendo cuellos de botella."
+    },
+    {
+        "ramo": "software",
+        "unidad": 2,
+        "tipo": "des",
+        "numero": 12,
+        "pregunta": "Analiza por qué limitar el WIP puede mejorar la eficiencia en Kanban.",
+        "respuesta": "Limitar el WIP evita que el equipo tenga demasiadas tareas simultáneas, lo que reduce cambios de contexto, sobrecarga y acumulación en columnas. Al limitar el trabajo en curso, se pueden detectar cuellos de botella y mantener un flujo más estable y eficiente."
+    },
+    {
+        "ramo": "software",
+        "unidad": 2,
+        "tipo": "des",
+        "numero": 13,
+        "pregunta": "Compara Scrum y Kanban en términos de estructura, flujo y control del trabajo.",
+        "respuesta": "Scrum tiene estructura más definida mediante roles, eventos, artefactos y sprints de duración fija. Kanban es más continuo: visualiza tareas en un tablero, limita WIP y mejora el flujo sin iteraciones obligatorias. Scrum controla mediante planificación y revisión de sprint; Kanban controla mediante límites y observación del flujo."
+    },
+    {
+        "ramo": "software",
+        "unidad": 2,
+        "tipo": "des",
+        "numero": 14,
+        "pregunta": "Explica qué son las herramientas CASE y por qué se dice que complementan, pero no reemplazan, las metodologías.",
+        "respuesta": "Las herramientas CASE son recursos de Ingeniería de Software Asistida por Computadora que apoyan actividades del ciclo de vida, como modelado, requerimientos, pruebas, documentación, versiones y gestión. Complementan metodologías porque automatizan y facilitan tareas, pero no definen por sí solas el proceso, las responsabilidades ni las decisiones del proyecto."
+    },
+    {
+        "ramo": "software",
+        "unidad": 2,
+        "tipo": "des",
+        "numero": 15,
+        "pregunta": "Describe cinco ventajas de las herramientas CASE y relaciona cada una con una actividad del desarrollo.",
+        "respuesta": "Automatización: reduce tareas manuales, por ejemplo generación de código o pruebas. Documentación: ayuda a crear y mantener documentos técnicos. Visualización: permite entender el sistema mediante diagramas UML. Gestión de proyectos: apoya planificación y seguimiento de tareas. Colaboración: facilita comunicación y coordinación entre desarrolladores y stakeholders."
+    },
+    {
+        "ramo": "software",
+        "unidad": 2,
+        "tipo": "des",
+        "numero": 16,
+        "pregunta": "Clasifica herramientas CASE por tipo y da un ejemplo o uso de cada categoría principal.",
+        "respuesta": "Modelado y diseño: crear diagramas UML con StarUML o Lucidchart. Requerimientos: capturar y gestionar necesidades con Jira o Trello. Generación de código: producir código desde plantillas o modelos. Pruebas: automatizar verificaciones con Selenium o Postman. Gestión de proyectos: planificar tareas con Asana, Jira o Monday. Control de versiones: gestionar cambios con Git, GitHub o GitLab. Documentación: mantener documentación técnica con Doxygen o Sphinx."
+    },
+    {
+        "ramo": "software",
+        "unidad": 2,
+        "tipo": "des",
+        "numero": 17,
+        "pregunta": "Explica por qué Git, GitHub o GitLab pueden considerarse apoyo al ciclo de vida del software.",
+        "respuesta": "Porque permiten controlar cambios en el código fuente, mantener historial de versiones, colaborar entre desarrolladores, revisar modificaciones y recuperar estados anteriores. Esto apoya mantenimiento, integración y coordinación del desarrollo."
+    },
+    {
+        "ramo": "software",
+        "unidad": 2,
+        "tipo": "des",
+        "numero": 18,
+        "pregunta": "Explica qué buscan estimar las técnicas de estimación en Ingeniería de Software y por qué son necesarias.",
+        "respuesta": "Buscan estimar recursos como esfuerzo, tiempo, costos y recursos humanos o técnicos necesarios para completar un proyecto. Son necesarias para planificar, asignar recursos, negociar alcance, controlar riesgos y evaluar la factibilidad del desarrollo."
+    },
+    {
+        "ramo": "software",
+        "unidad": 2,
+        "tipo": "des",
+        "numero": 19,
+        "pregunta": "Compara estimación por expertos y estimación por analogía considerando información necesaria, ventajas y riesgos.",
+        "respuesta": "La estimación por expertos usa juicio y experiencia de una o más personas; es rápida y adaptable, pero subjetiva y dependiente de la experiencia. La analogía compara con proyectos anteriores similares; es rápida y basada en datos reales, pero depende de tener referencias históricas comparables y de ajustar correctamente diferencias entre proyectos."
+    },
+    {
+        "ramo": "software",
+        "unidad": 2,
+        "tipo": "des",
+        "numero": 20,
+        "pregunta": "Explica cómo aplicarías una WBS en un proyecto de software pequeño.",
+        "respuesta": "Primero definiría objetivos y alcance del proyecto. Luego dividiría el sistema en entregables, por ejemplo autenticación, gestión de usuarios y reportes. Después descompondría cada entregable en tareas específicas, asignaría esfuerzo, tiempo y recursos a cada tarea, y sumaría las estimaciones para obtener el total del proyecto."
+    },
+    {
+        "ramo": "software",
+        "unidad": 2,
+        "tipo": "des",
+        "numero": 21,
+        "pregunta": "Analiza ventajas y desventajas de WBS en comparación con una estimación global rápida.",
+        "respuesta": "WBS entrega mayor claridad, control y precisión porque estima tareas específicas. Permite seguimiento más detallado y reduce omisiones. Sin embargo, requiere más tiempo y puede volverse compleja en proyectos grandes. Una estimación global es más rápida, pero suele ser menos precisa y más riesgosa."
+    },
+    {
+        "ramo": "software",
+        "unidad": 2,
+        "tipo": "des",
+        "numero": 22,
+        "pregunta": "Explica el método punto función y por qué no depende del lenguaje de programación.",
+        "respuesta": "El método punto función mide el tamaño del software según funciones que el sistema entrega al usuario, como entradas, salidas, consultas y archivos. No depende del lenguaje porque no mide líneas de código ni sintaxis, sino funcionalidad observable. Luego usa el total de puntos para estimar esfuerzo mediante una tasa de productividad."
+    },
+    {
+        "ramo": "software",
+        "unidad": 2,
+        "tipo": "des",
+        "numero": 23,
+        "pregunta": "Describe las cinco categorías funcionales usadas en punto función y da un ejemplo para cada una.",
+        "respuesta": "Entradas externas: datos que entran al sistema, como formularios de registro. Salidas externas: datos que salen, como reportes. Consultas: peticiones de información, como buscar estado de una solicitud. Archivos internos: datos almacenados en el sistema, como usuarios. Archivos de interfaz externa: datos usados por el sistema pero provenientes de otros sistemas, como información importada desde una API externa."
+    },
+    {
+        "ramo": "software",
+        "unidad": 2,
+        "tipo": "des",
+        "numero": 24,
+        "pregunta": "Explica los pasos para calcular puntos de función desde la identificación hasta la estimación de esfuerzo.",
+        "respuesta": "Primero se identifican las funciones del sistema: entradas, salidas, consultas, archivos internos y archivos de interfaz externa. Luego se clasifican por complejidad baja, media o alta y se asignan ponderaciones desde una tabla. Después se suman los puntos asignados para obtener el total. Finalmente, el total se multiplica por una tasa de productividad, por ejemplo horas por punto de función, para estimar esfuerzo y tiempo."
+    },
+    {
+        "ramo": "software",
+        "unidad": 2,
+        "tipo": "des",
+        "numero": 25,
+        "pregunta": "Plantea cómo clasificarías funcionalmente un sistema de cajero automático usando punto función.",
+        "respuesta": "El ingreso de tarjeta o contraseña puede ser entrada externa. La visualización de opciones o comprobantes puede ser salida externa. La consulta de saldo puede ser consulta. Las cuentas o transacciones almacenadas en la base del banco pueden ser archivos internos si pertenecen al sistema evaluado. Datos provenientes de otro sistema bancario o red externa pueden ser archivos de interfaz externa."
+    },
+    {
+        "ramo": "software",
+        "unidad": 2,
+        "tipo": "des",
+        "numero": 26,
+        "pregunta": "Explica por qué punto función puede ser más objetivo que una estimación puramente intuitiva, pero aun así requerir experiencia.",
+        "respuesta": "Es más objetivo porque usa categorías funcionales, complejidades y ponderaciones definidas. Sin embargo, requiere experiencia para identificar correctamente funciones, separar entradas de consultas o archivos, clasificar complejidad y aplicar bien las tasas de productividad."
+    },
+    {
+        "ramo": "software",
+        "unidad": 2,
+        "tipo": "des",
+        "numero": 27,
+        "pregunta": "Relaciona metodologías ágiles, herramientas CASE y técnicas de estimación dentro de un mismo proyecto.",
+        "respuesta": "En un proyecto ágil se puede usar Scrum o Kanban para organizar el trabajo, herramientas CASE como Jira, Git, Selenium o Doxygen para apoyar gestión, versiones, pruebas y documentación, y técnicas de estimación como expertos, analogía, WBS o punto función para planificar esfuerzo y recursos. Cada elemento cumple un rol distinto pero complementario."
+    },
+    {
+        "ramo": "software",
+        "unidad": 2,
+        "tipo": "des",
+        "numero": 28,
+        "pregunta": "Explica por qué una herramienta como Jira no convierte automáticamente a un equipo en ágil.",
+        "respuesta": "Porque la agilidad depende de principios, prácticas, colaboración, adaptación, roles y forma de gestionar el trabajo. Jira puede apoyar tableros, tareas o sprints, pero si el equipo no aplica entrega continua, feedback, priorización y mejora, la herramienta por sí sola no garantiza una metodología ágil."
+    },
+    {
+        "ramo": "software",
+        "unidad": 2,
+        "tipo": "des",
+        "numero": 29,
+        "pregunta": "Analiza qué riesgos tendría usar Scrum sin Product Owner claro.",
+        "respuesta": "Sin Product Owner claro, el Product Backlog puede carecer de priorización coherente, el equipo puede trabajar en funcionalidades de bajo valor, se dificulta alinear el producto con cliente y negocio, y el Sprint Planning pierde una referencia clara para seleccionar tareas prioritarias."
+    },
+    {
+        "ramo": "software",
+        "unidad": 2,
+        "tipo": "des",
+        "numero": 30,
+        "pregunta": "Analiza qué riesgos tendría usar Kanban sin límites de WIP.",
+        "respuesta": "Sin límites de WIP, el equipo podría acumular demasiadas tareas en progreso, generar sobrecarga, aumentar tiempos de espera, ocultar cuellos de botella y reducir la eficiencia del flujo. El tablero mostraría estados, pero perdería una herramienta clave de control."
+    },
+    {
+        "ramo": "software",
+        "unidad": 2,
+        "tipo": "des",
+        "numero": 31,
+        "pregunta": "Explica por qué la retroalimentación del cliente es valiosa en metodologías ágiles.",
+        "respuesta": "Permite validar si el producto cumple necesidades reales, ajustar prioridades, detectar errores o malentendidos temprano y entregar valor de forma progresiva. También reduce el riesgo de construir durante mucho tiempo algo que no satisface al usuario."
+    },
+    {
+        "ramo": "software",
+        "unidad": 2,
+        "tipo": "des",
+        "numero": 32,
+        "pregunta": "Diferencia una herramienta de requerimientos de una herramienta de pruebas usando ejemplos.",
+        "respuesta": "Una herramienta de requerimientos apoya captura, análisis y gestión de necesidades del cliente o usuario, por ejemplo Jira o Trello si se usan para historias o requisitos. Una herramienta de pruebas apoya verificación del funcionamiento y calidad del software, por ejemplo Selenium para pruebas automatizadas o Postman para probar APIs."
+    },
+    {
+        "ramo": "software",
+        "unidad": 2,
+        "tipo": "des",
+        "numero": 33,
+        "pregunta": "Explica cómo una WBS podría complementar Scrum sin reemplazarlo.",
+        "respuesta": "La WBS puede ayudar a descomponer trabajo y estimar esfuerzo, especialmente antes o durante la planificación. Scrum seguiría organizando roles, eventos, artefactos y sprints. La WBS sería una técnica de análisis y estimación, no el marco completo de gestión del proyecto."
+    },
+    {
+        "ramo": "software",
+        "unidad": 2,
+        "tipo": "des",
+        "numero": 34,
+        "pregunta": "Explica cómo detectarías que una estimación por analogía está siendo mal aplicada.",
+        "respuesta": "Estaría mal aplicada si los proyectos comparados no son realmente similares, si no existen datos históricos confiables, si no se ajustan diferencias de alcance o tecnología, o si se asume que el esfuerzo será igual sin analizar variaciones importantes."
+    },
+    {
+        "ramo": "software",
+        "unidad": 2,
+        "tipo": "des",
+        "numero": 35,
+        "pregunta": "Construye una respuesta breve para explicar a un compañero por qué no conviene memorizar Scrum como definiciones aisladas.",
+        "respuesta": "No conviene memorizar Scrum como definiciones aisladas porque sus elementos están conectados: los roles gestionan responsabilidades, los eventos permiten inspección y adaptación, los artefactos organizan el trabajo y el ciclo produce incrementos. Entender esas relaciones permite responder mejor preguntas aplicadas o comparativas."
+    },
+    {
+        "ramo": "software",
+        "unidad": 2,
+        "tipo": "des",
+        "numero": 36,
+        "pregunta": "Explica qué temas de la unidad se conectan directamente con planificación y control del proyecto.",
+        "respuesta": "Se conectan las metodologías porque organizan el proceso; Scrum y Kanban porque controlan trabajo mediante sprints o flujo; herramientas CASE de gestión porque planifican y siguen tareas; y técnicas de estimación como expertos, analogía, WBS y punto función porque anticipan esfuerzo, tiempo y costos."
+    }
+]

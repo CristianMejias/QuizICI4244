@@ -1,0 +1,407 @@
+[
+    {
+        "ramo": "software",
+        "unidad": 2,
+        "tipo": "vf",
+        "numero": 1,
+        "pregunta": "En un proyecto con requisitos estables y necesidad alta de trazabilidad documental, una metodología tradicional puede ser más adecuada que una ágil.",
+        "respuesta": true,
+        "justificacion": "Correcto. Los modelos tradicionales favorecen planificación, documentación y previsibilidad cuando los requisitos están bien definidos y cambian poco."
+    },
+    {
+        "ramo": "software",
+        "unidad": 2,
+        "tipo": "vf",
+        "numero": 2,
+        "pregunta": "La principal diferencia entre una técnica y una herramienta es que la técnica define el marco completo de gestión del proyecto, mientras que la herramienta solo automatiza tareas.",
+        "respuesta": false,
+        "justificacion": "Falso. La técnica no define el marco completo; es un procedimiento concreto dentro de una metodología. La metodología es la que entrega el marco general."
+    },
+    {
+        "ramo": "software",
+        "unidad": 2,
+        "tipo": "vf",
+        "numero": 3,
+        "pregunta": "Una metodología puede considerarse una guía general del proceso, mientras que una técnica responde a cómo realizar una actividad específica.",
+        "respuesta": true,
+        "justificacion": "Correcto. La metodología orienta el proceso completo y la técnica operacionaliza actividades concretas dentro de ese proceso."
+    },
+    {
+        "ramo": "software",
+        "unidad": 2,
+        "tipo": "vf",
+        "numero": 4,
+        "pregunta": "La elección de una metodología depende solo del tamaño del equipo, porque el tipo de proyecto y la cultura organizacional son secundarios.",
+        "respuesta": false,
+        "justificacion": "Falso. La elección es multifactorial: tipo de proyecto, entorno de trabajo, expectativas del cliente y cultura de la organización influyen directamente."
+    },
+    {
+        "ramo": "software",
+        "unidad": 2,
+        "tipo": "vf",
+        "numero": 5,
+        "pregunta": "Los modelos iterativos o incrementales reducen riesgos porque permiten producir versiones parciales y ajustar el producto durante el desarrollo.",
+        "respuesta": true,
+        "justificacion": "Correcto. Al trabajar por ciclos, facilitan detectar errores, refinar versiones y ajustar requisitos antes de terminar todo el sistema."
+    },
+    {
+        "ramo": "software",
+        "unidad": 2,
+        "tipo": "vf",
+        "numero": 6,
+        "pregunta": "Las metodologías ágiles eliminan la necesidad de planificación porque su foco está en aceptar cambios frecuentes.",
+        "respuesta": false,
+        "justificacion": "Falso. Las ágiles sí planifican, pero lo hacen de forma adaptativa y frecuente, no mediante un plan rígido definido completamente al inicio."
+    },
+    {
+        "ramo": "software",
+        "unidad": 2,
+        "tipo": "vf",
+        "numero": 7,
+        "pregunta": "La entrega continua en metodologías ágiles permite que el cliente observe avances funcionales y entregue retroalimentación durante el desarrollo.",
+        "respuesta": true,
+        "justificacion": "Correcto. Las entregas frecuentes de software funcional permiten recibir valor y feedback de forma progresiva."
+    },
+    {
+        "ramo": "software",
+        "unidad": 2,
+        "tipo": "vf",
+        "numero": 8,
+        "pregunta": "Scrum y Kanban son equivalentes porque ambos obligan a trabajar en iteraciones de duración fija.",
+        "respuesta": false,
+        "justificacion": "Falso. Scrum trabaja con sprints de duración fija; Kanban se basa en flujo continuo y no exige ciclos fijos."
+    },
+    {
+        "ramo": "software",
+        "unidad": 2,
+        "tipo": "vf",
+        "numero": 9,
+        "pregunta": "En Scrum, el Product Owner debe priorizar el Product Backlog según el valor para el negocio y las necesidades del cliente.",
+        "respuesta": true,
+        "justificacion": "Correcto. Su responsabilidad central es maximizar el valor del producto mediante la gestión y priorización del Product Backlog."
+    },
+    {
+        "ramo": "software",
+        "unidad": 2,
+        "tipo": "vf",
+        "numero": 10,
+        "pregunta": "El Scrum Master es responsable de ordenar el Product Backlog y decidir qué funcionalidades tienen mayor valor comercial.",
+        "respuesta": false,
+        "justificacion": "Falso. Esa responsabilidad corresponde al Product Owner. El Scrum Master facilita el proceso y ayuda a cumplir Scrum."
+    },
+    {
+        "ramo": "software",
+        "unidad": 2,
+        "tipo": "vf",
+        "numero": 11,
+        "pregunta": "El equipo de desarrollo en Scrum entrega incrementos del producto al final de cada sprint.",
+        "respuesta": true,
+        "justificacion": "Correcto. Los Developers construyen el producto y producen incrementos potencialmente utilizables al finalizar los sprints."
+    },
+    {
+        "ramo": "software",
+        "unidad": 2,
+        "tipo": "vf",
+        "numero": 12,
+        "pregunta": "El Sprint Planning ocurre al final del sprint para evaluar el incremento y recoger feedback del cliente.",
+        "respuesta": false,
+        "justificacion": "Falso. El Sprint Planning ocurre al inicio del sprint. La revisión y retroalimentación corresponden al Sprint Review."
+    },
+    {
+        "ramo": "software",
+        "unidad": 2,
+        "tipo": "vf",
+        "numero": 13,
+        "pregunta": "El Daily Scrum busca coordinar al equipo, revisar el progreso y ajustar el plan de trabajo hacia el objetivo del sprint.",
+        "respuesta": true,
+        "justificacion": "Correcto. Es una reunión breve diaria orientada a coordinación y seguimiento del avance."
+    },
+    {
+        "ramo": "software",
+        "unidad": 2,
+        "tipo": "vf",
+        "numero": 14,
+        "pregunta": "La Sprint Retrospective se enfoca en inspeccionar el producto entregado, no el proceso de trabajo del equipo.",
+        "respuesta": false,
+        "justificacion": "Falso. La Sprint Retrospective se enfoca en mejorar el proceso del equipo. La inspección del incremento corresponde al Sprint Review."
+    },
+    {
+        "ramo": "software",
+        "unidad": 2,
+        "tipo": "vf",
+        "numero": 15,
+        "pregunta": "El Product Backlog y el Sprint Backlog se diferencian en que el primero contiene el conjunto priorizado general y el segundo contiene tareas seleccionadas para un sprint específico.",
+        "respuesta": true,
+        "justificacion": "Correcto. El Sprint Backlog deriva del Product Backlog y representa el compromiso de trabajo del sprint."
+    },
+    {
+        "ramo": "software",
+        "unidad": 2,
+        "tipo": "vf",
+        "numero": 16,
+        "pregunta": "El Incremento en Scrum puede considerarse válido aunque no cumpla criterios de aceptación, siempre que haya sido desarrollado dentro del sprint.",
+        "respuesta": false,
+        "justificacion": "Falso. El incremento debe incluir funcionalidades desarrolladas y cumplir criterios establecidos o de aceptación."
+    },
+    {
+        "ramo": "software",
+        "unidad": 2,
+        "tipo": "vf",
+        "numero": 17,
+        "pregunta": "Kanban puede funcionar sin sprints porque su lógica principal es el avance continuo de tareas a través de estados visibles.",
+        "respuesta": true,
+        "justificacion": "Correcto. Kanban se basa en visualización del flujo y entrega continua, no en iteraciones fijas."
+    },
+    {
+        "ramo": "software",
+        "unidad": 2,
+        "tipo": "vf",
+        "numero": 18,
+        "pregunta": "Limitar el WIP en Kanban busca aumentar la cantidad de tareas simultáneas para acelerar el trabajo individual.",
+        "respuesta": false,
+        "justificacion": "Falso. Limitar el WIP busca evitar sobrecarga, reducir cuellos de botella y mantener un flujo eficiente."
+    },
+    {
+        "ramo": "software",
+        "unidad": 2,
+        "tipo": "vf",
+        "numero": 19,
+        "pregunta": "Un tablero Kanban permite representar estados del trabajo, como Por hacer, En progreso y Hecho.",
+        "respuesta": true,
+        "justificacion": "Correcto. La visualización del trabajo mediante columnas es un componente central de Kanban."
+    },
+    {
+        "ramo": "software",
+        "unidad": 2,
+        "tipo": "vf",
+        "numero": 20,
+        "pregunta": "Las herramientas CASE reemplazan a las metodologías porque automatizan el ciclo de vida completo del software.",
+        "respuesta": false,
+        "justificacion": "Falso. Las herramientas CASE complementan las metodologías; apoyan automatización, documentación, visualización y gestión, pero no sustituyen el marco de trabajo."
+    },
+    {
+        "ramo": "software",
+        "unidad": 2,
+        "tipo": "vf",
+        "numero": 21,
+        "pregunta": "Una ventaja de las herramientas CASE es facilitar la comprensión del sistema mediante modelos y diagramas.",
+        "respuesta": true,
+        "justificacion": "Correcto. La visualización mediante modelos, por ejemplo UML, mejora la comprensión y diseño del sistema."
+    },
+    {
+        "ramo": "software",
+        "unidad": 2,
+        "tipo": "vf",
+        "numero": 22,
+        "pregunta": "Las herramientas de control de versiones se clasifican como CASE porque permiten gestionar cambios en el código y colaborar entre desarrolladores.",
+        "respuesta": true,
+        "justificacion": "Correcto. El control de versiones apoya el seguimiento histórico, la colaboración y la gestión de cambios."
+    },
+    {
+        "ramo": "software",
+        "unidad": 2,
+        "tipo": "vf",
+        "numero": 23,
+        "pregunta": "Las herramientas de pruebas de software tienen como objetivo principal priorizar requisitos de negocio en el Product Backlog.",
+        "respuesta": false,
+        "justificacion": "Falso. Las herramientas de pruebas apoyan creación y ejecución de pruebas automatizadas; la priorización del Product Backlog es responsabilidad del Product Owner."
+    },
+    {
+        "ramo": "software",
+        "unidad": 2,
+        "tipo": "vf",
+        "numero": 24,
+        "pregunta": "La estimación por expertos puede ser rápida, pero su calidad depende de la experiencia y criterio de quienes estiman.",
+        "respuesta": true,
+        "justificacion": "Correcto. Su ventaja es la rapidez y adaptabilidad, pero puede ser subjetiva y dependiente de experiencia."
+    },
+    {
+        "ramo": "software",
+        "unidad": 2,
+        "tipo": "vf",
+        "numero": 25,
+        "pregunta": "La estimación por analogía es más adecuada cuando no existe información histórica de proyectos previos comparables.",
+        "respuesta": false,
+        "justificacion": "Falso. La analogía depende precisamente de datos históricos y proyectos de referencia similares."
+    },
+    {
+        "ramo": "software",
+        "unidad": 2,
+        "tipo": "vf",
+        "numero": 26,
+        "pregunta": "La WBS mejora el control del proyecto porque divide el trabajo en entregables o paquetes de trabajo más específicos.",
+        "respuesta": true,
+        "justificacion": "Correcto. Descomponer permite mayor claridad, seguimiento y asignación de estimaciones por tarea."
+    },
+    {
+        "ramo": "software",
+        "unidad": 2,
+        "tipo": "vf",
+        "numero": 27,
+        "pregunta": "En WBS, las estimaciones se asignan antes de definir el alcance, porque el alcance se deduce desde los costos calculados.",
+        "respuesta": false,
+        "justificacion": "Falso. Primero se definen objetivos y alcance; luego se descompone el trabajo y se estiman tareas."
+    },
+    {
+        "ramo": "software",
+        "unidad": 2,
+        "tipo": "vf",
+        "numero": 28,
+        "pregunta": "El método de punto función estima tamaño del software desde las funciones que el sistema entrega al usuario, no desde el lenguaje de programación usado.",
+        "respuesta": true,
+        "justificacion": "Correcto. Una ventaja del método es su independencia del lenguaje de programación."
+    },
+    {
+        "ramo": "software",
+        "unidad": 2,
+        "tipo": "vf",
+        "numero": 29,
+        "pregunta": "En punto función, las entradas externas corresponden a datos que salen del sistema hacia reportes o resultados.",
+        "respuesta": false,
+        "justificacion": "Falso. Las entradas externas son datos que ingresan al sistema. Los reportes o resultados corresponden a salidas externas."
+    },
+    {
+        "ramo": "software",
+        "unidad": 2,
+        "tipo": "vf",
+        "numero": 30,
+        "pregunta": "Las consultas en punto función representan peticiones de información o datos al sistema.",
+        "respuesta": true,
+        "justificacion": "Correcto. Son interacciones donde se solicita información al sistema."
+    },
+    {
+        "ramo": "software",
+        "unidad": 2,
+        "tipo": "vf",
+        "numero": 31,
+        "pregunta": "Los archivos de interfaz externa son datos almacenados internamente y controlados por el propio sistema evaluado.",
+        "respuesta": false,
+        "justificacion": "Falso. Los archivos de interfaz externa provienen de otros sistemas. Los datos almacenados y controlados internamente corresponden a archivos internos."
+    },
+    {
+        "ramo": "software",
+        "unidad": 2,
+        "tipo": "vf",
+        "numero": 32,
+        "pregunta": "En punto función, después de identificar y ponderar funciones, se suman los puntos para obtener el tamaño funcional del sistema.",
+        "respuesta": true,
+        "justificacion": "Correcto. El total de puntos se obtiene sumando los valores asignados a cada función."
+    },
+    {
+        "ramo": "software",
+        "unidad": 2,
+        "tipo": "vf",
+        "numero": 33,
+        "pregunta": "La tasa de productividad en punto función permite transformar el total de puntos en una estimación de esfuerzo o tiempo.",
+        "respuesta": true,
+        "justificacion": "Correcto. Por ejemplo, horas por punto de función permite estimar horas-hombre."
+    },
+    {
+        "ramo": "software",
+        "unidad": 2,
+        "tipo": "vf",
+        "numero": 34,
+        "pregunta": "COCOMO, Delphi y análisis de costos por tareas aparecen como técnicas o métodos de estimación, aunque el apunte profundiza más en expertos, analogía, WBS y punto función.",
+        "respuesta": true,
+        "justificacion": "Correcto. Se mencionan como técnicas comunes, pero el desarrollo principal está en expertos, analogía, WBS y punto función."
+    },
+    {
+        "ramo": "software",
+        "unidad": 2,
+        "tipo": "vf",
+        "numero": 35,
+        "pregunta": "La colaboración con stakeholders es una función apoyada por herramientas de gestión, pero no tiene relación con metodologías ágiles.",
+        "respuesta": false,
+        "justificacion": "Falso. Las metodologías ágiles fomentan colaboración constante con cliente y equipo, y las herramientas pueden apoyar esa comunicación."
+    },
+    {
+        "ramo": "software",
+        "unidad": 2,
+        "tipo": "vf",
+        "numero": 36,
+        "pregunta": "Un proyecto largo y complejo puede beneficiarse de un enfoque iterativo porque permite refinar versiones parciales en lugar de esperar una entrega única final.",
+        "respuesta": true,
+        "justificacion": "Correcto. Esa es una de las fortalezas de los modelos iterativos o incrementales."
+    },
+    {
+        "ramo": "software",
+        "unidad": 2,
+        "tipo": "vf",
+        "numero": 37,
+        "pregunta": "La documentación abundante siempre es incompatible con metodologías ágiles, por lo que no debe existir en proyectos ágiles.",
+        "respuesta": false,
+        "justificacion": "Falso. Las ágiles no prohíben documentar; priorizan software funcional y documentación útil frente a documentación excesiva o rígida."
+    },
+    {
+        "ramo": "software",
+        "unidad": 2,
+        "tipo": "vf",
+        "numero": 38,
+        "pregunta": "La motivación del equipo en enfoques ágiles se relaciona con autonomía y participación en decisiones.",
+        "respuesta": true,
+        "justificacion": "Correcto. Las metodologías ágiles favorecen autoorganización, participación y compromiso del equipo."
+    },
+    {
+        "ramo": "software",
+        "unidad": 2,
+        "tipo": "vf",
+        "numero": 39,
+        "pregunta": "Jira puede aparecer tanto como herramienta de gestión de proyectos como apoyo a requerimientos, dependiendo de su uso.",
+        "respuesta": true,
+        "justificacion": "Correcto. Puede gestionar tareas, sprints, flujos y también requisitos o historias asociadas a necesidades del cliente."
+    },
+    {
+        "ramo": "software",
+        "unidad": 2,
+        "tipo": "vf",
+        "numero": 40,
+        "pregunta": "El control de calidad en modelos tradicionales tiende a estar menos definido porque no existe planificación detallada.",
+        "respuesta": false,
+        "justificacion": "Falso. Los modelos tradicionales se caracterizan por planificación, documentación y control de calidad bien definido."
+    },
+    {
+        "ramo": "software",
+        "unidad": 2,
+        "tipo": "vf",
+        "numero": 41,
+        "pregunta": "Una herramienta de generación de código puede reducir errores manuales, pero no elimina la necesidad de validar el resultado.",
+        "respuesta": true,
+        "justificacion": "Correcto. Automatiza parte del desarrollo, pero el producto generado debe revisarse, probarse y mantenerse."
+    },
+    {
+        "ramo": "software",
+        "unidad": 2,
+        "tipo": "vf",
+        "numero": 42,
+        "pregunta": "La principal salida de una WBS es una lista priorizada de funcionalidades gestionada por el Product Owner.",
+        "respuesta": false,
+        "justificacion": "Falso. Esa descripción corresponde al Product Backlog. La WBS entrega una descomposición del trabajo en entregables y paquetes de trabajo."
+    },
+    {
+        "ramo": "software",
+        "unidad": 2,
+        "tipo": "vf",
+        "numero": 43,
+        "pregunta": "La mejora continua está presente tanto en Scrum como en Kanban, aunque se expresa mediante prácticas distintas.",
+        "respuesta": true,
+        "justificacion": "Correcto. En Scrum se formaliza en la retrospectiva; en Kanban se revisa el flujo para detectar problemas y optimizar eficiencia."
+    },
+    {
+        "ramo": "software",
+        "unidad": 2,
+        "tipo": "vf",
+        "numero": 44,
+        "pregunta": "El Sprint Review y la Sprint Retrospective son redundantes porque ambos tienen exactamente el mismo foco.",
+        "respuesta": false,
+        "justificacion": "Falso. El Review revisa el incremento y recoge feedback; la Retrospective analiza el proceso de trabajo para mejorarlo."
+    },
+    {
+        "ramo": "software",
+        "unidad": 2,
+        "tipo": "vf",
+        "numero": 45,
+        "pregunta": "El método punto función requiere clasificar complejidad baja, media o alta antes de calcular el total de puntos.",
+        "respuesta": true,
+        "justificacion": "Correcto. La asignación de ponderaciones depende de clasificar funciones según complejidad."
+    }
+]

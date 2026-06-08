@@ -1,0 +1,314 @@
+[
+    {
+        "ramo": "software",
+        "unidad": 4,
+        "tipo": "des",
+        "numero": 1,
+        "pregunta": "Explica qué busca la seguridad de software y por qué un software inseguro afecta más que el funcionamiento técnico del sistema.",
+        "respuesta": "La seguridad de software busca proteger sistemas, datos y servicios frente a ciberataques, accesos no autorizados y fallos que comprometan confidencialidad, integridad o disponibilidad. Un software inseguro no solo falla técnicamente: puede provocar pérdida o filtración de datos, robos financieros, daño reputacional, problemas legales y pérdida de confianza de usuarios."
+    },
+    {
+        "ramo": "software",
+        "unidad": 4,
+        "tipo": "des",
+        "numero": 2,
+        "pregunta": "Compara confidencialidad, integridad y disponibilidad usando un ejemplo de mecanismo para cada dimensión.",
+        "respuesta": "La confidencialidad limita el acceso a información a entidades autorizadas; por ejemplo, autenticación y RBAC. La integridad evita modificaciones no autorizadas o accidentales; por ejemplo, hashing, firmas digitales o controles de integridad. La disponibilidad asegura que servicios y datos estén accesibles cuando se requieran; por ejemplo, balanceo de carga, respaldos y protección contra DDoS."
+    },
+    {
+        "ramo": "software",
+        "unidad": 4,
+        "tipo": "des",
+        "numero": 3,
+        "pregunta": "Describe un caso donde se vea afectada la confidencialidad, otro donde se afecte la integridad y otro donde se afecte la disponibilidad.",
+        "respuesta": "Confidencialidad: un usuario sin permisos accede a datos personales de clientes. Integridad: un atacante modifica saldos o registros en una base de datos. Disponibilidad: un ataque DDoS impide que usuarios autorizados accedan al servicio. Cada caso compromete un pilar distinto de la seguridad de la información."
+    },
+    {
+        "ramo": "software",
+        "unidad": 4,
+        "tipo": "des",
+        "numero": 4,
+        "pregunta": "Explica la diferencia entre autenticidad y no repudio.",
+        "respuesta": "La autenticidad verifica que una entidad sea realmente quien dice ser, como un usuario autenticado mediante credenciales o certificados. El no repudio busca impedir que una entidad niegue una acción realizada, como aprobar una transacción o enviar un mensaje firmado. La autenticidad se enfoca en identidad; el no repudio en evidencia de autoría o acción."
+    },
+    {
+        "ramo": "software",
+        "unidad": 4,
+        "tipo": "des",
+        "numero": 5,
+        "pregunta": "Explica por qué auditoría y trazabilidad son importantes aunque existan controles preventivos.",
+        "respuesta": "Los controles preventivos reducen la probabilidad de incidentes, pero no garantizan que nunca ocurran. Auditoría y trazabilidad registran acciones, permiten seguir lo ocurrido, investigar errores o ataques, detectar responsabilidades y demostrar cumplimiento normativo. Son claves para aprendizaje, respuesta a incidentes y evidencia."
+    },
+    {
+        "ramo": "software",
+        "unidad": 4,
+        "tipo": "des",
+        "numero": 6,
+        "pregunta": "Relaciona resiliencia, disponibilidad y recuperación ante incidentes.",
+        "respuesta": "La disponibilidad busca que el sistema esté accesible cuando usuarios autorizados lo necesiten. La resiliencia es la capacidad del software de seguir funcionando o recuperarse rápidamente frente a fallos, ataques o situaciones inesperadas. La recuperación ante incidentes o desastres aporta planes y recursos para restaurar servicios, por lo que fortalece disponibilidad y resiliencia."
+    },
+    {
+        "ramo": "software",
+        "unidad": 4,
+        "tipo": "des",
+        "numero": 7,
+        "pregunta": "Explica por qué la seguridad debe considerarse durante todo el ciclo de vida del software.",
+        "respuesta": "Si la seguridad se incorpora solo al final, los errores de diseño, permisos o arquitectura pueden ser costosos de corregir. Integrarla desde análisis, diseño, implementación, pruebas, despliegue y mantenimiento permite definir requisitos, diseñar autenticación/autorización, aplicar buenas prácticas, verificar controles, configurar entornos y actualizar medidas ante nuevas vulnerabilidades."
+    },
+    {
+        "ramo": "software",
+        "unidad": 4,
+        "tipo": "des",
+        "numero": 8,
+        "pregunta": "Describe las etapas que cubre la gestión de incidentes y el propósito de cada una.",
+        "respuesta": "La gestión de incidentes incluye detección, análisis, respuesta y recuperación. La detección identifica brechas, ataques o fallos. El análisis determina alcance, causa e impacto. La respuesta contiene o elimina la amenaza. La recuperación restaura servicios y normalidad operacional, idealmente aprendiendo del incidente para reducir recurrencia."
+    },
+    {
+        "ramo": "software",
+        "unidad": 4,
+        "tipo": "des",
+        "numero": 9,
+        "pregunta": "Diferencia monitoreo de amenazas, auditoría de seguridad y pruebas de penetración.",
+        "respuesta": "El monitoreo de amenazas es vigilancia continua de sistemas y redes para detectar actividad sospechosa, a menudo con IDS/IPS. La auditoría de seguridad es una revisión periódica de sistemas, controles y cumplimiento normativo. Las pruebas de penetración simulan ataques controlados para encontrar vulnerabilidades y evaluar resistencia."
+    },
+    {
+        "ramo": "software",
+        "unidad": 4,
+        "tipo": "des",
+        "numero": 10,
+        "pregunta": "Explica cómo la gestión de riesgos ayuda a priorizar controles de seguridad.",
+        "respuesta": "La gestión de riesgos identifica activos, amenazas y vulnerabilidades, luego evalúa probabilidad e impacto. Con esa información, la organización puede priorizar controles donde el riesgo sea mayor o más crítico, evitando gastar recursos en medidas poco relevantes y enfocándose en reducir pérdidas, cumplir normativa y proteger reputación."
+    },
+    {
+        "ramo": "software",
+        "unidad": 4,
+        "tipo": "des",
+        "numero": 11,
+        "pregunta": "Describe el papel de la consultoría en seguridad y por qué no reemplaza la responsabilidad de la organización.",
+        "respuesta": "La consultoría en seguridad entrega asesoría experta para mejorar estrategias, crear políticas, implementar controles y orientar buenas prácticas. Sin embargo, no reemplaza la responsabilidad de la organización porque la empresa sigue siendo dueña de sus activos, riesgos, decisiones, cumplimiento normativo y operación diaria de los controles."
+    },
+    {
+        "ramo": "software",
+        "unidad": 4,
+        "tipo": "des",
+        "numero": 12,
+        "pregunta": "Explica por qué la gestión de parches es un servicio de seguridad relevante.",
+        "respuesta": "La gestión de parches identifica y aplica actualizaciones que corrigen vulnerabilidades conocidas. Es relevante porque muchas intrusiones explotan fallas ya documentadas para las que existen correcciones. Un proceso de parches reduce exposición, protege sistemas frente a ciberataques y debe priorizarse según criticidad y riesgo."
+    },
+    {
+        "ramo": "software",
+        "unidad": 4,
+        "tipo": "des",
+        "numero": 13,
+        "pregunta": "Describe qué aspectos debe considerar la seguridad en la nube.",
+        "respuesta": "La seguridad en la nube debe considerar configuraciones seguras, control de accesos, protección de datos y monitoreo de amenazas. También implica administrar identidades y permisos, cifrado, cumplimiento normativo, respaldos y responsabilidades compartidas entre proveedor y organización. Una mala configuración puede exponer datos aunque la infraestructura sea robusta."
+    },
+    {
+        "ramo": "software",
+        "unidad": 4,
+        "tipo": "des",
+        "numero": 14,
+        "pregunta": "Explica qué es recuperación ante desastres y cómo se relaciona con continuidad del negocio.",
+        "respuesta": "La recuperación ante desastres es la planificación de estrategias para restaurar sistemas luego de incidentes graves. Se relaciona con continuidad del negocio porque busca reducir interrupciones, recuperar datos y servicios críticos, mantener operaciones mínimas y volver a la normalidad en tiempos aceptables mediante respaldos, planes de contingencia y procedimientos probados."
+    },
+    {
+        "ramo": "software",
+        "unidad": 4,
+        "tipo": "des",
+        "numero": 15,
+        "pregunta": "Explica qué es el control de acceso y qué preguntas responde dentro de un sistema.",
+        "respuesta": "El control de acceso es el conjunto de políticas y mecanismos que determinan quién puede entrar a un sistema, red o recurso, y qué acciones puede realizar una vez dentro. Responde preguntas como: qué usuario o entidad accede, a qué recurso, con qué permisos, bajo qué condiciones y con qué restricciones."
+    },
+    {
+        "ramo": "software",
+        "unidad": 4,
+        "tipo": "des",
+        "numero": 16,
+        "pregunta": "Compara DAC, MAC, RBAC y ABAC destacando el criterio de decisión de cada modelo.",
+        "respuesta": "DAC decide acceso según el propietario del recurso, quien otorga permisos. MAC usa clasificación de datos y niveles de seguridad con políticas centralizadas. RBAC asigna permisos según roles organizacionales. ABAC decide según atributos de usuario, recurso y entorno, como ubicación, hora, dispositivo o nivel de riesgo."
+    },
+    {
+        "ramo": "software",
+        "unidad": 4,
+        "tipo": "des",
+        "numero": 17,
+        "pregunta": "Da un ejemplo de aplicación para DAC, MAC, RBAC y ABAC.",
+        "respuesta": "DAC: el dueño de un documento comparte permisos de lectura o edición. MAC: documentos clasificados como confidencial o secreto solo son accesibles por usuarios con nivel suficiente. RBAC: un administrador tiene permisos de configuración y un cliente solo consulta datos propios. ABAC: se permite acceso solo desde una ubicación autorizada y en horario laboral."
+    },
+    {
+        "ramo": "software",
+        "unidad": 4,
+        "tipo": "des",
+        "numero": 18,
+        "pregunta": "Explica cómo se aplica el control de acceso en cada etapa del ciclo de vida del software.",
+        "respuesta": "En planificación se definen roles, niveles de acceso y normativas. En diseño se eligen mecanismos de autenticación y autorización. En desarrollo se implementan buenas prácticas como mínimo privilegio y separación de funciones. En pruebas se verifica efectividad. En despliegue se configuran controles. En mantenimiento se actualizan permisos y controles ante cambios o vulnerabilidades."
+    },
+    {
+        "ramo": "software",
+        "unidad": 4,
+        "tipo": "des",
+        "numero": 19,
+        "pregunta": "Explica el principio de mínimo privilegio y su relación con el control de acceso.",
+        "respuesta": "El principio de mínimo privilegio indica que cada usuario, servicio o proceso debe tener solo los permisos necesarios para cumplir su función. Reduce el daño potencial si una cuenta es comprometida, limita errores accidentales y evita que permisos excesivos permitan accesos o cambios no autorizados."
+    },
+    {
+        "ramo": "software",
+        "unidad": 4,
+        "tipo": "des",
+        "numero": 20,
+        "pregunta": "Explica la separación de funciones y por qué es una buena práctica de seguridad.",
+        "respuesta": "La separación de funciones distribuye responsabilidades críticas entre distintas personas o roles para evitar concentración excesiva de poder. Reduce fraude, abuso y errores no detectados. Por ejemplo, quien solicita un cambio crítico no debería ser la misma persona que lo aprueba y lo despliega sin revisión."
+    },
+    {
+        "ramo": "software",
+        "unidad": 4,
+        "tipo": "des",
+        "numero": 21,
+        "pregunta": "Define SGSI e indica qué elementos organizacionales incluye.",
+        "respuesta": "Un Sistema de Gestión de Seguridad de la Información (SGSI) es un marco que organiza recursos para alcanzar objetivos de seguridad. Incluye estructura organizativa, políticas, planificación, responsabilidades, prácticas, procedimientos, procesos y recursos. Busca que la seguridad sea gestionada, documentada, medible y alineada con objetivos organizacionales."
+    },
+    {
+        "ramo": "software",
+        "unidad": 4,
+        "tipo": "des",
+        "numero": 22,
+        "pregunta": "Explica qué beneficios aporta un SGSI a una organización.",
+        "respuesta": "Un SGSI permite satisfacer requisitos de seguridad de clientes y partes interesadas, mejorar planes y actividades, cumplir objetivos de seguridad, adherirse a leyes y regulaciones, gestionar activos de información de forma ordenada y facilitar mejora continua y adaptación a cambios del entorno."
+    },
+    {
+        "ramo": "software",
+        "unidad": 4,
+        "tipo": "des",
+        "numero": 23,
+        "pregunta": "Describe el ciclo PHVA y cómo se aplica a la seguridad de la información.",
+        "respuesta": "PHVA significa Planificar, Hacer, Verificar y Actuar. En seguridad, Planificar define problemas, objetivos y controles; Hacer ejecuta el plan; Verificar mide resultados y compara con objetivos; Actuar estandariza lo que funciona o corrige deficiencias. Es un ciclo de mejora continua aplicable a un SGSI."
+    },
+    {
+        "ramo": "software",
+        "unidad": 4,
+        "tipo": "des",
+        "numero": 24,
+        "pregunta": "Diferencia pruebas documentales, prácticas operativas y controles técnicos en la implementación de un SGSI.",
+        "respuesta": "Las pruebas documentales son evidencias escritas de planificación y control, como políticas, registros y planes de riesgo. Las prácticas operativas son acciones reales del trabajo diario, como respaldos o revisión de código. Los controles técnicos son mecanismos automáticos o herramientas, como firewalls, antivirus y cifrado."
+    },
+    {
+        "ramo": "software",
+        "unidad": 4,
+        "tipo": "des",
+        "numero": 25,
+        "pregunta": "Explica por qué un SGSI suele ser auditado y estar en evolución constante.",
+        "respuesta": "Un SGSI se audita para comprobar que existen políticas, prácticas y controles efectivos, y que se cumplen requisitos internos, legales o normativos. Está en evolución porque cambian amenazas, vulnerabilidades, tecnologías, procesos y regulaciones. La seguridad requiere mejora continua, no una configuración única e inmutable."
+    },
+    {
+        "ramo": "software",
+        "unidad": 4,
+        "tipo": "des",
+        "numero": 26,
+        "pregunta": "Define análisis de riesgos en desarrollo y mantenimiento de software.",
+        "respuesta": "El análisis de riesgos es el proceso de identificar y evaluar amenazas y vulnerabilidades que pueden afectar seguridad, funcionalidad o disponibilidad del sistema. En software permite detectar problemas como inyección SQL, permisos mal gestionados, pérdida de datos, fallas de respaldo, bugs críticos, malware o DDoS, y decidir controles adecuados."
+    },
+    {
+        "ramo": "software",
+        "unidad": 4,
+        "tipo": "des",
+        "numero": 27,
+        "pregunta": "Diferencia amenaza, vulnerabilidad, impacto y riesgo usando un ejemplo de software.",
+        "respuesta": "Una amenaza es un evento o actor que puede causar daño, como un atacante. Una vulnerabilidad es una debilidad, como un formulario vulnerable a SQL injection. El impacto es la consecuencia, como robo de datos. El riesgo combina probabilidad e impacto de que la amenaza explote la vulnerabilidad."
+    },
+    {
+        "ramo": "software",
+        "unidad": 4,
+        "tipo": "des",
+        "numero": 28,
+        "pregunta": "Explica los objetivos de la gestión del riesgo.",
+        "respuesta": "La gestión del riesgo dirige y controla la organización frente al riesgo. Busca identificar amenazas, reducir pérdidas, mejorar la toma de decisiones, cumplir normativa, proteger reputación y asegurar sostenibilidad a largo plazo. También busca reducir la probabilidad de ocurrencia o el impacto mediante controles y decisiones justificadas."
+    },
+    {
+        "ramo": "software",
+        "unidad": 4,
+        "tipo": "des",
+        "numero": 29,
+        "pregunta": "Compara mitigación, transferencia y evitación como medidas de control de riesgo.",
+        "respuesta": "La mitigación reduce probabilidad o impacto mediante controles, como firewalls, IDS o cifrado. La transferencia traslada parte de la responsabilidad o impacto a terceros, como seguros o subcontratación. La evitación elimina la actividad o proceso que genera el riesgo, por ejemplo no lanzar un producto sobre una tecnología insegura."
+    },
+    {
+        "ramo": "software",
+        "unidad": 4,
+        "tipo": "des",
+        "numero": 30,
+        "pregunta": "Explica cuándo puede aceptarse un riesgo residual y qué condiciones debe cumplir esa aceptación.",
+        "respuesta": "Un riesgo residual puede aceptarse cuando su impacto es bajo o tolerable, mitigarlo cuesta más que el daño posible, no puede reducirse eficientemente o es conocido y monitoreado. La aceptación debe documentar razones, responsables y condiciones, y debe incluir planes de contingencia si el riesgo llega a materializarse."
+    },
+    {
+        "ramo": "software",
+        "unidad": 4,
+        "tipo": "des",
+        "numero": 31,
+        "pregunta": "Diferencia compartir riesgo y transferir riesgo.",
+        "respuesta": "Transferir riesgo implica trasladar responsabilidad o impacto a un tercero, como contratar un seguro. Compartir riesgo es similar, pero enfatiza colaboración con otros actores para reducirlo, por ejemplo contratar un proveedor de ciberseguridad para monitoreo, usar servicios cloud con seguridad gestionada parcialmente o trabajar con una empresa de respaldos."
+    },
+    {
+        "ramo": "software",
+        "unidad": 4,
+        "tipo": "des",
+        "numero": 32,
+        "pregunta": "Explica qué es la retención de riesgo residual y da un ejemplo.",
+        "respuesta": "La retención de riesgo residual ocurre cuando, después de aplicar controles razonables, la organización conserva el riesgo restante dentro de márgenes aceptables. Ejemplo: mantener un pequeño riesgo de caída durante mantenimientos planificados o aceptar errores menores en reportes internos que no afectan decisiones críticas."
+    },
+    {
+        "ramo": "software",
+        "unidad": 4,
+        "tipo": "des",
+        "numero": 33,
+        "pregunta": "Describe el proceso de modificación del riesgo.",
+        "respuesta": "El proceso incluye identificación de amenazas o vulnerabilidades, análisis de impacto y probabilidad, selección de controles adecuados, evaluación del riesgo residual y monitoreo continuo. Su propósito es tratar el riesgo de forma ordenada, comprobar si los controles son suficientes y ajustar medidas cuando el contexto cambia."
+    },
+    {
+        "ramo": "software",
+        "unidad": 4,
+        "tipo": "des",
+        "numero": 34,
+        "pregunta": "Explica cómo normas y marcos como ISO/IEC 27001, ISO/IEC 27002, NIST SP 800-53, COBIT y OWASP ayudan en la selección de controles.",
+        "respuesta": "Estos marcos entregan referencias, buenas prácticas o catálogos para orientar la selección de controles. ISO/IEC 27001 guía la gestión de seguridad de la información; ISO/IEC 27002 detalla buenas prácticas de controles; NIST SP 800-53 ofrece controles de seguridad; COBIT apoya gobernanza y gestión de TI; OWASP orienta seguridad de aplicaciones web."
+    },
+    {
+        "ramo": "software",
+        "unidad": 4,
+        "tipo": "des",
+        "numero": 35,
+        "pregunta": "Explica por qué el monitoreo continuo es necesario después de aplicar controles.",
+        "respuesta": "El monitoreo continuo es necesario porque los riesgos cambian con nuevas amenazas, vulnerabilidades, configuraciones, usuarios y tecnologías. Permite detectar fallas de controles, incidentes emergentes, cambios de exposición y necesidad de ajustes. Sin monitoreo, un riesgo inicialmente aceptable puede volverse crítico sin que la organización lo advierta."
+    },
+    {
+        "ramo": "software",
+        "unidad": 4,
+        "tipo": "des",
+        "numero": 36,
+        "pregunta": "Propón una estrategia de seguridad para una aplicación web que maneja datos personales, integrando pilares CIA, control de acceso, SGSI y gestión de riesgos.",
+        "respuesta": "La estrategia debe proteger confidencialidad con autenticación fuerte, RBAC/ABAC, cifrado y privacidad de datos; integridad con hashing, validaciones, firmas o controles de cambios; disponibilidad con respaldos, balanceo y protección DDoS. Debe gestionarse con un SGSI que documente políticas, responsabilidades, auditorías y mejora continua. La gestión de riesgos debe identificar amenazas como SQL injection o permisos indebidos, evaluar impacto, seleccionar controles OWASP/NIST/ISO, medir riesgo residual y monitorear continuamente."
+    },
+    {
+        "ramo": "software",
+        "unidad": 4,
+        "tipo": "des",
+        "numero": 37,
+        "pregunta": "Analiza por qué una organización no debería confiar solo en controles técnicos para lograr seguridad.",
+        "respuesta": "Los controles técnicos son necesarios, pero insuficientes sin políticas, responsabilidades, procedimientos, prácticas operativas y cultura de seguridad. Un firewall o cifrado no corrige permisos mal definidos, ausencia de auditorías, falta de respuesta a incidentes, parches atrasados o decisiones de riesgo no documentadas. Por eso el SGSI combina documentos, prácticas y controles."
+    },
+    {
+        "ramo": "software",
+        "unidad": 4,
+        "tipo": "des",
+        "numero": 38,
+        "pregunta": "Explica cómo una mala gestión de permisos puede convertirse en un riesgo de seguridad y cómo tratarlo.",
+        "respuesta": "Una mala gestión de permisos puede permitir acceso no autorizado, escalamiento de privilegios, modificación indebida de datos o exposición de información sensible. Para tratarlo se debe identificar el riesgo, analizar impacto y probabilidad, aplicar controles como RBAC/ABAC, mínimo privilegio, separación de funciones, auditoría de accesos, pruebas de autorización y monitoreo continuo."
+    },
+    {
+        "ramo": "software",
+        "unidad": 4,
+        "tipo": "des",
+        "numero": 39,
+        "pregunta": "Construye un ejemplo de aceptación de riesgo y explica por qué no debe confundirse con ignorar el riesgo.",
+        "respuesta": "Ejemplo: una aplicación interna tiene un bug visual menor que no afecta datos ni operación, y corregirlo costaría más que el impacto esperado. La organización puede aceptar ese riesgo si lo documenta, define responsables, monitorea cambios y cuenta con contingencia si empeora. No es ignorarlo porque se evalúa, justifica y controla conscientemente."
+    }
+]

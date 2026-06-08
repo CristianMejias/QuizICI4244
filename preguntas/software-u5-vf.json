@@ -1,0 +1,542 @@
+[
+  {
+    "ramo": "software",
+    "unidad": 5,
+    "tipo": "vf",
+    "numero": 1,
+    "pregunta": "La calidad del software puede entenderse como el grado en que el sistema cumple tanto requisitos especificados como expectativas del usuario.",
+    "respuesta": true,
+    "justificacion": "Correcto"
+  },
+  {
+    "ramo": "software",
+    "unidad": 5,
+    "tipo": "vf",
+    "numero": 2,
+    "pregunta": "En software, una buena especificación de requisitos es irrelevante si el equipo de desarrollo posee experiencia técnica suficiente.",
+    "respuesta": false,
+    "justificacion": "Es falsa porque el material enfatiza que para que un producto sea conforme se requiere una buena especificación; objetivos poco claros impiden alcanzar lo esperado."
+  },
+  {
+    "ramo": "software",
+    "unidad": 5,
+    "tipo": "vf",
+    "numero": 3,
+    "pregunta": "La calidad es relativa porque depende de las necesidades, expectativas y tipos de clientes o usuarios considerados.",
+    "respuesta": true,
+    "justificacion": "Correcto"
+  },
+  {
+    "ramo": "software",
+    "unidad": 5,
+    "tipo": "vf",
+    "numero": 4,
+    "pregunta": "La definición de calidad según ISO 8402 solo contempla necesidades explícitas, no necesidades implícitas.",
+    "respuesta": false,
+    "justificacion": "ISO 8402 incluye la aptitud del producto o servicio para satisfacer necesidades expresadas o implícitas."
+  },
+  {
+    "ramo": "software",
+    "unidad": 5,
+    "tipo": "vf",
+    "numero": 5,
+    "pregunta": "El software se desarrolla y no se fabrica; por eso el costo principal suele concentrarse en la elaboración y diseño, no en la replicación.",
+    "respuesta": true,
+    "justificacion": "Correcto"
+  },
+  {
+    "ramo": "software",
+    "unidad": 5,
+    "tipo": "vf",
+    "numero": 6,
+    "pregunta": "El uso continuo del software degrada físicamente el producto de forma equivalente al desgaste de una máquina.",
+    "respuesta": false,
+    "justificacion": "El software es lógico y su uso no lo degrada físicamente; puede fallar por defectos, cambios o entorno, pero no por desgaste material del producto."
+  },
+  {
+    "ramo": "software",
+    "unidad": 5,
+    "tipo": "vf",
+    "numero": 7,
+    "pregunta": "Que un programa haga algo no implica necesariamente que haga lo que el cliente o usuario necesita.",
+    "respuesta": true,
+    "justificacion": "Correcto"
+  },
+  {
+    "ramo": "software",
+    "unidad": 5,
+    "tipo": "vf",
+    "numero": 8,
+    "pregunta": "El aseguramiento de la calidad se centra en evaluar el proceso de desarrollo, mientras que el control de calidad evalúa productos desarrollados.",
+    "respuesta": true,
+    "justificacion": "Correcto"
+  },
+  {
+    "ramo": "software",
+    "unidad": 5,
+    "tipo": "vf",
+    "numero": 9,
+    "pregunta": "La administración de la calidad se limita a ejecutar pruebas unitarias al final del desarrollo.",
+    "respuesta": false,
+    "justificacion": "La administración de calidad determina y aplica la política de calidad a nivel de empresa; no se reduce a pruebas finales."
+  },
+  {
+    "ramo": "software",
+    "unidad": 5,
+    "tipo": "vf",
+    "numero": 10,
+    "pregunta": "Un proceso software de calidad aumenta la probabilidad de obtener productos de calidad, aunque no lo garantiza completamente.",
+    "respuesta": true,
+    "justificacion": "Correcto"
+  },
+  {
+    "ramo": "software",
+    "unidad": 5,
+    "tipo": "vf",
+    "numero": 11,
+    "pregunta": "En software, un proceso bien estandarizado garantiza productos de calidad del mismo modo que en fabricación automatizada.",
+    "respuesta": false,
+    "justificacion": "El material distingue software de manufactura: como el software se diseña, un proceso de calidad no necesariamente garantiza un producto de calidad."
+  },
+  {
+    "ramo": "software",
+    "unidad": 5,
+    "tipo": "vf",
+    "numero": 12,
+    "pregunta": "La calidad del software puede analizarse a nivel de empresa, de proyecto/proceso y de producto.",
+    "respuesta": true,
+    "justificacion": "Correcto"
+  },
+  {
+    "ramo": "software",
+    "unidad": 5,
+    "tipo": "vf",
+    "numero": 13,
+    "pregunta": "La política de calidad de una empresa debe quedar implícita en la cultura organizacional y no necesita ser expresada por la dirección.",
+    "respuesta": false,
+    "justificacion": "El material indica que la dirección debe expresar la política de calidad de manera explícita."
+  },
+  {
+    "ramo": "software",
+    "unidad": 5,
+    "tipo": "vf",
+    "numero": 14,
+    "pregunta": "La calidad a nivel de empresa requiere compromiso de la dirección y participación de todos los departamentos y personas.",
+    "respuesta": true,
+    "justificacion": "Correcto"
+  },
+  {
+    "ramo": "software",
+    "unidad": 5,
+    "tipo": "vf",
+    "numero": 15,
+    "pregunta": "Un sistema de calidad, según ISO 9000, incluye organización, responsabilidades, actividades, recursos y procedimientos.",
+    "respuesta": true,
+    "justificacion": "Correcto"
+  },
+  {
+    "ramo": "software",
+    "unidad": 5,
+    "tipo": "vf",
+    "numero": 16,
+    "pregunta": "Un sistema de calidad útil debe privilegiar la detección tardía de defectos sobre la prevención.",
+    "respuesta": false,
+    "justificacion": "Debe poner más énfasis en prevenir que en detectar y corregir."
+  },
+  {
+    "ramo": "software",
+    "unidad": 5,
+    "tipo": "vf",
+    "numero": 17,
+    "pregunta": "ISO 9001 abarca el ciclo de vida completo, mientras que ISO 9000-3 guía su aplicación al desarrollo, suministro y mantenimiento de software.",
+    "respuesta": true,
+    "justificacion": "Correcto"
+  },
+  {
+    "ramo": "software",
+    "unidad": 5,
+    "tipo": "vf",
+    "numero": 18,
+    "pregunta": "ISO 9000-3 reemplaza por completo la necesidad de definir actividades de apoyo en proyectos software.",
+    "respuesta": false,
+    "justificacion": "ISO 9000-3 considera actividades de apoyo junto con el marco de trabajo de la empresa y actividades del ciclo de vida."
+  },
+  {
+    "ramo": "software",
+    "unidad": 5,
+    "tipo": "vf",
+    "numero": 19,
+    "pregunta": "La resistencia al cambio y la falta de formación son dificultades posibles al implantar un sistema de calidad.",
+    "respuesta": true,
+    "justificacion": "Correcto"
+  },
+  {
+    "ramo": "software",
+    "unidad": 5,
+    "tipo": "vf",
+    "numero": 20,
+    "pregunta": "Una recomendación para implantar sistemas de calidad es excluir a los mandos intermedios para acelerar las decisiones.",
+    "respuesta": false,
+    "justificacion": "El material recomienda involucrar a los mandos intermedios y delegar en ellos la toma de decisiones."
+  },
+  {
+    "ramo": "software",
+    "unidad": 5,
+    "tipo": "vf",
+    "numero": 21,
+    "pregunta": "CMM asume que el proceso software es más predecible cuando usa modelos de ciclo de vida estructurados, visibles y adaptables al cambio.",
+    "respuesta": true,
+    "justificacion": "Correcto"
+  },
+  {
+    "ramo": "software",
+    "unidad": 5,
+    "tipo": "vf",
+    "numero": 22,
+    "pregunta": "Para alcanzar un nivel CMM, una organización debe manejar todas las áreas clave de proceso correspondientes a ese nivel.",
+    "respuesta": true,
+    "justificacion": "Correcto"
+  },
+  {
+    "ramo": "software",
+    "unidad": 5,
+    "tipo": "vf",
+    "numero": 23,
+    "pregunta": "El nivel 1 de CMM se caracteriza por métricas cuantitativas de procesos y gestión formal de calidad.",
+    "respuesta": false,
+    "justificacion": "El nivel 1 es Inicial, centrado en gente competente y sin KPA; las métricas cuantitativas aparecen en el nivel 4."
+  },
+  {
+    "ramo": "software",
+    "unidad": 5,
+    "tipo": "vf",
+    "numero": 24,
+    "pregunta": "El nivel 2 de CMM se relaciona con administración de proyectos, planificación de proyecto software y gestión de configuración.",
+    "respuesta": true,
+    "justificacion": "Correcto"
+  },
+  {
+    "ramo": "software",
+    "unidad": 5,
+    "tipo": "vf",
+    "numero": 25,
+    "pregunta": "El nivel 3 de CMM se enfoca en definición de procesos, entrenamiento y revisión de pares.",
+    "respuesta": true,
+    "justificacion": "Correcto"
+  },
+  {
+    "ramo": "software",
+    "unidad": 5,
+    "tipo": "vf",
+    "numero": 26,
+    "pregunta": "El nivel 5 de CMM se asocia con prevención de defectos, gestión de cambio de procesos y mejora continua.",
+    "respuesta": true,
+    "justificacion": "Correcto"
+  },
+  {
+    "ramo": "software",
+    "unidad": 5,
+    "tipo": "vf",
+    "numero": 27,
+    "pregunta": "Una crítica a CMM es que se enfoca más en administración del proyecto que en desarrollo del producto.",
+    "respuesta": true,
+    "justificacion": "Correcto"
+  },
+  {
+    "ramo": "software",
+    "unidad": 5,
+    "tipo": "vf",
+    "numero": 28,
+    "pregunta": "CMM considera explícitamente el análisis y resolución de riesgos como una tecnología de proceso clave central.",
+    "respuesta": false,
+    "justificacion": "Una crítica mencionada es que no incluye análisis y resolución de riesgos como tecnología de procesos clave."
+  },
+  {
+    "ramo": "software",
+    "unidad": 5,
+    "tipo": "vf",
+    "numero": 29,
+    "pregunta": "CMM suele considerarse más detallado que ISO 9000 e incluye un marco para la mejora de procesos.",
+    "respuesta": true,
+    "justificacion": "Correcto"
+  },
+  {
+    "ramo": "software",
+    "unidad": 5,
+    "tipo": "vf",
+    "numero": 30,
+    "pregunta": "Los niveles 2 y 3 de CMM se consideran incompatibles con ISO 9000.",
+    "respuesta": false,
+    "justificacion": "El material indica que los niveles 2 y 3 de CMM son compatibles con ISO 9000."
+  },
+  {
+    "ramo": "software",
+    "unidad": 5,
+    "tipo": "vf",
+    "numero": 31,
+    "pregunta": "CMMI integra múltiples modelos de madurez CMM en un único modelo.",
+    "respuesta": true,
+    "justificacion": "Correcto"
+  },
+  {
+    "ramo": "software",
+    "unidad": 5,
+    "tipo": "vf",
+    "numero": 32,
+    "pregunta": "La clasificación CMM es especialmente adecuada para proyectos pequeños, informales y de vida corta.",
+    "respuesta": false,
+    "justificacion": "El material indica que CMM es apropiado especialmente para proyectos de larga vida, a largo plazo y organizaciones grandes."
+  },
+  {
+    "ramo": "software",
+    "unidad": 5,
+    "tipo": "vf",
+    "numero": 33,
+    "pregunta": "Los procesos informales no tienen un modelo estrictamente definido y pueden ser adecuados para prototipos o sistemas pequeños.",
+    "respuesta": true,
+    "justificacion": "Correcto"
+  },
+  {
+    "ramo": "software",
+    "unidad": 5,
+    "tipo": "vf",
+    "numero": 34,
+    "pregunta": "Los procesos administrados definen procedimientos, duración y relaciones, y son adecuados para sistemas grandes o de vida larga.",
+    "respuesta": true,
+    "justificacion": "Correcto"
+  },
+  {
+    "ramo": "software",
+    "unidad": 5,
+    "tipo": "vf",
+    "numero": 35,
+    "pregunta": "Los procesos metodológicos son recomendados principalmente cuando el área de aplicación es desconocida y no hay modelos de desarrollo disponibles.",
+    "respuesta": false,
+    "justificacion": "Se usan métodos o modelos definidos y son adecuados para áreas bien comprendidas o sistemas con reingeniería."
+  },
+  {
+    "ramo": "software",
+    "unidad": 5,
+    "tipo": "vf",
+    "numero": 36,
+    "pregunta": "Los procesos de mejora tienen objetivos explícitos, presupuesto específico y mediciones cuantitativas del proceso.",
+    "respuesta": true,
+    "justificacion": "Correcto"
+  },
+  {
+    "ramo": "software",
+    "unidad": 5,
+    "tipo": "vf",
+    "numero": 37,
+    "pregunta": "Las categorías de procesos informales, administrados, metodológicos y de mejora son excluyentes y no pueden traslaparse.",
+    "respuesta": false,
+    "justificacion": "El material señala que entre estas clases puede haber traslape."
+  },
+  {
+    "ramo": "software",
+    "unidad": 5,
+    "tipo": "vf",
+    "numero": 38,
+    "pregunta": "La calidad a nivel de proyecto adapta las directrices generales del sistema de calidad a proyectos específicos.",
+    "respuesta": true,
+    "justificacion": "Correcto"
+  },
+  {
+    "ramo": "software",
+    "unidad": 5,
+    "tipo": "vf",
+    "numero": 39,
+    "pregunta": "Al iniciar un proyecto deben definirse paradigmas, recursos, normas contractuales, metodologías, técnicas, herramientas y planificación de gestión.",
+    "respuesta": true,
+    "justificacion": "Correcto"
+  },
+  {
+    "ramo": "software",
+    "unidad": 5,
+    "tipo": "vf",
+    "numero": 40,
+    "pregunta": "El plan de gestión del proyecto debe omitir documentación para evitar burocracia innecesaria.",
+    "respuesta": false,
+    "justificacion": "Debe planificar la documentación requerida según políticas y estándares de calidad adoptados."
+  },
+  {
+    "ramo": "software",
+    "unidad": 5,
+    "tipo": "vf",
+    "numero": 41,
+    "pregunta": "El plan de aseguramiento de calidad del proyecto incluye objetivos de calidad, responsabilidades, documentación mínima y actividades de revisión.",
+    "respuesta": true,
+    "justificacion": "Correcto"
+  },
+  {
+    "ramo": "software",
+    "unidad": 5,
+    "tipo": "vf",
+    "numero": 42,
+    "pregunta": "La gestión de configuración y los informes de problemas son elementos que pueden formar parte del plan de aseguramiento de calidad.",
+    "respuesta": true,
+    "justificacion": "Correcto"
+  },
+  {
+    "ramo": "software",
+    "unidad": 5,
+    "tipo": "vf",
+    "numero": 43,
+    "pregunta": "Las métricas del software son absolutas y no están sujetas a debate, a diferencia de otros productos.",
+    "respuesta": false,
+    "justificacion": "El material indica que las medidas y métricas del software no son absolutas y están sujetas a debates."
+  },
+  {
+    "ramo": "software",
+    "unidad": 5,
+    "tipo": "vf",
+    "numero": 44,
+    "pregunta": "Las medidas indirectas buscan relacionar atributos internos del software con atributos externos de calidad.",
+    "respuesta": true,
+    "justificacion": "Correcto"
+  },
+  {
+    "ramo": "software",
+    "unidad": 5,
+    "tipo": "vf",
+    "numero": 45,
+    "pregunta": "Una medida interna solo es útil como indicador externo si se mide con precisión y su relación con el atributo externo se comprende y valida.",
+    "respuesta": true,
+    "justificacion": "Correcto"
+  },
+  {
+    "ramo": "software",
+    "unidad": 5,
+    "tipo": "vf",
+    "numero": 46,
+    "pregunta": "La complejidad ciclomática, el tamaño en líneas de código o el número de parámetros pueden actuar como atributos internos vinculados a atributos externos.",
+    "respuesta": true,
+    "justificacion": "Correcto"
+  },
+  {
+    "ramo": "software",
+    "unidad": 5,
+    "tipo": "vf",
+    "numero": 47,
+    "pregunta": "Las métricas estáticas se obtienen exclusivamente ejecutando el programa bajo carga real.",
+    "respuesta": false,
+    "justificacion": "Las métricas estáticas se hacen sobre representaciones del sistema como análisis, diseño, código o documentación; las dinámicas se obtienen en ejecución."
+  },
+  {
+    "ramo": "software",
+    "unidad": 5,
+    "tipo": "vf",
+    "numero": 48,
+    "pregunta": "Las métricas dinámicas se obtienen a partir de programas en ejecución.",
+    "respuesta": true,
+    "justificacion": "Correcto"
+  },
+  {
+    "ramo": "software",
+    "unidad": 5,
+    "tipo": "vf",
+    "numero": 49,
+    "pregunta": "Una métrica de calidad debería ser simple, objetiva, consistente en unidades e independiente del lenguaje de programación.",
+    "respuesta": true,
+    "justificacion": "Correcto"
+  },
+  {
+    "ramo": "software",
+    "unidad": 5,
+    "tipo": "vf",
+    "numero": 50,
+    "pregunta": "El proceso de medición del producto forma parte del control de calidad y analiza componentes por separado.",
+    "respuesta": true,
+    "justificacion": "Correcto"
+  },
+  {
+    "ramo": "software",
+    "unidad": 5,
+    "tipo": "vf",
+    "numero": 51,
+    "pregunta": "Las mediciones anómalas deben ignorarse para evitar sesgos en la evaluación de calidad.",
+    "respuesta": false,
+    "justificacion": "Las medidas anómalas se usan para enfocar el esfuerzo en componentes con problemas."
+  },
+  {
+    "ramo": "software",
+    "unidad": 5,
+    "tipo": "vf",
+    "numero": 52,
+    "pregunta": "Los datos recolectados por medición del producto se registran como recurso organizacional importante.",
+    "respuesta": true,
+    "justificacion": "Correcto"
+  },
+  {
+    "ramo": "software",
+    "unidad": 5,
+    "tipo": "vf",
+    "numero": 53,
+    "pregunta": "Seleccionar medidas debe comenzar por formular preguntas que las medidas puedan responder.",
+    "respuesta": true,
+    "justificacion": "Correcto"
+  },
+  {
+    "ramo": "software",
+    "unidad": 5,
+    "tipo": "vf",
+    "numero": 54,
+    "pregunta": "ISO/IEC 9126 presenta la usabilidad como una característica aislada, sin relación con funcionalidad, confiabilidad, eficiencia, mantenibilidad o portabilidad.",
+    "respuesta": false,
+    "justificacion": "La diapositiva la ubica junto a esas características dentro del modelo de calidad ISO/IEC 9126."
+  },
+  {
+    "ramo": "software",
+    "unidad": 5,
+    "tipo": "vf",
+    "numero": 55,
+    "pregunta": "La usabilidad, según ISO 9241:2018, depende de usuarios determinados, objetivos específicos y contexto de uso.",
+    "respuesta": true,
+    "justificacion": "Correcto"
+  },
+  {
+    "ramo": "software",
+    "unidad": 5,
+    "tipo": "vf",
+    "numero": 56,
+    "pregunta": "Un sistema usable solo necesita ser agradable visualmente, aunque no permita lograr objetivos de forma eficiente.",
+    "respuesta": false,
+    "justificacion": "La definición incluye efectividad, eficiencia y satisfacción, no solo apariencia o agrado visual."
+  },
+  {
+    "ramo": "software",
+    "unidad": 5,
+    "tipo": "vf",
+    "numero": 57,
+    "pregunta": "Evaluar usabilidad en un proyecto exige identificar usuarios, objetivos, contexto y evidencias de efectividad, eficiencia y satisfacción.",
+    "respuesta": true,
+    "justificacion": "Correcto"
+  },
+  {
+    "ramo": "software",
+    "unidad": 5,
+    "tipo": "vf",
+    "numero": 58,
+    "pregunta": "La satisfacción del usuario es suficiente para demostrar usabilidad aunque el usuario no logre sus objetivos.",
+    "respuesta": false,
+    "justificacion": "La usabilidad combina satisfacción con efectividad y eficiencia en el logro de objetivos."
+  },
+  {
+    "ramo": "software",
+    "unidad": 5,
+    "tipo": "vf",
+    "numero": 59,
+    "pregunta": "La calidad del software no puede reducirse a ausencia de defectos, porque también debe considerar necesidades y expectativas de usuarios.",
+    "respuesta": true,
+    "justificacion": "Correcto"
+  },
+  {
+    "ramo": "software",
+    "unidad": 5,
+    "tipo": "vf",
+    "numero": 60,
+    "pregunta": "Las revisiones y auditorías son mecanismos vinculados al control de la gestión diaria del proyecto.",
+    "respuesta": true,
+    "justificacion": "Correcto"
+  }
+]

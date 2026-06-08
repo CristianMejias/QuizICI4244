@@ -1,0 +1,290 @@
+[
+  {
+    "ramo": "software",
+    "unidad": 5,
+    "tipo": "des",
+    "numero": 1,
+    "pregunta": "Explique por qué la calidad del software no puede evaluarse únicamente por la cantidad de funcionalidades implementadas.",
+    "respuesta": "La cantidad de funcionalidades no garantiza calidad porque un software de calidad debe cumplir requisitos especificados y necesidades o expectativas reales del usuario. Además, debe considerar atributos como usabilidad, fiabilidad, mantenibilidad, portabilidad o eficiencia. Un sistema puede tener muchas funciones y aun así estar mal especificado, no responder al contexto de uso o presentar defectos importantes."
+  },
+  {
+    "ramo": "software",
+    "unidad": 5,
+    "tipo": "des",
+    "numero": 2,
+    "pregunta": "Desarrolle la diferencia entre fabricar un producto físico y desarrollar software, y explique cómo afecta esto a la calidad.",
+    "respuesta": "En productos físicos el proceso de fabricación puede estandarizarse y supervisarse para reproducir unidades de calidad. En software, el producto es lógico y su valor principal está en el diseño y elaboración; la copia es trivial y el uso no lo desgasta físicamente. Por eso, un proceso de calidad mejora la probabilidad de lograr calidad, pero no la garantiza completamente, porque el resultado depende del diseño, requisitos, decisiones técnicas y validación con usuarios."
+  },
+  {
+    "ramo": "software",
+    "unidad": 5,
+    "tipo": "des",
+    "numero": 3,
+    "pregunta": "Explique la relación entre requisitos, especificación y calidad del software.",
+    "respuesta": "La calidad se evalúa contra requisitos especificados y necesidades/expectativas del usuario. Si la especificación es deficiente, incompleta o ambigua, el equipo puede construir un programa que funcione técnicamente pero que no resuelva el problema real. Por eso, conocer las necesidades reales del cliente/usuario es condición para definir objetivos claros y luego verificar conformidad."
+  },
+  {
+    "ramo": "software",
+    "unidad": 5,
+    "tipo": "des",
+    "numero": 4,
+    "pregunta": "Compare administración de la calidad, aseguramiento de la calidad y control de calidad.",
+    "respuesta": "La administración de la calidad actúa a nivel empresa y determina/aplica la política de calidad. El aseguramiento de la calidad se orienta a evaluar y organizar las actividades del proceso de desarrollo para prevenir problemas. El control de calidad evalúa los productos desarrollados, buscando determinar si cumplen criterios, estándares o requisitos. Son complementarios: política, proceso y producto."
+  },
+  {
+    "ramo": "software",
+    "unidad": 5,
+    "tipo": "des",
+    "numero": 5,
+    "pregunta": "Explique por qué un proceso software de calidad mejora la probabilidad de obtener productos de calidad, pero no los garantiza.",
+    "respuesta": "Un buen proceso ordena actividades, define responsabilidades, promueve revisiones, documentación, medición y mejora. Esto reduce riesgos y aumenta la consistencia. Sin embargo, el software se diseña, no se fabrica: una mala interpretación de requisitos, decisiones de arquitectura inadecuadas o falta de validación con usuarios pueden producir un mal producto aun siguiendo un proceso formal."
+  },
+  {
+    "ramo": "software",
+    "unidad": 5,
+    "tipo": "des",
+    "numero": 6,
+    "pregunta": "Describa los tres niveles de calidad del software y cómo se relacionan.",
+    "respuesta": "A nivel de empresa se define la política de calidad y el sistema organizacional que la sostiene. A nivel de proyecto se adapta esa política a un caso concreto mediante planes, estándares, revisiones y responsabilidades. A nivel de producto se evalúan atributos y resultados concretos mediante revisiones, métricas, pruebas y evaluación de cumplimiento. Los tres niveles se conectan: la empresa define marco, el proyecto lo operacionaliza y el producto evidencia resultados."
+  },
+  {
+    "ramo": "software",
+    "unidad": 5,
+    "tipo": "des",
+    "numero": 7,
+    "pregunta": "Explique qué es un sistema de calidad según ISO 9000 y qué características debe tener para ser útil.",
+    "respuesta": "Un sistema de calidad es la estructura de organización, responsabilidades, actividades, recursos y procedimientos establecidos para llevar a cabo la gestión de calidad. Para ser útil debe ser eficaz, comprendido por todos, ofrecer confianza en que se satisfarán necesidades de clientes/usuarios y poner énfasis en prevenir problemas antes que solo detectarlos y corregirlos."
+  },
+  {
+    "ramo": "software",
+    "unidad": 5,
+    "tipo": "des",
+    "numero": 8,
+    "pregunta": "Analice las dificultades de implantar un sistema de calidad y proponga respuestas coherentes con la unidad.",
+    "respuesta": "Las dificultades incluyen tiempo y trabajo requeridos, resistencia al cambio, riesgo de desilusión ante fracasos, falta de recursos y falta de formación. La unidad propone asegurar compromiso de la alta dirección, involucrar mandos intermedios, delegar decisiones, formar e informar al personal, usar casos reales y establecer seguimiento continuo de resultados."
+  },
+  {
+    "ramo": "software",
+    "unidad": 5,
+    "tipo": "des",
+    "numero": 9,
+    "pregunta": "Explique el rol de ISO 9001 e ISO 9000-3 en la calidad del software.",
+    "respuesta": "ISO 9001 abarca el ciclo de vida completo en un sistema de calidad. ISO 9000-3 funciona como guía para aplicar ISO 9001 al desarrollo, suministro y mantenimiento de software. Considera el marco de trabajo de la empresa, actividades del ciclo de vida y actividades de apoyo, permitiendo adaptar la norma al contexto software."
+  },
+  {
+    "ramo": "software",
+    "unidad": 5,
+    "tipo": "des",
+    "numero": 10,
+    "pregunta": "Describa el modelo CMM y su objetivo principal.",
+    "respuesta": "CMM, Capability Maturity Model, entrega lineamientos para seleccionar y mejorar actividades del proceso software. Busca medir la madurez de una organización mediante niveles y áreas clave de proceso. Parte de la idea de que los procesos son más predecibles cuando se basan en modelos de ciclo de vida estructurados, visibles para los participantes y adaptables al cambio."
+  },
+  {
+    "ramo": "software",
+    "unidad": 5,
+    "tipo": "des",
+    "numero": 11,
+    "pregunta": "Explique los cinco niveles de madurez de CMM y el enfoque de cada uno.",
+    "respuesta": "Nivel 1 Inicial: depende de gente competente y no posee KPA definidas. Nivel 2 Repetible: se enfoca en administración de proyectos, planificación y gestión de configuración. Nivel 3 Definido: formaliza procesos, entrenamiento y revisión de pares. Nivel 4 Administrado: incorpora métricas cuantitativas y gestión de calidad de productos/procesos. Nivel 5 Optimizado: se orienta a mejora continua, prevención de defectos y gestión de cambios."
+  },
+  {
+    "ramo": "software",
+    "unidad": 5,
+    "tipo": "des",
+    "numero": 12,
+    "pregunta": "Analice las principales críticas al modelo CMM.",
+    "respuesta": "CMM puede enfocarse más en administración del proyecto que en desarrollo del producto. No considera suficientemente tecnologías utilizadas por la empresa como prototipos, métodos formales o herramientas CASE. Tampoco incluye análisis y resolución de riesgos como tecnología clave de proceso. Además, su área de aplicación no es universal y puede resultar burocrático para empresas pequeñas."
+  },
+  {
+    "ramo": "software",
+    "unidad": 5,
+    "tipo": "des",
+    "numero": 13,
+    "pregunta": "Explique la relación entre CMM, ISO 9000 y CMMI.",
+    "respuesta": "CMM suele considerarse más detallado que ISO 9000 porque incluye un marco explícito de mejora de procesos. Los niveles 2 y 3 de CMM se consideran compatibles con ISO 9000. CMMI integra múltiples modelos CMM en un único modelo y puede incorporar de manera complementaria ingeniería de sistemas, ingeniería de software y desarrollo integrado de productos y procesos."
+  },
+  {
+    "ramo": "software",
+    "unidad": 5,
+    "tipo": "des",
+    "numero": 14,
+    "pregunta": "Compare procesos informales y procesos administrados.",
+    "respuesta": "Los procesos informales no tienen un modelo estrictamente definido; el equipo elige el enfoque y, si usa procedimientos formales, estos no están predefinidos. Son adecuados para prototipos, sistemas pequeños o de vida corta. Los procesos administrados poseen un modelo definido, procedimientos, duración y relaciones entre actividades; se ajustan mejor a sistemas grandes o de vida larga y usan herramientas de gestión de configuración y proyectos."
+  },
+  {
+    "ramo": "software",
+    "unidad": 5,
+    "tipo": "des",
+    "numero": 15,
+    "pregunta": "Compare procesos metodológicos y procesos de mejora.",
+    "respuesta": "Los procesos metodológicos usan métodos o modelos de desarrollo definidos y son adecuados para áreas bien comprendidas o reingeniería, apoyándose en herramientas CASE de análisis y diseño. Los procesos de mejora tienen objetivos explícitos de mejora, presupuesto específico, procedimientos para introducir mejoras y mediciones cuantitativas, usando herramientas especializadas."
+  },
+  {
+    "ramo": "software",
+    "unidad": 5,
+    "tipo": "des",
+    "numero": 16,
+    "pregunta": "Explique por qué las clases de procesos pueden traslaparse.",
+    "respuesta": "Un proyecto puede combinar rasgos de varias clases. Por ejemplo, puede tener administración formal de configuración, usar un método definido de análisis y diseño, e incorporar mediciones cuantitativas para mejorar. Por eso, informal, administrado, metodológico y de mejora no son categorías absolutamente excluyentes, sino formas de caracterizar prácticas predominantes."
+  },
+  {
+    "ramo": "software",
+    "unidad": 5,
+    "tipo": "des",
+    "numero": 17,
+    "pregunta": "Describa qué debe definirse al inicio de un proyecto para gestionar calidad.",
+    "respuesta": "Deben definirse paradigmas adaptados al proyecto, financiamiento, disponibilidad y viabilidad de recursos, normas contractuales, metodologías, técnicas y herramientas a utilizar, además de la planificación de la gestión del proyecto. Esto permite adaptar el sistema de calidad general al contexto específico."
+  },
+  {
+    "ramo": "software",
+    "unidad": 5,
+    "tipo": "des",
+    "numero": 18,
+    "pregunta": "Explique qué debe contener un plan de gestión de proyecto en relación con calidad.",
+    "respuesta": "Debe especificar la gestión día a día del proyecto, controlada mediante revisiones y auditorías. También debe incluir la planificación del aseguramiento de la calidad y la planificación de la documentación que debe generarse según políticas y estándares de calidad adoptados."
+  },
+  {
+    "ramo": "software",
+    "unidad": 5,
+    "tipo": "des",
+    "numero": 19,
+    "pregunta": "Explique los componentes de un plan de aseguramiento de calidad específico de proyecto.",
+    "respuesta": "Incluye objetivos de calidad del proyecto y enfoque para lograrlos, gestión del aseguramiento de calidad con organización, actividades y responsabilidades, documentación mínima requerida, estándares y prácticas de documentación, estructura o codificación, actividades de revisión y auditorías, gestión de configuración, informes de problemas, técnicas y herramientas."
+  },
+  {
+    "ramo": "software",
+    "unidad": 5,
+    "tipo": "des",
+    "numero": 20,
+    "pregunta": "Analice por qué las métricas del software no son absolutas.",
+    "respuesta": "A diferencia de productos físicos, muchas propiedades relevantes del software no se miden directamente. Se usan medidas indirectas para inferir atributos como mantenibilidad, fiabilidad o usabilidad, y esas relaciones pueden ser debatibles. Por eso las métricas requieren interpretación, validación, comparación con datos históricos y comprensión del contexto."
+  },
+  {
+    "ramo": "software",
+    "unidad": 5,
+    "tipo": "des",
+    "numero": 21,
+    "pregunta": "Explique la diferencia entre atributos internos y externos en métricas de software.",
+    "respuesta": "Los atributos internos son características medibles desde artefactos o representaciones del software, como tamaño en líneas de código, complejidad ciclomática, número de parámetros o mensajes de error. Los atributos externos son cualidades percibidas o evaluadas en uso, como mantenibilidad, fiabilidad, portabilidad o usabilidad. Una métrica interna es útil si se relaciona de manera validada con el atributo externo."
+  },
+  {
+    "ramo": "software",
+    "unidad": 5,
+    "tipo": "des",
+    "numero": 22,
+    "pregunta": "Explique las condiciones que debe cumplir una medida interna para ser indicador útil de un atributo externo.",
+    "respuesta": "El atributo interno debe poder medirse de forma precisa. Además, debe existir una relación real entre ese atributo interno y el atributo externo que se quiere estimar. Esa relación debe comprenderse, validarse y expresarse en términos claros; de lo contrario, la métrica puede ser fácil de calcular pero poco significativa para la calidad."
+  },
+  {
+    "ramo": "software",
+    "unidad": 5,
+    "tipo": "des",
+    "numero": 23,
+    "pregunta": "Compare métricas estáticas y dinámicas del producto software.",
+    "respuesta": "Las métricas estáticas se obtienen desde representaciones del sistema como análisis, diseño, código o documentación, sin ejecutar necesariamente el programa. Las métricas dinámicas se obtienen observando programas en ejecución. Ambas aportan perspectivas distintas: estructura y artefactos por un lado, comportamiento operacional por otro."
+  },
+  {
+    "ramo": "software",
+    "unidad": 5,
+    "tipo": "des",
+    "numero": 24,
+    "pregunta": "Describa las características que deberían tener las métricas y mediciones de software.",
+    "respuesta": "Deben ser simples e intuitivas, consistentes y objetivas, consistentes en el uso de unidades, independientes del lenguaje de programación y útiles como mecanismo de retroalimentación para mejorar la calidad. Esto permite compararlas y usarlas en decisiones de control y mejora."
+  },
+  {
+    "ramo": "software",
+    "unidad": 5,
+    "tipo": "des",
+    "numero": 25,
+    "pregunta": "Explique el proceso de medición del producto y su utilidad para control de calidad.",
+    "respuesta": "El proceso de medición forma parte del control de calidad. Analiza componentes por separado, compara valores de métricas entre componentes y con datos históricos, identifica mediciones anómalas para enfocar esfuerzos en componentes problemáticos y registra datos recolectados como recurso organizacional para aprendizaje futuro."
+  },
+  {
+    "ramo": "software",
+    "unidad": 5,
+    "tipo": "des",
+    "numero": 26,
+    "pregunta": "Enumere y explique las etapas del proceso de medición del producto.",
+    "respuesta": "Primero se seleccionan medidas a utilizar, formulando preguntas que las medidas puedan responder. Luego se seleccionan componentes representativos, se miden sus características, se identifican mediciones anómalas mediante criterios o comparación y finalmente se analizan los componentes anómalos para orientar correcciones o mejoras."
+  },
+  {
+    "ramo": "software",
+    "unidad": 5,
+    "tipo": "des",
+    "numero": 27,
+    "pregunta": "Explique cómo una medición anómala puede orientar la mejora de calidad.",
+    "respuesta": "Una medición anómala indica que un componente se aparta de valores esperados o históricos. Esto no prueba automáticamente un defecto, pero permite focalizar revisiones, pruebas o análisis en componentes con mayor probabilidad de problemas. Así, la medición funciona como mecanismo de retroalimentación y priorización del esfuerzo."
+  },
+  {
+    "ramo": "software",
+    "unidad": 5,
+    "tipo": "des",
+    "numero": 28,
+    "pregunta": "Explique el concepto de usabilidad según ISO 9241:2018.",
+    "respuesta": "La usabilidad es la medida en que un producto, sistema o servicio puede ser usado por usuarios determinados para conseguir objetivos específicos con efectividad, eficiencia y satisfacción en un contexto de uso específico. Por tanto, depende de quién usa el sistema, qué quiere lograr, bajo qué condiciones y con qué resultados observables."
+  },
+  {
+    "ramo": "software",
+    "unidad": 5,
+    "tipo": "des",
+    "numero": 29,
+    "pregunta": "Relacione usabilidad con calidad del software y el modelo ISO/IEC 9126.",
+    "respuesta": "La usabilidad es un atributo de calidad del software. En el esquema ISO/IEC 9126 aparece junto a funcionalidad, confiabilidad, eficiencia, mantenibilidad y portabilidad. Esto muestra que la calidad no se limita a que el software funcione, sino también a que sea comprensible, útil y satisfactorio para usuarios concretos en contextos reales."
+  },
+  {
+    "ramo": "software",
+    "unidad": 5,
+    "tipo": "des",
+    "numero": 30,
+    "pregunta": "Explique cómo se podría evidenciar efectividad, eficiencia y satisfacción en un proyecto de software.",
+    "respuesta": "La efectividad puede evidenciarse observando si los usuarios logran correctamente sus objetivos. La eficiencia puede medirse por tiempo, esfuerzo, número de pasos o recursos usados para lograr esos objetivos. La satisfacción puede evaluarse mediante encuestas, entrevistas, observación de aceptación o percepción del usuario. Estas evidencias deben analizarse en el contexto real de uso."
+  },
+  {
+    "ramo": "software",
+    "unidad": 5,
+    "tipo": "des",
+    "numero": 31,
+    "pregunta": "Diseñe una pauta breve para evaluar usabilidad en un proyecto de la asignatura.",
+    "respuesta": "La pauta debe identificar usuarios específicos, objetivos principales de esos usuarios, contexto de uso, tareas representativas, criterios de efectividad, criterios de eficiencia y mecanismos para medir satisfacción. Luego se deben ejecutar pruebas o evaluaciones con usuarios y registrar evidencia que permita justificar si el software es usable."
+  },
+  {
+    "ramo": "software",
+    "unidad": 5,
+    "tipo": "des",
+    "numero": 32,
+    "pregunta": "Explique por qué la satisfacción del usuario no basta por sí sola para afirmar que un software es usable.",
+    "respuesta": "La definición de usabilidad incluye satisfacción, pero también efectividad y eficiencia. Un usuario podría sentirse satisfecho inicialmente por la apariencia del sistema, pero si no logra sus objetivos o requiere demasiado tiempo y esfuerzo, la usabilidad es insuficiente. La evaluación debe integrar los tres aspectos en un contexto de uso específico."
+  },
+  {
+    "ramo": "software",
+    "unidad": 5,
+    "tipo": "des",
+    "numero": 33,
+    "pregunta": "Explique cómo se conecta la prevención de defectos con sistemas de calidad, CMM y métricas.",
+    "respuesta": "Los sistemas de calidad útiles priorizan prevenir antes que detectar y corregir. En CMM, la prevención de defectos aparece explícitamente en el nivel 5 Optimizado como parte de la mejora continua. Las métricas apoyan esta prevención al detectar tendencias, anomalías y componentes problemáticos antes de que los defectos se propaguen o se repitan en nuevos proyectos."
+  },
+  {
+    "ramo": "software",
+    "unidad": 5,
+    "tipo": "des",
+    "numero": 34,
+    "pregunta": "Aplique los conceptos de calidad a un caso: un software cumple todos los requisitos documentados, pero los usuarios no logran realizar sus tareas principales con eficiencia. ¿Es de calidad? Justifique.",
+    "respuesta": "No plenamente. Aunque cumple requisitos especificados, la calidad del software también considera necesidades y expectativas del cliente/usuario. Si los usuarios no logran sus objetivos de forma eficiente, existe un problema de usabilidad y posiblemente de especificación incompleta. El caso muestra que cumplir documentos no basta si no se validan usuarios, objetivos y contexto real."
+  },
+  {
+    "ramo": "software",
+    "unidad": 5,
+    "tipo": "des",
+    "numero": 35,
+    "pregunta": "Aplique los conceptos de métricas: un componente tiene mucha mayor complejidad ciclomática que el histórico del proyecto. ¿Qué debería hacer el equipo?",
+    "respuesta": "Debe tratar la medición como una anomalía que orienta análisis, no como prueba automática de defecto. El equipo debería revisar el componente, evaluar riesgos de mantenibilidad o fiabilidad, compararlo con criterios definidos, aplicar revisión de pares o refactorización si corresponde, y registrar el resultado para alimentar datos organizacionales."
+  },
+  {
+    "ramo": "software",
+    "unidad": 5,
+    "tipo": "des",
+    "numero": 36,
+    "pregunta": "Explique por qué adaptar la calidad al proyecto no contradice tener políticas de calidad a nivel empresa.",
+    "respuesta": "La política de empresa entrega directrices generales, estructura y compromiso organizacional. Sin embargo, cada proyecto tiene objetivos, recursos, normas contractuales, tecnologías, riesgos y clientes distintos. Adaptar la calidad al proyecto permite aplicar el marco general de forma concreta mediante planes de gestión y aseguramiento específicos."
+  }
+]

@@ -1,0 +1,878 @@
+[
+    {
+        "ramo": "software",
+        "unidad": 4,
+        "tipo": "alt",
+        "numero": 1,
+        "pregunta": "En una evaluación de seguridad, ¿qué situaciones representan consecuencias directas de un software inseguro?",
+        "opciones": [
+            "Pérdida de datos y daño reputacional",
+            "Robos financieros y exposición legal",
+            "Mayor confianza del usuario por apertura total de datos",
+            "Eliminación automática de vulnerabilidades sin controles"
+        ],
+        "ningunaCorrecta": false,
+        "respuesta": [
+            0,
+            1
+        ],
+        "justificacion": "Un software inseguro puede causar pérdidas de datos, robos financieros, daño reputacional y problemas legales; no incrementa confianza ni elimina vulnerabilidades."
+    },
+    {
+        "ramo": "software",
+        "unidad": 4,
+        "tipo": "alt",
+        "numero": 2,
+        "pregunta": "¿Qué mecanismos están correctamente asociados a la confidencialidad?",
+        "opciones": [
+            "Autenticación de usuarios",
+            "Control de acceso basado en roles",
+            "Balanceo de carga como mecanismo principal de secreto",
+            "Permisos que limitan acceso a datos sensibles"
+        ],
+        "ningunaCorrecta": false,
+        "respuesta": [
+            0,
+            1,
+            3
+        ],
+        "justificacion": "La confidencialidad restringe acceso a información; autenticación, RBAC y permisos ayudan a lograrlo. Balanceo de carga se asocia más a disponibilidad."
+    },
+    {
+        "ramo": "software",
+        "unidad": 4,
+        "tipo": "alt",
+        "numero": 3,
+        "pregunta": "¿Qué opciones describen correctamente la integridad?",
+        "opciones": [
+            "Evita alteraciones no autorizadas del software o datos",
+            "Puede protegerse con hashing y firmas digitales",
+            "Se cumple aunque los datos sean cambiados por usuarios no autorizados",
+            "Considera cambios accidentales y maliciosos"
+        ],
+        "ningunaCorrecta": false,
+        "respuesta": [
+            0,
+            1,
+            3
+        ],
+        "justificacion": "Integridad implica que datos y software no sean manipulados sin autorización, incluyendo cambios accidentales o maliciosos."
+    },
+    {
+        "ramo": "software",
+        "unidad": 4,
+        "tipo": "alt",
+        "numero": 4,
+        "pregunta": "¿Qué medidas ayudan principalmente a mantener la disponibilidad?",
+        "opciones": [
+            "Sistemas de respaldo",
+            "Balanceo de carga",
+            "Protección contra ataques DDoS",
+            "Clasificación de documentos en secreto/confidencial como único control"
+        ],
+        "ningunaCorrecta": false,
+        "respuesta": [
+            0,
+            1,
+            2
+        ],
+        "justificacion": "Respaldos, balanceo y protección DDoS ayudan a mantener o recuperar servicios; la clasificación de datos es más propia de MAC/confidencialidad."
+    },
+    {
+        "ramo": "software",
+        "unidad": 4,
+        "tipo": "alt",
+        "numero": 5,
+        "pregunta": "¿Cuáles afirmaciones diferencian autenticidad y no repudio?",
+        "opciones": [
+            "La autenticidad valida que una entidad sea quien dice ser",
+            "El no repudio busca impedir que se niegue una acción realizada",
+            "La autenticidad se limita a mantener copias de seguridad",
+            "El no repudio puede apoyarse en registros y firmas digitales"
+        ],
+        "ningunaCorrecta": false,
+        "respuesta": [
+            0,
+            1,
+            3
+        ],
+        "justificacion": "Autenticidad verifica identidad; no repudio vincula acciones a entidades mediante evidencias como registros y firmas."
+    },
+    {
+        "ramo": "software",
+        "unidad": 4,
+        "tipo": "alt",
+        "numero": 6,
+        "pregunta": "¿Qué conceptos se relacionan con auditoría y trazabilidad?",
+        "opciones": [
+            "Registrar acciones del sistema",
+            "Investigar errores e incidentes",
+            "Cumplir normativas mediante evidencia",
+            "Eliminar la necesidad de controles preventivos"
+        ],
+        "ningunaCorrecta": false,
+        "respuesta": [
+            0,
+            1,
+            2
+        ],
+        "justificacion": "Auditoría/trazabilidad registra y sigue acciones; no reemplaza controles preventivos."
+    },
+    {
+        "ramo": "software",
+        "unidad": 4,
+        "tipo": "alt",
+        "numero": 7,
+        "pregunta": "¿Qué elementos corresponden a seguridad durante el ciclo de vida del software?",
+        "opciones": [
+            "Análisis con consideraciones de seguridad",
+            "Diseño de autenticación y autorización",
+            "Pruebas de controles",
+            "Aplicar seguridad solo después del despliegue"
+        ],
+        "ningunaCorrecta": false,
+        "respuesta": [
+            0,
+            1,
+            2
+        ],
+        "justificacion": "La seguridad debe integrarse desde etapas tempranas y no solo al final."
+    },
+    {
+        "ramo": "software",
+        "unidad": 4,
+        "tipo": "alt",
+        "numero": 8,
+        "pregunta": "¿Qué actividades forman parte de la gestión de incidentes?",
+        "opciones": [
+            "Detección",
+            "Análisis",
+            "Respuesta",
+            "Recuperación"
+        ],
+        "ningunaCorrecta": false,
+        "respuesta": [
+            0,
+            1,
+            2,
+            3
+        ],
+        "justificacion": "La gestión de incidentes abarca todo el ciclo de detección, análisis, respuesta y recuperación."
+    },
+    {
+        "ramo": "software",
+        "unidad": 4,
+        "tipo": "alt",
+        "numero": 9,
+        "pregunta": "¿Qué afirmaciones describen el monitoreo de amenazas?",
+        "opciones": [
+            "Es vigilancia continua de sistemas y redes",
+            "Busca detectar actividades sospechosas",
+            "Puede usar IDS/IPS",
+            "Solo ocurre después de una auditoría anual"
+        ],
+        "ningunaCorrecta": false,
+        "respuesta": [
+            0,
+            1,
+            2
+        ],
+        "justificacion": "El monitoreo es continuo y puede apoyarse en IDS/IPS; no se limita a auditorías anuales."
+    },
+    {
+        "ramo": "software",
+        "unidad": 4,
+        "tipo": "alt",
+        "numero": 10,
+        "pregunta": "¿Qué objetivos corresponden a una auditoría de seguridad?",
+        "opciones": [
+            "Detectar vulnerabilidades",
+            "Evaluar sistemas y redes periódicamente",
+            "Verificar cumplimiento de normativas",
+            "Simular ataques como única técnica obligatoria"
+        ],
+        "ningunaCorrecta": false,
+        "respuesta": [
+            0,
+            1,
+            2
+        ],
+        "justificacion": "Las auditorías revisan seguridad y cumplimiento; simular ataques es más propio de pentesting."
+    },
+    {
+        "ramo": "software",
+        "unidad": 4,
+        "tipo": "alt",
+        "numero": 11,
+        "pregunta": "¿Qué servicios ayudan a responder o prepararse ante incidentes graves?",
+        "opciones": [
+            "Gestión de incidentes",
+            "Recuperación ante desastres",
+            "Monitoreo de amenazas",
+            "Eliminar respaldos para reducir complejidad"
+        ],
+        "ningunaCorrecta": false,
+        "respuesta": [
+            0,
+            1,
+            2
+        ],
+        "justificacion": "Gestión, recuperación y monitoreo ayudan ante incidentes; eliminar respaldos aumenta riesgo."
+    },
+    {
+        "ramo": "software",
+        "unidad": 4,
+        "tipo": "alt",
+        "numero": 12,
+        "pregunta": "¿Qué tareas puede cubrir la consultoría en seguridad?",
+        "opciones": [
+            "Creación de políticas de seguridad",
+            "Implementación de controles",
+            "Mejora de estrategias de seguridad",
+            "Sustitución total de la responsabilidad organizacional"
+        ],
+        "ningunaCorrecta": false,
+        "respuesta": [
+            0,
+            1,
+            2
+        ],
+        "justificacion": "La consultoría asesora y apoya, pero la organización sigue siendo responsable de su seguridad."
+    },
+    {
+        "ramo": "software",
+        "unidad": 4,
+        "tipo": "alt",
+        "numero": 13,
+        "pregunta": "¿Qué caracteriza a las pruebas de penetración?",
+        "opciones": [
+            "Simulan ataques controlados",
+            "Detectan vulnerabilidades en sistemas o aplicaciones",
+            "Evalúan resistencia frente a amenazas",
+            "Sustituyen permanentemente a la gestión de parches"
+        ],
+        "ningunaCorrecta": false,
+        "respuesta": [
+            0,
+            1,
+            2
+        ],
+        "justificacion": "El pentesting evalúa exposición mediante ataques simulados; no reemplaza los parches."
+    },
+    {
+        "ramo": "software",
+        "unidad": 4,
+        "tipo": "alt",
+        "numero": 14,
+        "pregunta": "¿Qué prácticas corresponden a seguridad en la nube?",
+        "opciones": [
+            "Configuraciones seguras",
+            "Control de accesos",
+            "Protección de datos",
+            "Monitoreo de amenazas"
+        ],
+        "ningunaCorrecta": false,
+        "respuesta": [
+            0,
+            1,
+            2,
+            3
+        ],
+        "justificacion": "La seguridad cloud combina configuración, acceso, protección de datos y monitoreo."
+    },
+    {
+        "ramo": "software",
+        "unidad": 4,
+        "tipo": "alt",
+        "numero": 15,
+        "pregunta": "¿Qué ejemplos corresponden a otros servicios o áreas de seguridad de la información?",
+        "opciones": [
+            "Cifrado y protección de datos",
+            "Gestión de Identidades y Accesos",
+            "Cumplimiento normativo",
+            "Formación en seguridad"
+        ],
+        "ningunaCorrecta": false,
+        "respuesta": [
+            0,
+            1,
+            2,
+            3
+        ],
+        "justificacion": "Todos son servicios o áreas complementarias dentro de la seguridad de la información."
+    },
+    {
+        "ramo": "software",
+        "unidad": 4,
+        "tipo": "alt",
+        "numero": 16,
+        "pregunta": "En control de acceso, ¿qué se debe definir?",
+        "opciones": [
+            "Quién puede entrar",
+            "Qué acciones puede realizar",
+            "Qué recursos puede usar",
+            "Que todos los usuarios tengan permisos equivalentes"
+        ],
+        "ningunaCorrecta": false,
+        "respuesta": [
+            0,
+            1,
+            2
+        ],
+        "justificacion": "El control de acceso decide identidad autorizada, acciones permitidas y recursos; no iguala permisos para todos."
+    },
+    {
+        "ramo": "software",
+        "unidad": 4,
+        "tipo": "alt",
+        "numero": 17,
+        "pregunta": "¿Qué afirmaciones corresponden a DAC?",
+        "opciones": [
+            "El propietario decide permisos",
+            "Puede permitir lectura, escritura o ejecución",
+            "La decisión queda centralizada por clasificación obligatoria",
+            "Es control de acceso discrecional"
+        ],
+        "ningunaCorrecta": false,
+        "respuesta": [
+            0,
+            1,
+            3
+        ],
+        "justificacion": "DAC permite al dueño otorgar permisos; la clasificación centralizada corresponde a MAC."
+    },
+    {
+        "ramo": "software",
+        "unidad": 4,
+        "tipo": "alt",
+        "numero": 18,
+        "pregunta": "¿Qué afirmaciones corresponden a MAC?",
+        "opciones": [
+            "Usa clasificación de datos",
+            "Usa niveles de seguridad de usuarios",
+            "Las políticas son impuestas centralizadamente",
+            "El propietario del recurso decide todo sin restricciones"
+        ],
+        "ningunaCorrecta": false,
+        "respuesta": [
+            0,
+            1,
+            2
+        ],
+        "justificacion": "MAC se basa en clasificación y niveles con políticas centralizadas."
+    },
+    {
+        "ramo": "software",
+        "unidad": 4,
+        "tipo": "alt",
+        "numero": 19,
+        "pregunta": "¿Qué afirmaciones corresponden a RBAC?",
+        "opciones": [
+            "Permisos asignados según roles",
+            "Cada rol agrupa permisos específicos",
+            "Facilita administración por funciones organizacionales",
+            "El acceso depende siempre de la hora y ubicación como criterio principal"
+        ],
+        "ningunaCorrecta": false,
+        "respuesta": [
+            0,
+            1,
+            2
+        ],
+        "justificacion": "RBAC se basa en roles; hora y ubicación son más propios de ABAC."
+    },
+    {
+        "ramo": "software",
+        "unidad": 4,
+        "tipo": "alt",
+        "numero": 20,
+        "pregunta": "¿Qué afirmaciones corresponden a ABAC?",
+        "opciones": [
+            "Considera atributos de usuarios",
+            "Considera atributos de recursos",
+            "Puede usar ubicación u hora del día",
+            "Solo permite reglas basadas en cargos fijos"
+        ],
+        "ningunaCorrecta": false,
+        "respuesta": [
+            0,
+            1,
+            2
+        ],
+        "justificacion": "ABAC evalúa atributos de usuario, recurso y entorno; no se limita a roles fijos."
+    },
+    {
+        "ramo": "software",
+        "unidad": 4,
+        "tipo": "alt",
+        "numero": 21,
+        "pregunta": "¿Qué etapas del ciclo de vida se asocian correctamente con control de acceso?",
+        "opciones": [
+            "Planificación: definir roles y normativas",
+            "Diseño: elegir autenticación y autorización",
+            "Pruebas: verificar efectividad de controles",
+            "Mantenimiento: congelar permisos para siempre"
+        ],
+        "ningunaCorrecta": false,
+        "respuesta": [
+            0,
+            1,
+            2
+        ],
+        "justificacion": "Mantenimiento implica ajustar y actualizar controles, no congelarlos."
+    },
+    {
+        "ramo": "software",
+        "unidad": 4,
+        "tipo": "alt",
+        "numero": 22,
+        "pregunta": "¿Qué prácticas de desarrollo fortalecen el control de acceso?",
+        "opciones": [
+            "Principio de mínimo privilegio",
+            "Separación de funciones",
+            "Autenticación segura",
+            "Compartir credenciales para simplificar soporte"
+        ],
+        "ningunaCorrecta": false,
+        "respuesta": [
+            0,
+            1,
+            2
+        ],
+        "justificacion": "Mínimo privilegio, separación y autenticación segura reducen riesgos; compartir credenciales los aumenta."
+    },
+    {
+        "ramo": "software",
+        "unidad": 4,
+        "tipo": "alt",
+        "numero": 23,
+        "pregunta": "¿Qué elementos abarca un SGSI?",
+        "opciones": [
+            "Políticas y procedimientos",
+            "Responsabilidades y estructura organizativa",
+            "Procesos y recursos",
+            "Solo antivirus y firewall"
+        ],
+        "ningunaCorrecta": false,
+        "respuesta": [
+            0,
+            1,
+            2
+        ],
+        "justificacion": "Un SGSI incluye elementos organizacionales, de proceso y recursos, no solo herramientas técnicas."
+    },
+    {
+        "ramo": "software",
+        "unidad": 4,
+        "tipo": "alt",
+        "numero": 24,
+        "pregunta": "¿Qué beneficios se esperan de un SGSI?",
+        "opciones": [
+            "Cumplir requisitos de clientes y partes interesadas",
+            "Gestionar activos de información de manera organizada",
+            "Facilitar mejora continua",
+            "Eliminar toda posibilidad de incidente"
+        ],
+        "ningunaCorrecta": false,
+        "respuesta": [
+            0,
+            1,
+            2
+        ],
+        "justificacion": "Un SGSI reduce y gestiona riesgos, pero no garantiza cero incidentes."
+    },
+    {
+        "ramo": "software",
+        "unidad": 4,
+        "tipo": "alt",
+        "numero": 25,
+        "pregunta": "¿Qué acciones corresponden a Planificar en PHVA?",
+        "opciones": [
+            "Identificar problemas",
+            "Analizar causas",
+            "Definir objetivos y acciones",
+            "Estandarizar resultados finales antes de ejecutar"
+        ],
+        "ningunaCorrecta": false,
+        "respuesta": [
+            0,
+            1,
+            2
+        ],
+        "justificacion": "Planificar define problema, causas, objetivos y acciones; estandarizar corresponde a Actuar si funciona."
+    },
+    {
+        "ramo": "software",
+        "unidad": 4,
+        "tipo": "alt",
+        "numero": 26,
+        "pregunta": "¿Qué acciones corresponden a Verificar en PHVA?",
+        "opciones": [
+            "Comparar resultados con objetivos",
+            "Medir mejoras",
+            "Evaluar funcionamiento de controles",
+            "Ejecutar el plan piloto por primera vez"
+        ],
+        "ningunaCorrecta": false,
+        "respuesta": [
+            0,
+            1,
+            2
+        ],
+        "justificacion": "Verificar mide y compara; ejecutar corresponde a Hacer."
+    },
+    {
+        "ramo": "software",
+        "unidad": 4,
+        "tipo": "alt",
+        "numero": 27,
+        "pregunta": "¿Qué ejemplos son pruebas documentales en un SGSI?",
+        "opciones": [
+            "Políticas de seguridad",
+            "Registros de auditoría",
+            "Planes de gestión de riesgos",
+            "Balanceo de carga como documento formal"
+        ],
+        "ningunaCorrecta": false,
+        "respuesta": [
+            0,
+            1,
+            2
+        ],
+        "justificacion": "Las pruebas documentales son evidencias escritas; balanceo de carga es un control técnico/arquitectónico."
+    },
+    {
+        "ramo": "software",
+        "unidad": 4,
+        "tipo": "alt",
+        "numero": 28,
+        "pregunta": "¿Qué ejemplos son prácticas operativas en un SGSI?",
+        "opciones": [
+            "Copias de seguridad realizadas",
+            "Revisión de código",
+            "Uso de metodologías seguras de desarrollo",
+            "Un documento sin aplicación real"
+        ],
+        "ningunaCorrecta": false,
+        "respuesta": [
+            0,
+            1,
+            2
+        ],
+        "justificacion": "Las prácticas operativas son acciones reales, no documentos que no se aplican."
+    },
+    {
+        "ramo": "software",
+        "unidad": 4,
+        "tipo": "alt",
+        "numero": 29,
+        "pregunta": "¿Qué ejemplos son controles técnicos?",
+        "opciones": [
+            "Firewalls",
+            "Antivirus",
+            "Cifrado de datos",
+            "Plan de gestión de riesgos como evidencia documental"
+        ],
+        "ningunaCorrecta": false,
+        "respuesta": [
+            0,
+            1,
+            2
+        ],
+        "justificacion": "Firewalls, antivirus y cifrado son mecanismos técnicos; el plan es documental."
+    },
+    {
+        "ramo": "software",
+        "unidad": 4,
+        "tipo": "alt",
+        "numero": 30,
+        "pregunta": "¿Qué situaciones son ejemplos de riesgos o fuentes de riesgo en software?",
+        "opciones": [
+            "Inyección SQL en un formulario",
+            "Acceso no autorizado por permisos mal gestionados",
+            "Pérdida de información por backups inexistentes",
+            "Aumento de seguridad por contraseñas compartidas"
+        ],
+        "ningunaCorrecta": false,
+        "respuesta": [
+            0,
+            1,
+            2
+        ],
+        "justificacion": "Las tres primeras son amenazas/vulnerabilidades; compartir contraseñas aumenta riesgo, no seguridad."
+    },
+    {
+        "ramo": "software",
+        "unidad": 4,
+        "tipo": "alt",
+        "numero": 31,
+        "pregunta": "¿Qué objetivos tiene la gestión del riesgo?",
+        "opciones": [
+            "Reducir pérdidas",
+            "Mejorar toma de decisiones",
+            "Cumplir normativa",
+            "Proteger reputación"
+        ],
+        "ningunaCorrecta": false,
+        "respuesta": [
+            0,
+            1,
+            2,
+            3
+        ],
+        "justificacion": "La gestión de riesgo busca esos objetivos además de sostenibilidad a largo plazo."
+    },
+    {
+        "ramo": "software",
+        "unidad": 4,
+        "tipo": "alt",
+        "numero": 32,
+        "pregunta": "¿Qué opciones describen mitigación?",
+        "opciones": [
+            "Aplicar controles para reducir probabilidad",
+            "Aplicar controles para reducir impacto",
+            "Usar firewalls, IDS o cifrado según corresponda",
+            "Eliminar completamente la actividad riesgosa"
+        ],
+        "ningunaCorrecta": false,
+        "respuesta": [
+            0,
+            1,
+            2
+        ],
+        "justificacion": "Mitigar reduce probabilidad o impacto; eliminar la actividad es evitación."
+    },
+    {
+        "ramo": "software",
+        "unidad": 4,
+        "tipo": "alt",
+        "numero": 33,
+        "pregunta": "¿Qué opciones describen transferencia?",
+        "opciones": [
+            "Contratar seguros",
+            "Subcontratar parte de la operación",
+            "Trasladar parte de la responsabilidad del riesgo a terceros",
+            "Aceptar el riesgo sin medidas ni documentación"
+        ],
+        "ningunaCorrecta": false,
+        "respuesta": [
+            0,
+            1,
+            2
+        ],
+        "justificacion": "Transferir mueve responsabilidad/impacto a terceros; aceptar sin documentación no corresponde."
+    },
+    {
+        "ramo": "software",
+        "unidad": 4,
+        "tipo": "alt",
+        "numero": 34,
+        "pregunta": "¿Qué opciones describen evitación?",
+        "opciones": [
+            "Eliminar el proceso que genera el riesgo",
+            "No operar en un mercado demasiado riesgoso",
+            "No lanzar productos sobre tecnologías inseguras",
+            "Mantener la actividad y solo monitorear"
+        ],
+        "ningunaCorrecta": false,
+        "respuesta": [
+            0,
+            1,
+            2
+        ],
+        "justificacion": "Evitar implica no realizar o eliminar la actividad que causa el riesgo."
+    },
+    {
+        "ramo": "software",
+        "unidad": 4,
+        "tipo": "alt",
+        "numero": 35,
+        "pregunta": "¿Cuándo puede aceptarse un riesgo residual?",
+        "opciones": [
+            "Cuando el impacto es bajo o tolerable",
+            "Cuando mitigarlo cuesta más que el daño posible",
+            "Cuando no puede reducirse de forma eficiente",
+            "Cuando es conocido y monitoreado"
+        ],
+        "ningunaCorrecta": false,
+        "respuesta": [
+            0,
+            1,
+            2,
+            3
+        ],
+        "justificacion": "Todas son condiciones razonables para aceptar riesgo residual, con documentación y contingencia."
+    },
+    {
+        "ramo": "software",
+        "unidad": 4,
+        "tipo": "alt",
+        "numero": 36,
+        "pregunta": "¿Qué ejemplos corresponden a compartir riesgo?",
+        "opciones": [
+            "Contratar un proveedor externo de ciberseguridad para monitoreo",
+            "Usar servicios en la nube donde el proveedor gestiona parte de la seguridad",
+            "Trabajar con una empresa de respaldo de datos",
+            "Dejar de documentar riesgos porque hay colaboración"
+        ],
+        "ningunaCorrecta": false,
+        "respuesta": [
+            0,
+            1,
+            2
+        ],
+        "justificacion": "Compartir implica colaborar con otros actores; no elimina la necesidad de documentación."
+    },
+    {
+        "ramo": "software",
+        "unidad": 4,
+        "tipo": "alt",
+        "numero": 37,
+        "pregunta": "¿Qué ejemplos corresponden a retención de riesgo residual?",
+        "opciones": [
+            "Mantener pequeño riesgo de caída durante mantenimiento planificado",
+            "Aceptar errores menores en informes internos no críticos",
+            "Dejar temporalmente vulnerabilidades improbables sin parche por falta de solución inmediata",
+            "Ignorar un riesgo crítico sin evaluarlo"
+        ],
+        "ningunaCorrecta": false,
+        "respuesta": [
+            0,
+            1,
+            2
+        ],
+        "justificacion": "Retener riesgo residual exige márgenes aceptables; ignorar un riesgo crítico no es una retención responsable."
+    },
+    {
+        "ramo": "software",
+        "unidad": 4,
+        "tipo": "alt",
+        "numero": 38,
+        "pregunta": "¿Qué etapas forman parte del proceso de modificación del riesgo?",
+        "opciones": [
+            "Identificación",
+            "Análisis de impacto",
+            "Selección de controles",
+            "Monitoreo continuo"
+        ],
+        "ningunaCorrecta": false,
+        "respuesta": [
+            0,
+            1,
+            2,
+            3
+        ],
+        "justificacion": "El proceso incluye estas etapas junto con la evaluación del riesgo residual."
+    },
+    {
+        "ramo": "software",
+        "unidad": 4,
+        "tipo": "alt",
+        "numero": 39,
+        "pregunta": "¿Qué normas o marcos pueden guiar la selección de controles?",
+        "opciones": [
+            "ISO/IEC 27001",
+            "ISO/IEC 27002",
+            "NIST SP 800-53",
+            "OWASP"
+        ],
+        "ningunaCorrecta": false,
+        "respuesta": [
+            0,
+            1,
+            2,
+            3
+        ],
+        "justificacion": "Todos pueden orientar controles de seguridad o buenas prácticas según el contexto."
+    },
+    {
+        "ramo": "software",
+        "unidad": 4,
+        "tipo": "alt",
+        "numero": 40,
+        "pregunta": "¿Qué diferencia hay entre evaluación de riesgo residual y monitoreo continuo?",
+        "opciones": [
+            "La evaluación residual revisa si el riesgo restante es aceptable tras controles",
+            "El monitoreo continuo supervisa riesgos de forma permanente",
+            "La evaluación residual ocurre después de aplicar controles",
+            "El monitoreo continuo significa no cambiar controles nunca"
+        ],
+        "ningunaCorrecta": false,
+        "respuesta": [
+            0,
+            1,
+            2
+        ],
+        "justificacion": "El monitoreo puede llevar a ajustes; no implica congelar controles."
+    },
+    {
+        "ramo": "software",
+        "unidad": 4,
+        "tipo": "alt",
+        "numero": 41,
+        "pregunta": "En un modelo correcto de seguridad, ¿cuál de las siguientes opciones describe una práctica aceptable como regla general?",
+        "opciones": [
+            "Asignar permisos administrativos a todos para evitar bloqueos",
+            "Desactivar auditorías para proteger privacidad operacional",
+            "Compartir contraseñas entre equipos para acelerar soporte",
+            "Aplazar indefinidamente parches críticos aunque exista explotación activa"
+        ],
+        "ningunaCorrecta": true,
+        "respuesta": [],
+        "justificacion": "Ninguna es correcta: todas aumentan el riesgo o eliminan controles esenciales de seguridad."
+    },
+    {
+        "ramo": "software",
+        "unidad": 4,
+        "tipo": "alt",
+        "numero": 42,
+        "pregunta": "¿Qué afirmación integra correctamente SGSI y ciclo de vida del software?",
+        "opciones": [
+            "El SGSI solo se aplica al despliegue porque antes no hay activos reales",
+            "El SGSI combina evidencias documentales, prácticas operativas y controles técnicos en todas las etapas",
+            "El SGSI reemplaza pruebas de seguridad porque documenta políticas",
+            "El SGSI impide que el análisis de riesgos sea necesario"
+        ],
+        "ningunaCorrecta": false,
+        "respuesta": [
+            1
+        ],
+        "justificacion": "El SGSI debe reflejarse en documentos, prácticas y controles durante desarrollo y mantenimiento; no sustituye pruebas ni análisis de riesgos."
+    },
+    {
+        "ramo": "software",
+        "unidad": 4,
+        "tipo": "alt",
+        "numero": 43,
+        "pregunta": "¿Qué alternativa clasifica mejor los mecanismos según el pilar CIA asociado?",
+        "opciones": [
+            "Hashing-integridad, respaldos-disponibilidad, RBAC-confidencialidad",
+            "Hashing-disponibilidad, respaldos-integridad, RBAC-no repudio",
+            "DDoS-confidencialidad, firma digital-disponibilidad, balanceo-integridad",
+            "Auditoría-disponibilidad, privacidad-no repudio, cifrado-retención"
+        ],
+        "ningunaCorrecta": false,
+        "respuesta": [
+            0
+        ],
+        "justificacion": "Hashing protege integridad, respaldos disponibilidad y RBAC confidencialidad/control de acceso."
+    },
+    {
+        "ramo": "software",
+        "unidad": 4,
+        "tipo": "alt",
+        "numero": 44,
+        "pregunta": "¿Qué combinación muestra una secuencia razonable de modificación del riesgo?",
+        "opciones": [
+            "Identificar amenaza, analizar impacto, seleccionar controles, evaluar residual, monitorear",
+            "Seleccionar herramienta, aceptar riesgo, identificar activos, eliminar auditoría, cerrar proceso",
+            "Monitorear primero sin identificar riesgos, luego documentar aceptación automáticamente",
+            "Aplicar controles aleatorios y evitar medición para reducir costos"
+        ],
+        "ningunaCorrecta": false,
+        "respuesta": [
+            0
+        ],
+        "justificacion": "La secuencia correcta inicia identificando y analizando, luego controla, evalúa riesgo residual y monitorea."
+    }
+]

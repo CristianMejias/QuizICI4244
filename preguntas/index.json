@@ -1,18 +1,56 @@
 [
   {
-    "label": "Unidad 2 - Set 1",
-    "path": "preguntas/u2-01.json"
-  },
-  {
-    "label": "Unidad 3 - Set 1",
-    "path": "preguntas/u3-01.json"
-  },
-  {
-    "label": "Unidad 4 - Set 1",
-    "path": "preguntas/u4-01.json"
+    "label": "Software-u2-vf",
+    "path": "preguntas/software-u2-vf.json"
   },
     {
-    "label": "Unidad 5 - Set 1",
-    "path": "preguntas/u5-01.json"
+    "label": "Software-u2-alt",
+    "path": "preguntas/software-u2-alt.json"
+  },
+    {
+    "label": "Software-u2-des",
+    "path": "preguntas/software-u2-des.json"
+  },
+
+
+  {
+    "label": "Software-u3-vf",
+    "path": "preguntas/software-u3-vf.json"
+  },
+    {
+    "label": "Software-u3-alt",
+    "path": "preguntas/software-u3-alt.json"
+  },
+    {
+    "label": "Software-u3-des",
+    "path": "preguntas/software-u3-des.json"
+  },
+
+
+  {
+    "label": "Software-u4-vf",
+    "path": "preguntas/software-u4-vf.json"
+  },
+    {
+    "label": "Software-u4-alt",
+    "path": "preguntas/software-u4-alt.json"
+  },
+    {
+    "label": "Software-u4-des",
+    "path": "preguntas/software-u4-des.json"
+  },
+
+
+  {
+    "label": "Software-u5-vf",
+    "path": "preguntas/software-u5-vf.json"
+  },
+    {
+    "label": "Software-u5-alt",
+    "path": "preguntas/software-u5-alt.json"
+  },
+    {
+    "label": "Software-u5-des",
+    "path": "preguntas/software-u5-des.json"
   }
 ]

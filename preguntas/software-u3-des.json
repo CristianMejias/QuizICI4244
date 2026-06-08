@@ -1,0 +1,242 @@
+[
+    {
+        "ramo": "software",
+        "unidad": 3,
+        "tipo": "des",
+        "numero": 1,
+        "pregunta": "Explique por qué los productos de software evolucionan y relacione esa evolución con la idea de software como activo de negocio.",
+        "respuesta": "Los productos de software evolucionan porque aparecen errores en operación, cambian los requerimientos, se buscan mejoras de desempeño y se necesitan mejores características no funcionales. Como el software es un activo de negocio, su valor no depende solo de haber sido construido, sino de seguir siendo útil para la organización y los usuarios. Por eso se invierte en cambios controlados que permitan conservar o aumentar su valor."
+    },
+    {
+        "ramo": "software",
+        "unidad": 3,
+        "tipo": "des",
+        "numero": 2,
+        "pregunta": "Compare mantenimiento, transformación arquitectónica y reingeniería de software usando criterios de alcance, efecto sobre la arquitectura y efecto sobre la funcionalidad.",
+        "respuesta": "El mantenimiento modifica o agrega componentes después de la entrega, pero mantiene estable la estructura general y no implica cambios arquitectónicos mayores. La transformación arquitectónica tiene mayor alcance porque cambia la organización fundamental del sistema, por ejemplo al pasar de centralizado a distribuido. La reingeniería modifica un sistema existente para facilitar comprensión, uso y mantención; normalmente conserva la funcionalidad y la arquitectura, aunque puede cambiar estructura interna, documentación, módulos, código o datos."
+    },
+    {
+        "ramo": "software",
+        "unidad": 3,
+        "tipo": "des",
+        "numero": 3,
+        "pregunta": "Un sistema centralizado necesita acceso distribuido para distintas sedes. ¿Por qué el mantenimiento podría no ser suficiente y qué estrategia sería más adecuada?",
+        "respuesta": "El mantenimiento puede agregar o modificar componentes, pero no está orientado a cambios arquitectónicos mayores. Si el problema principal es que la arquitectura centralizada impide acceso distribuido, agregar pequeños cambios no resolvería la causa. La estrategia más adecuada sería una transformación arquitectónica hacia una arquitectura distribuida o cliente-servidor, posiblemente acompañada de mantenimiento o reingeniería en partes específicas."
+    },
+    {
+        "ramo": "software",
+        "unidad": 3,
+        "tipo": "des",
+        "numero": 4,
+        "pregunta": "Explique qué significa que las estrategias de cambio no sean mutuamente excluyentes y entregue un ejemplo integrado.",
+        "respuesta": "Significa que mantenimiento, transformación arquitectónica y reingeniería pueden aplicarse en distintas partes del mismo sistema. Por ejemplo, una empresa puede transformar la arquitectura separando frontend y backend, hacer reingeniería de módulos antiguos para mejorar su estructura y, al mismo tiempo, aplicar mantenimiento para agregar campos solicitados por usuarios. Cada estrategia responde a una necesidad distinta del sistema."
+    },
+    {
+        "ramo": "software",
+        "unidad": 3,
+        "tipo": "des",
+        "numero": 5,
+        "pregunta": "Desarrolle por qué el mantenimiento de software es altamente variable entre proyectos.",
+        "respuesta": "El mantenimiento varía porque depende del tipo de software, del proceso de desarrollo usado y de las personas involucradas. Un sistema crítico, mal documentado o desarrollado sin buenas prácticas puede requerir más esfuerzo que uno modular y bien probado. También influyen la experiencia del equipo, la disponibilidad de documentación, la complejidad de requerimientos y el entorno operacional donde se ejecuta el sistema."
+    },
+    {
+        "ramo": "software",
+        "unidad": 3,
+        "tipo": "des",
+        "numero": 6,
+        "pregunta": "Interprete la distribución de esfuerzo de mantenimiento: 17% reparar fallas, 18% adaptar a entornos y 65% agregar o modificar funcionalidades.",
+        "respuesta": "La distribución muestra que el mantenimiento no se limita a corregir errores. La mayor parte del esfuerzo se concentra en agregar o modificar funcionalidades, lo que indica que los sistemas cambian principalmente porque las necesidades del negocio y de los usuarios evolucionan. Reparar fallas y adaptar a entornos también son importantes, pero representan una proporción menor en comparación con el cambio funcional."
+    },
+    {
+        "ramo": "software",
+        "unidad": 3,
+        "tipo": "des",
+        "numero": 7,
+        "pregunta": "Explique la tendencia desde sistemas centralizados hacia sistemas distribuidos y los factores que la impulsan.",
+        "respuesta": "La tendencia se explica porque los sistemas centralizados pueden limitar el acceso desde distintos lugares o plataformas. Factores como la reducción o cambio en costos de hardware, mayores expectativas de los usuarios y la necesidad de acceso distribuido impulsan arquitecturas distribuidas. Estas permiten que el sistema se adapte mejor a organizaciones geográficamente dispersas y a usuarios que esperan disponibilidad desde múltiples entornos."
+    },
+    {
+        "ramo": "software",
+        "unidad": 3,
+        "tipo": "des",
+        "numero": 8,
+        "pregunta": "Defina reingeniería de software y explique por qué no debe confundirse con desarrollo desde cero.",
+        "respuesta": "La reingeniería de software consiste en modificar o reimplementar un sistema existente para hacerlo más fácil de comprender, utilizar y mantener. No debe confundirse con desarrollo desde cero porque parte de un sistema ya existente, no de una especificación vacía. Su objetivo es comprender y transformar el sistema, manteniendo normalmente su funcionalidad y arquitectura, en lugar de construir uno completamente nuevo."
+    },
+    {
+        "ramo": "software",
+        "unidad": 3,
+        "tipo": "des",
+        "numero": 9,
+        "pregunta": "Compare ingeniería directa y reingeniería de software mediante sus puntos de partida y resultados esperados.",
+        "respuesta": "La ingeniería directa parte de una especificación del sistema, luego realiza diseño e implementación y obtiene un sistema nuevo. La reingeniería parte de un sistema existente, realiza comprensión y transformación, y obtiene un sistema con reingeniería. La diferencia principal es que la primera construye desde cero o desde requisitos, mientras que la segunda moderniza o mejora algo que ya existe."
+    },
+    {
+        "ramo": "software",
+        "unidad": 3,
+        "tipo": "des",
+        "numero": 10,
+        "pregunta": "Explique el rol de la ingeniería inversa dentro de un proceso de reingeniería.",
+        "respuesta": "La ingeniería inversa analiza un programa existente para extraer información sobre su estructura, comportamiento y lógica. Esa información ayuda a documentar el sistema, comprenderlo y planificar transformaciones posteriores. Es especialmente útil cuando el sistema heredado tiene poca documentación o cuando el conocimiento está disperso en el código y en personas del equipo."
+    },
+    {
+        "ramo": "software",
+        "unidad": 3,
+        "tipo": "des",
+        "numero": 11,
+        "pregunta": "Explique la diferencia entre mejora de estructura del programa, modularización y reingeniería de datos.",
+        "respuesta": "La mejora de estructura del programa modifica estructuras de control como condicionales, bucles y funciones para que el código sea más legible y comprensible. La modularización agrupa partes relacionadas y elimina redundancia para mejorar organización interna. La reingeniería de datos se enfoca en cambiar cómo el sistema procesa, almacena u organiza sus datos, por ejemplo actualizando estructuras o valores para reflejar nuevas necesidades del programa."
+    },
+    {
+        "ramo": "software",
+        "unidad": 3,
+        "tipo": "des",
+        "numero": 12,
+        "pregunta": "Analice las ventajas y limitaciones de la reingeniería cuando se aplica a un sistema heredado centralizado.",
+        "respuesta": "La reingeniería puede reducir riesgo y costo frente a construir un sistema nuevo, además de mejorar documentación, estructura y mantenibilidad. Sin embargo, si la arquitectura no cambia, el sistema puede seguir siendo difícil de distribuir. Además, si la funcionalidad se mantiene, algunas limitaciones funcionales heredadas también pueden permanecer. Por eso puede ser útil, pero no siempre resuelve problemas arquitectónicos profundos."
+    },
+    {
+        "ramo": "software",
+        "unidad": 3,
+        "tipo": "des",
+        "numero": 13,
+        "pregunta": "Explique por qué el costo de reingeniería aumenta al pasar de conversión automatizada de código a reestructuración con cambios arquitectónicos.",
+        "respuesta": "La conversión automatizada de código suele tener menor costo porque cambia la forma o lenguaje del código con apoyo de herramientas, sin intervenir profundamente el diseño. En cambio, reestructurar programas y datos requiere comprender dependencias, validar comportamiento y modificar estructuras internas. Si además se agregan cambios arquitectónicos, aumenta la complejidad, el riesgo, las pruebas necesarias y la coordinación técnica, por lo que el costo crece."
+    },
+    {
+        "ramo": "software",
+        "unidad": 3,
+        "tipo": "des",
+        "numero": 14,
+        "pregunta": "Describa los factores que afectan los costos de una reingeniería y explique cómo cada uno puede influir.",
+        "respuesta": "La calidad del software actual influye porque un sistema desordenado, acoplado o sin documentación requiere más análisis. Las herramientas de apoyo pueden reducir esfuerzo si automatizan conversión, análisis o reestructuración. La amplitud de conversión de datos aumenta costos si hay muchas estructuras o datos críticos que migrar. La disponibilidad de personal experto también es clave porque sistemas heredados requieren conocimiento técnico y contextual para evitar errores."
+    },
+    {
+        "ramo": "software",
+        "unidad": 3,
+        "tipo": "des",
+        "numero": 15,
+        "pregunta": "Defina administración de configuración de software y explique su importancia en la evolución de productos de software.",
+        "respuesta": "La administración de configuración de software es el proceso de identificar elementos de configuración, controlar entregas y cambios, almacenar estados y solicitudes, y verificar cumplimiento de requisitos durante el ciclo de vida. Es importante porque la evolución genera muchas versiones del sistema y de sus componentes. Sin administración de configuración se pierde trazabilidad, se dificulta evaluar impacto de cambios y aumenta el riesgo de entregar versiones incorrectas."
+    },
+    {
+        "ramo": "software",
+        "unidad": 3,
+        "tipo": "des",
+        "numero": 16,
+        "pregunta": "Explique qué es un elemento de configuración y entregue ejemplos de elementos que deberían controlarse.",
+        "respuesta": "Un elemento de configuración es cualquier componente del sistema que debe ser controlado y versionado. Puede incluir código fuente, documentación, diagramas, archivos de configuración, scripts de instalación, datos relevantes, manuales o especificaciones. Se controlan porque cambios en cualquiera de ellos pueden afectar la construcción, entrega, operación o mantenimiento del sistema."
+    },
+    {
+        "ramo": "software",
+        "unidad": 3,
+        "tipo": "des",
+        "numero": 17,
+        "pregunta": "Explique el concepto de baseline y por qué es relevante para el aseguramiento de calidad.",
+        "respuesta": "Una baseline es un estado aprobado y estable del sistema o de ciertos elementos de configuración en un punto de su evolución. Es relevante porque actúa como referencia formal, base para desarrollo posterior y producto revisado y acordado. Al fijar un estado controlado, facilita comparar cambios, evitar modificaciones no autorizadas y asegurar que el desarrollo avance sobre una base validada."
+    },
+    {
+        "ramo": "software",
+        "unidad": 3,
+        "tipo": "des",
+        "numero": 18,
+        "pregunta": "Describa qué información debería permitir consultar una base de datos de configuración y cómo ayuda a evaluar impacto.",
+        "respuesta": "Una base de datos de configuración debería permitir consultar versiones creadas y sus fechas, clientes que recibieron cada versión, requisitos de hardware y sistema operativo, componentes incluidos, solicitudes de cambio pendientes, fallas reportadas y dependencias entre componentes. Ayuda a evaluar impacto porque permite identificar qué versiones o clientes podrían verse afectados si se modifica un componente específico."
+    },
+    {
+        "ramo": "software",
+        "unidad": 3,
+        "tipo": "des",
+        "numero": 19,
+        "pregunta": "Explique el flujo de administración del cambio desde la solicitud hasta la creación de una nueva versión.",
+        "respuesta": "El flujo comienza con completar una solicitud de cambio. Luego se analiza su validez y se evalúan posibilidad y costos. La solicitud y su resolución se registran. Si se aprueba, se implementan los cambios, se registran y se vinculan con la solicitud original. Después se comprueba la calidad del software modificado y finalmente se crea una nueva versión del sistema."
+    },
+    {
+        "ramo": "software",
+        "unidad": 3,
+        "tipo": "des",
+        "numero": 20,
+        "pregunta": "¿Por qué no basta con implementar un cambio si no se registra su relación con la solicitud que lo originó?",
+        "respuesta": "Porque se pierde trazabilidad. Sin vincular el cambio con su solicitud no se puede saber por qué se realizó, quién lo aprobó, qué problema buscaba resolver ni qué versiones o componentes fueron afectados. Esto dificulta auditorías, mantenimiento futuro, evaluación de impacto y control de calidad."
+    },
+    {
+        "ramo": "software",
+        "unidad": 3,
+        "tipo": "des",
+        "numero": 21,
+        "pregunta": "Diferencie versión, promoción, lanzamiento y variante con ejemplos.",
+        "respuesta": "Una versión es una instancia del sistema que difiere de otras, por ejemplo la 2.1 frente a la 2.0. Una promoción es una versión puesta a disposición de otros desarrolladores para integración o revisión interna. Un lanzamiento es una versión liberada a usuarios finales. Una variante es una versión que coexiste con pequeñas diferencias, por ejemplo una variante para Windows y otra para Linux."
+    },
+    {
+        "ramo": "software",
+        "unidad": 3,
+        "tipo": "des",
+        "numero": 22,
+        "pregunta": "Explique qué elementos puede incluir un lanzamiento de software y por qué no se reduce solo al ejecutable.",
+        "respuesta": "Un lanzamiento puede incluir la versión del sistema, instalador, archivos de configuración, archivos de datos para operación, documentación digital o en papel, publicidad asociada, embalaje y otros elementos necesarios. No se reduce al ejecutable porque los usuarios necesitan instalar, configurar, operar y comprender el sistema, y la organización debe entregar un paquete completo y controlado."
+    },
+    {
+        "ramo": "software",
+        "unidad": 3,
+        "tipo": "des",
+        "numero": 23,
+        "pregunta": "Analice por qué no se puede asumir que todos los usuarios instalarán una nueva versión inmediatamente después de un lanzamiento.",
+        "respuesta": "Los usuarios pueden tener restricciones operativas, compatibilidad con hardware o sistema operativo, políticas internas, dependencia de versiones anteriores o tiempos propios de actualización. Por eso un lanzamiento no elimina automáticamente versiones previas. La administración de configuración debe saber qué clientes usan qué versión y mantener control sobre variantes, fallas y solicitudes asociadas."
+    },
+    {
+        "ramo": "software",
+        "unidad": 3,
+        "tipo": "des",
+        "numero": 24,
+        "pregunta": "Plantee un caso donde una base de datos de configuración sea necesaria para responder una solicitud de cambio con bajo riesgo.",
+        "respuesta": "Si se solicita cambiar un componente de autenticación usado por varias versiones, la base de datos de configuración permite identificar qué versiones incluyen ese componente, qué clientes las usan, qué sistemas operativos requieren y qué fallas o solicitudes pendientes existen. Con esa información se evalúa impacto, se planifican pruebas y se decide cómo liberar la nueva versión con menor riesgo."
+    },
+    {
+        "ramo": "software",
+        "unidad": 3,
+        "tipo": "des",
+        "numero": 25,
+        "pregunta": "Explique la relación entre administración de configuración, versiones de componentes y control de calidad.",
+        "respuesta": "La administración de configuración registra versiones del sistema y de sus componentes, lo que permite saber qué se modificó, cuándo y por qué. Ese control facilita verificar que los cambios cumplan requisitos, que la versión liberada contenga los elementos correctos y que las pruebas se apliquen sobre una configuración conocida. Así contribuye directamente al control de calidad."
+    },
+    {
+        "ramo": "software",
+        "unidad": 3,
+        "tipo": "des",
+        "numero": 26,
+        "pregunta": "Discuta cuándo sería razonable reemplazar un sistema en lugar de aplicar mantenimiento, transformación arquitectónica o reingeniería.",
+        "respuesta": "Sería razonable reemplazarlo cuando las estrategias disponibles no resuelven los problemas principales o cuando el costo, riesgo o limitaciones de adaptar el sistema existente superan los beneficios. Por ejemplo, si la arquitectura, tecnología, datos y funcionalidad están tan desalineados con las necesidades actuales que transformarlo sería más complejo que construir una solución nueva, el reemplazo puede ser más apropiado."
+    },
+    {
+        "ramo": "software",
+        "unidad": 3,
+        "tipo": "des",
+        "numero": 27,
+        "pregunta": "Explique por qué una transformación arquitectónica puede requerir también actividades de reingeniería o mantenimiento.",
+        "respuesta": "Una transformación arquitectónica cambia la organización general del sistema, pero para realizarla puede ser necesario comprender código heredado, redocumentarlo, modularizarlo o reestructurar datos, lo que corresponde a reingeniería. Además, pueden agregarse o modificarse componentes concretos para satisfacer requerimientos, lo que corresponde a mantenimiento. Por eso las estrategias pueden combinarse."
+    },
+    {
+        "ramo": "software",
+        "unidad": 3,
+        "tipo": "des",
+        "numero": 28,
+        "pregunta": "Describa cómo se conectan evolución de software, solicitudes de cambio, versiones y lanzamientos.",
+        "respuesta": "La evolución de software surge de necesidades de cambio, que se formalizan como solicitudes. Cuando una solicitud se aprueba, se implementa y registra el cambio, generando nuevas versiones del sistema o de componentes. Algunas versiones pueden ser promociones internas para desarrolladores y otras pueden convertirse en lanzamientos para usuarios finales, acompañadas de instalador, configuración, datos y documentación."
+    },
+    {
+        "ramo": "software",
+        "unidad": 3,
+        "tipo": "des",
+        "numero": 29,
+        "pregunta": "Explique por qué las preguntas que puede responder una base de datos de configuración son críticas en sistemas con múltiples clientes.",
+        "respuesta": "En sistemas con múltiples clientes, no todos usan la misma versión ni actualizan al mismo tiempo. La base de datos permite saber qué versión recibió cada cliente, qué fallas se reportaron, qué configuración requiere y qué cambios afectarían a cada uno. Esto evita liberar parches incorrectos, facilita soporte y reduce el riesgo de afectar clientes no considerados."
+    },
+    {
+        "ramo": "software",
+        "unidad": 3,
+        "tipo": "des",
+        "numero": 30,
+        "pregunta": "A partir de la unidad, explique por qué la evolución de software debe ser controlada y no solo reactiva.",
+        "respuesta": "La evolución reactiva sin control puede resolver problemas inmediatos, pero genera desorden en versiones, componentes y documentación. La unidad muestra que los cambios deben registrarse, vincularse a solicitudes, verificarse en calidad y organizarse mediante administración de configuración. Controlar la evolución permite mantener valor, trazabilidad y estabilidad del producto a largo plazo."
+    }
+]

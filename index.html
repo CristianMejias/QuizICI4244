@@ -9,16 +9,17 @@
 <body>
   <main class="app">
     <section id="configView" class="card config-card">
-      <h1>Intento de cuestionario (v2.2)</h1>
+      <h1>Intento de cuestionario (v3 - formato nuevo)</h1>
       <p class="muted">
-        Elige un banco de preguntas, cantidad y seed numérica. Si dos personas usan el mismo
-        archivo, cantidad y seed, obtendrán el mismo orden de preguntas.
+        Elige uno o varios bancos de preguntas en formato nuevo, cantidad y seed numérica. Si dos personas usan los mismos
+        archivos, cantidad y seed, obtendrán el mismo orden de preguntas.
       </p>
 
       <div class="grid">
         <label>
-          Archivo de preguntas
-          <select id="questionFileSelect"></select>
+          Archivos de preguntas
+          <select id="questionFileSelect" multiple size="5"></select>
+          <small class="muted">Mantén Ctrl para elegir varios archivos en Windows/Linux o Cmd en Mac.</small>
         </label>
 
         <label>
@@ -57,7 +58,7 @@
             <dd id="sidebarSeed">-</dd>
           </div>
           <div>
-            <dt>Archivo</dt>
+            <dt>Archivo(s)</dt>
             <dd id="sidebarFile">-</dd>
           </div>
           <div>
@@ -71,6 +72,7 @@
         </dl>
 
         <h3>Preguntas</h3>
+        <p class="legend muted">Gris: sin contestar · Verde: buena · Rojo: mala · Borde azul: actual</p>
         <ol id="questionNav" class="question-nav"></ol>
       </aside>
 
@@ -92,7 +94,8 @@
 
         <div class="actions">
           <button id="submitAnswerBtn" type="button">Responder</button>
-          <button id="nextBtn" type="button" class="hidden">Siguiente</button>
+          <button id="skipQuestionBtn" type="button" class="secondary">Saltar pregunta</button>
+          <button id="nextBtn" type="button" class="hidden">Siguiente pendiente</button>
         </div>
       </section>
     </section>
@@ -101,6 +104,27 @@
       <h1>Resultado</h1>
       <p id="scoreText" class="score"></p>
       <p id="resultDetail" class="muted"></p>
+      <p id="resultStats" class="muted"></p>
+
+      <section class="pdf-panel">
+        <h2>Guardar PDF</h2>
+        <p class="muted">Selecciona qué preguntas incluir. Puedes combinar buenas, malas y sin contestar.</p>
+        <div class="pdf-options">
+          <label class="check-option">
+            <input type="checkbox" name="pdfFilter" value="correct" checked />
+            Buenas
+          </label>
+          <label class="check-option">
+            <input type="checkbox" name="pdfFilter" value="incorrect" checked />
+            Malas
+          </label>
+          <label class="check-option">
+            <input type="checkbox" name="pdfFilter" value="unanswered" checked />
+            Sin contestar
+          </label>
+        </div>
+        <button id="exportPdfBtn" type="button" class="secondary">Guardar PDF</button>
+      </section>
 
       <div id="reviewList" class="review"></div>
 

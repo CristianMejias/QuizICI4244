@@ -1,0 +1,362 @@
+[
+    {
+        "ramo": "software",
+        "unidad": 3,
+        "tipo": "vf",
+        "numero": 1,
+        "pregunta": "En evolución de productos de software, una demanda de cambio puede originarse tanto por fallas descubiertas en operación como por la necesidad de mejorar características no funcionales.",
+        "respuesta": true,
+        "justificacion": "correcto"
+    },
+    {
+        "ramo": "software",
+        "unidad": 3,
+        "tipo": "vf",
+        "numero": 2,
+        "pregunta": "Si un sistema funciona sin errores funcionales visibles, entonces deja de requerir evolución de software.",
+        "respuesta": false,
+        "justificacion": "Falso: la evolución no solo responde a fallas; también puede buscar mejorar desempeño, seguridad, usabilidad, mantenibilidad u otras características no funcionales, además de adaptarse a nuevos requerimientos."
+    },
+    {
+        "ramo": "software",
+        "unidad": 3,
+        "tipo": "vf",
+        "numero": 3,
+        "pregunta": "El software se considera un activo de negocio, por lo que invertir en su cambio puede ser necesario para conservar su valor.",
+        "respuesta": true,
+        "justificacion": "correcto"
+    },
+    {
+        "ramo": "software",
+        "unidad": 3,
+        "tipo": "vf",
+        "numero": 4,
+        "pregunta": "Las estrategias de cambio de software son excluyentes: si se aplica mantenimiento en una parte del sistema, no puede aplicarse reingeniería en otra.",
+        "respuesta": false,
+        "justificacion": "Falso: las estrategias no son mutuamente excluyentes; pueden aplicarse distintas estrategias en distintas partes del mismo sistema."
+    },
+    {
+        "ramo": "software",
+        "unidad": 3,
+        "tipo": "vf",
+        "numero": 5,
+        "pregunta": "El mantenimiento de software permite modificar componentes existentes o agregar nuevos componentes, siempre que no implique cambios arquitectónicos mayores.",
+        "respuesta": true,
+        "justificacion": "correcto"
+    },
+    {
+        "ramo": "software",
+        "unidad": 3,
+        "tipo": "vf",
+        "numero": 6,
+        "pregunta": "La transformación arquitectónica se diferencia del mantenimiento porque mantiene estable la estructura general del sistema.",
+        "respuesta": false,
+        "justificacion": "Falso: quien mantiene estable la estructura general es el mantenimiento; la transformación arquitectónica introduce cambios en la arquitectura del sistema."
+    },
+    {
+        "ramo": "software",
+        "unidad": 3,
+        "tipo": "vf",
+        "numero": 7,
+        "pregunta": "La reingeniería de software busca facilitar la comprensión, uso y mantenimiento del sistema sin agregar normalmente nuevas funcionalidades.",
+        "respuesta": true,
+        "justificacion": "correcto"
+    },
+    {
+        "ramo": "software",
+        "unidad": 3,
+        "tipo": "vf",
+        "numero": 8,
+        "pregunta": "Una reingeniería profunda siempre implica reemplazar el sistema completo por uno nuevo.",
+        "respuesta": false,
+        "justificacion": "Falso: la reingeniería trabaja sobre un sistema existente para comprenderlo, transformarlo y modernizarlo; reemplazar el sistema es una opción cuando ninguna estrategia de cambio resulta apropiada."
+    },
+    {
+        "ramo": "software",
+        "unidad": 3,
+        "tipo": "vf",
+        "numero": 9,
+        "pregunta": "La evolución arquitectónica suele estar asociada a la transición desde sistemas centralizados hacia sistemas distribuidos.",
+        "respuesta": true,
+        "justificacion": "correcto"
+    },
+    {
+        "ramo": "software",
+        "unidad": 3,
+        "tipo": "vf",
+        "numero": 10,
+        "pregunta": "Los costos de hardware, las expectativas del usuario y el acceso distribuido son factores que pueden impulsar cambios arquitectónicos.",
+        "respuesta": true,
+        "justificacion": "correcto"
+    },
+    {
+        "ramo": "software",
+        "unidad": 3,
+        "tipo": "vf",
+        "numero": 11,
+        "pregunta": "El mantenimiento destinado a agregar o modificar funcionalidades representa, según la unidad, una proporción menor que el mantenimiento para reparar fallas.",
+        "respuesta": false,
+        "justificacion": "Falso: la unidad indica que agregar o modificar funcionalidades concentra el mayor esfuerzo de mantenimiento, alrededor del 65%, frente al 17% asociado a reparar fallas."
+    },
+    {
+        "ramo": "software",
+        "unidad": 3,
+        "tipo": "vf",
+        "numero": 12,
+        "pregunta": "El proceso de mantenimiento es altamente variable porque depende del tipo de software, del proceso de desarrollo utilizado y de las personas involucradas.",
+        "respuesta": true,
+        "justificacion": "correcto"
+    },
+    {
+        "ramo": "software",
+        "unidad": 3,
+        "tipo": "vf",
+        "numero": 13,
+        "pregunta": "La ingeniería directa parte de un sistema existente y lo transforma, mientras que la reingeniería parte de una especificación y construye un sistema nuevo.",
+        "respuesta": false,
+        "justificacion": "Falso: es al revés. La ingeniería directa desarrolla desde especificaciones hacia un sistema nuevo; la reingeniería parte de un sistema existente y lo comprende y transforma."
+    },
+    {
+        "ramo": "software",
+        "unidad": 3,
+        "tipo": "vf",
+        "numero": 14,
+        "pregunta": "La ingeniería inversa dentro de la reingeniería analiza el programa para extraer información útil para documentarlo.",
+        "respuesta": true,
+        "justificacion": "correcto"
+    },
+    {
+        "ramo": "software",
+        "unidad": 3,
+        "tipo": "vf",
+        "numero": 15,
+        "pregunta": "La modularización del programa en reingeniería consiste en separar partes relacionadas para aumentar la redundancia y hacer visible la repetición.",
+        "respuesta": false,
+        "justificacion": "Falso: la modularización agrupa partes relacionadas y busca eliminar redundancia, no aumentarla."
+    },
+    {
+        "ramo": "software",
+        "unidad": 3,
+        "tipo": "vf",
+        "numero": 16,
+        "pregunta": "La mejora de la estructura del programa puede modificar estructuras de control como condicionales, bucles y funciones para mejorar legibilidad y comprensión.",
+        "respuesta": true,
+        "justificacion": "correcto"
+    },
+    {
+        "ramo": "software",
+        "unidad": 3,
+        "tipo": "vf",
+        "numero": 17,
+        "pregunta": "La reingeniería de datos se limita a cambiar nombres de variables, sin afectar cómo el sistema procesa, almacena u organiza datos.",
+        "respuesta": false,
+        "justificacion": "Falso: la reingeniería de datos modifica la forma en que el sistema procesa, almacena, estructura o actualiza los datos."
+    },
+    {
+        "ramo": "software",
+        "unidad": 3,
+        "tipo": "vf",
+        "numero": 18,
+        "pregunta": "En reingeniería, mientras más profunda es la intervención sobre programas, datos y arquitectura, mayor tiende a ser el costo.",
+        "respuesta": true,
+        "justificacion": "correcto"
+    },
+    {
+        "ramo": "software",
+        "unidad": 3,
+        "tipo": "vf",
+        "numero": 19,
+        "pregunta": "La conversión automatizada de código fuente suele ser menos costosa que una reestructuración que combina programas, datos y cambios arquitectónicos.",
+        "respuesta": true,
+        "justificacion": "correcto"
+    },
+    {
+        "ramo": "software",
+        "unidad": 3,
+        "tipo": "vf",
+        "numero": 20,
+        "pregunta": "La disponibilidad de personal experto no influye en el costo de reingeniería, porque las herramientas automatizadas eliminan ese factor.",
+        "respuesta": false,
+        "justificacion": "Falso: la disponibilidad de personal experto es uno de los factores que afecta los costos, junto con la calidad del software, herramientas y amplitud de conversión de datos."
+    },
+    {
+        "ramo": "software",
+        "unidad": 3,
+        "tipo": "vf",
+        "numero": 21,
+        "pregunta": "La administración de configuración controla y registra cambios durante el ciclo de vida del sistema.",
+        "respuesta": true,
+        "justificacion": "correcto"
+    },
+    {
+        "ramo": "software",
+        "unidad": 3,
+        "tipo": "vf",
+        "numero": 22,
+        "pregunta": "Un elemento de configuración solo puede ser código fuente ejecutable; la documentación y los diagramas quedan fuera del control de configuración.",
+        "respuesta": false,
+        "justificacion": "Falso: un elemento de configuración puede ser cualquier componente que deba controlarse y versionarse, como código, documentación, diagramas, archivos de configuración o datos."
+    },
+    {
+        "ramo": "software",
+        "unidad": 3,
+        "tipo": "vf",
+        "numero": 23,
+        "pregunta": "Una baseline es un estado aprobado y estable del sistema que sirve como referencia para el desarrollo posterior.",
+        "respuesta": true,
+        "justificacion": "correcto"
+    },
+    {
+        "ramo": "software",
+        "unidad": 3,
+        "tipo": "vf",
+        "numero": 24,
+        "pregunta": "Una baseline es una versión experimental sin revisión formal que se usa solo para pruebas personales de un desarrollador.",
+        "respuesta": false,
+        "justificacion": "Falso: una baseline es un estado aprobado, revisado y acordado que funciona como punto de referencia y base estable."
+    },
+    {
+        "ramo": "software",
+        "unidad": 3,
+        "tipo": "vf",
+        "numero": 25,
+        "pregunta": "La base de datos de configuración ayuda a evaluar el impacto que tendría cambiar un componente específico.",
+        "respuesta": true,
+        "justificacion": "correcto"
+    },
+    {
+        "ramo": "software",
+        "unidad": 3,
+        "tipo": "vf",
+        "numero": 26,
+        "pregunta": "La base de datos de configuración solo almacena el código final entregado, por lo que no sirve para consultar fallas, clientes o solicitudes pendientes.",
+        "respuesta": false,
+        "justificacion": "Falso: puede almacenar información de versiones, clientes, configuraciones requeridas, solicitudes de cambio, fallas y relaciones entre componentes."
+    },
+    {
+        "ramo": "software",
+        "unidad": 3,
+        "tipo": "vf",
+        "numero": 27,
+        "pregunta": "La administración del cambio incluye registrar tanto la solicitud como la resolución, implementar cambios, comprobar calidad y crear una nueva versión.",
+        "respuesta": true,
+        "justificacion": "correcto"
+    },
+    {
+        "ramo": "software",
+        "unidad": 3,
+        "tipo": "vf",
+        "numero": 28,
+        "pregunta": "Registrar un cambio sin vincularlo a una solicitud previa es suficiente para mantener trazabilidad completa.",
+        "respuesta": false,
+        "justificacion": "Falso: la trazabilidad requiere vincular los cambios con la solicitud registrada y su resolución, además de comprobar la calidad del software modificado."
+    },
+    {
+        "ramo": "software",
+        "unidad": 3,
+        "tipo": "vf",
+        "numero": 29,
+        "pregunta": "Una promoción es una versión puesta a disposición de otros desarrolladores, mientras que un lanzamiento se pone a disposición de los usuarios.",
+        "respuesta": true,
+        "justificacion": "correcto"
+    },
+    {
+        "ramo": "software",
+        "unidad": 3,
+        "tipo": "vf",
+        "numero": 30,
+        "pregunta": "Una variante es una versión que coexiste con pequeñas diferencias, por ejemplo para distintas plataformas o sistemas operativos.",
+        "respuesta": true,
+        "justificacion": "correcto"
+    },
+    {
+        "ramo": "software",
+        "unidad": 3,
+        "tipo": "vf",
+        "numero": 31,
+        "pregunta": "Una versión es necesariamente un lanzamiento público para usuarios finales.",
+        "respuesta": false,
+        "justificacion": "Falso: una versión es una instancia del sistema que difiere de otras; puede ser interna, promoción, variante o lanzamiento, según su uso y destinatarios."
+    },
+    {
+        "ramo": "software",
+        "unidad": 3,
+        "tipo": "vf",
+        "numero": 32,
+        "pregunta": "Un lanzamiento puede incluir instalador, archivos de configuración, datos operativos, documentación, publicidad y otros elementos además del sistema ejecutable.",
+        "respuesta": true,
+        "justificacion": "correcto"
+    },
+    {
+        "ramo": "software",
+        "unidad": 3,
+        "tipo": "vf",
+        "numero": 33,
+        "pregunta": "Después de liberar una nueva versión, la organización siempre puede obligar a todos los usuarios a instalarla inmediatamente.",
+        "respuesta": false,
+        "justificacion": "Falso: la unidad destaca que no se puede obligar a los usuarios a instalar la nueva versión del sistema."
+    },
+    {
+        "ramo": "software",
+        "unidad": 3,
+        "tipo": "vf",
+        "numero": 34,
+        "pregunta": "Cuando ninguna estrategia de cambio es apropiada, reemplazar el sistema puede ser una alternativa necesaria.",
+        "respuesta": true,
+        "justificacion": "correcto"
+    },
+    {
+        "ramo": "software",
+        "unidad": 3,
+        "tipo": "vf",
+        "numero": 35,
+        "pregunta": "La administración de configuración es relevante solo al final del proyecto, cuando se prepara el empaquetado del lanzamiento.",
+        "respuesta": false,
+        "justificacion": "Falso: se aplica durante todo el ciclo de vida del sistema, controlando elementos, estados, solicitudes y cambios."
+    },
+    {
+        "ramo": "software",
+        "unidad": 3,
+        "tipo": "vf",
+        "numero": 36,
+        "pregunta": "La transformación arquitectónica puede ser más radical que el mantenimiento porque modifica la organización fundamental del sistema.",
+        "respuesta": true,
+        "justificacion": "correcto"
+    },
+    {
+        "ramo": "software",
+        "unidad": 3,
+        "tipo": "vf",
+        "numero": 37,
+        "pregunta": "La reingeniería conserva siempre todas las limitaciones del sistema, por lo que nunca reduce riesgos ni costos.",
+        "respuesta": false,
+        "justificacion": "Falso: puede mantener algunas limitaciones si no cambia funcionalidad o arquitectura, pero su ventaja es que suele tener menor riesgo y generalmente menor costo que rehacer desde cero."
+    },
+    {
+        "ramo": "software",
+        "unidad": 3,
+        "tipo": "vf",
+        "numero": 38,
+        "pregunta": "La calidad del software existente condiciona el esfuerzo de reingeniería: un sistema más deteriorado puede requerir intervenciones más costosas.",
+        "respuesta": true,
+        "justificacion": "correcto"
+    },
+    {
+        "ramo": "software",
+        "unidad": 3,
+        "tipo": "vf",
+        "numero": 39,
+        "pregunta": "La gestión de configuración permite verificar que los elementos y cambios del sistema cumplan los requisitos especificados.",
+        "respuesta": true,
+        "justificacion": "correcto"
+    },
+    {
+        "ramo": "software",
+        "unidad": 3,
+        "tipo": "vf",
+        "numero": 40,
+        "pregunta": "Las versiones de componentes no necesitan registrarse si la versión general del sistema ya tiene un número identificador.",
+        "respuesta": false,
+        "justificacion": "Falso: los cambios pueden generar muchas versiones del sistema y de sus componentes; registrarlas es clave para controlar impacto, trazabilidad y entregas."
+    }
+]

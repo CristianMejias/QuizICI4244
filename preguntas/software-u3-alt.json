@@ -1,0 +1,755 @@
+[
+    {
+        "ramo": "software",
+        "unidad": 3,
+        "tipo": "alt",
+        "numero": 1,
+        "pregunta": "Un sistema heredado funciona, pero sus usuarios piden acceso desde distintas sedes y la arquitectura centralizada dificulta esa necesidad. ¿Qué estrategia calza mejor con el problema principal?",
+        "opciones": [
+            "Mantenimiento correctivo limitado a reparar fallas de operación.",
+            "Transformación arquitectónica hacia una organización distribuida o cliente-servidor.",
+            "Reingeniería sin alterar arquitectura ni funcionalidad.",
+            "Promoción de una versión interna para otros desarrolladores."
+        ],
+        "ningunaCorrecta": false,
+        "respuesta": [
+            1
+        ],
+        "justificacion": "El problema principal es arquitectónico: la centralización impide acceso distribuido, por lo que corresponde transformación arquitectónica."
+    },
+    {
+        "ramo": "software",
+        "unidad": 3,
+        "tipo": "alt",
+        "numero": 2,
+        "pregunta": "¿Cuál combinación describe correctamente las diferencias entre mantenimiento, transformación arquitectónica y reingeniería?",
+        "opciones": [
+            "Mantenimiento conserva la estructura general; transformación cambia la arquitectura; reingeniería mejora comprensión y mantención sin agregar normalmente funcionalidad.",
+            "Mantenimiento siempre cambia la arquitectura; transformación solo documenta; reingeniería reemplaza el sistema completo.",
+            "Mantenimiento solo crea lanzamientos; transformación solo cambia datos; reingeniería solo corrige fallas.",
+            "Las tres estrategias significan lo mismo y se distinguen solo por el equipo que las ejecuta."
+        ],
+        "ningunaCorrecta": false,
+        "respuesta": [
+            0
+        ],
+        "justificacion": "La opción 0 resume la distinción central de la unidad."
+    },
+    {
+        "ramo": "software",
+        "unidad": 3,
+        "tipo": "alt",
+        "numero": 3,
+        "pregunta": "Una empresa modifica formularios, agrega validaciones y actualiza una integración externa, pero conserva la arquitectura del sistema. ¿Cómo se clasifica principalmente este cambio?",
+        "opciones": [
+            "Mantenimiento de software.",
+            "Transformación arquitectónica.",
+            "Reemplazo del sistema.",
+            "Baseline."
+        ],
+        "ningunaCorrecta": false,
+        "respuesta": [
+            0
+        ],
+        "justificacion": "Son cambios posteriores a la entrega sobre componentes y requerimientos, sin cambios arquitectónicos mayores."
+    },
+    {
+        "ramo": "software",
+        "unidad": 3,
+        "tipo": "alt",
+        "numero": 4,
+        "pregunta": "¿Qué afirmaciones corresponden a motivos válidos de evolución de productos de software?",
+        "opciones": [
+            "Corregir errores encontrados en operación.",
+            "Mejorar desempeño.",
+            "Mejorar características no funcionales.",
+            "Evitar registrar versiones para acelerar entregas."
+        ],
+        "ningunaCorrecta": false,
+        "respuesta": [
+            0,
+            1,
+            2
+        ],
+        "justificacion": "Los tres primeros son motivos explícitos de evolución; evitar registrar versiones contradice la administración de configuración."
+    },
+    {
+        "ramo": "software",
+        "unidad": 3,
+        "tipo": "alt",
+        "numero": 5,
+        "pregunta": "En la unidad, ¿qué significa que el software sea un activo importante de negocio?",
+        "opciones": [
+            "Que debe conservar valor mediante inversión en cambios cuando el entorno o necesidades cambian.",
+            "Que nunca debe modificarse después de entregado.",
+            "Que solo importa su costo inicial de desarrollo.",
+            "Que su documentación puede descartarse después del primer lanzamiento."
+        ],
+        "ningunaCorrecta": false,
+        "respuesta": [
+            0
+        ],
+        "justificacion": "La idea de activo implica mantener valor mediante evolución controlada."
+    },
+    {
+        "ramo": "software",
+        "unidad": 3,
+        "tipo": "alt",
+        "numero": 6,
+        "pregunta": "¿Qué opciones describen correctamente la relación entre estrategias de cambio?",
+        "opciones": [
+            "No son mutuamente excluyentes.",
+            "Pueden aplicarse en distintas partes del mismo sistema.",
+            "Si ninguna es apropiada, puede ser necesario reemplazar el sistema.",
+            "Toda estrategia obliga a reconstruir el sistema completo."
+        ],
+        "ningunaCorrecta": false,
+        "respuesta": [
+            0,
+            1,
+            2
+        ],
+        "justificacion": "La unidad indica que pueden combinarse y que el reemplazo es una alternativa cuando no resultan apropiadas."
+    },
+    {
+        "ramo": "software",
+        "unidad": 3,
+        "tipo": "alt",
+        "numero": 7,
+        "pregunta": "Un equipo quiere mejorar documentación, reorganizar módulos y reducir redundancia sin agregar funciones. ¿Qué concepto integra mejor esas actividades?",
+        "opciones": [
+            "Reingeniería de software.",
+            "Lanzamiento de software.",
+            "Mantenimiento adaptativo por cambio de entorno exclusivamente.",
+            "Administración de clientes."
+        ],
+        "ningunaCorrecta": false,
+        "respuesta": [
+            0
+        ],
+        "justificacion": "Son actividades típicas de reingeniería orientadas a comprensión y mantención."
+    },
+    {
+        "ramo": "software",
+        "unidad": 3,
+        "tipo": "alt",
+        "numero": 8,
+        "pregunta": "¿Qué actividades pueden formar parte de un proceso de reingeniería?",
+        "opciones": [
+            "Traducción del código fuente.",
+            "Ingeniería inversa.",
+            "Modularización del programa.",
+            "Reingeniería de datos."
+        ],
+        "ningunaCorrecta": false,
+        "respuesta": [
+            0,
+            1,
+            2,
+            3
+        ],
+        "justificacion": "Todas forman parte del proceso de reingeniería descrito en la unidad."
+    },
+    {
+        "ramo": "software",
+        "unidad": 3,
+        "tipo": "alt",
+        "numero": 9,
+        "pregunta": "¿Cuál opción representa mejor una limitación de la reingeniería?",
+        "opciones": [
+            "Si la arquitectura no cambia, puede seguir siendo difícil distribuir un sistema centralizado.",
+            "Siempre elimina todas las restricciones funcionales heredadas.",
+            "Obliga a convertir cualquier sistema antiguo a orientación a objetos sin dificultad.",
+            "Impide mejorar documentación o estructura interna."
+        ],
+        "ningunaCorrecta": false,
+        "respuesta": [
+            0
+        ],
+        "justificacion": "La reingeniería normalmente no cambia arquitectura ni funcionalidad, por lo que algunas limitaciones pueden permanecer."
+    },
+    {
+        "ramo": "software",
+        "unidad": 3,
+        "tipo": "alt",
+        "numero": 10,
+        "pregunta": "¿Qué ventaja se asocia a la reingeniería frente a construir desde cero?",
+        "opciones": [
+            "Menor riesgo.",
+            "Costo generalmente más bajo.",
+            "Eliminación automática de toda deuda técnica.",
+            "Garantía de cambio radical de arquitectura."
+        ],
+        "ningunaCorrecta": false,
+        "respuesta": [
+            0,
+            1
+        ],
+        "justificacion": "La unidad presenta como ventajas el riesgo más bajo y el costo generalmente más bajo, no garantías absolutas."
+    },
+    {
+        "ramo": "software",
+        "unidad": 3,
+        "tipo": "alt",
+        "numero": 11,
+        "pregunta": "¿Cuál secuencia refleja mejor la ingeniería directa?",
+        "opciones": [
+            "Especificación del sistema → diseño e implementación → sistema nuevo.",
+            "Sistema existente → comprensión y transformación → sistema con reingeniería.",
+            "Solicitud de cambio → promoción → publicidad.",
+            "Baseline → variante → eliminación de configuración."
+        ],
+        "ningunaCorrecta": false,
+        "respuesta": [
+            0
+        ],
+        "justificacion": "La ingeniería directa corresponde al desarrollo convencional desde especificación hacia sistema nuevo."
+    },
+    {
+        "ramo": "software",
+        "unidad": 3,
+        "tipo": "alt",
+        "numero": 12,
+        "pregunta": "¿Cuál secuencia refleja mejor la reingeniería de software?",
+        "opciones": [
+            "Sistema existente → comprensión y transformación → sistema con reingeniería.",
+            "Especificación nueva → diseño desde cero → sistema sin historial.",
+            "Cliente final → embalaje → publicidad.",
+            "Solicitud pendiente → eliminación de versiones anteriores → ausencia de control."
+        ],
+        "ningunaCorrecta": false,
+        "respuesta": [
+            0
+        ],
+        "justificacion": "La reingeniería parte de un sistema existente y lo transforma."
+    },
+    {
+        "ramo": "software",
+        "unidad": 3,
+        "tipo": "alt",
+        "numero": 13,
+        "pregunta": "¿Qué opción distingue mejor ingeniería inversa y traducción de código fuente dentro de la reingeniería?",
+        "opciones": [
+            "La ingeniería inversa extrae información para documentar; la traducción convierte código a una versión o lenguaje más moderno.",
+            "La ingeniería inversa agrega funcionalidades; la traducción elimina documentación.",
+            "Ambas son nombres distintos para crear un instalador.",
+            "La traducción analiza requisitos de usuario; la ingeniería inversa publica el sistema a clientes."
+        ],
+        "ningunaCorrecta": false,
+        "respuesta": [
+            0
+        ],
+        "justificacion": "La opción 0 expresa la diferencia entre ambas actividades."
+    },
+    {
+        "ramo": "software",
+        "unidad": 3,
+        "tipo": "alt",
+        "numero": 14,
+        "pregunta": "¿Qué factores pueden aumentar o condicionar el costo de reingeniería?",
+        "opciones": [
+            "Calidad del software existente.",
+            "Herramientas de apoyo disponibles.",
+            "Amplitud de conversión de datos requerida.",
+            "Disponibilidad de personal experto."
+        ],
+        "ningunaCorrecta": false,
+        "respuesta": [
+            0,
+            1,
+            2,
+            3
+        ],
+        "justificacion": "Los cuatro factores aparecen como condicionantes del costo."
+    },
+    {
+        "ramo": "software",
+        "unidad": 3,
+        "tipo": "alt",
+        "numero": 15,
+        "pregunta": "Ordenando por profundidad, ¿qué intervención tiende a ser más costosa según la unidad?",
+        "opciones": [
+            "Conversión automatizada de código fuente.",
+            "Reestructuración automatizada de programas.",
+            "Reestructuración de programas y datos más cambios arquitectónicos.",
+            "Solo reformatear comentarios sin control de configuración."
+        ],
+        "ningunaCorrecta": false,
+        "respuesta": [
+            2
+        ],
+        "justificacion": "La intervención más profunda combina programas, datos y arquitectura; por ello tiende a mayor costo."
+    },
+    {
+        "ramo": "software",
+        "unidad": 3,
+        "tipo": "alt",
+        "numero": 16,
+        "pregunta": "¿Qué define mejor la administración de configuración de software?",
+        "opciones": [
+            "Proceso de identificar elementos de configuración, controlar cambios, almacenar estados y verificar cumplimiento de requisitos durante el ciclo de vida.",
+            "Técnica para eliminar la necesidad de versiones.",
+            "Actividad exclusiva de publicidad del lanzamiento.",
+            "Proceso que solo gestiona solicitudes informales sin registrar resoluciones."
+        ],
+        "ningunaCorrecta": false,
+        "respuesta": [
+            0
+        ],
+        "justificacion": "La opción 0 sintetiza la definición presentada en la unidad."
+    },
+    {
+        "ramo": "software",
+        "unidad": 3,
+        "tipo": "alt",
+        "numero": 17,
+        "pregunta": "¿Cuáles podrían ser elementos de configuración?",
+        "opciones": [
+            "Código fuente.",
+            "Documentación.",
+            "Diagramas.",
+            "Archivos de configuración o datos relevantes."
+        ],
+        "ningunaCorrecta": false,
+        "respuesta": [
+            0,
+            1,
+            2,
+            3
+        ],
+        "justificacion": "Cualquier componente que deba ser controlado y versionado puede ser elemento de configuración."
+    },
+    {
+        "ramo": "software",
+        "unidad": 3,
+        "tipo": "alt",
+        "numero": 18,
+        "pregunta": "¿Qué características corresponden a una baseline?",
+        "opciones": [
+            "Estado aprobado del sistema en un punto de su evolución.",
+            "Base estable para desarrollo posterior.",
+            "Producto o especificación formalmente revisada y acordada.",
+            "Cambio improvisado sin revisión ni control."
+        ],
+        "ningunaCorrecta": false,
+        "respuesta": [
+            0,
+            1,
+            2
+        ],
+        "justificacion": "La baseline es una configuración aprobada, revisada y estable; no un cambio improvisado."
+    },
+    {
+        "ramo": "software",
+        "unidad": 3,
+        "tipo": "alt",
+        "numero": 19,
+        "pregunta": "¿Para qué sirve una base de datos de configuración?",
+        "opciones": [
+            "Guardar información relevante sobre configuraciones.",
+            "Ayudar a evaluar impacto de cambios.",
+            "Apoyar la gestión de configuración.",
+            "Reemplazar la necesidad de procedimientos para registrar información."
+        ],
+        "ningunaCorrecta": false,
+        "respuesta": [
+            0,
+            1,
+            2
+        ],
+        "justificacion": "La base de datos ayuda a almacenar, consultar y evaluar información, pero requiere procedimientos definidos."
+    },
+    {
+        "ramo": "software",
+        "unidad": 3,
+        "tipo": "alt",
+        "numero": 20,
+        "pregunta": "¿Qué consultas son coherentes con una base de datos de configuración bien mantenida?",
+        "opciones": [
+            "Qué versiones existen y cuándo fueron creadas.",
+            "A qué clientes se entregó una versión.",
+            "Qué versiones se afectarían si cambia un componente.",
+            "Cuántas fallas se han reportado para una versión."
+        ],
+        "ningunaCorrecta": false,
+        "respuesta": [
+            0,
+            1,
+            2,
+            3
+        ],
+        "justificacion": "Todas son consultas ejemplificadas o derivadas directamente de la finalidad de la base de datos de configuración."
+    },
+    {
+        "ramo": "software",
+        "unidad": 3,
+        "tipo": "alt",
+        "numero": 21,
+        "pregunta": "¿Qué pasos pertenecen a la administración del cambio?",
+        "opciones": [
+            "Completar una solicitud de cambio y analizar su validez.",
+            "Evaluar posibilidad y costos.",
+            "Registrar solicitud, resolución y cambios realizados.",
+            "Comprobar la calidad del software cambiado antes de crear una nueva versión."
+        ],
+        "ningunaCorrecta": false,
+        "respuesta": [
+            0,
+            1,
+            2,
+            3
+        ],
+        "justificacion": "Todos los pasos forman parte del flujo de administración del cambio."
+    },
+    {
+        "ramo": "software",
+        "unidad": 3,
+        "tipo": "alt",
+        "numero": 22,
+        "pregunta": "¿Cuál alternativa distingue correctamente versión, promoción, lanzamiento y variante?",
+        "opciones": [
+            "Versión: instancia distinta; promoción: disponible para desarrolladores; lanzamiento: disponible para usuarios; variante: coexiste con pequeñas diferencias.",
+            "Versión: solo publicidad; promoción: solo usuarios finales; lanzamiento: solo código fuente; variante: error no registrado.",
+            "Versión y lanzamiento son siempre sinónimos exactos, sin diferencia de destinatario.",
+            "Variante es una baseline eliminada del ciclo de vida."
+        ],
+        "ningunaCorrecta": false,
+        "respuesta": [
+            0
+        ],
+        "justificacion": "La opción 0 contiene las definiciones correctas."
+    },
+    {
+        "ramo": "software",
+        "unidad": 3,
+        "tipo": "alt",
+        "numero": 23,
+        "pregunta": "¿Qué puede incluir un lanzamiento de software además de la versión del sistema?",
+        "opciones": [
+            "Programa de instalación.",
+            "Archivos de configuración y datos de operación.",
+            "Documentación.",
+            "Publicidad asociada o embalaje."
+        ],
+        "ningunaCorrecta": false,
+        "respuesta": [
+            0,
+            1,
+            2,
+            3
+        ],
+        "justificacion": "La unidad enumera esos componentes como parte posible de un lanzamiento."
+    },
+    {
+        "ramo": "software",
+        "unidad": 3,
+        "tipo": "alt",
+        "numero": 24,
+        "pregunta": "¿Cuál afirmación evita una confusión frecuente sobre lanzamientos?",
+        "opciones": [
+            "Liberar una nueva versión no significa que todos los usuarios puedan ser obligados a instalarla inmediatamente.",
+            "Todo lanzamiento es automáticamente instalado por todos los clientes.",
+            "Un lanzamiento no necesita documentación ni instalador.",
+            "Un lanzamiento es lo mismo que una solicitud de cambio pendiente."
+        ],
+        "ningunaCorrecta": false,
+        "respuesta": [
+            0
+        ],
+        "justificacion": "La unidad destaca que no se puede obligar a todos los usuarios a instalar la nueva versión."
+    },
+    {
+        "ramo": "software",
+        "unidad": 3,
+        "tipo": "alt",
+        "numero": 25,
+        "pregunta": "Un cambio en un componente compartido podría afectar varias versiones entregadas a distintos clientes. ¿Qué práctica permite analizar ese impacto?",
+        "opciones": [
+            "Mantener una base de datos de configuración con relaciones entre componentes, versiones y entregas.",
+            "Eliminar las variantes antiguas sin registro.",
+            "Usar solo memoria del equipo de desarrollo.",
+            "Crear publicidad del lanzamiento antes de registrar cambios."
+        ],
+        "ningunaCorrecta": false,
+        "respuesta": [
+            0
+        ],
+        "justificacion": "La base de datos de configuración permite evaluar impacto y rastrear relaciones."
+    },
+    {
+        "ramo": "software",
+        "unidad": 3,
+        "tipo": "alt",
+        "numero": 26,
+        "pregunta": "¿Cuáles afirmaciones sobre mantenimiento del software son correctas?",
+        "opciones": [
+            "Ocurre después de la entrega del sistema.",
+            "No implica cambios arquitectónicos mayores.",
+            "Puede modificar componentes existentes o agregar nuevos.",
+            "Su proceso es idéntico en todos los proyectos."
+        ],
+        "ningunaCorrecta": false,
+        "respuesta": [
+            0,
+            1,
+            2
+        ],
+        "justificacion": "El mantenimiento es variable, por lo que la cuarta opción es incorrecta."
+    },
+    {
+        "ramo": "software",
+        "unidad": 3,
+        "tipo": "alt",
+        "numero": 27,
+        "pregunta": "Según la distribución de esfuerzo presentada, ¿qué interpretación es correcta?",
+        "opciones": [
+            "La mayor parte del mantenimiento se dedica a agregar o modificar funcionalidades.",
+            "La reparación de fallas supera ampliamente a todos los demás tipos.",
+            "La adaptación a entornos operativos concentra el 65%.",
+            "Los porcentajes muestran que el mantenimiento casi nunca responde a requerimientos."
+        ],
+        "ningunaCorrecta": false,
+        "respuesta": [
+            0
+        ],
+        "justificacion": "La unidad indica 65% para agregar/modificar funcionalidades, 18% para adaptación y 17% para fallas."
+    },
+    {
+        "ramo": "software",
+        "unidad": 3,
+        "tipo": "alt",
+        "numero": 28,
+        "pregunta": "¿Qué casos justifican considerar reemplazar el sistema en lugar de mantenerlo, transformarlo o hacer reingeniería?",
+        "opciones": [
+            "Cuando ninguna estrategia de cambio resulta apropiada para el estado o necesidades del sistema.",
+            "Cuando existe una solicitud menor de interfaz que no afecta arquitectura.",
+            "Cuando solo falta registrar una baseline.",
+            "Cuando un desarrollador quiere una promoción interna."
+        ],
+        "ningunaCorrecta": false,
+        "respuesta": [
+            0
+        ],
+        "justificacion": "El reemplazo se considera cuando las estrategias de cambio no son adecuadas."
+    },
+    {
+        "ramo": "software",
+        "unidad": 3,
+        "tipo": "alt",
+        "numero": 29,
+        "pregunta": "¿Qué combinación describe una trazabilidad adecuada en administración del cambio?",
+        "opciones": [
+            "Solicitud registrada, análisis de validez, resolución registrada, cambios vinculados a la solicitud y verificación de calidad.",
+            "Cambio directo en producción sin solicitud ni registro.",
+            "Versión nueva sin saber qué componentes cambiaron.",
+            "Corrección informal comunicada solo verbalmente."
+        ],
+        "ningunaCorrecta": false,
+        "respuesta": [
+            0
+        ],
+        "justificacion": "La trazabilidad requiere registrar solicitud, resolución, cambios y calidad."
+    },
+    {
+        "ramo": "software",
+        "unidad": 3,
+        "tipo": "alt",
+        "numero": 30,
+        "pregunta": "¿Cuál de las siguientes NO corresponde a una razón válida para omitir administración de configuración?",
+        "opciones": [
+            "Que existan muchas versiones y componentes cambiantes.",
+            "Que se necesite saber qué cliente recibió qué versión.",
+            "Que se quiera evaluar el impacto de cambiar un componente.",
+            "Que se deban rastrear fallas por versión."
+        ],
+        "ningunaCorrecta": true,
+        "respuesta": [],
+        "justificacion": "Ninguna opción justifica omitir administración de configuración; todas son razones para usarla."
+    },
+    {
+        "ramo": "software",
+        "unidad": 3,
+        "tipo": "alt",
+        "numero": 31,
+        "pregunta": "¿Qué elementos muestran que una baseline también aporta al aseguramiento de calidad?",
+        "opciones": [
+            "Ha sido revisada y acordada.",
+            "Sirve como base estable para desarrollo posterior.",
+            "Es un punto de referencia controlado.",
+            "Se usa para evitar toda revisión formal."
+        ],
+        "ningunaCorrecta": false,
+        "respuesta": [
+            0,
+            1,
+            2
+        ],
+        "justificacion": "Una baseline apoya calidad porque fija estados revisados, acordados y estables; no evita revisión."
+    },
+    {
+        "ramo": "software",
+        "unidad": 3,
+        "tipo": "alt",
+        "numero": 32,
+        "pregunta": "¿Qué ejemplo representa mejor una variante?",
+        "opciones": [
+            "Una edición del mismo sistema para Windows y otra para Linux con pequeñas diferencias de plataforma.",
+            "Un formulario de solicitud de cambio aún no evaluado.",
+            "Una documentación sin relación con una versión.",
+            "Una reimplementación desde cero sin continuidad con el sistema anterior."
+        ],
+        "ningunaCorrecta": false,
+        "respuesta": [
+            0
+        ],
+        "justificacion": "Una variante es una versión coexistente con diferencias menores para plataformas o entornos distintos."
+    },
+    {
+        "ramo": "software",
+        "unidad": 3,
+        "tipo": "alt",
+        "numero": 33,
+        "pregunta": "¿Qué alternativa describe mejor el riesgo de no registrar versiones de componentes?",
+        "opciones": [
+            "Dificulta saber qué cambios afectan a qué versiones y qué clientes podrían verse impactados.",
+            "Mejora la evaluación de impacto porque reduce información disponible.",
+            "Elimina la necesidad de pruebas de calidad.",
+            "Convierte automáticamente el sistema en distribuido."
+        ],
+        "ningunaCorrecta": false,
+        "respuesta": [
+            0
+        ],
+        "justificacion": "Sin registro de versiones se pierde trazabilidad e impacto de cambios."
+    },
+    {
+        "ramo": "software",
+        "unidad": 3,
+        "tipo": "alt",
+        "numero": 34,
+        "pregunta": "¿Cuáles actividades se relacionan con reestructuración interna sin cambio arquitectónico mayor?",
+        "opciones": [
+            "Refactorizar código para mejorar lectura.",
+            "Reorganizar módulos relacionados.",
+            "Eliminar redundancia.",
+            "Migrar obligatoriamente de monolito a microservicios."
+        ],
+        "ningunaCorrecta": false,
+        "respuesta": [
+            0,
+            1,
+            2
+        ],
+        "justificacion": "Las tres primeras corresponden a mejoras estructurales; microservicios implica transformación arquitectónica."
+    },
+    {
+        "ramo": "software",
+        "unidad": 3,
+        "tipo": "alt",
+        "numero": 35,
+        "pregunta": "¿Qué caso corresponde más a transformación arquitectónica que a reingeniería?",
+        "opciones": [
+            "Separar frontend y backend para modificar la organización general del sistema.",
+            "Redocumentar módulos sin alterar arquitectura.",
+            "Extraer información mediante ingeniería inversa.",
+            "Reformatear estructuras de control para legibilidad."
+        ],
+        "ningunaCorrecta": false,
+        "respuesta": [
+            0
+        ],
+        "justificacion": "Separar frontend y backend modifica la arquitectura; las otras opciones son de reingeniería."
+    },
+    {
+        "ramo": "software",
+        "unidad": 3,
+        "tipo": "alt",
+        "numero": 36,
+        "pregunta": "¿Qué afirmación sobre funcionalidad en reingeniería es correcta?",
+        "opciones": [
+            "Normalmente se conserva, por lo que algunas limitaciones funcionales pueden permanecer.",
+            "Siempre se reemplaza por funcionalidad completamente nueva.",
+            "Se elimina para concentrarse solo en documentación.",
+            "No tiene relación con costos ni riesgos."
+        ],
+        "ningunaCorrecta": false,
+        "respuesta": [
+            0
+        ],
+        "justificacion": "La unidad indica que normalmente la funcionalidad no cambia; por eso pueden quedar limitaciones."
+    },
+    {
+        "ramo": "software",
+        "unidad": 3,
+        "tipo": "alt",
+        "numero": 37,
+        "pregunta": "¿Qué opción integra correctamente evolución, versiones y configuración?",
+        "opciones": [
+            "La evolución genera cambios y versiones; la administración de configuración registra y controla esos cambios para mantener trazabilidad.",
+            "La evolución elimina versiones; la configuración solo sirve antes del primer desarrollo.",
+            "Las versiones aparecen solo si no hay cambios; la configuración evita documentar solicitudes.",
+            "La administración de configuración reemplaza todas las estrategias de cambio."
+        ],
+        "ningunaCorrecta": false,
+        "respuesta": [
+            0
+        ],
+        "justificacion": "La opción 0 conecta los tres conceptos de forma correcta."
+    },
+    {
+        "ramo": "software",
+        "unidad": 3,
+        "tipo": "alt",
+        "numero": 38,
+        "pregunta": "¿Qué debe definirse para que la base de datos de configuración sea útil?",
+        "opciones": [
+            "La estructura de la base de datos.",
+            "Los procedimientos para registrar información.",
+            "Los procedimientos para recuperar información.",
+            "La prohibición de consultar versiones anteriores."
+        ],
+        "ningunaCorrecta": false,
+        "respuesta": [
+            0,
+            1,
+            2
+        ],
+        "justificacion": "La unidad indica que deben definirse estructura y procedimientos de registro y recuperación."
+    },
+    {
+        "ramo": "software",
+        "unidad": 3,
+        "tipo": "alt",
+        "numero": 39,
+        "pregunta": "Un equipo convierte código a una versión moderna del mismo lenguaje con apoyo automatizado, sin cambiar arquitectura ni agregar funciones. ¿Qué descripción es más precisa?",
+        "opciones": [
+            "Actividad de reingeniería, específicamente traducción/conversión de código fuente.",
+            "Transformación arquitectónica completa.",
+            "Lanzamiento para usuarios finales.",
+            "Variante para distintos sistemas operativos."
+        ],
+        "ningunaCorrecta": false,
+        "respuesta": [
+            0
+        ],
+        "justificacion": "La conversión de código fuente es una actividad de reingeniería."
+    },
+    {
+        "ramo": "software",
+        "unidad": 3,
+        "tipo": "alt",
+        "numero": 40,
+        "pregunta": "¿Cuál escenario combina correctamente mantenimiento y administración de cambio?",
+        "opciones": [
+            "Se solicita agregar una funcionalidad, se evalúa costo, se registra la resolución, se implementa, se verifica calidad y se crea nueva versión.",
+            "Se cambia producción sin solicitud porque el cambio parece pequeño.",
+            "Se publica un instalador sin registrar qué componentes contiene.",
+            "Se elimina la baseline para evitar comparaciones."
+        ],
+        "ningunaCorrecta": false,
+        "respuesta": [
+            0
+        ],
+        "justificacion": "La opción 0 aplica mantenimiento con un flujo controlado de administración del cambio."
+    }
+]

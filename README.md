@@ -1,4 +1,7 @@
 
+# desactualizado
+# desactualizado
+
 ## Cómo se cargan los bancos de preguntas
 
 La lista de archivos está en:

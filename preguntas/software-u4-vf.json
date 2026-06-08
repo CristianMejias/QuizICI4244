@@ -1,0 +1,515 @@
+[
+    {
+        "ramo": "software",
+        "unidad": 4,
+        "tipo": "vf",
+        "numero": 1,
+        "pregunta": "La seguridad de software busca proteger sistemas y datos frente a ciberataques, accesos no autorizados y fallos que comprometan la información.",
+        "respuesta": true,
+        "justificacion": "Correcto: su propósito es resguardar el software y sus datos frente a amenazas que afecten confidencialidad, integridad o disponibilidad."
+    },
+    {
+        "ramo": "software",
+        "unidad": 4,
+        "tipo": "vf",
+        "numero": 2,
+        "pregunta": "Un software inseguro solo representa un problema técnico interno y no suele afectar la reputación ni el cumplimiento legal de una organización.",
+        "respuesta": false,
+        "justificacion": "Falso: un software inseguro puede causar pérdida de datos, robos financieros, daño reputacional y vulnerabilidades legales."
+    },
+    {
+        "ramo": "software",
+        "unidad": 4,
+        "tipo": "vf",
+        "numero": 3,
+        "pregunta": "La confidencialidad se centra en que la información solo sea accesible para usuarios, sistemas o entidades autorizadas.",
+        "respuesta": true,
+        "justificacion": "Correcto: confidencialidad significa evitar el acceso no autorizado a datos sensibles o confidenciales."
+    },
+    {
+        "ramo": "software",
+        "unidad": 4,
+        "tipo": "vf",
+        "numero": 4,
+        "pregunta": "La integridad se cumple cuando un servicio está disponible aunque sus datos hayan sido modificados sin autorización.",
+        "respuesta": false,
+        "justificacion": "Falso: la integridad exige que datos y software no sean manipulados de forma no autorizada, ya sea accidental o maliciosa."
+    },
+    {
+        "ramo": "software",
+        "unidad": 4,
+        "tipo": "vf",
+        "numero": 5,
+        "pregunta": "La disponibilidad es crítica cuando una interrupción del servicio afecta operaciones, usuarios o continuidad del negocio.",
+        "respuesta": true,
+        "justificacion": "Correcto: disponibilidad implica que servicios y software estén accesibles cuando usuarios autorizados los requieran."
+    },
+    {
+        "ramo": "software",
+        "unidad": 4,
+        "tipo": "vf",
+        "numero": 6,
+        "pregunta": "El balanceo de carga y los respaldos se relacionan más directamente con la disponibilidad que con la confidencialidad.",
+        "respuesta": true,
+        "justificacion": "Correcto: ambos ayudan a mantener servicios operativos o recuperables ante fallos o alta demanda."
+    },
+    {
+        "ramo": "software",
+        "unidad": 4,
+        "tipo": "vf",
+        "numero": 7,
+        "pregunta": "Las firmas digitales, hashing y controles de integridad de archivos son mecanismos asociados a la integridad.",
+        "respuesta": true,
+        "justificacion": "Correcto: estos mecanismos permiten detectar o prevenir alteraciones no autorizadas."
+    },
+    {
+        "ramo": "software",
+        "unidad": 4,
+        "tipo": "vf",
+        "numero": 8,
+        "pregunta": "RBAC es un mecanismo orientado a confidencialidad porque ayuda a limitar el acceso según roles definidos.",
+        "respuesta": true,
+        "justificacion": "Correcto: el control de acceso basado en roles restringe datos y funciones a usuarios autorizados."
+    },
+    {
+        "ramo": "software",
+        "unidad": 4,
+        "tipo": "vf",
+        "numero": 9,
+        "pregunta": "La autenticidad garantiza que una entidad no pueda negar una acción realizada.",
+        "respuesta": false,
+        "justificacion": "Falso: eso corresponde al no repudio; la autenticidad verifica que usuarios, servicios o dispositivos sean quienes dicen ser."
+    },
+    {
+        "ramo": "software",
+        "unidad": 4,
+        "tipo": "vf",
+        "numero": 10,
+        "pregunta": "El no repudio se apoya en mecanismos como registros y firmas digitales para dificultar que una entidad niegue una acción realizada.",
+        "respuesta": true,
+        "justificacion": "Correcto: registros y firmas permiten asociar acciones a una entidad de forma comprobable."
+    },
+    {
+        "ramo": "software",
+        "unidad": 4,
+        "tipo": "vf",
+        "numero": 11,
+        "pregunta": "Auditoría y trazabilidad se limitan a impedir accesos no autorizados antes de que ocurran.",
+        "respuesta": false,
+        "justificacion": "Falso: registran y permiten seguir acciones para detectar incidentes, investigar errores y cumplir normativas; no se limitan a prevención."
+    },
+    {
+        "ramo": "software",
+        "unidad": 4,
+        "tipo": "vf",
+        "numero": 12,
+        "pregunta": "La resiliencia considera la capacidad del software para seguir funcionando o recuperarse rápidamente ante fallos, ataques o eventos inesperados.",
+        "respuesta": true,
+        "justificacion": "Correcto: resiliencia apunta a continuidad y recuperación frente a situaciones adversas."
+    },
+    {
+        "ramo": "software",
+        "unidad": 4,
+        "tipo": "vf",
+        "numero": 13,
+        "pregunta": "La privacidad se refiere únicamente al cifrado de bases de datos, sin relación con el uso adecuado de datos personales.",
+        "respuesta": false,
+        "justificacion": "Falso: privacidad implica proteger datos personales y sensibles, incluyendo su uso adecuado y la prevención de accesos no autorizados."
+    },
+    {
+        "ramo": "software",
+        "unidad": 4,
+        "tipo": "vf",
+        "numero": 14,
+        "pregunta": "La seguridad durante el ciclo de vida implica integrar prácticas de seguridad desde análisis y diseño hasta mantenimiento.",
+        "respuesta": true,
+        "justificacion": "Correcto: la seguridad no debe agregarse solo al final; debe considerarse en todas las etapas."
+    },
+    {
+        "ramo": "software",
+        "unidad": 4,
+        "tipo": "vf",
+        "numero": 15,
+        "pregunta": "La gestión de incidentes incluye detección, análisis, respuesta y recuperación ante brechas, ciberataques o fallos.",
+        "respuesta": true,
+        "justificacion": "Correcto: esas son fases esenciales de la gestión de incidentes."
+    },
+    {
+        "ramo": "software",
+        "unidad": 4,
+        "tipo": "vf",
+        "numero": 16,
+        "pregunta": "El monitoreo de amenazas consiste en revisiones ocasionales realizadas solo después de un incidente confirmado.",
+        "respuesta": false,
+        "justificacion": "Falso: el monitoreo de amenazas es vigilancia continua para detectar amenazas o actividades sospechosas."
+    },
+    {
+        "ramo": "software",
+        "unidad": 4,
+        "tipo": "vf",
+        "numero": 17,
+        "pregunta": "IDS/IPS son ejemplos de herramientas usadas en monitoreo de amenazas para identificar comportamientos anómalos.",
+        "respuesta": true,
+        "justificacion": "Correcto: estas herramientas ayudan a detectar o bloquear actividad sospechosa."
+    },
+    {
+        "ramo": "software",
+        "unidad": 4,
+        "tipo": "vf",
+        "numero": 18,
+        "pregunta": "Una auditoría de seguridad busca revisar sistemas y redes para detectar vulnerabilidades y verificar cumplimiento normativo.",
+        "respuesta": true,
+        "justificacion": "Correcto: las auditorías evalúan controles, vulnerabilidades y cumplimiento."
+    },
+    {
+        "ramo": "software",
+        "unidad": 4,
+        "tipo": "vf",
+        "numero": 19,
+        "pregunta": "La gestión de riesgos se limita a aplicar parches de seguridad en sistemas operativos.",
+        "respuesta": false,
+        "justificacion": "Falso: gestión de riesgos identifica y evalúa riesgos sobre activos para priorizar controles; los parches son solo una posible medida."
+    },
+    {
+        "ramo": "software",
+        "unidad": 4,
+        "tipo": "vf",
+        "numero": 20,
+        "pregunta": "La consultoría en seguridad puede apoyar desde la creación de políticas hasta la implementación de controles.",
+        "respuesta": true,
+        "justificacion": "Correcto: la consultoría aporta asesoría experta para mejorar estrategias de seguridad."
+    },
+    {
+        "ramo": "software",
+        "unidad": 4,
+        "tipo": "vf",
+        "numero": 21,
+        "pregunta": "Las pruebas de penetración simulan ataques para detectar vulnerabilidades y evaluar resistencia de sistemas o aplicaciones.",
+        "respuesta": true,
+        "justificacion": "Correcto: el pentesting prueba defensas de forma controlada."
+    },
+    {
+        "ramo": "software",
+        "unidad": 4,
+        "tipo": "vf",
+        "numero": 22,
+        "pregunta": "La gestión de parches busca corregir vulnerabilidades antes de que puedan ser explotadas.",
+        "respuesta": true,
+        "justificacion": "Correcto: aplicar parches reduce exposición a fallas conocidas."
+    },
+    {
+        "ramo": "software",
+        "unidad": 4,
+        "tipo": "vf",
+        "numero": 23,
+        "pregunta": "La seguridad en la nube solo depende del proveedor cloud y no requiere configuración segura ni control de accesos por parte de la organización.",
+        "respuesta": false,
+        "justificacion": "Falso: la seguridad en la nube incluye configuraciones seguras, control de accesos, protección de datos y monitoreo, además de responsabilidades del proveedor."
+    },
+    {
+        "ramo": "software",
+        "unidad": 4,
+        "tipo": "vf",
+        "numero": 24,
+        "pregunta": "La recuperación ante desastres se orienta a restaurar sistemas y continuidad del negocio después de incidentes graves.",
+        "respuesta": true,
+        "justificacion": "Correcto: se planifica para recuperación rápida tras fallas severas."
+    },
+    {
+        "ramo": "software",
+        "unidad": 4,
+        "tipo": "vf",
+        "numero": 25,
+        "pregunta": "IAM, cifrado, cumplimiento normativo, formación y seguridad de aplicaciones son servicios o áreas complementarias de seguridad de la información.",
+        "respuesta": true,
+        "justificacion": "Correcto: todos forman parte del conjunto amplio de servicios de seguridad."
+    },
+    {
+        "ramo": "software",
+        "unidad": 4,
+        "tipo": "vf",
+        "numero": 26,
+        "pregunta": "El control de acceso define quién puede entrar a un sistema o recurso y qué actividades puede realizar dentro.",
+        "respuesta": true,
+        "justificacion": "Correcto: incluye políticas y mecanismos para controlar acceso y acciones permitidas."
+    },
+    {
+        "ramo": "software",
+        "unidad": 4,
+        "tipo": "vf",
+        "numero": 27,
+        "pregunta": "En DAC, el dueño del recurso tiene capacidad de decidir quién accede y qué permisos se conceden.",
+        "respuesta": true,
+        "justificacion": "Correcto: el control discrecional delega la decisión en el propietario del recurso."
+    },
+    {
+        "ramo": "software",
+        "unidad": 4,
+        "tipo": "vf",
+        "numero": 28,
+        "pregunta": "En MAC, el dueño del recurso decide libremente los permisos de acceso según su criterio personal.",
+        "respuesta": false,
+        "justificacion": "Falso: en MAC las políticas se imponen centralizadamente según clasificación de datos y niveles de seguridad."
+    },
+    {
+        "ramo": "software",
+        "unidad": 4,
+        "tipo": "vf",
+        "numero": 29,
+        "pregunta": "RBAC asigna permisos en función de roles organizacionales, no caso a caso para cada permiso individual.",
+        "respuesta": true,
+        "justificacion": "Correcto: los usuarios heredan permisos del rol que ocupan."
+    },
+    {
+        "ramo": "software",
+        "unidad": 4,
+        "tipo": "vf",
+        "numero": 30,
+        "pregunta": "ABAC puede considerar atributos del usuario, del recurso y del entorno, como ubicación u hora del día.",
+        "respuesta": true,
+        "justificacion": "Correcto: ABAC evalúa características y contexto para decidir acceso."
+    },
+    {
+        "ramo": "software",
+        "unidad": 4,
+        "tipo": "vf",
+        "numero": 31,
+        "pregunta": "Tarjetas RFID, huella e iris son ejemplos de mecanismos que pueden participar en control de acceso.",
+        "respuesta": true,
+        "justificacion": "Correcto: son formas de identificar o autenticar entidades en controles físicos o digitales."
+    },
+    {
+        "ramo": "software",
+        "unidad": 4,
+        "tipo": "vf",
+        "numero": 32,
+        "pregunta": "El principio de mínimo privilegio indica que un usuario debe recibir más permisos de los que necesita para evitar bloqueos operativos.",
+        "respuesta": false,
+        "justificacion": "Falso: mínimo privilegio exige otorgar solo los permisos necesarios para realizar una función."
+    },
+    {
+        "ramo": "software",
+        "unidad": 4,
+        "tipo": "vf",
+        "numero": 33,
+        "pregunta": "La separación de funciones reduce el riesgo de que una sola persona concentre permisos críticos incompatibles.",
+        "respuesta": true,
+        "justificacion": "Correcto: separa responsabilidades para disminuir abuso, fraude o errores no detectados."
+    },
+    {
+        "ramo": "software",
+        "unidad": 4,
+        "tipo": "vf",
+        "numero": 34,
+        "pregunta": "En planificación del ciclo de vida se pueden definir roles, niveles de acceso y normativas aplicables.",
+        "respuesta": true,
+        "justificacion": "Correcto: esta definición temprana orienta diseño, desarrollo y pruebas."
+    },
+    {
+        "ramo": "software",
+        "unidad": 4,
+        "tipo": "vf",
+        "numero": 35,
+        "pregunta": "Durante el diseño se eligen mecanismos de autenticación y autorización.",
+        "respuesta": true,
+        "justificacion": "Correcto: el diseño establece cómo se verificará identidad y cómo se concederán permisos."
+    },
+    {
+        "ramo": "software",
+        "unidad": 4,
+        "tipo": "vf",
+        "numero": 36,
+        "pregunta": "Durante mantenimiento, los controles de acceso ya no deben modificarse para evitar inconsistencias.",
+        "respuesta": false,
+        "justificacion": "Falso: en mantenimiento se ajustan y actualizan según cambios, nuevas vulnerabilidades o necesidades."
+    },
+    {
+        "ramo": "software",
+        "unidad": 4,
+        "tipo": "vf",
+        "numero": 37,
+        "pregunta": "Un SGSI organiza recursos, políticas, procesos y responsabilidades para alcanzar objetivos de seguridad de la organización.",
+        "respuesta": true,
+        "justificacion": "Correcto: es un marco de gestión de seguridad de la información."
+    },
+    {
+        "ramo": "software",
+        "unidad": 4,
+        "tipo": "vf",
+        "numero": 38,
+        "pregunta": "Un SGSI solo considera controles técnicos, sin abarcar políticas, procedimientos ni responsabilidades.",
+        "respuesta": false,
+        "justificacion": "Falso: un SGSI incluye estructura organizativa, políticas, planificación, responsabilidades, prácticas, procedimientos, procesos y recursos."
+    },
+    {
+        "ramo": "software",
+        "unidad": 4,
+        "tipo": "vf",
+        "numero": 39,
+        "pregunta": "Un SGSI ayuda a satisfacer requisitos de seguridad de clientes y partes interesadas.",
+        "respuesta": true,
+        "justificacion": "Correcto: uno de sus objetivos es responder a requisitos de seguridad de stakeholders."
+    },
+    {
+        "ramo": "software",
+        "unidad": 4,
+        "tipo": "vf",
+        "numero": 40,
+        "pregunta": "El ciclo PHVA se basa en mejora continua mediante planificar, hacer, verificar y actuar.",
+        "respuesta": true,
+        "justificacion": "Correcto: PHVA es un ciclo iterativo de mejora de procesos."
+    },
+    {
+        "ramo": "software",
+        "unidad": 4,
+        "tipo": "vf",
+        "numero": 41,
+        "pregunta": "En PHVA, Verificar consiste en ejecutar el plan por primera vez sin medir resultados.",
+        "respuesta": false,
+        "justificacion": "Falso: Verificar implica comparar resultados con objetivos y medir mejoras; ejecutar corresponde a Hacer."
+    },
+    {
+        "ramo": "software",
+        "unidad": 4,
+        "tipo": "vf",
+        "numero": 42,
+        "pregunta": "En la implementación de un SGSI, las pruebas documentales demuestran que existe control y planificación de seguridad.",
+        "respuesta": true,
+        "justificacion": "Correcto: políticas, registros y planes son evidencias documentales."
+    },
+    {
+        "ramo": "software",
+        "unidad": 4,
+        "tipo": "vf",
+        "numero": 43,
+        "pregunta": "Las prácticas operativas de un SGSI son acciones reales del trabajo diario, como copias de seguridad o revisión de código.",
+        "respuesta": true,
+        "justificacion": "Correcto: son actividades efectivamente realizadas en la operación."
+    },
+    {
+        "ramo": "software",
+        "unidad": 4,
+        "tipo": "vf",
+        "numero": 44,
+        "pregunta": "Los controles técnicos son mecanismos o herramientas automáticas como firewalls, antivirus y cifrado.",
+        "respuesta": true,
+        "justificacion": "Correcto: protegen la información mediante soluciones técnicas."
+    },
+    {
+        "ramo": "software",
+        "unidad": 4,
+        "tipo": "vf",
+        "numero": 45,
+        "pregunta": "Un SGSI suele ser un proceso auditado y en evolución, no una actividad única y cerrada.",
+        "respuesta": true,
+        "justificacion": "Correcto: requiere revisión, mejora y adaptación continua."
+    },
+    {
+        "ramo": "software",
+        "unidad": 4,
+        "tipo": "vf",
+        "numero": 46,
+        "pregunta": "El análisis de riesgos en software busca identificar amenazas y vulnerabilidades que puedan afectar seguridad, funcionalidad o disponibilidad.",
+        "respuesta": true,
+        "justificacion": "Correcto: su foco es reconocer y gestionar factores que impactan al sistema."
+    },
+    {
+        "ramo": "software",
+        "unidad": 4,
+        "tipo": "vf",
+        "numero": 47,
+        "pregunta": "Una vulnerabilidad de inyección SQL en un formulario web es un ejemplo de riesgo o fuente de riesgo relevante para software.",
+        "respuesta": true,
+        "justificacion": "Correcto: puede permitir ataques que comprometen datos o integridad."
+    },
+    {
+        "ramo": "software",
+        "unidad": 4,
+        "tipo": "vf",
+        "numero": 48,
+        "pregunta": "La gestión del riesgo busca reducir probabilidad de ocurrencia o impacto mediante actividades coordinadas.",
+        "respuesta": true,
+        "justificacion": "Correcto: dirige y controla la organización frente al riesgo."
+    },
+    {
+        "ramo": "software",
+        "unidad": 4,
+        "tipo": "vf",
+        "numero": 49,
+        "pregunta": "Mitigación significa eliminar por completo la actividad que genera el riesgo.",
+        "respuesta": false,
+        "justificacion": "Falso: mitigación reduce probabilidad o impacto mediante controles; eliminar la actividad corresponde a evitación."
+    },
+    {
+        "ramo": "software",
+        "unidad": 4,
+        "tipo": "vf",
+        "numero": 50,
+        "pregunta": "Transferencia implica trasladar responsabilidad o impacto del riesgo a un tercero, por ejemplo mediante seguros o subcontratación.",
+        "respuesta": true,
+        "justificacion": "Correcto: la organización delega o transfiere parte del riesgo."
+    },
+    {
+        "ramo": "software",
+        "unidad": 4,
+        "tipo": "vf",
+        "numero": 51,
+        "pregunta": "Evitación consiste en aceptar el riesgo cuando su impacto es bajo o el costo de mitigarlo es alto.",
+        "respuesta": false,
+        "justificacion": "Falso: eso describe aceptación; evitación elimina la actividad o proceso que origina el riesgo."
+    },
+    {
+        "ramo": "software",
+        "unidad": 4,
+        "tipo": "vf",
+        "numero": 52,
+        "pregunta": "La aceptación de riesgos debe documentarse y acompañarse de planes de contingencia cuando corresponda.",
+        "respuesta": true,
+        "justificacion": "Correcto: aceptar un riesgo residual requiere justificarlo y prepararse ante su ocurrencia."
+    },
+    {
+        "ramo": "software",
+        "unidad": 4,
+        "tipo": "vf",
+        "numero": 53,
+        "pregunta": "Compartir el riesgo se parece a transferirlo, pero implica colaboración con otros actores para reducirlo.",
+        "respuesta": true,
+        "justificacion": "Correcto: por ejemplo, proveedores externos de monitoreo o respaldo."
+    },
+    {
+        "ramo": "software",
+        "unidad": 4,
+        "tipo": "vf",
+        "numero": 54,
+        "pregunta": "La retención de riesgo residual ocurre después de aplicar medidas posibles, manteniendo el riesgo restante dentro de márgenes aceptables.",
+        "respuesta": true,
+        "justificacion": "Correcto: se conserva un riesgo residual controlado."
+    },
+    {
+        "ramo": "software",
+        "unidad": 4,
+        "tipo": "vf",
+        "numero": 55,
+        "pregunta": "La selección de controles ocurre antes de identificar amenazas, porque primero se compran herramientas y luego se analiza el problema.",
+        "respuesta": false,
+        "justificacion": "Falso: el proceso inicia con identificación y análisis de impacto; luego se seleccionan controles apropiados."
+    },
+    {
+        "ramo": "software",
+        "unidad": 4,
+        "tipo": "vf",
+        "numero": 56,
+        "pregunta": "La evaluación del riesgo residual analiza si el riesgo restante es aceptable después de aplicar controles.",
+        "respuesta": true,
+        "justificacion": "Correcto: permite decidir si se acepta, modifica o requiere más tratamiento."
+    },
+    {
+        "ramo": "software",
+        "unidad": 4,
+        "tipo": "vf",
+        "numero": 57,
+        "pregunta": "El monitoreo continuo supervisa riesgos y controles de manera permanente, no solo al cerrar un proyecto.",
+        "respuesta": true,
+        "justificacion": "Correcto: los riesgos cambian y deben revisarse durante la operación y mantenimiento."
+    }
+]
