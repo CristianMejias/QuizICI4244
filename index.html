@@ -3,19 +3,30 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Intento de cuestionario</title>
+  <title>Web cuestionarios</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
   <main class="app">
     <section id="configView" class="card config-card">
-      <h1>Intento de cuestionario (v3 - formato nuevo)</h1>
+      <h1>Cuestionario ICI-4244 (v3.1)</h1>
       <p class="muted">
-        Elige uno o varios bancos de preguntas en formato nuevo, cantidad y seed numérica. Si dos personas usan los mismos
-        archivos, cantidad y seed, obtendrán el mismo orden de preguntas.
+        Elige uno o varios bancos de preguntas, cantidad y seed numérica, o pega un código para recuperar los mismos parámetros.
       </p>
 
-      <div class="grid">
+      <section class="code-import-panel">
+        <label>
+          Código de cuestionario
+          <textarea id="quizCodeInput" class="code-input" placeholder="Pega aquí el código compartido por otra persona..."></textarea>
+        </label>
+        <div class="actions compact-actions">
+          <button id="applyCodeBtn" type="button" class="secondary">Aplicar código</button>
+          <button id="clearCodeBtn" type="button" class="ghost bordered">Limpiar código</button>
+        </div>
+        <small class="muted">Al aplicar un código se seleccionan automáticamente archivos, seed, cantidad y límites de preguntas.</small>
+      </section>
+
+      <div class="grid config-grid">
         <label>
           Archivos de preguntas
           <select id="questionFileSelect" multiple size="5"></select>
@@ -50,16 +61,15 @@
 
     <section id="quizView" class="quiz-layout hidden">
       <aside class="sidebar card">
-        <h2>Intento</h2>
+        <h2 style="background-color: rgb(238, 238, 238)">Intento</h2>
 
         <dl class="attempt-info">
-          <div>
-            <dt>Seed</dt>
-            <dd id="sidebarSeed">-</dd>
-          </div>
-          <div>
-            <dt>Archivo(s)</dt>
-            <dd id="sidebarFile">-</dd>
+          <div class="code-info-block">
+            <dt>Código</dt>
+            <dd class="code-copy-row">
+              <code id="sidebarCode" class="quiz-code">-</code>
+              <button id="copyCodeBtn" type="button" class="copy-code-btn" aria-label="Copiar código del cuestionario" title="Copiar código">⧉</button>
+            </dd>
           </div>
           <div>
             <dt>Puntaje</dt>
@@ -71,9 +81,30 @@
           </div>
         </dl>
 
-        <h3>Preguntas</h3>
-        <p class="legend muted">Gris: sin contestar · Verde: buena · Rojo: mala · Borde azul: actual</p>
+        <h3 style="background-color: rgb(238, 238, 238);">Preguntas</h3>
+        <p class="legend muted">
+          🔵 Actual &nbsp;&nbsp;&nbsp; ⚪ Pendiente <br>
+          🟢 Correcta &nbsp; 🔴 Incorrecta
+        </p>
         <ol id="questionNav" class="question-nav"></ol>
+
+        <h3 style="background-color: rgb(238, 238, 238);">Parámetros</h3>
+        <dl class="attempt-info">
+          <div>
+            <dt>Seed</dt>
+            <dd id="sidebarSeed">-</dd>
+          </div>
+          <div>
+            <dt>Total de preguntas</dt>
+            <dd id="sidebarQuestionCount">0</dd>
+          </div>
+          <div>
+            <dt>Archivos y límites</dt>
+            <dd>
+              <ul id="sidebarFileLimits" class="file-limits"></ul>
+            </dd>
+          </div>
+        </dl>
       </aside>
 
       <section class="card question-card">

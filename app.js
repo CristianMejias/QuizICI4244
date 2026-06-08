@@ -1,6 +1,7 @@
 const QUESTION_INDEX_PATH = "preguntas/index.json";
 const MIN_SEED = 1;
 const MAX_SEED = 9999;
+const QUIZ_CODE_PREFIX = "AQ1";
 const VALID_TYPES = new Set(["vf", "alt", "des"]);
 
 let QUESTION_FILES = [];
@@ -13,6 +14,9 @@ const state = {
   currentIndex: 0,
   seed: 0,
   selectedFileLabel: "",
+  quizCode: "",
+  fileSpecs: [],
+  appliedCodeSpec: null,
   answers: [],
   pendingDevelopmentAnswer: null
 };
@@ -24,12 +28,18 @@ const resultView = $("#resultView");
 const questionFileSelect = $("#questionFileSelect");
 const questionCountInput = $("#questionCountInput");
 const seedInput = $("#seedInput");
+const quizCodeInput = $("#quizCodeInput");
+const applyCodeBtn = $("#applyCodeBtn");
+const clearCodeBtn = $("#clearCodeBtn");
 const randomSeedBtn = $("#randomSeedBtn");
 const startBtn = $("#startBtn");
 const configMessage = $("#configMessage");
 
+const sidebarCode = $("#sidebarCode");
+const copyCodeBtn = $("#copyCodeBtn");
 const sidebarSeed = $("#sidebarSeed");
-const sidebarFile = $("#sidebarFile");
+const sidebarFileLimits = $("#sidebarFileLimits");
+const sidebarQuestionCount = $("#sidebarQuestionCount");
 const sidebarScore = $("#sidebarScore");
 const sidebarProgress = $("#sidebarProgress");
 const questionNav = $("#questionNav");
@@ -60,6 +70,15 @@ async function init() {
     renderFileOptions();
 
     randomSeedBtn.addEventListener("click", generateRandomSeed);
+    questionFileSelect.addEventListener("change", () => { state.appliedCodeSpec = null; });
+    questionCountInput.addEventListener("input", () => { state.appliedCodeSpec = null; });
+    seedInput.addEventListener("input", () => { state.appliedCodeSpec = null; });
+    applyCodeBtn.addEventListener("click", applyQuizCodeFromInput);
+    clearCodeBtn.addEventListener("click", clearAppliedQuizCode);
+    copyCodeBtn.addEventListener("click", copyQuizCode);
+    quizCodeInput.addEventListener("input", () => {
+      if (state.appliedCodeSpec) state.appliedCodeSpec = null;
+    });
     startBtn.addEventListener("click", startQuiz);
     submitAnswerBtn.addEventListener("click", submitAnswer);
     skipQuestionBtn.addEventListener("click", skipQuestion);
@@ -105,44 +124,84 @@ function renderFileOptions() {
 
 function generateRandomSeed() {
   seedInput.value = Math.floor(Math.random() * MAX_SEED) + MIN_SEED;
+  state.appliedCodeSpec = null;
 }
 
 async function startQuiz() {
   setConfigMessage("");
 
   try {
-    const selectedFiles = getSelectedQuestionFiles();
+    const codeSpec = getPendingCodeSpecForStart();
+    const selectedFiles = codeSpec
+      ? getQuestionFilesFromCodeSpec(codeSpec)
+      : getSelectedQuestionFiles();
 
     if (selectedFiles.length === 0) {
-      throw new Error("Selecciona al menos un archivo de preguntas.");
+      throw new Error("Selecciona al menos un archivo de preguntas o aplica un código válido.");
     }
 
-    const questionGroups = await Promise.all(
+    const loadedGroups = await Promise.all(
       selectedFiles.map(async (file) => {
         const questions = await fetchQuestions(file.path);
         validateQuestions(questions, file.label);
-        return questions.map((question) => ({ ...question, fuente: file.label }));
+        return { file, questions };
       })
     );
 
+    const fileSpecs = loadedGroups.map(({ file, questions }) => {
+      const requestedLimit = codeSpec?.files.find((item) => item.path === file.path)?.limit;
+      const limit = requestedLimit ?? questions.length;
+
+      if (!Number.isInteger(limit) || limit < 1) {
+        throw new Error(`El límite para ${file.label} debe ser un número mayor o igual a 1.`);
+      }
+
+      if (questions.length < limit) {
+        throw new Error(`El archivo ${file.label} tiene ${questions.length} pregunta(s), pero el código requiere considerar hasta la pregunta ${limit}.`);
+      }
+
+      return {
+        label: file.label,
+        path: file.path,
+        from: 1,
+        to: limit,
+        available: questions.length
+      };
+    });
+
+    const questionGroups = loadedGroups.map(({ file, questions }, index) => {
+      const limit = fileSpecs[index].to;
+      return questions
+        .slice(0, limit)
+        .map((question) => ({ ...question, fuente: file.label }));
+    });
+
     state.allQuestions = questionGroups.flat();
 
-    const count = Number(questionCountInput.value);
+    const count = codeSpec?.count ?? Number(questionCountInput.value);
     if (!Number.isInteger(count) || count < 1) {
       throw new Error("El total de preguntas debe ser un número mayor o igual a 1.");
     }
 
     if (count > state.allQuestions.length) {
-      throw new Error(`Los archivos seleccionados solo tienen ${state.allQuestions.length} preguntas en total.`);
+      throw new Error(`Los archivos seleccionados solo tienen ${state.allQuestions.length} preguntas dentro de los límites configurados.`);
     }
 
-    const seed = Number(seedInput.value);
+    const seed = codeSpec?.seed ?? Number(seedInput.value);
     if (!Number.isInteger(seed) || seed < MIN_SEED || seed > MAX_SEED) {
       throw new Error(`La seed debe ser un número entero entre ${MIN_SEED} y ${MAX_SEED}.`);
     }
 
+    if (codeSpec) {
+      seedInput.value = seed;
+      questionCountInput.value = count;
+      selectFilesByPaths(codeSpec.files.map((file) => file.path));
+    }
+
     state.seed = seed;
-    state.selectedFileLabel = selectedFiles.map((file) => file.label).join(", ");
+    state.fileSpecs = fileSpecs;
+    state.selectedFileLabel = fileSpecs.map((file) => file.label).join(", ");
+    state.quizCode = buildQuizCode({ seed, count, files: fileSpecs });
 
     const shuffled = shuffleWithSeed([...state.allQuestions], state.seed);
     state.selectedQuestions = shuffled.slice(0, count);
@@ -157,6 +216,210 @@ async function startQuiz() {
   } catch (error) {
     setConfigMessage(error.message);
   }
+}
+
+function getPendingCodeSpecForStart() {
+  if (state.appliedCodeSpec) return state.appliedCodeSpec;
+
+  const rawCode = quizCodeInput.value.trim();
+  if (!rawCode) return null;
+
+  const parsed = parseQuizCode(rawCode);
+  state.appliedCodeSpec = parsed;
+  applyQuizCodeToForm(parsed);
+  return parsed;
+}
+
+function getQuestionFilesFromCodeSpec(spec) {
+  return spec.files.map((fileSpec) => {
+    const file = QUESTION_FILES.find((item) => item.path === fileSpec.path);
+    if (!file) {
+      throw new Error(`El código referencia un archivo que no existe en el índice actual: ${fileSpec.path}`);
+    }
+    return file;
+  });
+}
+
+function applyQuizCodeFromInput() {
+  try {
+    const code = quizCodeInput.value.trim();
+    if (!code) {
+      throw new Error("Pega un código de cuestionario antes de aplicarlo.");
+    }
+
+    const spec = parseQuizCode(code);
+    applyQuizCodeToForm(spec);
+    state.appliedCodeSpec = spec;
+    setConfigMessage("Código aplicado. Se seleccionaron los mismos archivos, seed, cantidad y límites.", "ok");
+  } catch (error) {
+    state.appliedCodeSpec = null;
+    setConfigMessage(error.message);
+  }
+}
+
+function applyQuizCodeToForm(spec) {
+  const paths = spec.files.map((file) => file.path);
+  const missingPaths = paths.filter((path) => !QUESTION_FILES.some((file) => file.path === path));
+
+  if (missingPaths.length > 0) {
+    throw new Error(`El código contiene archivo(s) no presentes en el índice actual: ${missingPaths.join(", ")}`);
+  }
+
+  selectFilesByPaths(paths);
+  seedInput.value = spec.seed;
+  questionCountInput.value = spec.count;
+}
+
+function clearAppliedQuizCode() {
+  quizCodeInput.value = "";
+  state.appliedCodeSpec = null;
+  setConfigMessage("Código limpiado. Puedes configurar el cuestionario manualmente.", "ok");
+}
+
+function selectFilesByPaths(paths) {
+  const pathSet = new Set(paths);
+  [...questionFileSelect.options].forEach((option) => {
+    const file = QUESTION_FILES[Number(option.value)];
+    option.selected = Boolean(file && pathSet.has(file.path));
+  });
+}
+
+function buildQuizCode({ seed, count, files }) {
+  const payload = {
+    v: 1,
+    s: seed,
+    c: count,
+    f: files.map((file) => ({ p: file.path, n: file.to }))
+  };
+  const encodedPayload = base64UrlEncode(JSON.stringify(payload));
+  const checksum = fnv1aChecksum(encodedPayload);
+  return `${QUIZ_CODE_PREFIX}-${encodedPayload}-${checksum}`;
+}
+
+function parseQuizCode(code) {
+  const normalizedCode = code.trim();
+  const parts = normalizedCode.split("-");
+
+  if (parts.length !== 3 || parts[0] !== QUIZ_CODE_PREFIX) {
+    throw new Error(`Código inválido. Debe comenzar con ${QUIZ_CODE_PREFIX}- y mantener el formato copiado desde la página.`);
+  }
+
+  const [, encodedPayload, checksum] = parts;
+  if (fnv1aChecksum(encodedPayload) !== checksum) {
+    throw new Error("Código inválido o incompleto. La verificación interna no coincide.");
+  }
+
+  let payload;
+  try {
+    payload = JSON.parse(base64UrlDecode(encodedPayload));
+  } catch {
+    throw new Error("Código inválido. No se pudo leer su contenido.");
+  }
+
+  if (!isPlainObject(payload) || payload.v !== 1) {
+    throw new Error("Código inválido o versión no compatible.");
+  }
+
+  const spec = {
+    seed: payload.s,
+    count: payload.c,
+    files: payload.f
+  };
+
+  validateQuizCodeSpec(spec);
+  return spec;
+}
+
+function validateQuizCodeSpec(spec) {
+  if (!Number.isInteger(spec.seed) || spec.seed < MIN_SEED || spec.seed > MAX_SEED) {
+    throw new Error(`El código contiene una seed inválida. Debe estar entre ${MIN_SEED} y ${MAX_SEED}.`);
+  }
+
+  if (!Number.isInteger(spec.count) || spec.count < 1) {
+    throw new Error("El código contiene una cantidad de preguntas inválida.");
+  }
+
+  if (!Array.isArray(spec.files) || spec.files.length === 0) {
+    throw new Error("El código no contiene archivos de preguntas.");
+  }
+
+  const seenPaths = new Set();
+  spec.files.forEach((file, index) => {
+    if (!isPlainObject(file) || !isNonEmptyString(file.p ?? file.path)) {
+      throw new Error(`El archivo ${index + 1} del código es inválido.`);
+    }
+
+    const path = file.p ?? file.path;
+    const limit = file.n ?? file.limit;
+
+    if (!Number.isInteger(limit) || limit < 1) {
+      throw new Error(`El límite del archivo ${path} debe ser un entero mayor o igual a 1.`);
+    }
+
+    if (seenPaths.has(path)) {
+      throw new Error(`El código contiene el archivo duplicado: ${path}`);
+    }
+    seenPaths.add(path);
+
+    file.path = path;
+    file.limit = limit;
+  });
+}
+
+async function copyQuizCode() {
+  if (!state.quizCode) return;
+
+  try {
+    await copyTextToClipboard(state.quizCode);
+    copyCodeBtn.textContent = "✓";
+    copyCodeBtn.setAttribute("aria-label", "Código copiado");
+    setTimeout(() => {
+      copyCodeBtn.textContent = "⧉";
+      copyCodeBtn.setAttribute("aria-label", "Copiar código del cuestionario");
+    }, 1200);
+  } catch {
+    alert("No se pudo copiar automáticamente. Selecciona el código y cópialo manualmente.");
+  }
+}
+
+async function copyTextToClipboard(text) {
+  if (navigator.clipboard?.writeText) {
+    await navigator.clipboard.writeText(text);
+    return;
+  }
+
+  const textarea = document.createElement("textarea");
+  textarea.value = text;
+  textarea.setAttribute("readonly", "");
+  textarea.style.position = "fixed";
+  textarea.style.left = "-9999px";
+  document.body.appendChild(textarea);
+  textarea.select();
+  const copied = document.execCommand("copy");
+  document.body.removeChild(textarea);
+
+  if (!copied) throw new Error("No se pudo copiar el texto.");
+}
+
+function base64UrlEncode(value) {
+  const utf8 = encodeURIComponent(value).replace(/%([0-9A-F]{2})/g, (_, hex) => String.fromCharCode(Number.parseInt(hex, 16)));
+  return btoa(utf8).replaceAll("+", "-").replaceAll("/", "_").replace(/=+$/, "");
+}
+
+function base64UrlDecode(value) {
+  const padded = value.replaceAll("-", "+").replaceAll("_", "/") + "=".repeat((4 - value.length % 4) % 4);
+  const binary = atob(padded);
+  const encoded = [...binary].map((char) => `%${char.charCodeAt(0).toString(16).padStart(2, "0")}`).join("");
+  return decodeURIComponent(encoded);
+}
+
+function fnv1aChecksum(value) {
+  let hash = 0x811c9dc5;
+  for (let i = 0; i < value.length; i++) {
+    hash ^= value.charCodeAt(i);
+    hash = Math.imul(hash, 0x01000193);
+  }
+  return (hash >>> 0).toString(36).padStart(7, "0");
 }
 
 function getSelectedQuestionFiles() {
@@ -300,8 +563,12 @@ function renderQuestionNav() {
 function updateSidebar() {
   const stats = getAnswerStats();
 
+  sidebarCode.textContent = state.quizCode;
   sidebarSeed.textContent = state.seed;
-  sidebarFile.textContent = state.selectedFileLabel;
+  sidebarQuestionCount.textContent = state.selectedQuestions.length;
+  sidebarFileLimits.innerHTML = state.fileSpecs
+    .map((file) => `<li><strong>${escapeHtml(file.label)}</strong><span>Preguntas ${file.from} a ${file.to}</span></li>`)
+    .join("");
   sidebarScore.textContent = `${stats.correct} / ${state.selectedQuestions.length}`;
   sidebarProgress.textContent = `${stats.answered} respondidas, ${stats.unanswered} sin contestar`;
 
@@ -385,8 +652,8 @@ function renderTrueFalseQuestion() {
       Falso
     </label>
     <label id="vfJustificationGroup" class="vf-justification disabled">
-      Justificación si marcas Falso
-      <textarea id="vfJustification" placeholder="Explica por qué la afirmación es falsa..." disabled></textarea>
+      Justifica si marcas Falso
+      <textarea id="vfJustification" placeholder="..." disabled></textarea>
     </label>
   `;
 
@@ -759,7 +1026,7 @@ function showResults() {
   const percent = Math.round((stats.correct / total) * 100);
 
   scoreText.textContent = `${stats.correct} / ${total} (${percent}%)`;
-  resultDetail.textContent = `Archivo(s): ${state.selectedFileLabel} | Seed usada: ${state.seed}`;
+  resultDetail.textContent = `Código: ${state.quizCode} | Archivo(s): ${state.selectedFileLabel} | Seed usada: ${state.seed}`;
   resultStats.textContent = `Buenas: ${stats.correct} | Malas: ${stats.incorrect} | Sin contestar: ${stats.unanswered}`;
 
   renderReviewList();
@@ -875,6 +1142,7 @@ function buildPrintableHtml(items, stats, statusNames) {
     </head>
     <body>
       <h1>${title}</h1>
+      <p class="muted">Código: ${escapeHtml(state.quizCode)}</p>
       <p class="muted">Archivo(s): ${escapeHtml(state.selectedFileLabel)} | Seed: ${escapeHtml(state.seed)}</p>
       <p><strong>Filtro:</strong> ${escapeHtml(statusNames)}</p>
       <p><strong>Buenas:</strong> ${stats.correct} | <strong>Malas:</strong> ${stats.incorrect} | <strong>Sin contestar:</strong> ${stats.unanswered}</p>
@@ -890,6 +1158,9 @@ function restart() {
   state.currentIndex = 0;
   state.seed = 0;
   state.selectedFileLabel = "";
+  state.quizCode = "";
+  state.fileSpecs = [];
+  state.appliedCodeSpec = null;
   state.answers = [];
   state.pendingDevelopmentAnswer = null;
   setConfigMessage("");
